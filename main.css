@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:target:before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin: -100px 0 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+    background-color: #202124;
+}
+
+.content img {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.content {
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    padding: 16px;
+    max-width: 40em;
+    color: #cecece;
+    font-size: large;
+    line-height: 1.5em;
+}
+
+.content a, a:visited {
+    color: #1aa0ee;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content a:hover {
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.content h1 {
+    margin-top: 1em;
+    color: #eb6262;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.content h2 {
+    color: #a2b4c0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.content li {
+    list-style-type: "➽ ";
+}
+
+.content ul li::marker {
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.content ul li ul li {
+    list-style-type: "🛈 ";
+}
+
+.content h3 {
+    color: #5ac77e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+.content h3+ul {
+    margin-left: 3em;
+    background-color: #2c2d2e;
+    padding: 0.2em 1.2em 0.2em 1.8em;
+}
+
+.content code {
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: medium;
+    color: aqua;
+}
+
+.content pre {
+    background-color: #09121b;
+    padding: 0.2em;
+    margin-left: 4em;
+}
+
+.content h3+ul li {
+    list-style-type: "➥";
+    padding-inline-start: 1ch;
+}
+
+.navbar {
+    background-color: #2D3439;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.navbar a {
+    padding: 0.5em 0.8em;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #1d2227;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.sticky+.content {
+    margin: auto;
+}
+
+#banner {
+    color: white;
+    background-color: #1d2227;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 0.8em 20px;
+}
+
+#banner-title {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+#banner-description {
+    font-size: 1.2em;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2D3439;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content ul, .dropdown-content li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.dropdown-content a {
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #394046;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #1d2227;
+}
+
+#copyright {
+    color: #888888;
+    text-align: center;
+    font-size: smaller;
+}

@@ -1,0 +1,41 @@
+$for(header-includes)$
+$header-includes$
+$endfor$
+</head>
+
+<body>
+
+  <div id="banner">
+    <div id="banner-title">Blake's Essentials</div>
+    <div id="banner-description">A Curated List of Free Windows Software</div>
+  </div>
+
+  <div class="navbar" id="mynavbar">
+    $if(toc)$
+    <div class="dropdown">
+      <a class="dropbtn" href="javascript:void(0)">Jump to...</a>
+      <div class="dropdown-content">
+        $toc$
+      </div>
+    </div>
+    $else$
+    <a class="active" href="index.html">Home</a>
+    $endif$
+    <a href="changelog.html">Changelog</a>
+    <a href="https://forms.gle/swSCivmLBwTxRwY27">Feedback</a>
+    <a href="about.html">About</a>
+  </div>
+  <div class="content">
+$for(include-before)$
+$include-before$
+$endfor$
+$body$
+$for(include-after)$
+$include-after$
+$endfor$
+  </div>
+<br>
+<br>
+<div id="copyright">Copyright &copy; 2004-2021, Blake T. Garretson</div>
+</body>
+</html>
