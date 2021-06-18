@@ -1,50 +1,110 @@
 **Welcome to my carefully curated list of the best free Windows programs!**
 
-This is the software that I find essential on a Windows computer. These are the programs that I either immediately install when I setup a computer, or I end up installing as I need them. In most instances I have tried a number of solutions before choosing one that I like the most, so I maintain this list for my own convenience so I can quickly remind myself of (and find) all of the software that I thought was best the last time I evaluated a category. 
+This is the software that I find essential on a Windows computer. These are the programs that I either immediately install when I setup a computer, or I end up installing as I need them. In most instances I have tried a number of solutions before choosing one that I like the most, so I maintain this list for my own convenience so I can quickly remind myself of (and find) all of the software that I thought was best the last time I evaluated a category.
 
-All of these programs are free for personal use, and most are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. In some cases I have listed alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party. 
+All of these programs are free for personal use, and most are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. In some cases I have listed alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party.
 
 Have a suggestion for a great program that should be on my list? Let me know about it! Have a comment or correction on something on this website? Click on the [Feedback](https://forms.gle/swSCivmLBwTxRwY27) link and let me know!
 
-# Network & Internet
+# Images & Video
 
-## Web Browser
+## Video Player
 
-- [Google Chrome](http://www.google.com/chrome): My default browser since the day it was released.
+- [VLC](http://www.videolan.org/): Video player for nearly any format imaginable. Especially useful for when you need to do uncommon things like adjust audio/Bluetooth sync or load custom subtitles. The interface isn't fancy, but it has the features you need and stays out of your way.
 
-  - I left [Firefox](https://www.mozilla.org/en-US/firefox/) for Chrome, but I like to keep Firefox around for the odd task, and[ it is arguably more pro-consumer with its stance on ad-blockers.
+## Photo/Image Editor
 
-  - And because you can never have too many browsers, [Brave](https://brave.com/) is another nice option if privacy and security are a high priority. It is essentially just Chrome with extra privacy features, but it also includes a Tor browser, which is handy. It is also very fast.
+- [GIMP](http://www.gimp.org/): Robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it's not really suited for DTP pros either since it's missing native CMYK support. Having said that, if you're doing non-print stuff, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation.
 
-## Remote Shell Access
+  - [Paint.NET](http://www.getpaint.net/index.html) is a fantastic alternative to GIMP for those weary of the learning curve (or the name). It is less powerful than GIMP, but it's easy to use and really polished. It's the Paint program Microsoft should have shipped with Windows.
 
-- [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/): Awesome ssh/telnet client. It's been the premier free terminal client for so many years because it's simple and works while not skimping on features.
+## Photo Management/Viewing (and Casual Editing)
 
-## File Transfer
+- [Photoscape X](http://x.photoscape.org/): Great program for photo viewing and basic touch-up. It makes it easy to do common tasks like cropping to standard sizes and removing red-eye. There is a Pro version with extra features, but the free version boasts a truly impressive feature set that is more than enough for most people. If you buy the Pro version it's because you like it so much, not because you felt forced into it because the free version was so crippled.
 
-- [WinSCP](http://winscp.net/eng/index.php): Great ftp/sftp/scp client with lots of advanced features like bandwidth limiting and shutting down the program or computer after file transfers are done.
+  - If the Photoscape X workflow doesn't agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has a somewhat old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
 
-- [qBittorrent](http://www.qbittorrent.org/): Lightweight, yet powerful, BitTorrent client. This is basically uTorrent without the tedious ads. (For server use, I prefer [Transmission](https://transmissionbt.com/).)
+  - If all you need is a super-fast, image viewer (that incidentally has some robust editing features), look no further than [IrfanView](https://www.irfanview.com/). I started using it in the late 1990s, and it is still going strong. This is a great program to make your default action when clicking on JPEGs, GIFs, and PNGs.
 
-## Remote Desktop Control
+## Raw Photography Workflow
 
-- [TigerVNC](http://tigervnc.org/): If you need remote desktop control, this lightweight VNC client/server forked from TightVNC does the job. I just don't find myself using VNC as much as I used to as I move more functions to the cloud and rely less on my own desktops.
+- [darktable](https://www.darktable.org/): If you work with RAW photo files or want to get the most out of your photos, you need a non-destructive post-production software like darktable. This isn't about "photoshopping" a picture; instead it's all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc.
 
-  - [Teamviewer](https://www.teamviewer.com/): If you play "IT Guy" for your friends and family, a tool like Teamviewer can be handy as it makes it easy for non-techy people to add remote control. I can send them a download link, they install it, and tell me the ID and password that is displayed in the app so I can connect. That's it. No other configuration is needed.
+## Vector Image Editor
 
-## Chat/Messenging
+- [Inkscape](https://inkscape.org/en/): Really nice vector image editor for creating professional quality, scalable diagrams, logos, you-name-it.
 
-- [Discord](https://discordapp.com/): The apparent successor to Skype and Teamspeak in many communities, especially in the gaming world. I have no particular affinity to the app itself, but it works fine on both desktop and mobile, and there are some cool communities that made their home on Discord.  Of particular note is that Discord is also becoming the "new IRC" for many programming communities. The IRC channels are often less populated than the equivalent Discord channels.
+## Artistic Image Editor
 
-### Honorable Mentions
+- [Krita](https://krita.org/en/): Great digital painting software. It actually could replace Gimp for many use cases, and it supports CMYK.
 
-- [Telegram](https://desktop.telegram.org/): I really don't need another chat protocol in my life, but Telegram is doing some things right like real cross-platform support/sync and no size restrictions when sharing media or documents. It's a very polished experience, and features like group voice chat work exceptionally well.
+  - Another cool option is Autodesk's [Sketchbook](https://sketchbook.com/), which is now free (although you will need to create a free Autodesk ID to register it.).
 
-- If privacy or security is paramount to you, then [Signal](https://signal.org/) has Telegram beat. In Telegram, end-to-end encryption is only optional, and you can't encrypt group chats. Signal fixes those shortcomings, but falls short of Telegram in other areas.
+## Screenshots/Screen Capture
 
-## Two-Factor Authentication
+- [ShareX](https://getsharex.com/): You don't know how useful a good screenshot tool is until you start using it. It's really handy to automatically save screenshots (or portions of screens) to a predetermined folder and keep it on the clipboard as well. ShareX takes it one step further and will upload the image to pretty much any site you like, and the OCR functionality is really cool. The icing on the cake is the screen capture capability that will let you record portions of your screen and save it to a GIF (or other formats). It's great for playing tech support with family to show them how to do stuff.
 
-- [Authy](https://authy.com/): Really handy way to add 2FA to all your accounts and across all devices. There are Authy mobile apps as well, so once you add Authy to a service (Gmail, Facebook, Amazon, etc.), you are good to go whether you're on your desktop, laptop, phone, or tablet.
+  - [Greenshot](http://getgreenshot.org/) was my old favorite, and you may want to use it if ShareX is confusing or seems like overkill.
+
+  - ***Worth noting:*** recent versions of Windows 10 now come with a tool called "Snip & Sketch" that does something similar (use SHIFT + WINDOWS + S key combo to access it), although it doesn't automatically save the image to a file.
+
+## Video Conversion
+
+- [HandBrake](https://handbrake.fr/): Convert video from/to nearly any format. While incredibly powerful and complex, HandBrake makes it really simple to get started. If you don't want anything special, just drag and drop a file, select a preset target format (e.g. Roku 1080p30 or Android 720p30), and hit start.
+
+  - If you want to convert your DVD library, you'll need to put the [libdvdcss](http://download.videolan.org/pub/libdvdcss/1.2.11/win64/libdvdcss-2.dll) library in the Handbrake directory.
+
+  - If Handbrake is too confusing and all you want to do is rip a DVD, [MakeMKV](http://www.makemkv.com/) rips and decodes DVDs (even with copy protection). It just isn't as versatile as Handbrake.
+
+## Video Editing
+
+- [Shotcut](https://www.shotcut.org/) is a capable multi-track editor with a nice interface. If I don't need anything special, this is the first place I reach.
+
+- [kdenlive](https://kdenlive.org): If you do need something special like key-framing, it's great to have kdenlive in the toolbox. Shotcut has it beat in a few areas, so I still prefer it in general, but kdenlive has some features that make it worth having around.
+
+### Also check out:
+
+- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/): This is a professional package, but they have a free version that's very impressive. It outshines the above editors in features, but I'm reluctant to learn a free tool that could be retracted at a whim, so in general the opensource tools above get my vote.
+
+- [Openshot](https://www.openshot.org/): I'm listing this to remind myself to keep an eye on its development. Feature-wise, it seems like it falls right between Shotcut and kdevlive, but it feels pretty buggy yet. Having said that, it might scratch your itch, and it's worth checking out along with the others.
+
+## Animation
+
+- [Blender](https://www.blender.org/): 3D modeling and animation. Has more power than I have skill, but other people do really cool things with it. It's fun to play with though and is worth the download.
+
+- [Synfig Studio](https://www.synfig.org/): Nice 2D animation package. I dabble with projects, and when I do, this works for me.
+
+## Media Server
+
+- [Plex](https://plex.tv/): The best personal media server for steaming your media to your Roku, Fire Stick, smart TV, etc. Just tell Plex where you store your movies, TV shows, and music and it will do the rest, including downloading cover art and show descriptions. I actually run my Plex server on a Linux SBC now, so I don't technically need this on Windows anymore, but I'm keeping it on my list for posterity because it's really fantastic software.
+
+# Music & Audio
+
+## Music Library Organization and Playback
+
+- [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. An app like this is becoming less essential as I move to online services like Amazon Prime Music and Spotify, but when I do want to work with local music files, it's hard to do better than MusicBee.
+
+- [MP3Tag](https://www.mp3tag.de/en/) is a universal batch tag editor that handles MP3s along with every other popular audio format. The robust file renaming/retagging tools and online database lookups make this powerful option for cleaning up your audio collection. It's worth having around for the odd job that MusicBee can't handle.
+
+## Audio Editor
+
+- [Audacity](http://audacityteam.org/): Legit multi-track audio editor. From recording, to mixing, to filters and effects, Audacity has you covered.
+
+## Audio Conversion
+
+- [fre:ac](http://www.freac.org/): free audio converter and CD ripper for various formats and encoders including MP3, MP4/M4A, AAC, and more.
+
+## Digital Audio Workstation
+
+- [Cakewalk](https://www.bandlab.com/products/cakewalk): This used to be a commercial DAW that is now free as of 2018. It's a rebranded version of SONAR Platinum, and it's incredibly powerful. This is a great place to start if you want to make some music.
+
+## Step Sequencer
+
+- [LMMS](https://lmms.io/): Its website says it's a "sound generation system, synthesizer, beat/baseline editor and MIDI control system which can power an entire home studio". I'd call it a nice step sequencer with VST and SoundFont support for creating music. I wouldn't call it a DAW because it doesn't record multitrack audio, but combined with Audacity, you can make some cool stuff. Honestly, I wouldn't even list LMMS now that Cakewalk is free, except LMMS is opensource, and Cakewalk may go away sometime in the future.
+
+## Synth Plugins
+
+- A couple great synths plugins worth trying with LMMS and Cakewalk are [dexed](https://asb2m10.github.io/dexed/) and [Helm](https://tytel.org/helm/).
 
 # Text Editors
 
@@ -55,7 +115,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Notepad++](https://notepad-plus-plus.org/) is easy to recommend for general text editing and quick file edits simply because it is blazing fast and the interface stays out of your way. This is my default application for text files, and over the years I've written many thousands of lines of code in Notepad++. Having said that, the antiquated syntax coloring system and somewhat clunky customization limits how well it scales to many tasks. But it still is a fast editor and it shines when opening a 1 GB log file... as long as it doesn't need to be syntax colored as well.
 
 - [Neovim](https://neovim.io/): vi was a legendary, powerful keyboard-based text editor with a steep learning curve, Vim is its most successful clone (itself being a derivative of Stevie), and Neovim aims at pushing Vim into the 21st century with a clean code base and features like Lua extensibility and asynchronous plugins which allow for things like async linters. Some people think it's silly to use a vi clone more than four decades after it was introduced, but there are some tasks that are orders of magnitude faster in a vi clone than modern mouse-oriented text editors.
-  
+
   - If a console-based text editor is what you need and you don't love the vi modal editing and key bindings, you should really check out [micro](https://micro-editor.github.io/). Micro works from a console, but it has modern capabilities like mouse support, multiple cursors, Lua plugins, tabs, tmux-like splits, and syntax color schemes. Best of all, the normal Windows key bindings like CTRL-C, CTRL-V, CTRL-S, and CTRL-Z work as expected.
 
 ### Honorable Mentions
@@ -82,7 +142,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you're a programmer, you already know what this is. A *big* bonus even for non-programmers is the installer includes all the Unix command line tools you know and love. If you need ls, cat, grep, awk, and all the rest, I think this is the easiest way to add them to your Windows system.
 
-## Text Comparison 
+## Text Comparison
 
 - [Meld](http://meldmerge.org/): My favorite graphical file comparison (AKA "diff") program. There is 2 and 3-way file diff and merge, as well as directory comparison. It also plays nicely with many version control systems including Git.
 
@@ -98,7 +158,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
   - And a quick description of a couple of packages vital for STEM:
 
-### 
+###
 
 - [SciPy](https://www.scipy.org/) is a scientific package useful for
 everything from statistics to linear algebra.
@@ -147,191 +207,6 @@ than a general purpose scripting language, hence this separate category.
 - [Input](https://input.fontbureau.com/): Incredibly flexible font system that lets you customize letters (a/g/i/l/0) and symbols (asterisk/braces) to your liking, as well as choose from 7 weights and 4 widths, and sans, serif, and mono variants. There are 168 styles in all, so you will find one that works for any given situation.
 
 - [Iosevka](https://typeof.net/Iosevka/): Similar to the Input font, Iosevka raises the bar by adding ligatures, a couple more weights, 188 variants, and incredible character coverage with thousands and thousands of supported glyphs. While you can't customize individual characters like Input, there are variants with different character and symbol styles, so you should be able to find one that has the look you want. There are so many choices it can be confusing, but if want a general purpose font that works everywhere (but doesn't have ligatures), start with the "Iosevka Fixed" font.
-
-# File & Disk Utilities
-
-## Local File Search
-
-- [Everything](https://www.voidtools.com/): This is the search tool that
-should have come with Windows. It supports wildcards, boolean
-operations, exact cases/phrases, and regular expressions. Just type a
-filename, and you'll get immediate results from all your drives
-instantly. If you want to search network drives, you will need to go to
-Options and add them to your search folders under Indexing. You can also
-search file contents, although that will take much longer.
-
-  - [FileSeek](https://www.fileseek.ca/) is an excellent runner-up for desktop search with the free version having everything you need for normal use. It doesn't require indexing, which is nice on one hand because it's not bogging down your computer at inopportune times, but it also means searching will take longer when you execute the search.
-
-## Compression
-
-- [7-Zip](http://www.7-zip.org/): Archiver with great compression, command line support, nice GUI and Explorer integration, and it is really fast.
-
-  - [PeaZip](https://www.peazip.org/): If 7-zip doesn't work for you because you've encountered some obscure format, PeaZip is the place to look. It supports basically every format that you would conceivably (or inconceivably) run into. You also might like its interface better than 7-zip.
-
-## Disk Imaging/Formatting/Repair
-
-- [balena Etcher](https://www.balena.io/etcher/): A nice clean, easy-to-use program to write disk images to flash devices (USB drives, microSD cards, etc.). This is great for putting Linux distros on bootable USB drives or setting up a microSD card for a Raspberry Pi.
-
-  - Runner up goes to [Rufus](https://rufus.ie/). It gives you more options than Etcher at the cost of some added complexity. I have also run across some images where Rufus works where Etcher fails, so it's handy to have Rufus around even if I use Etcher most of the time.
-
-- [Ventoy](https://www.ventoy.net/) serves the same purpose as a traditional disk imager, although it adds more flexibility and functions quite differently. You install Ventoy onto a USB drive via the handy Windows installer, and then you can drop as many bootable disk images (ISO, IMG, etc.) as you like onto the drive. When you boot to the USB drive, Ventoy will give you a menu to let you choose which image to boot. Super handy way of carrying several OSes in your pocket, all on a single drive.
-
-- [Macrium Reflect Free](https://www.macrium.com/reflectfree): Great for making disk images or transitioning a computer from a traditional harddrive to an SSD. The Free edition has all the essentials, and the last SSD transition I did was seamless. I highly recommend.
-
-- [EaseUS Partition Master](https://www.easeus.com/partition-manager/epm-free.html): The Windows 10 disk management tools are limited in functionality, and sooner or later you may need a tool like this to fix/partition/format a drive. My most common use case is recovering all the space on a USB drive that has a Linux image on it, perhaps with multiple partitions, one of which is the EFI boot partition. The Windows Disk Management tools might let you delete some (but not all) partitions, while the free version of Partition Master will have you back in business in seconds. It also resizes partitions and clones disks, but the free version won't create an image of a live OS like Macrium Reflect Free, hence I still have both listed here.
-
-  - [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/) may be a simpler solution if all you need is to fix an SD card. Some devices can be finicky about the format of SD/microSD cards, and this official application from the SD Association has fixed some obscure issues I've had in the past. This is especially true of SDHC/SDXC cards since Windows 10 seems to like formatting higher capacity cards as NTFS instead of FAT32.
-
-- [TestDisk](https://www.cgsecurity.org/wiki/TestDisk): If you need this, you've probably done something really bad like accidentally deleting a partition table. TestDisk can help you recover lost partitions, make a disk bootable again, or even recover files from deleted partitions (among other things).
-
-## File Recovery
-
-*Between these programs you should be able to recover any file that is physically possible to recover without special hardware. I'm listing them all because sometimes one can get the job done where another can't.*
-
-- [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec): Comes in two flavors: command line and a simple graphical interface. This is the first thing I try when I need to "undelete" pictures I accidentally deleted from an SD card. Comes with TestDisk (see above).
-
-- [Recuva](https://www.piriform.com/recuva): Very polished interface, and the free version has enough features for most people.
-
-- [Zero Assumption Recovery](http://www.z-a-recovery.com/): The free version has some limitations, but the digital image recovery mode has no functional limitations.
-
-- [DiskDigger](http://diskdigger.org/): Lightweight, single exe so no install necessary. While it is free for personal use, it will nag you before recovering each and every file, so if you have a lot of files to recover, it is worth just buying it.
-
-## Disk Performance
-
-- [CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/): If you want to check the read/write speed of any storage device, you can't do much better than this free MIT-licensed app. A tool like this really helps weed out the trash if you like to buy cheap SD cards or flash drives. Some are worth buying again while others aren't, and CrystalDiskMark gives you the data to make that decision.
-
-## File Deletion 
-
-- [Eraser](http://eraser.heidi.ie/): Secure deletion with a nice GUI and Explorer integration. Useful if you don't like the idea of having remnants of tax returns and whatnot on drives. The advent of modern SSD drives has thrown a monkey wrench in secure deletion, so do some research before trusting that your file is really gone. (Hint: it's probably not.)
-
-## Disk Encryption 
-
-- [VeraCrypt](https://www.veracrypt.fr/en/Home.html): On-the-fly disk and file encryption. Works absolutely seamlessly with the OS so you wouldn't even know you are using an encrypted disk. This is a continuation of the old TrueCrypt program.
-
-## Disk Usage 
-
-- [WizTree](https://wiztreefree.com/): The best way to see which files are eating up your diskspace. It is INSANELY fast because it uses the master file table instead of querying each file.
-
-  - [Windirstat](https://windirstat.net/) was my favorite for years, and it's still a great option, but it is slower than Wiztree.
-
-## Batch File Operations 
-
-- [WildRename](http://www.cylog.org/utilities/wildrename.jsp): Wonderfully robust file renaming utility that supports regular expressions.
-
-- [WildReplace](http://www.cylog.org/utilities/wildreplace.jsp): Search for files and replace text in the files.
-
-## Backup/Synchronization 
-
-- [FreeFileSync](https://freefilesync.org/): Local backup and synchronization program to do things like make nightly backups from one hard drive to another.
-
-  - For something more involved than simple "folder sync", [Duplicati](https://www.duplicati.com/) might be what you need. It does incremental backups and data deduplication, and it works nicely over a network, making remote admin a breeze.
-
-- [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): For realtime cloud backup and synchronization, this is an easy solution if you're invested into the Google ecosystem, which I am. Backs up photos and anything else I tell it.
-
-  - Maybe you don't trust Google or you want more control of your data. If you'd rather host your own cloud, it's hard to beat [Syncthing](https://syncthing.net/). If it's confusing why this is different than something like FreeFileSync, Syncthing shines at realtime *continuous* synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. The huge bonus is the Syncthing Android app, allowing you to sync files between your computer and your phone.
-
-  - Also, if you are an Amazon Prime member, it's hard to pass up the [Amazon Photos desktop app](https://www.amazon.com/b?ie=UTF8&node=16384500011) which let's you backup unlimited photos at their original resolution for free.
-
-# System & Misc. Utilities
-
-## Package Management/Software Installer 
-
-- [Chocolatey](https://chocolatey.org/): If you wish you had Linux-like package management on Windows (e.g. apt, yum, or pacman), Chocolatey has you covered. It took me a while to come around to liking Chocolatey, but nowadays it is robust and has broad package support. It supports thousands of packages, and the vast majority of the software listed on Blake's Essentials can be found there. If you're setting up a new computer (or several computers), Chocolatey can be a huge time saver.
-
-  - The other popular package manager out there is [Ninite](https://ninite.com/). It's great, but it  just doesn't have near the number of packages as Chocolatey. If Ninite supports all the packages you want, you might want to try it first. Personally, I see Ninite as something I can use on my parents' computer to keep their software up to date.
-
-## Uninstaller 
-
-- [Revo Uninstaller Free](https://www.revouninstaller.com/products/revo-uninstaller-free/): Uninstalling programs using the usual methods often leaves a lot of junk around. Revo does a better job at really removing a program.
-
-## System Cleaner 
-
-- [Bleachbit](https://www.bleachbit.org/) will delete stuff you don't need hanging around like logs, temporary files, "recently used" lists, thumbnails, you-name-it. There are a lot of options out there in this category, but I like Bleachbit because it's completely free and open-source, so at least you know what it's trying to do under the hood. Be aware that it is highly debated whether you should even use a program like this as Windows has it's own tools to clean up after itself, and mucking about in the registry can cause problems you didn't ask for.
-
-  - [CCleaner](https://www.ccleaner.com/) has been around forever, and it's still a good choice for cleaning up your system. The main advantage it has over Bleachbit is the ability to fix a plethora of registry issues. (Again, maybe it's better to let it alone and not mess with the registry?)
-
-## Console/Command Line 
-
-- [ConEmu](http://sourceforge.net/projects/conemu/): The console emulator that I always dreamed of on Windows, but never had. It is a must if you use the command line in Windows. It is basically just a wrapper for cmd.exe, Powershell, Python, whatever, but it is very configurable.
-
-  - Also worth considering is Microsoft's newly minted [Windows Terminal](https://github.com/microsoft/terminal) which works very well as of version 1.0, but it lacks the feature set of ConEmu.
-
-- [Swiss File Knife](http://stahlworks.com/dev/swiss-file-knife.html): This is the essential command line tool set for Windows. It does a little of everything, and you need to just read the list of commands on the website to believe it. It's a single executable, so it's portable as well.
-
-## Clipboard Manager 
-
-- [CopyQ](https://hluk.github.io/CopyQ/) extends the Windows clipboard so you can access more than just the last item copied. Advanced scripting, editing, and keyboard shortcuts make this a real powerhouse of productivity once you learn the tool.
-
-## Password Manager
-
-- [Bitwarden](https://bitwarden.com/) is the best open source, cross-platform password manager that I've ever tried. And the best part is the free version is more than enough for most people. I will say even though I'm linking the Windows version here, I generally just use the browser extension, which is excellent and available for every browser. The companion mobile apps are likewise excellent.
-
-## Hex Editor 
-
-- [HxD](http://mh-nexus.de/en/hxd/): Has everything I need in a hex editor. Simple and lightweight.
-
-## Microsoft Product Key Recovery 
-
-- [ProduKey](http://www.nirsoft.net/utils/product_cd_key_viewer.html) is super handy when you want to reinstall Windows or Office after your hard drive crashes or you just want to start fresh.. Just run this program, save the output somewhere safe, and you have your Microsoft product keys ready to go for Windows and Office.
-
-## Utilities Suites 
-
-- [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/): This is a collection of tools that has been around since the 1990s, and was eventually acquired by Microsoft because they are so good. (And they are still being updated!) You can download the whole suite, or individual tools.  I'm going to highlight just a couple here to give you the flavor of the suite, but it's worth perusing the whole list and seeing what's available:
-
-  - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): If you can't delete a file because some program has it locked, Process Explorer will tell you what program has the file handle open.
-
-  - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Sometimes you need to know what files a process is changing, or maybe you want to know which program is changing a file. Process Monitor, um, well, it ***monitors*** your ***processes*** to find that out.
-
-- [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite for decades ago, but it's back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap you CapsLock key to act like a Shift key so you aren't aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
-
-## Linux Environment 
-
-- [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (WSL): Run Linux tools directly in Windows without a virtual machine. Bash, Zsh, compilers, interpreters, grep, awk, and all the rest of the command line tools you need right under Windows. You actually can download this from the Microsoft Store now (for free), so there's no direct download link. You even have your pick of various supported distros.
-
-- [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/): If
-you're running WSL, you may want an X server to run GUI programs, and
-VcXsrv works great. Choose the "multiple windows" option to seamlessly
-integrate X programs into the Windows desktop. A couple quick tips:
-
-### 
-
-- Add these lines to your `.bashrc` file:
-
-
-```
-export DISPLAY=:0.0
-export LIBGL_ALWAYS_INDIRECT=1
-```
-
-
-### 
-
-- If you don't want seamless windows and you want to run an X desktop
-window, you probably want to install something like Xfce4:
-
-```
-$ sudo apt-get install xfce4-terminal xfce4
-```
-
-### 
-
-- If you want a bunch of default Linux desktop apps:
-  
-```  
-$ sudo apt-get install ubuntu-desktop
-```
-
-###
-
-- After starting VcXsrv, you need to start Xfce4 each session:
-
-```
-$ startxfce4
-```
-
-## Virtualization
-
-- [Virtualbox](https://www.virtualbox.org/) is the best free solution for running virtual machines. It is an easy and robust way of running Linux (and other OSes) under Windows, which is often handy for some toolchains or just testing out a script or something in a Linux environment.
 
 # Document Authoring & Viewing
 
@@ -436,7 +311,7 @@ $ startxfce4
 
 ###
 
-- [FreeCAD](http://www.freecadweb.org/): Fairly full-featured 2D/3D parametric CAD modeler. This is the only open source CAD program that looks even remotely like a real, commercial CAD program, and it's capabilities are pretty amazing for what it is, but it's still painful for me to use compared to any good commercial product. The interface can be clunky and seems to work against me at every step, and for some tasks I just can't figure out an efficient workflow (or can't figure out how to accomplish it at all). Having said that, there is a lot of great functionality here, including a decent CAM module that generates very usable G-code. 
+- [FreeCAD](http://www.freecadweb.org/): Fairly full-featured 2D/3D parametric CAD modeler. This is the only open source CAD program that looks even remotely like a real, commercial CAD program, and it's capabilities are pretty amazing for what it is, but it's still painful for me to use compared to any good commercial product. The interface can be clunky and seems to work against me at every step, and for some tasks I just can't figure out an efficient workflow (or can't figure out how to accomplish it at all). Having said that, there is a lot of great functionality here, including a decent CAM module that generates very usable G-code.
 
 - [Solvespace](http://solvespace.com/index.pl) is such a tiny, fast, quirky, unique, and capable program, I had to mention it. Don't let the retro look fool you. This is a powerful 2D/3D parametric modeler with a legit constraint solver. Besides FreeCAD, that is a very rare find in free CAD software. This interface is nothing like a standard CAD package, but if you are into making 3D objects for 3D printing, this program is great. For normal use, I think the glaring omission in its feature set is a tool for adding fillets/rounds. That's a deal breaker for me.
 
@@ -460,105 +335,228 @@ $ startxfce4
 
 - [Stellarium](http://stellarium.org/): A great planetarium for the hobbyist astronomer.
 
-# Music & Audio
+# Network & Internet
 
-## Music Library Organization and Playback
+## Web Browser
 
-- [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. An app like this is becoming less essential as I move to online services like Amazon Prime Music and Spotify, but when I do want to work with local music files, it's hard to do better than MusicBee.
+- [Google Chrome](http://www.google.com/chrome): My default browser since the day it was released.
 
-- [MP3Tag](https://www.mp3tag.de/en/) is a universal batch tag editor that handles MP3s along with every other popular audio format. The robust file renaming/retagging tools and online database lookups make this powerful option for cleaning up your audio collection. It's worth having around for the odd job that MusicBee can't handle.
+  - I left [Firefox](https://www.mozilla.org/en-US/firefox/) for Chrome, but I like to keep Firefox around for the odd task, and[ it is arguably more pro-consumer with its stance on ad-blockers.
 
-## Audio Editor
+  - And because you can never have too many browsers, [Brave](https://brave.com/) is another nice option if privacy and security are a high priority. It is essentially just Chrome with extra privacy features, but it also includes a Tor browser, which is handy. It is also very fast.
 
-- [Audacity](http://audacityteam.org/): Legit multi-track audio editor. From recording, to mixing, to filters and effects, Audacity has you covered.
+## Remote Shell Access
 
-## Audio Conversion
+- [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/): Awesome ssh/telnet client. It's been the premier free terminal client for so many years because it's simple and works while not skimping on features.
 
-- [fre:ac](http://www.freac.org/): free audio converter and CD ripper for various formats and encoders including MP3, MP4/M4A, AAC, and more.
+## File Transfer
 
-## Digital Audio Workstation
+- [WinSCP](http://winscp.net/eng/index.php): Great ftp/sftp/scp client with lots of advanced features like bandwidth limiting and shutting down the program or computer after file transfers are done.
 
-- [Cakewalk](https://www.bandlab.com/products/cakewalk): This used to be a commercial DAW that is now free as of 2018. It's a rebranded version of SONAR Platinum, and it's incredibly powerful. This is a great place to start if you want to make some music.
+- [qBittorrent](http://www.qbittorrent.org/): Lightweight, yet powerful, BitTorrent client. This is basically uTorrent without the tedious ads. (For server use, I prefer [Transmission](https://transmissionbt.com/).)
 
-## Step Sequencer
+## Remote Desktop Control
 
-- [LMMS](https://lmms.io/): Its website says it's a "sound generation system, synthesizer, beat/baseline editor and MIDI control system which can power an entire home studio". I'd call it a nice step sequencer with VST and SoundFont support for creating music. I wouldn't call it a DAW because it doesn't record multitrack audio, but combined with Audacity, you can make some cool stuff. Honestly, I wouldn't even list LMMS now that Cakewalk is free, except LMMS is opensource, and Cakewalk may go away sometime in the future.
+- [TigerVNC](http://tigervnc.org/): If you need remote desktop control, this lightweight VNC client/server forked from TightVNC does the job. I just don't find myself using VNC as much as I used to as I move more functions to the cloud and rely less on my own desktops.
 
-## Synth Plugins
+  - [Teamviewer](https://www.teamviewer.com/): If you play "IT Guy" for your friends and family, a tool like Teamviewer can be handy as it makes it easy for non-techy people to add remote control. I can send them a download link, they install it, and tell me the ID and password that is displayed in the app so I can connect. That's it. No other configuration is needed.
 
-- A couple great synths plugins worth trying with LMMS and Cakewalk are [dexed](https://asb2m10.github.io/dexed/) and [Helm](https://tytel.org/helm/).
+## Chat/Messenging
 
-# Images & Video
+- [Discord](https://discordapp.com/): The apparent successor to Skype and Teamspeak in many communities, especially in the gaming world. I have no particular affinity to the app itself, but it works fine on both desktop and mobile, and there are some cool communities that made their home on Discord.  Of particular note is that Discord is also becoming the "new IRC" for many programming communities. The IRC channels are often less populated than the equivalent Discord channels.
 
-## Video Player
+### Honorable Mentions
 
-- [VLC](http://www.videolan.org/): Video player for nearly any format imaginable. Especially useful for when you need to do uncommon things like adjust audio/Bluetooth sync or load custom subtitles. The interface isn't fancy, but it has the features you need and stays out of your way.
+- [Telegram](https://desktop.telegram.org/): I really don't need another chat protocol in my life, but Telegram is doing some things right like real cross-platform support/sync and no size restrictions when sharing media or documents. It's a very polished experience, and features like group voice chat work exceptionally well.
 
-## Photo/Image Editor
+- If privacy or security is paramount to you, then [Signal](https://signal.org/) has Telegram beat. In Telegram, end-to-end encryption is only optional, and you can't encrypt group chats. Signal fixes those shortcomings, but falls short of Telegram in other areas.
 
-- [GIMP](http://www.gimp.org/): Robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it's not really suited for DTP pros either since it's missing native CMYK support. Having said that, if you're doing non-print stuff, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation.
+## Two-Factor Authentication
 
-  - [Paint.NET](http://www.getpaint.net/index.html) is a fantastic alternative to GIMP for those weary of the learning curve (or the name). It is less powerful than GIMP, but it's easy to use and really polished. It's the Paint program Microsoft should have shipped with Windows.
+- [Authy](https://authy.com/): Really handy way to add 2FA to all your accounts and across all devices. There are Authy mobile apps as well, so once you add Authy to a service (Gmail, Facebook, Amazon, etc.), you are good to go whether you're on your desktop, laptop, phone, or tablet.
 
-## Photo Management/Viewing (and Casual Editing)
+# File & Disk Utilities
 
-- [Photoscape X](http://x.photoscape.org/): Great program for photo viewing and basic touch-up. It makes it easy to do common tasks like cropping to standard sizes and removing red-eye. There is a Pro version with extra features, but the free version boasts a truly impressive feature set that is more than enough for most people. If you buy the Pro version it's because you like it so much, not because you felt forced into it because the free version was so crippled.
+## Local File Search
 
-  - If the Photoscape X workflow doesn't agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has a somewhat old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
+- [Everything](https://www.voidtools.com/): This is the search tool that
+should have come with Windows. It supports wildcards, boolean
+operations, exact cases/phrases, and regular expressions. Just type a
+filename, and you'll get immediate results from all your drives
+instantly. If you want to search network drives, you will need to go to
+Options and add them to your search folders under Indexing. You can also
+search file contents, although that will take much longer.
 
-  - If all you need is a super-fast, image viewer (that incidentally has some robust editing features), look no further than [IrfanView](https://www.irfanview.com/). I started using it in the late 1990s, and it is still going strong. This is a great program to make your default action when clicking on JPEGs, GIFs, and PNGs.
+  - [FileSeek](https://www.fileseek.ca/) is an excellent runner-up for desktop search with the free version having everything you need for normal use. It doesn't require indexing, which is nice on one hand because it's not bogging down your computer at inopportune times, but it also means searching will take longer when you execute the search.
 
-## Raw Photography Workflow
+## Compression
 
-- [darktable](https://www.darktable.org/): If you work with RAW photo files or want to get the most out of your photos, you need a non-destructive post-production software like darktable. This isn't about "photoshopping" a picture; instead it's all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc.
+- [7-Zip](http://www.7-zip.org/): Archiver with great compression, command line support, nice GUI and Explorer integration, and it is really fast.
 
-## Vector Image Editor
+  - [PeaZip](https://www.peazip.org/): If 7-zip doesn't work for you because you've encountered some obscure format, PeaZip is the place to look. It supports basically every format that you would conceivably (or inconceivably) run into. You also might like its interface better than 7-zip.
 
-- [Inkscape](https://inkscape.org/en/): Really nice vector image editor for creating professional quality, scalable diagrams, logos, you-name-it.
+## Disk Imaging/Formatting/Repair
 
-## Artistic Image Editor
+- [balena Etcher](https://www.balena.io/etcher/): A nice clean, easy-to-use program to write disk images to flash devices (USB drives, microSD cards, etc.). This is great for putting Linux distros on bootable USB drives or setting up a microSD card for a Raspberry Pi.
 
-- [Krita](https://krita.org/en/): Great digital painting software. It actually could replace Gimp for many use cases, and it supports CMYK.
+  - Runner up goes to [Rufus](https://rufus.ie/). It gives you more options than Etcher at the cost of some added complexity. I have also run across some images where Rufus works where Etcher fails, so it's handy to have Rufus around even if I use Etcher most of the time.
 
-  - Another cool option is Autodesk's [Sketchbook](https://sketchbook.com/), which is now free (although you will need to create a free Autodesk ID to register it.).
+- [Ventoy](https://www.ventoy.net/) serves the same purpose as a traditional disk imager, although it adds more flexibility and functions quite differently. You install Ventoy onto a USB drive via the handy Windows installer, and then you can drop as many bootable disk images (ISO, IMG, etc.) as you like onto the drive. When you boot to the USB drive, Ventoy will give you a menu to let you choose which image to boot. Super handy way of carrying several OSes in your pocket, all on a single drive.
 
-## Screenshots/Screen Capture
+- [Macrium Reflect Free](https://www.macrium.com/reflectfree): Great for making disk images or transitioning a computer from a traditional harddrive to an SSD. The Free edition has all the essentials, and the last SSD transition I did was seamless. I highly recommend.
 
-- [ShareX](https://getsharex.com/): You don't know how useful a good screenshot tool is until you start using it. It's really handy to automatically save screenshots (or portions of screens) to a predetermined folder and keep it on the clipboard as well. ShareX takes it one step further and will upload the image to pretty much any site you like, and the OCR functionality is really cool. The icing on the cake is the screen capture capability that will let you record portions of your screen and save it to a GIF (or other formats). It's great for playing tech support with family to show them how to do stuff. 
+- [EaseUS Partition Master](https://www.easeus.com/partition-manager/epm-free.html): The Windows 10 disk management tools are limited in functionality, and sooner or later you may need a tool like this to fix/partition/format a drive. My most common use case is recovering all the space on a USB drive that has a Linux image on it, perhaps with multiple partitions, one of which is the EFI boot partition. The Windows Disk Management tools might let you delete some (but not all) partitions, while the free version of Partition Master will have you back in business in seconds. It also resizes partitions and clones disks, but the free version won't create an image of a live OS like Macrium Reflect Free, hence I still have both listed here.
 
-  - [Greenshot](http://getgreenshot.org/) was my old favorite, and you may want to use it if ShareX is confusing or seems like overkill.
+  - [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/) may be a simpler solution if all you need is to fix an SD card. Some devices can be finicky about the format of SD/microSD cards, and this official application from the SD Association has fixed some obscure issues I've had in the past. This is especially true of SDHC/SDXC cards since Windows 10 seems to like formatting higher capacity cards as NTFS instead of FAT32.
 
-  - ***Worth noting:*** recent versions of Windows 10 now come with a tool called "Snip & Sketch" that does something similar (use SHIFT + WINDOWS + S key combo to access it), although it doesn't automatically save the image to a file.
+- [TestDisk](https://www.cgsecurity.org/wiki/TestDisk): If you need this, you've probably done something really bad like accidentally deleting a partition table. TestDisk can help you recover lost partitions, make a disk bootable again, or even recover files from deleted partitions (among other things).
 
-## Video Conversion
+## File Recovery
 
-- [HandBrake](https://handbrake.fr/): Convert video from/to nearly any format. While incredibly powerful and complex, HandBrake makes it really simple to get started. If you don't want anything special, just drag and drop a file, select a preset target format (e.g. Roku 1080p30 or Android 720p30), and hit start.
+*Between these programs you should be able to recover any file that is physically possible to recover without special hardware. I'm listing them all because sometimes one can get the job done where another can't.*
 
-  - If you want to convert your DVD library, you'll need to put the [libdvdcss](http://download.videolan.org/pub/libdvdcss/1.2.11/win64/libdvdcss-2.dll) library in the Handbrake directory.
+- [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec): Comes in two flavors: command line and a simple graphical interface. This is the first thing I try when I need to "undelete" pictures I accidentally deleted from an SD card. Comes with TestDisk (see above).
 
-  - If Handbrake is too confusing and all you want to do is rip a DVD, [MakeMKV](http://www.makemkv.com/) rips and decodes DVDs (even with copy protection). It just isn't as versatile as Handbrake.
+- [Recuva](https://www.piriform.com/recuva): Very polished interface, and the free version has enough features for most people.
 
-## Video Editing
+- [Zero Assumption Recovery](http://www.z-a-recovery.com/): The free version has some limitations, but the digital image recovery mode has no functional limitations.
 
-- [Shotcut](https://www.shotcut.org/) is a capable multi-track editor with a nice interface. If I don't need anything special, this is the first place I reach.
+- [DiskDigger](http://diskdigger.org/): Lightweight, single exe so no install necessary. While it is free for personal use, it will nag you before recovering each and every file, so if you have a lot of files to recover, it is worth just buying it.
 
-- [kdenlive](https://kdenlive.org): If you do need something special like key-framing, it's great to have kdenlive in the toolbox. Shotcut has it beat in a few areas, so I still prefer it in general, but kdenlive has some features that make it worth having around.
+## Disk Performance
 
-### Also check out:
+- [CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/): If you want to check the read/write speed of any storage device, you can't do much better than this free MIT-licensed app. A tool like this really helps weed out the trash if you like to buy cheap SD cards or flash drives. Some are worth buying again while others aren't, and CrystalDiskMark gives you the data to make that decision.
 
-- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/): This is a professional package, but they have a free version that's very impressive. It outshines the above editors in features, but I'm reluctant to learn a free tool that could be retracted at a whim, so in general the opensource tools above get my vote.
+## File Deletion
 
-- [Openshot](https://www.openshot.org/): I'm listing this to remind myself to keep an eye on its development. Feature-wise, it seems like it falls right between Shotcut and kdevlive, but it feels pretty buggy yet. Having said that, it might scratch your itch, and it's worth checking out along with the others.
+- [Eraser](http://eraser.heidi.ie/): Secure deletion with a nice GUI and Explorer integration. Useful if you don't like the idea of having remnants of tax returns and whatnot on drives. The advent of modern SSD drives has thrown a monkey wrench in secure deletion, so do some research before trusting that your file is really gone. (Hint: it's probably not.)
 
-## Animation
+## Disk Encryption
 
-- [Blender](https://www.blender.org/): 3D modeling and animation. Has more power than I have skill, but other people do really cool things with it. It's fun to play with though and is worth the download.
+- [VeraCrypt](https://www.veracrypt.fr/en/Home.html): On-the-fly disk and file encryption. Works absolutely seamlessly with the OS so you wouldn't even know you are using an encrypted disk. This is a continuation of the old TrueCrypt program.
 
-- [Synfig Studio](https://www.synfig.org/): Nice 2D animation package. I dabble with projects, and when I do, this works for me.
+## Disk Usage
 
-## Media Server
+- [WizTree](https://wiztreefree.com/): The best way to see which files are eating up your diskspace. It is INSANELY fast because it uses the master file table instead of querying each file.
 
-- [Plex](https://plex.tv/): The best personal media server for steaming your media to your Roku, Fire Stick, smart TV, etc. Just tell Plex where you store your movies, TV shows, and music and it will do the rest, including downloading cover art and show descriptions. I actually run my Plex server on a Linux SBC now, so I don't technically need this on Windows anymore, but I'm keeping it on my list for posterity because it's really fantastic software.
+  - [Windirstat](https://windirstat.net/) was my favorite for years, and it's still a great option, but it is slower than Wiztree.
+
+## Batch File Operations
+
+- [WildRename](http://www.cylog.org/utilities/wildrename.jsp): Wonderfully robust file renaming utility that supports regular expressions.
+
+- [WildReplace](http://www.cylog.org/utilities/wildreplace.jsp): Search for files and replace text in the files.
+
+## Backup/Synchronization
+
+- [FreeFileSync](https://freefilesync.org/): Local backup and synchronization program to do things like make nightly backups from one hard drive to another.
+
+  - For something more involved than simple "folder sync", [Duplicati](https://www.duplicati.com/) might be what you need. It does incremental backups and data deduplication, and it works nicely over a network, making remote admin a breeze.
+
+- [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): For realtime cloud backup and synchronization, this is an easy solution if you're invested into the Google ecosystem, which I am. Backs up photos and anything else I tell it.
+
+  - Maybe you don't trust Google or you want more control of your data. If you'd rather host your own cloud, it's hard to beat [Syncthing](https://syncthing.net/). If it's confusing why this is different than something like FreeFileSync, Syncthing shines at realtime *continuous* synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. The huge bonus is the Syncthing Android app, allowing you to sync files between your computer and your phone.
+
+  - Also, if you are an Amazon Prime member, it's hard to pass up the [Amazon Photos desktop app](https://www.amazon.com/b?ie=UTF8&node=16384500011) which let's you backup unlimited photos at their original resolution for free.
+
+# System & Misc. Utilities
+
+## Package Management/Software Installer
+
+- [Chocolatey](https://chocolatey.org/): If you wish you had Linux-like package management on Windows (e.g. apt, yum, or pacman), Chocolatey has you covered. It took me a while to come around to liking Chocolatey, but nowadays it is robust and has broad package support. It supports thousands of packages, and the vast majority of the software listed on Blake's Essentials can be found there. If you're setting up a new computer (or several computers), Chocolatey can be a huge time saver.
+
+  - The other popular package manager out there is [Ninite](https://ninite.com/). It's great, but it  just doesn't have near the number of packages as Chocolatey. If Ninite supports all the packages you want, you might want to try it first. Personally, I see Ninite as something I can use on my parents' computer to keep their software up to date.
+
+## Uninstaller
+
+- [Revo Uninstaller Free](https://www.revouninstaller.com/products/revo-uninstaller-free/): Uninstalling programs using the usual methods often leaves a lot of junk around. Revo does a better job at really removing a program.
+
+## System Cleaner
+
+- [Bleachbit](https://www.bleachbit.org/) will delete stuff you don't need hanging around like logs, temporary files, "recently used" lists, thumbnails, you-name-it. There are a lot of options out there in this category, but I like Bleachbit because it's completely free and open-source, so at least you know what it's trying to do under the hood. Be aware that it is highly debated whether you should even use a program like this as Windows has it's own tools to clean up after itself, and mucking about in the registry can cause problems you didn't ask for.
+
+  - [CCleaner](https://www.ccleaner.com/) has been around forever, and it's still a good choice for cleaning up your system. The main advantage it has over Bleachbit is the ability to fix a plethora of registry issues. (Again, maybe it's better to let it alone and not mess with the registry?)
+
+## Console/Command Line
+
+- [ConEmu](http://sourceforge.net/projects/conemu/): The console emulator that I always dreamed of on Windows, but never had. It is a must if you use the command line in Windows. It is basically just a wrapper for cmd.exe, Powershell, Python, whatever, but it is very configurable.
+
+  - Also worth considering is Microsoft's newly minted [Windows Terminal](https://github.com/microsoft/terminal) which works very well as of version 1.0, but it lacks the feature set of ConEmu.
+
+- [Swiss File Knife](http://stahlworks.com/dev/swiss-file-knife.html): This is the essential command line tool set for Windows. It does a little of everything, and you need to just read the list of commands on the website to believe it. It's a single executable, so it's portable as well.
+
+## Clipboard Manager
+
+- [CopyQ](https://hluk.github.io/CopyQ/) extends the Windows clipboard so you can access more than just the last item copied. Advanced scripting, editing, and keyboard shortcuts make this a real powerhouse of productivity once you learn the tool.
+
+## Password Manager
+
+- [Bitwarden](https://bitwarden.com/) is the best open source, cross-platform password manager that I've ever tried. And the best part is the free version is more than enough for most people. I will say even though I'm linking the Windows version here, I generally just use the browser extension, which is excellent and available for every browser. The companion mobile apps are likewise excellent.
+
+## Hex Editor
+
+- [HxD](http://mh-nexus.de/en/hxd/): Has everything I need in a hex editor. Simple and lightweight.
+
+## Microsoft Product Key Recovery
+
+- [ProduKey](http://www.nirsoft.net/utils/product_cd_key_viewer.html) is super handy when you want to reinstall Windows or Office after your hard drive crashes or you just want to start fresh.. Just run this program, save the output somewhere safe, and you have your Microsoft product keys ready to go for Windows and Office.
+
+## Utilities Suites
+
+- [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/): This is a collection of tools that has been around since the 1990s, and was eventually acquired by Microsoft because they are so good. (And they are still being updated!) You can download the whole suite, or individual tools.  I'm going to highlight just a couple here to give you the flavor of the suite, but it's worth perusing the whole list and seeing what's available:
+
+  - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): If you can't delete a file because some program has it locked, Process Explorer will tell you what program has the file handle open.
+
+  - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Sometimes you need to know what files a process is changing, or maybe you want to know which program is changing a file. Process Monitor, um, well, it ***monitors*** your ***processes*** to find that out.
+
+- [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite for decades ago, but it's back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap you CapsLock key to act like a Shift key so you aren't aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
+
+## Linux Environment
+
+- [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (WSL): Run Linux tools directly in Windows without a virtual machine. Bash, Zsh, compilers, interpreters, grep, awk, and all the rest of the command line tools you need right under Windows. You actually can download this from the Microsoft Store now (for free), so there's no direct download link. You even have your pick of various supported distros.
+
+- [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/): If
+you're running WSL, you may want an X server to run GUI programs, and
+VcXsrv works great. Choose the "multiple windows" option to seamlessly
+integrate X programs into the Windows desktop. A couple quick tips:
+
+###
+
+- Add these lines to your `.bashrc` file:
+
+```
+export DISPLAY=:0.0
+export LIBGL_ALWAYS_INDIRECT=1
+```
+
+###
+
+- If you don't want seamless windows and you want to run an X desktop
+window, you probably want to install something like Xfce4:
+
+```
+$ sudo apt-get install xfce4-terminal xfce4
+```
+
+###
+
+- If you want a bunch of default Linux desktop apps:
+
+```
+$ sudo apt-get install ubuntu-desktop
+```
+
+###
+
+- After starting VcXsrv, you need to start Xfce4 each session:
+
+```
+$ startxfce4
+```
+
+## Virtualization
+
+- [Virtualbox](https://www.virtualbox.org/) is the best free solution for running virtual machines. It is an easy and robust way of running Linux (and other OSes) under Windows, which is often handy for some toolchains or just testing out a script or something in a Linux environment.
 
 # Gaming
 
@@ -590,7 +588,7 @@ $ startxfce4
 
   - [Gargoyle](http://ccxvii.net/gargoyle/) deserves a mention because it supports every format I've ever run across because it is basically just a wrapper for a number of interpreters. The default (and excellent)
 
-  - [Bocfel](https://cspiegel.github.io/bocfel/) Z machine interpreter has partial support for z6 files too.  Its other claim to fame is its focus on good typesetting, which is a really interesting niche.  But be warned, it essentially has no user interface, so you need to edit a text file to change fonts and whatnot. 
+  - [Bocfel](https://cspiegel.github.io/bocfel/) Z machine interpreter has partial support for z6 files too.  Its other claim to fame is its focus on good typesetting, which is a really interesting niche.  But be warned, it essentially has no user interface, so you need to edit a text file to change fonts and whatnot.
 
   - [Filfre](http://maher.filfre.net/filfre/index.html): This is easier to use than Gargoyle for sure, so I'm mentioning it here, but it has minimal customization options.  You might want to choose this if you need Glulx support and want an interface similar to Windows Frotz.  It's probably not the best choice for Z-Machine files because it only supports versions 3, 4, 5, and 8 story files. The project has been stagnant since 2013, so what you see is what you get.
 
