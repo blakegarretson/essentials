@@ -8,4 +8,4 @@ You might ask, "why do you just have one huge list of programs on one page inste
 
 And finally, you may think a certain application should go into a different category, and you probably would be right, but I had to make some arbitrary decisions since some software overlaps several categories.
 
-![Logo](belogoopt.svg)
+![](belogoopt.svg)

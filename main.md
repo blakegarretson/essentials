@@ -140,7 +140,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Version Control
 
-- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you're a programmer, you already know what this is. A *big* bonus even for non-programmers is the installer includes all the Unix command line tools you know and love. If you need ls, cat, grep, awk, and all the rest, I think this is the easiest way to add them to your Windows system.
+- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you're a programmer, you already know what this is. A *big* bonus even for non-programmers is the installer includes all the Unix command-line tools you know and love. If you need ls, cat, grep, awk, and all the rest, I think this is the easiest way to add them to your Windows system.
 
 ## Text Comparison
 
@@ -212,7 +212,7 @@ than a general purpose scripting language, hence this separate category.
 
 ## PDF Viewing
 
-- [Acrobat Reader](https://acrobat.adobe.com/us/en/products/pdf-reader.html): The original and still probably the best PDF viewer. Due to poor performance, I used to prefer alternatives like [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/), but Foxit started catching up in the bloat category and either Acrobat got better or my computers got faster.
+- [Acrobat Reader](https://acrobat.adobe.com/us/en/products/pdf-reader.html): The original and probably still the best PDF viewer. Due to poor performance, I used to prefer alternatives like [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/), but Foxit started catching up in the bloat category and either Acrobat got better or my computers got faster.
 
 ## eBook Utilities
 
