@@ -52,9 +52,10 @@ body {
 }
 
 .content h2 {
-    color: #a2b4c0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    color: #3db2c7;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: bold;
 }
 
 .content li {

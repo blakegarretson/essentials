@@ -6,6 +6,6 @@ This list of software may not include your favorite category of software, but al
 
 You might ask, "why do you just have one huge list of programs on one page instead of separate pages for each category?" The simple answer is it's more efficient for me to find what I want this way. If I'm looking for the name of that screenshot app, I just hit CTRL-F and search for "screenshot". That's really it. Also, I hate it when website spread content over a ton of pages for seemingly no reason (although the reason is usually "ads".)
 
-And finally, you may think a certain application should go into a different category, and you probably would be right, but I had to make some arbitrary decisions since some software overlaps several categories. 
+And finally, you may think a certain application should go into a different category, and you probably would be right, but I had to make some arbitrary decisions since some software overlaps several categories.
 
 ![](belogoopt.svg)
