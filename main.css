@@ -1,3 +1,12 @@
+:root{
+    --colh1: #ff8f73;
+    --colh2: #57d9a3;
+    --colh3: #ffe380;
+    --collink:#00c7e6;
+    --colcode: #d6a9d5;
+    --coltext:#cecece;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -28,14 +37,14 @@ body {
     width: 90%;
     padding: 16px;
     max-width: 40em;
-    color: #cecece;
+    color: var(--coltext);
     font-size: large;
     line-height: 1.5em;
 }
 
 .content a, a:visited {
-    color: #1aa0ee;
-    font-weight: bold;
+    color: var(--collink);
+    font-weight:normal;
     text-decoration: underline;
 }
 
@@ -46,13 +55,14 @@ body {
 
 .content h1 {
     margin-top: 1em;
-    color: #C5EDAC;
+    margin-bottom: 1em;
+    color: var(--colh1);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 .content h2 {
-    color: #8D3B72;
+    color: var(--colh2);
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
@@ -80,7 +90,7 @@ body {
 }
 
 .content h3 {
-    color: #98C1D9;
+    color: var(--colh3);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     margin-left: 2em;
@@ -95,7 +105,7 @@ body {
 .content code {
     font-family: 'Source Code Pro', sans-serif;
     font-size: medium;
-    color: aqua;
+    color: var(--colcode);
 }
 
 .content pre {
