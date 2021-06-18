@@ -1,0 +1,1 @@
+scp about.html changelog.html index.html main.css dh_qqutk5@blakesessentials.com:/home/dh_qqutk5/blakesessentials.com/

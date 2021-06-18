@@ -46,16 +46,15 @@ body {
 
 .content h1 {
     margin-top: 1em;
-    color: #eb6262;
+    color: #C5EDAC;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 .content h2 {
-    color: #3db2c7;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-style: bold;
+    color: #8D3B72;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .content li {
@@ -68,11 +67,20 @@ body {
 }
 
 .content ul li ul li {
-    list-style-type: "🛈 ";
+    /* list-style-type: "🛈 "; */
+    /* list-style-type: "⌘ "; */
+    list-style-type: "⌘ ";
+    /*list-style-type: "i: "; */
+    /*padding-left: 0.5em; */
+}
+
+.content ul li ul li::marker {
+    font-family: 'Noto Serif', sans-serif;
+    font-weight: 700;
 }
 
 .content h3 {
-    color: #5ac77e;
+    color: #98C1D9;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     margin-left: 2em;
