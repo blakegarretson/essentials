@@ -1,4 +1,4 @@
-call build.cmd
+sh build.cmd
 git commit -a -m "x"
 git push
-call upload.cmd
+sh upload.cmd
