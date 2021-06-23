@@ -126,7 +126,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Programming Editor/IDE
 
-- [Visual Studio Code](https://code.visualstudio.com/): I think Microsoft shocked a lot of people when they knocked VS Code out of the park. I didn't see it coming, but it is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE. *Note: Don't confuse VS Code with [Visual Studio]("https://visualstudio.microsoft.com/vs/") which is a full-blown IDE with more advanced features that I don't find necessary for the hobbyist.*
+- [Visual Studio Code](https://code.visualstudio.com/): I think Microsoft shocked a lot of people when they knocked VS Code out of the park. I didn't see it coming, but it is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE. *Note: Don't confuse VS Code with [Visual Studio](https://visualstudio.microsoft.com/vs/) which is a full-blown IDE with more advanced features that I don't find necessary for the hobbyist.*
 
 ## Prose Text Editor
 
