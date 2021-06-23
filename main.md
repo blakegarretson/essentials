@@ -206,13 +206,13 @@ than a general purpose scripting language, hence this separate category.
 
 - [Input](https://input.fontbureau.com/): Incredibly flexible font system that lets you customize letters (a/g/i/l/0) and symbols (asterisk/braces) to your liking, as well as choose from 7 weights and 4 widths, and sans, serif, and mono variants. There are 168 styles in all, so you will find one that works for any given situation.
 
-- [Iosevka](https://typeof.net/Iosevka/): Similar to the Input font, Iosevka raises the bar by adding ligatures, a couple more weights, 188 variants, and incredible character coverage with thousands and thousands of supported glyphs. While you can't customize individual characters like Input, there are variants with different character and symbol styles, so you should be able to find one that has the look you want. There are so many choices it can be confusing, but if want a general purpose font that works everywhere (but doesn't have ligatures), start with the "Iosevka Fixed" font.
+- [Iosevka](https://typeof.net/Iosevka/): Similar to the Input font, Iosevka raises the bar by adding ligatures, a couple more weights, 188 variants, and incredible character coverage with thousands and thousands of supported glyphs. While you can't customize individual characters like the Input font allows, there are variants with different character and symbol styles, so you should be able to find one that has the look you want. There are so many choices it can be confusing, but if want a general purpose font that works everywhere (but doesn't have ligatures), start with the "Iosevka Fixed" font.
 
 # Document Authoring & Viewing
 
 ## PDF Viewing
 
-- [Acrobat Reader](https://acrobat.adobe.com/us/en/products/pdf-reader.html): The original and probably still the best PDF viewer. Due to poor performance, I used to prefer alternatives like [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/), but Foxit started catching up in the bloat category and either Acrobat got better or my computers got faster.
+- [Acrobat Reader](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html): The original and probably still the best PDF viewer. Due to poor performance, I used to prefer alternatives like [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/), but Foxit started catching up in the bloat category and either Acrobat got better or my computers got faster.
 
 ## eBook Utilities
 
