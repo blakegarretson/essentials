@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021-06-29
+
+Added a mention of Pluto alongside Jupyter.
+
 ## 2021-06-15
 
 Migrated site from Wordpress to a simpler system. Now I'm just using pandoc to process Markdown files to HTML, and I'm just hand tweaking some CSS and HTML templates.
@@ -7,7 +11,7 @@ Migrated site from Wordpress to a simpler system. Now I'm just using pandoc to p
 ## 2021-04-21
 
 Added **Ventoy**. It's a handy tool that was not on my radar until
-recently. 
+recently.
 
 Also added a note to the **ShareX** entry that it can do screen capture.
 I've been using that feature and it's worth the download just for that
