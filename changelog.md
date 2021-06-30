@@ -2,7 +2,9 @@
 
 ## 2021-06-29
 
-Added a mention of Pluto alongside Jupyter.
+Added a mention of **Pluto** alongside Jupyter.
+
+Updated ConEmu website link.
 
 ## 2021-06-15
 

@@ -4,7 +4,12 @@ So this is just a big, unorganized list of software that I've tried out, but I j
 
 So here we go, in no particular order...
 
+- [BoxCrypter](https://www.boxcryptor.com/) gets a lot of mentions on tech blogs and whatnot, but the free version is too limited. Namely, it only syncs one cloud provider across two devices. I have more than two devices.
+
+- [TranslucentTB](https://www.microsoft.com/en-us/p/translucenttb/9pf4kz2vn4w9?activetab=pivot%3Aoverviewtab) is cool... but not essential.
+
+- [AutoHotkey](https://www.autohotkey.com/) is pretty great, but it's also showing it's age and just isn't essential for me anymore. Part of the problem for AHK is software in general has gotten better, so I just don't need to use it in most applications where I formerly used it.
+
 - [MediaBang Paint Pro](https://medibangpaint.com/en/pc/) is program for creating digital art and comics. It's pretty specific, and I don't think it's better than Krita. Not to mention MediaBang has ads while Krita is ad-free.
 
 - [Autodesk Sketchbook](https://www.autodesk.com/products/sketchbook/overview) is now free apparently. It is excellent, but it has a checkered past as "free" software. It was _sort of_ free, but with limitations, and then it seems they released it for free for real this time, but I'm not sure I trust them to keep it free. I just don't want to invest the time in learning a program, saving a lot of files in their proprietary format, and then they yank the rug out. Autodesk has done that before, so I'm leery. Other than that, it's great software... but so is Krita.
-

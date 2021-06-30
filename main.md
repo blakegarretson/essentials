@@ -481,7 +481,7 @@ search file contents, although that will take much longer.
 
 ## Console/Command Line
 
-- [ConEmu](http://sourceforge.net/projects/conemu/): The console emulator that I always dreamed of on Windows, but never had. It is a must if you use the command line in Windows. It is basically just a wrapper for cmd.exe, Powershell, Python, whatever, but it is very configurable.
+- [ConEmu](https://conemu.github.io/): The console emulator that I always dreamed of on Windows, but never had. It is a must if you use the command line in Windows. It is basically just a wrapper for cmd.exe, Powershell, Python, whatever, but it is very configurable.
 
   - Also worth considering is Microsoft's newly minted [Windows Terminal](https://github.com/microsoft/terminal) which works very well as of version 1.0, but it lacks the feature set of ConEmu.
 
