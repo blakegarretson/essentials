@@ -72,7 +72,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Blender](https://www.blender.org/): 3D modeling and animation. Has more power than I have skill, but other people do really cool things with it. It's fun to play with though and is worth the download.
 
-- [Synfig Studio](https://www.synfig.org/): Nice 2D animation package. I dabble with projects, and when I do, this works for me.
+- [Synfig Studio](https://www.synfig.org/): Nice 2D animation package. I dabble with projects, and when I do, this works for me. It's simple and intuitive for the level of projects I make.
+  
+  - [OpenToonz](https://opentoonz.github.io/e/) is really cool 2D animation software that's most well-known for being used by Studio Ghibli and *Futurama*. It is possible that OpenToonz is better than Synfig, but I don't do enough animation to know the difference, and OpenToonz is less intuitive to me.
 
 ## Media Server
 
