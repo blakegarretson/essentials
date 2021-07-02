@@ -1,6 +1,6 @@
 # Not Essential
 
-So this is just a big, unorganized list of software that I've tried out, but I just didn't like it better than other solutions that made it to my Essential list. I'm maintaining this list of "rejects" just so I can remember if I've evaluated a program, and what I thought of it. Sometimes I forget why I didn't like a program, and I'm hoping this this saves me some time.
+So this is just a big, unorganized list of software that I've tried out, but I just didn't like it better than other solutions that made it to my Essential list. I'm maintaining this list of "rejects" just so I can remember if I've evaluated a program, and what I thought of it. Sometimes I forget why I didn't like a program, and I'm hoping this saves me some time. I just started this rejects list recently, so there's a lot of programs missing, but from now on I'll add programs as I try them.
 
 So here we go, in no particular order...
 
