@@ -1,1 +1,1 @@
-scp about.html changelog.html index.html main.css blakegarretson@blakesessentials.com:/home/blakegarretson/blakesessentials.com/
+scp about.html changelog.html index.html rejects.html main.css blakegarretson@blakesessentials.com:/home/blakegarretson/blakesessentials.com/
