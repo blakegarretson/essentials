@@ -4,6 +4,8 @@ So this is just a big, unorganized list of software that I've tried out, but I j
 
 So here we go, in no particular order...
 
+- [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm) is a fantastic photo viewer with a truly impressive set of editing features. After Google retired their Picasa software I used FastStone for about a year, but I just couldn't get on board with the unintuitive interface, and I ended up switching to something else.
+
 - [Filezilla](https://filezilla-project.org/) was my go-to ftp/sftp client... and then they started bundling their installer with "optional offers" and I accidentally installed some adware garbage. I moved on.
 
 - [Speccy](https://www.ccleaner.com/speccy) is a system information tool. It isn't really much easier than opening the appropriate Windows dialog and getting the same information. It just collects it all in one place. Convenient, but not essential to me.
