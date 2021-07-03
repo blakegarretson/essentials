@@ -6,9 +6,19 @@ So here we go, in no particular order...
 
 - [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm) is a fantastic photo viewer with a truly impressive set of editing features. After Google retired their Picasa software I used FastStone for about a year, but I just couldn't get on board with the unintuitive interface, and I ended up switching to something else.
 
+- [MyPaint](http://mypaint.org/) is a really nice digital painting program with a spartan interface. It definitely gets the job done, I just like Krita better.
+
+- [HoneyView](http://www.bandisoft.com/honeyview/) is an image viewer with a weird interface. Nothing exciting here.
+
+- [digiKam](https://www.digikam.org/) is a photo manager/editor. It has RAW processing and some other great features, it just isn't my favorite. I'm keeping my eye on it though because it's actively developed.
+
+- [Jellyfin](https://jellyfin.org/) is my media server "Plan B" if Plex ever fails me or starts crippling their free software. It's pretty good feature-wise, but the ecosystem could use a little polish depending on the platform you're streaming to.
+
 - [Filezilla](https://filezilla-project.org/) was my go-to ftp/sftp client... and then they started bundling their installer with "optional offers" and I accidentally installed some adware garbage. I moved on.
 
 - [Speccy](https://www.ccleaner.com/speccy) is a system information tool. It isn't really much easier than opening the appropriate Windows dialog and getting the same information. It just collects it all in one place. Convenient, but not essential to me.
+
+- There are a metric ton of audio players out there, including some veterans that have been around for a couple decades. Some of the ones I've tried that are still viable options: [foobar200](https://www.foobar2000.org/), [AIMP](http://www.aimp.ru/), [Winamp](https://winamp.com/), [MediaMonkey](https://www.mediamonkey.com/), and [Clementine](https://www.clementine-player.org/). They all have something to offer, but for my tastes, they don't come out on top.
 
 - [Malwarebytes](https://www.malwarebytes.com/) is a popular computer security software, but I just don't find the free version much better than the virus protection built-in to Windows.
 
