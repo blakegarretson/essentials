@@ -6,6 +6,6 @@ This list of software may not include your favorite category of software, but al
 
 You might ask, "why do you just have one huge list of programs on one page instead of separate pages for each category?" The simple answer is it's more efficient for me to find what I want this way. If I'm looking for the name of that screenshot app, I just hit CTRL-F and search for "screenshot". That's really it. Also, I hate it when websites spread content over a ton of pages for seemingly no reason (although the reason is usually "ads".)
 
-And finally, just for my on convenience, I started tracking the programs I try but *don't* make it to the **Essentials** list. If you're interested, check out my [Rejects](rejects.html) list.
+And finally, just for my own convenience, I started tracking the programs I try but *don't* make it to the **Essentials** list. If you're interested, check out my [Rejects](rejects.html) list.
 
 ![](belogoopt.svg)
