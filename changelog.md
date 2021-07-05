@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021-07-05
+
+I switched my VNC pick back to **UltraVNC**. I had dabbled with TigerVNC for a while because it felt a little more lightweight, but UltraVNC is just better for my use cases.
+
 ## 2021-06-29
 
 Added a mention of **Pluto** alongside Jupyter.

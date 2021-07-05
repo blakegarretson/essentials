@@ -78,7 +78,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Media Server
 
-- [Plex](https://plex.tv/): The best personal media server for steaming your media to your Roku, Fire Stick, smart TV, etc. Just tell Plex where you store your movies, TV shows, and music and it will do the rest, including downloading cover art and show descriptions. I actually run my Plex server on a Linux SBC now, so I don't technically need this on Windows anymore, but I'm keeping it on my list for posterity because it's really fantastic software.
+- [Plex](https://plex.tv/): The best personal media server for steaming your media to your Roku, Fire Stick, smart TV, etc. Just tell Plex where you store your movies, TV shows, and music and it will do the rest, including downloading cover art and show descriptions. I actually run my Plex server on a Linux SBC now, so I don't technically need this on Windows anymore, but I'm keeping it on my list for posterity because it's really useful software.
 
 # Music & Audio
 
@@ -361,7 +361,7 @@ than a general purpose scripting language, hence this separate category.
 
 ## Remote Desktop Control
 
-- [TigerVNC](http://tigervnc.org/): If you need remote desktop control, this lightweight VNC client/server forked from TightVNC does the job. I just don't find myself using VNC as much as I used to as I move more functions to the cloud and rely less on my own desktops.
+- [UltraVNC](https://www.uvnc.com/downloads/ultravnc.html): If you need remote desktop control, UltraVNC will do the job fine. I just don't find myself using VNC as much as I used to as I move more functions to the cloud and rely less on my own desktops.
 
   - [Teamviewer](https://www.teamviewer.com/): If you play "IT Guy" for your friends and family, a tool like Teamviewer can be handy as it makes it easy for non-techy people to add remote control. I can send them a download link, they install it, and tell me the ID and password that is displayed in the app so I can connect. That's it. No other configuration is needed.
 
