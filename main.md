@@ -88,17 +88,19 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [MP3Tag](https://www.mp3tag.de/en/) is a universal batch tag editor that handles MP3s along with every other popular audio format. The robust file renaming/retagging tools and online database lookups make this powerful option for cleaning up your audio collection. It's worth having around for the odd job that MusicBee can't handle.
 
-## Audio Editor
-
-- [Audacity](http://audacityteam.org/): Legit multi-track audio editor. From recording, to mixing, to filters and effects, Audacity has you covered.
-
 ## Audio Conversion
 
 - [fre:ac](http://www.freac.org/): free audio converter and CD ripper for various formats and encoders including MP3, MP4/M4A, AAC, and more.
 
-## Digital Audio Workstation
+## Audio Editor
+
+- [Audacity](http://audacityteam.org/): Simple multi-track audio waveform editor. From recording, to basic mixing, to filters and effects, Audacity has you covered. Just keep in mind this isn't a full-blown DAW, so don't expect non-destructive mixing and whatnot.
+
+## Digital Audio Workstation (DAW)
 
 - [Cakewalk](https://www.bandlab.com/products/cakewalk): This used to be a commercial DAW that is now free as of 2018. It's a rebranded version of SONAR Platinum, and it's incredibly powerful. This is a great place to start if you want to make some music.
+
+  - If you're a Linux user, you may be asking, "Why isn't [Ardour](https://ardour.org/) listed here? It's a great DAW!" The simple answer is on Windows it isn't really "free". While it is open source, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software. Having said all that, it might be worth your money, so check it out. 
 
 ## Step Sequencer
 
