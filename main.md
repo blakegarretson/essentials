@@ -100,6 +100,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Cakewalk](https://www.bandlab.com/products/cakewalk): This used to be a commercial DAW that is now free as of 2018. It's a rebranded version of SONAR Platinum, and it's incredibly powerful. This is a great place to start if you want to make some music.
 
+  - Another great DAW is [Waveform Free](https://www.tracktion.com/products/waveform-free). While there is a Pro version with more features, the free version has no limitations and is very capable.
+  
   - If you're a Linux user, you may be asking, "Why isn't [Ardour](https://ardour.org/) listed here? It's a great DAW!" The simple answer is on Windows it isn't really "free". While it is open source, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software. Having said all that, it might be worth your money, so check it out. 
 
 ## Step Sequencer
