@@ -12,7 +12,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [VLC](http://www.videolan.org/): Video player for nearly any format imaginable. Especially useful for when you need to do uncommon things like adjust audio/Bluetooth sync or load custom subtitles. The interface isn't fancy, but it has the features you need and stays out of your way.
 
-## Photo/Image Editor
+## Raster Photo/Image Editor
 
 - [GIMP](http://www.gimp.org/): Robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it's not really suited for DTP pros either since it's missing native CMYK support. Having said that, if you're doing non-print stuff, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation.
 
@@ -22,9 +22,13 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Photoscape X](http://x.photoscape.org/): Great program for photo viewing and basic touch-up. It makes it easy to do common tasks like cropping to standard sizes and removing red-eye. There is a Pro version with extra features, but the free version boasts a truly impressive feature set that is more than enough for most people. If you buy the Pro version it's because you like it so much, not because you felt forced into it because the free version was so crippled.
 
-  - If the Photoscape X workflow doesn't agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has a somewhat old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
+### Also check out:
 
-  - If all you need is a super-fast, image viewer (that incidentally has some robust editing features), look no further than [IrfanView](https://www.irfanview.com/). I started using it in the late 1990s, and it is still going strong. This is a great program to make your default action when clicking on JPEGs, GIFs, and PNGs.
+- If the Photoscape X workflow doesn't agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has a somewhat old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
+
+- [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm) is a fantastic photo viewer with a truly impressive set of editing features. After Google retired their Picasa software I used FastStone for about a year, but I just couldn't get on board with the (for me) unintuitive interface, and I ended up switching to something else. While it didn't work out for me, it might be perfect for you.
+
+- If all you need is a super-fast, image viewer (that incidentally has some robust editing features), look no further than [IrfanView](https://www.irfanview.com/). I started using it in the late 1990s, and it is still going strong. This is a great program to make your default action when clicking on JPEGs, GIFs, and PNGs.
 
 ## Raw Photography Workflow
 
@@ -38,7 +42,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Krita](https://krita.org/en/): Great digital painting software. It actually could replace Gimp for many use cases, and it supports CMYK.
 
-  - Another cool option is Autodesk's [Sketchbook](https://sketchbook.com/), which is now free (although you will need to create a free Autodesk ID to register it.).
+  - Another cool option is Autodesk's [Sketchbook](https://sketchbook.com/), which is now free (although you will need to create a free Autodesk ID to register it.) I just don't want to invest the time in learning a program, saving a lot of files in their proprietary format, and then they yank the rug out. Autodesk has done that before, so I'm leery. Other than that, it's great software... but so is Krita.
 
 ## Screenshots/Screen Capture
 
@@ -96,13 +100,15 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Audacity](http://audacityteam.org/): Simple multi-track audio waveform editor. From recording, to basic mixing, to filters and effects, Audacity has you covered. Just keep in mind this isn't a full-blown DAW, so don't expect non-destructive mixing and whatnot.
 
+  - A simple single-track alternative to Audacity is [AudioDope](http://www.audiodope.org/). If you just need to quickly trim an audio file or apply some basic filters, AudioDope is a good choice.
+
 ## Digital Audio Workstation (DAW)
 
 - [Cakewalk](https://www.bandlab.com/products/cakewalk): This used to be a commercial DAW that is now free as of 2018. It's a rebranded version of SONAR Platinum, and it's incredibly powerful. This is a great place to start if you want to make some music.
 
   - Another great DAW is [Waveform Free](https://www.tracktion.com/products/waveform-free). While there is a Pro version with more features, the free version has no limitations and is very capable.
   
-  - If you're a Linux user, you may be asking, "Why isn't [Ardour](https://ardour.org/) listed here? It's a great DAW!" The simple answer is on Windows it isn't really "free". While it is open source, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software. Having said all that, it might be worth your money, so check it out. 
+  - If you're a Linux user, you may be asking, "Why isn't [Ardour](https://ardour.org/) listed here? It's a great DAW!" The simple answer is on Windows it isn't really "free". While it is open source, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software. Having said all that, it might be worth your money, so check it out.
 
 ## Step Sequencer
 
