@@ -459,6 +459,8 @@ search file contents, although that will take much longer.
 
 - [WildRename](http://www.cylog.org/utilities/wildrename.jsp): Wonderfully robust file renaming utility that supports regular expressions.
 
+  - I've already listed [Microsoft PowerToys](https://github.com/microsoft/PowerToys) elsewhere in this list, but it's worth mentioning that it comes with PowerRename. PowerRename has less features than WildRename, but it is still incredibly powerful while the simple interface is easier to figure out.
+
 - [WildReplace](http://www.cylog.org/utilities/wildreplace.jsp): Search for files and replace text in the files.
 
 ## Backup/Synchronization
@@ -523,7 +525,7 @@ search file contents, although that will take much longer.
 
   - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Sometimes you need to know what files a process is changing, or maybe you want to know which program is changing a file. Process Monitor, um, well, it ***monitors*** your ***processes*** to find that out.
 
-- [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite for decades ago, but it's back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap you CapsLock key to act like a Shift key so you aren't aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
+- [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite for decades ago, but it's back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, PowerRename, a color picker, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap you CapsLock key to act like a Shift key so you aren't aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
 
 ## Linux Environment
 
