@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021-09-17
+
+Added **Obsidian** under note-taking. I've been trying it out for a while, and it definitely does a lot right.
+
 ## 2021-07-11
 
 Added **Waveform Free** as an option for a DAW, and mentioned **Ardour** while I was at it.
