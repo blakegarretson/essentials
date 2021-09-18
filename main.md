@@ -240,7 +240,7 @@ than a general purpose scripting language, hence this separate category.
 
 ## Markup & TeX/LaTeX Tools
 
-- [Pandoc](http://pandoc.org/): Convert markup formats to other formats. Handles Markdown, html, EPUB, LaTeX, etc.  This is an extremely powerful program, and I actually use it to build this website.
+- [Pandoc](http://pandoc.org/): Convert markup formats to other formats. Handles Markdown, html, EPUB, LaTeX, etc.  This is an extremely powerful program, and I actually use it to build this website through the use of its robust template system. This whole website is just a few Markdown files that pandoc converts into HTML after adding headers, footers, and CSS.
 
 - [MiKTeX](http://www.miktex.org/): A port of the TeX document publishing system that converts source files into beautifully typeset documents. If you know what TeX/LaTeX are, you need this. If you don't know what they are, *and* you care about breathtaking documents, then you need to learn TeX.
 
@@ -250,7 +250,7 @@ than a general purpose scripting language, hence this separate category.
 
 ## Office Suite
 
-- [LibreOffice](https://www.libreoffice.org/): Provides all the usual "office" suspects, like a word processor, spreadsheet, and presentation applications. While still lacking the polish of MS Office, for most use cases this is a passable replacement. The key functionality is there, and the major gaps of the early releases (e.g. Goal Seek and Pivot Tables) have long since been filled. Worth noting: LibreOffice Draw works well for flowcharts (similar to Visio).
+- [LibreOffice](https://www.libreoffice.org/): Provides all the usual "office" suspects, like a word processor, spreadsheet, and presentation applications. While still lacking the polish of MS Office, for most use cases this is a reasonable replacement. The key functionality is there, and the major gaps of the early releases (e.g. Goal Seek and Pivot Tables) have long since been filled. Worth noting: LibreOffice Draw works well for flowcharts (similar to Visio).
 
   - Full disclosure, I don't find LibreOffice essential in the sense that I use it often. I like LibreOffice as a convenience so I can easily open an MS Office file or perform the odd task, but I actually far prefer working in the cloud with Google Docs and Sheets. In some ways, Sheets is even better than Excel or LibreOffice Calc with conveniences like the `split()` function.
 
@@ -316,8 +316,9 @@ than a general purpose scripting language, hence this separate category.
 
   - [JASP](https://jasp-stats.org/) looks very similar to Jamovi, and in fact, at first glance the interfaces appear to be near clones. While I find Jamovi just plain better in a number of ways, I'm keeping my eye on JASP because it appears to be under active development as well, and JASP supports some analyses that Jamovi doesn't while still offering an easy-to-use interface.
 
-  - On paper, [BlueSky Statistics](https://www.blueskystatistics.com/) should be the easy winner in this category. It has many,many more features than Jamovi. However, I don't find the interface as intuitive for casual analysis, and by default the plotslook fairly bad. The plots can certainly be tweaked through the R language, but it isn't transparent to the casual user. Besidesthe impressive collection of analysis methods, the real reason I might reach for BlueSky instead of Jamovi is the robust set ofdata manipulation tools.
-  - [PAST](https://www.nhm.uio.no/english/research/infrastructure/past/) is the only non-"R front-end" in this category. If youlook past the deceptively plain interface, this is a super powerful stats program chock-full of functionality. There's no safetynet or hand-holding to help you interpret the results, but it has an amazing manual describing the equations used and evenincludes extensive citations, so this is no black box. It has a very robust set of statistical plotting tools, and thehistograms are actually pretty good with a fair amount of customization (including overlaying a normal distribution).
+  - On paper, [BlueSky Statistics](https://www.blueskystatistics.com/) should be the easy winner in this category. It has many,many more features than Jamovi. However, I don't find the interface as intuitive for casual analysis, and by default the plots look fairly bad. The plots can certainly be tweaked through the R language, but it isn't transparent to the casual user. Besides the impressive collection of analysis methods, the real reason I might reach for BlueSky instead of Jamovi is the robust set of data manipulation tools.
+  
+  - [PAST](https://www.nhm.uio.no/english/research/infrastructure/past/) is the only non-"R front-end" in this category. If you look past the deceptively plain interface, this is a super powerful stats program chock-full of functionality. There's no safety net or hand-holding to help you interpret the results, but it has an amazing manual describing the equations used and even includes extensive citations, so this is no black box. It has a very robust set of statistical plotting tools, and the histograms are actually pretty good with a fair amount of customization (including overlaying a normal distribution).
 
 ## 2D/3D CAD Modeling
 
@@ -373,9 +374,11 @@ than a general purpose scripting language, hence this separate category.
 
 ## Remote Desktop Control
 
-- [UltraVNC](https://www.uvnc.com/downloads/ultravnc.html): If you need remote desktop control, UltraVNC will do the job fine. I just don't find myself using VNC as much as I used to as I move more functions to the cloud and rely less on my own desktops.
+- [Chrome Remote Desktop](https://remotedesktop.google.com/): For the simplicity, it's hard to beat this solution to remote access and support. It makes it easy to check something on my desktop computer while I'm away from the house, and it's also handy if you are the "IT Guy" for your friends and family. They can set this up pretty easily and share their screen with you so you can fix their issue.
 
-  - [Teamviewer](https://www.teamviewer.com/): If you play "IT Guy" for your friends and family, a tool like Teamviewer can be handy as it makes it easy for non-techy people to add remote control. I can send them a download link, they install it, and tell me the ID and password that is displayed in the app so I can connect. That's it. No other configuration is needed.
+  - If you aren't a Chrome user, you may prefer [Teamviewer](https://www.teamviewer.com/). It is similar in that it makes it easy for non-techy people to add remote control. I can send them a download link, they install it, and tell me the ID and password that is displayed in the app so I can connect. That's it. No other configuration is needed.
+
+- [UltraVNC](https://www.uvnc.com/downloads/ultravnc.html): If you need full-blown, full-featured remote desktop control, UltraVNC will do the job fine. I just don't find myself using VNC as much as I used to as I move more functions to the cloud and rely less on my own desktops. This is a more cumbersome solution because it requires port-forwarding and either a static IP or a dynamic DNS solution to make it useful outside of your home network.
 
 ## Chat/Messenging
 

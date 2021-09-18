@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021-09-18
+
+Added **Chrome Remote Desktop** for a remote access solution. Its really simple and requires none of the configuration headaches that come along with VNC.
+
 ## 2021-09-17
 
 Added **Obsidian** under note-taking. I've been trying it out for a while, and it definitely does a lot right.
