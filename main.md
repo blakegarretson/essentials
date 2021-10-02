@@ -390,9 +390,9 @@ than a general purpose scripting language, hence this separate category.
 
 - If privacy or security is paramount to you, then [Signal](https://signal.org/) has Telegram beat. In Telegram, end-to-end encryption is only optional, and you can't encrypt group chats. Signal fixes those shortcomings, but falls short of Telegram in other areas.
 
-## Two-Factor Authentication
+## Multi-Factor Authentication
 
-- [Authy](https://authy.com/): Really handy way to add 2FA to all your accounts and across all devices. There are Authy mobile apps as well, so once you add Authy to a service (Gmail, Facebook, Amazon, etc.), you are good to go whether you're on your desktop, laptop, phone, or tablet.
+- [Authy](https://authy.com/): Really handy way to add multi-factor authentication to all your accounts and across all devices. There are Authy mobile apps as well, so once you add Authy to a service (Gmail, Facebook, Amazon, etc.), you are good to go whether you're on your desktop, laptop, phone, or tablet.
 
 # File & Disk Utilities
 
@@ -478,7 +478,7 @@ search file contents, although that will take much longer.
 
   - Maybe you don't trust Google or you want more control of your data. If you'd rather host your own cloud, it's hard to beat [Syncthing](https://syncthing.net/). If it's confusing why this is different than something like FreeFileSync, Syncthing shines at realtime *continuous* synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. The huge bonus is the Syncthing Android app, allowing you to sync files between your computer and your phone.
 
-  - Also, if you are an Amazon Prime member, it's hard to pass up the [Amazon Photos desktop app](https://www.amazon.com/b?ie=UTF8&node=16384500011) which let's you backup unlimited photos at their original resolution for free.
+  - Also, if you are an Amazon Prime member, it's hard to pass up the [Amazon Photos desktop app](https://www.amazon.com/b?ie=UTF8&node=16384500011) which lets you backup unlimited photos at their original resolution for free. The Amazon Photos app is also the client for syncing anything you like to Amazon Drive. Extra storage space for Amazon Drive is currently cheaper than Google Drive, so it's a fairly attractive backup option.
 
 # System & Misc. Utilities
 
@@ -500,9 +500,9 @@ search file contents, although that will take much longer.
 
 ## Console/Command Line
 
-- [ConEmu](https://conemu.github.io/): The console emulator that I always dreamed of on Windows, but never had. It is a must if you use the command line in Windows. It is basically just a wrapper for cmd.exe, Powershell, Python, whatever, but it is very configurable.
+- [Windows Terminal](https://github.com/microsoft/terminal) is a fairly new offering, but the features have been steadily expanding, and it quickly became my console of choice with handy features like themes, panes, and a command palatte. It happily handles PowerShell, cmd.exe, and WSL (AKA "Legacy") shells.
 
-  - Also worth considering is Microsoft's newly minted [Windows Terminal](https://github.com/microsoft/terminal) which works very well as of version 1.0, but it lacks the feature set of ConEmu.
+  - [ConEmu](https://conemu.github.io/): The console emulator that I always dreamed of (but never had) on Windows. If Windows Terminal had not come along, this would be my first choice, and even now it still offers far more configuration options than Terminal, so you may find it works better for your needs.
 
 - [Swiss File Knife](http://stahlworks.com/dev/swiss-file-knife.html): This is the essential command line tool set for Windows. It does a little of everything, and you need to just read the list of commands on the website to believe it. It's a single executable, so it's portable as well.
 
