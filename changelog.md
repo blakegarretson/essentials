@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021-10-01
+
+**Windows Terminal** dethroned **ConEmu** for my choice of terminal software. I just like it better now. It's simple but still has a robust feature set.
+
 ## 2021-09-18
 
 Added **Chrome Remote Desktop** for a remote access solution. Its really simple and requires none of the configuration headaches that come along with VNC.
