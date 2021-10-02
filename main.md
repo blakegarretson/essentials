@@ -500,7 +500,7 @@ search file contents, although that will take much longer.
 
 ## Console/Command Line
 
-- [Windows Terminal](https://github.com/microsoft/terminal) is a fairly new offering, but the features have been steadily expanding, and it quickly became my console of choice with handy features like themes, panes, and a command palatte. It happily handles PowerShell, cmd.exe, and WSL (AKA "Legacy") shells.
+- [Windows Terminal](https://github.com/microsoft/terminal) is a fairly new offering, but the features have been steadily expanding, and it quickly became my console of choice with handy features like themes, panes, and a command palatte. It happily handles PowerShell, cmd.exe, and WSL shells.
 
   - [ConEmu](https://conemu.github.io/): The console emulator that I always dreamed of (but never had) on Windows. If Windows Terminal had not come along, this would be my first choice, and even now it still offers far more configuration options than Terminal, so you may find it works better for your needs.
 
@@ -607,9 +607,7 @@ $ startxfce4
 
 - [Lectrote](https://github.com/erkyrath/lectrote): This is my current choice for a multi-format interpreter that handles more than just Z machine files, and while it's the new kid on the block, it has novel features like autosave.  It looks really nice to me (great fonts and themes), but it uses ZVM as the Z interpreter, so it only supports Z3, Z4, Z5, & Z8.  Other format support includes Glulx, Hugo, TADS, and Ink.  This seems to be under active development, so we'll see where it goes.
 
-  - [Gargoyle](http://ccxvii.net/gargoyle/) deserves a mention because it supports every format I've ever run across because it is basically just a wrapper for a number of interpreters. The default (and excellent)
-
-  - [Bocfel](https://cspiegel.github.io/bocfel/) Z machine interpreter has partial support for z6 files too.  Its other claim to fame is its focus on good typesetting, which is a really interesting niche.  But be warned, it essentially has no user interface, so you need to edit a text file to change fonts and whatnot.
+  - [Gargoyle](http://ccxvii.net/gargoyle/) deserves a mention because it supports every format I've ever run across because it is basically just a wrapper for a number of interpreters. The default (and excellent) [Bocfel](https://cspiegel.github.io/bocfel/) Z machine interpreter has partial support for z6 files too.  Its other claim to fame is its focus on good typesetting, which is a really interesting niche.  But be warned, it essentially has no user interface, so you need to edit a text file to change fonts and whatnot.
 
   - [Filfre](http://maher.filfre.net/filfre/index.html): This is easier to use than Gargoyle for sure, so I'm mentioning it here, but it has minimal customization options.  You might want to choose this if you need Glulx support and want an interface similar to Windows Frotz.  It's probably not the best choice for Z-Machine files because it only supports versions 3, 4, 5, and 8 story files. The project has been stagnant since 2013, so what you see is what you get.
 
