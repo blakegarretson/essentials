@@ -216,9 +216,9 @@ than a general purpose scripting language, hence this separate category.
 
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro): This font from Adobe looks very clean on high resolution monitors. The family of fonts includes Extra Light, Light, Medium, and Black variations. This is just a simple, no frills font that's easy to throw on a random computer to get a decent font quickly. Perfect for when the two fonts below can be overkill.
 
-- [Input](https://input.fontbureau.com/): Incredibly flexible font system that lets you customize letters (a/g/i/l/0) and symbols (asterisk/braces) to your liking, as well as choose from 7 weights and 4 widths, and sans, serif, and mono variants. There are 168 styles in all, so you will find one that works for any given situation.
+- [Input](https://input.djr.com/): Incredibly flexible font system that lets you customize letters (a/g/i/l/0) and symbols (asterisk/braces) to your liking, as well as choose from 7 weights and 4 widths, and sans, serif, and mono variants. There are 168 styles in all, so you will find one that works for any given situation.
 
-- [Iosevka](https://typeof.net/Iosevka/): Similar to the Input font, Iosevka raises the bar by adding ligatures, a couple more weights, 188 variants, and incredible character coverage with thousands and thousands of supported glyphs. While you can't customize individual characters like the Input font allows, there are variants with different character and symbol styles, so you should be able to find one that has the look you want. There are so many choices it can be confusing, but if want a general purpose font that works everywhere (but doesn't have ligatures), start with the "Iosevka Fixed" font.
+- [Iosevka](https://typeof.net/Iosevka/): Similar to the Input font, Iosevka raises the bar by adding ligatures, a couple more weights, 188 variants, and incredible character coverage with thousands and thousands of supported glyphs. There are plenty of variants with different character and symbol styles, so you should be able to find one that has the look you want. There are so many choices it can be confusing, but if want a general purpose font that works everywhere (but doesn't have ligatures), start with the "Iosevka Fixed" font.
 
 # Document Authoring & Viewing
 

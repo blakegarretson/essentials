@@ -28,7 +28,7 @@ So here we go, in no particular order...
 
 - [Nitro PDF reader](https://www.gonitro.com/pdf-reader) is totally fine. I just don't see a reason to switch to it.
 
-- [cmder](https://cmder.net/) is a terminal app based on **ConEmu**. It's pretty, but I'm sticking with **ConEmu** for now. We'll see how this develops.
+- [cmder](https://cmder.net/) is a terminal app based on **ConEmu**. It's pretty, but isn't significantly better than **ConEmu** for now. We'll see how this develops.
 
 - [Alacrity](https://github.com/alacritty/alacritty) is a decent terminal emulator, but it really needs a graphical config editor.
 
@@ -93,3 +93,5 @@ So here we go, in no particular order...
 - [AutoHotkey](https://www.autohotkey.com/) is pretty great, but it's also showing it's age and just isn't essential for me anymore. Part of the problem for AHK is software in general has gotten better, so I just don't need to use it in most applications where I formerly used it.
 
 - [MediaBang Paint Pro](https://medibangpaint.com/en/pc/) is program for creating digital art and comics. It's pretty specific, and I don't think it's better than Krita. Not to mention MediaBang has ads while Krita is ad-free.
+
+- [Calligra](https://calligra.org/) is KDE's office suite. The interface lacks polish (widgets being cramped or labels being cut off) and it really doesn't do anything better than LibreOffice.
