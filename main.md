@@ -278,6 +278,10 @@ than a general purpose scripting language, hence this separate category.
 
   - If you need a graphing calculator, check out the [GeoGebra](https://www.geogebra.org/download) app suite. There are several downloadable apps in the suite, and there is some overlap, but try downloading both the graphing calculator and the CAS calculator and see which works best for you. The CAS version lets you do things like integrate and derive formulas as you graph them. (Note: This is an easy-to-use app only suitable for high school or low level college problems. For a real CAS, see below.)
 
+## Unit Conversion
+
+- [ConvertAll](http://convertall.bellz.org/) is what you need if you are looking for a flexible, powerful unit conversion solution. It really shines at combining fundamental units to build more complex units. The interface is a strong point. Instead of scrolling through long lists of supported units, you can just start typing and the list is automatically filtered.
+
 ## Graphing/Plotting
 
 *Note that this section is dedicated to standalone graphing/plotting software, but apps in other categories (e.g. statistics, CAS, and office suites) have graphing/plotting capabilties as well. Also worth noting, Python libraries like Matplotlib and Seaborn (see [Programming](#programming)) make standalone graphing software somewhat redundant for me, but the feature sets and easier-to-use interfaces make these apps below still worth checking out.*
