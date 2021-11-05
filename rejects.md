@@ -97,3 +97,7 @@ So here we go, in no particular order...
 - [Calligra](https://calligra.org/) is KDE's office suite. The interface lacks polish (widgets being cramped or labels being cut off) and it really doesn't do anything better than LibreOffice.
 
 - [Converber](http://www.xyntec.com/unit-converter-download.htm) is a decent unit converter, but having to select the unit from a list (instead of typing) is cumbersome.
+
+- [SyncBackFree](https://www.2brightsparks.com/freeware/freeware-hub.html) was my file backup choice for many years, but the alternatives eventually surpassed it for my uses.
+
+- [PSPad](http://www.pspad.com/en/) was briefly my text editor of choice 20 years ago (maybe 2002 or so?), and while it is still maintained, the UI is just badly dated. Looking at it today it looks like a cluttered mess.

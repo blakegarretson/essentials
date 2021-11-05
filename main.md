@@ -478,7 +478,7 @@ search file contents, although that will take much longer.
 
   - For something more involved than simple "folder sync", [Duplicati](https://www.duplicati.com/) might be what you need. It does incremental backups and data deduplication, and it works nicely over a network, making remote admin a breeze.
 
-- [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): For realtime cloud backup and synchronization, this is an easy solution if you're invested into the Google ecosystem, which I am. Backs up photos and anything else I tell it.
+- [Google Drive for Desktop](https://www.google.com/drive/download/): For realtime cloud backup and synchronization, this is an easy solution if you're invested into the Google ecosystem, which I am. Backs up photos and anything else I tell it.
 
   - Maybe you don't trust Google or you want more control of your data. If you'd rather host your own cloud, it's hard to beat [Syncthing](https://syncthing.net/). If it's confusing why this is different than something like FreeFileSync, Syncthing shines at realtime *continuous* synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. The huge bonus is the Syncthing Android app, allowing you to sync files between your computer and your phone.
 
@@ -589,9 +589,11 @@ $ startxfce4
 
 ## Games Launchers
 
-- [Steam](http://store.steampowered.com/): Must-have for PC gaming. Regardless of the two options below, I prefer Steam every time I have a choice.
+- [Steam](http://store.steampowered.com/): Must-have for PC gaming. I prefer Steam every time I have a choice.
 
-- [Epic Games](https://www.epicgames.com/): I'm mostly here for the free games.
+- [GOG Galaxy](https://www.gog.com/galaxy) is the official launcher for games bought on GoG.com, but it also serves as a decent universal game library since it will work with any PC game regardless of where it was bought.
+
+- [Epic Games](https://www.epicgames.com/): I'm mostly here for the free games. Occasionally there are exclusives or sales that might be worth using the Epic store.
 
 - [Amazon Games](https://download.amazongames.com/AmazonGamesSetup.exe): Prime members get free games, otherwise I wouldn't bother.
 
