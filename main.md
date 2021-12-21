@@ -374,7 +374,7 @@ than a general purpose scripting language, hence this separate category.
 
 - [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/): Awesome ssh/telnet client. It's been the premier free terminal client for so many years because it's simple and works while not skimping on features.
  
-  - [Tabby](https://tabby.sh/) is the only client that has ever tempted me away from Putty. At first it doesn't seem as full-featured, but keep digging and you'll see all the SSH options you need in a *really* customizable terminal. This also makes a wonderful terminal.
+  - [Tabby](https://tabby.sh/) is the only client that has ever tempted me away from Putty. At first it doesn't seem as full-featured, but keep digging and you'll see all the SSH options you need in a *really* customizable terminal. This also makes a wonderful terminal for local shells.
 
 ## File Transfer
 

@@ -6,6 +6,8 @@ Added **Tabby** as a second option under **Windows Terminal**. It's a great app.
 
 Expanded the recommendation for **Transmission**.
 
+Added **OBS Studio**.
+
 ## 2021-10-01
 
 **Windows Terminal** dethroned **ConEmu** for my choice of terminal software. I just like it better now. It's simple but still has a robust feature set.
