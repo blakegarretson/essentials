@@ -52,6 +52,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
   - ***Worth noting:*** recent versions of Windows 10 now come with a tool called "Snip & Sketch" that does something similar (use SHIFT + WINDOWS + S key combo to access it), although it doesn't automatically save the image to a file.
 
+## Live Streaming 
+
+- [OBS Studio](https://obsproject.com/): While not exactly my jam, if you're into live streaming it's hard to beat OBS as a solid choice.
+
 ## Video Conversion
 
 - [HandBrake](https://handbrake.fr/): Convert video from/to nearly any format. While incredibly powerful and complex, HandBrake makes it really simple to get started. If you don't want anything special, just drag and drop a file, select a preset target format (e.g. Roku 1080p30 or Android 720p30), and hit start.
@@ -369,12 +373,16 @@ than a general purpose scripting language, hence this separate category.
 ## Remote Shell Access
 
 - [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/): Awesome ssh/telnet client. It's been the premier free terminal client for so many years because it's simple and works while not skimping on features.
+ 
+  - [Tabby](https://tabby.sh/) is the only client that has ever tempted me away from Putty. At first it doesn't seem as full-featured, but keep digging and you'll see all the SSH options you need in a *really* customizable terminal. This also makes a wonderful terminal.
 
 ## File Transfer
 
 - [WinSCP](http://winscp.net/eng/index.php): Great ftp/sftp/scp client with lots of advanced features like bandwidth limiting and shutting down the program or computer after file transfers are done.
 
-- [qBittorrent](http://www.qbittorrent.org/): Lightweight, yet powerful, BitTorrent client. This is basically uTorrent without the tedious ads. (For server use, I prefer [Transmission](https://transmissionbt.com/).)
+- [qBittorrent](http://www.qbittorrent.org/): Lightweight, yet powerful, BitTorrent client. 
+  
+  - For server use, I prefer [Transmission](https://transmissionbt.com/). It's an especially nice client for remote controlling a Transmission daemon running on a Linux server. The Windows interface isn't bad, it's just a bit spartan, which is why I typically recommend qBittorrent for normal users.
 
 ## Remote Desktop Control
 
@@ -500,13 +508,15 @@ search file contents, although that will take much longer.
 
 - [Bleachbit](https://www.bleachbit.org/) will delete stuff you don't need hanging around like logs, temporary files, "recently used" lists, thumbnails, you-name-it. There are a lot of options out there in this category, but I like Bleachbit because it's completely free and open-source, so at least you know what it's trying to do under the hood. Be aware that it is highly debated whether you should even use a program like this as Windows has it's own tools to clean up after itself, and mucking about in the registry can cause problems you didn't ask for.
 
-  - [CCleaner](https://www.ccleaner.com/) has been around forever, and it's still a good choice for cleaning up your system. The main advantage it has over Bleachbit is the ability to fix a plethora of registry issues. (Again, maybe it's better to let it alone and not mess with the registry?)
+  - [CCleaner](https://www.ccleaner.com/) has been around forever, and it might still be a good choice for cleaning up your system, although be aware that it seems to have lost favor in some circles due to some possibly sketchy behavior. The main advantage it has over Bleachbit is the ability to fix a plethora of registry issues. (Again, maybe it's better to let it alone and not mess with the registry?)
 
 ## Console/Command Line
 
 - [Windows Terminal](https://github.com/microsoft/terminal) is a fairly new offering, but the features have been steadily expanding, and it quickly became my console of choice with handy features like themes, panes, and a command palatte. It happily handles PowerShell, cmd.exe, and WSL shells.
 
-  - [ConEmu](https://conemu.github.io/): The console emulator that I always dreamed of (but never had) on Windows. If Windows Terminal had not come along, this would be my first choice, and even now it still offers far more configuration options than Terminal, so you may find it works better for your needs.
+  - [Tabby](https://tabby.sh/) is a ridiculously customizable terminal app that handles essentially any local shell as well as serial and SSH connections. I've run into some bugs that keep me from using this exclusively, but I can see this becoming my first choice due to endless customization and a beautiful interface.
+
+  - [ConEmu](https://conemu.github.io/): The console emulator that I always dreamed of (but never had) on Windows. I used it for many years before moving on. The interface seems a bit dated, but even now it still offers far more configuration options than Terminal, so you may find it works better for your needs.
 
 - [Swiss File Knife](http://stahlworks.com/dev/swiss-file-knife.html): This is the essential command line tool set for Windows. It does a little of everything, and you need to just read the list of commands on the website to believe it. It's a single executable, so it's portable as well.
 

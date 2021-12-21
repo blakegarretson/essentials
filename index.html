@@ -95,6 +95,10 @@
 <li><p><strong><em>Worth noting:</em></strong> recent versions of Windows 10 now come with a tool called “Snip &amp; Sketch” that does something similar (use SHIFT + WINDOWS + S key combo to access it), although it doesn’t automatically save the image to a file.</p></li>
 </ul></li>
 </ul>
+<h2 id="live-streaming">Live Streaming</h2>
+<ul>
+<li><a href="https://obsproject.com/">OBS Studio</a>: While not exactly my jam, if you’re into live streaming it’s hard to beat OBS as a solid choice.</li>
+</ul>
 <h2 id="video-conversion">Video Conversion</h2>
 <ul>
 <li><p><a href="https://handbrake.fr/">HandBrake</a>: Convert video from/to nearly any format. While incredibly powerful and complex, HandBrake makes it really simple to get started. If you don’t want anything special, just drag and drop a file, select a preset target format (e.g. Roku 1080p30 or Android 720p30), and hit start.</p>
@@ -377,12 +381,18 @@
 </ul>
 <h2 id="remote-shell-access">Remote Shell Access</h2>
 <ul>
-<li><a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a>: Awesome ssh/telnet client. It’s been the premier free terminal client for so many years because it’s simple and works while not skimping on features.</li>
+<li><p><a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a>: Awesome ssh/telnet client. It’s been the premier free terminal client for so many years because it’s simple and works while not skimping on features.</p>
+<ul>
+<li><a href="https://tabby.sh/">Tabby</a> is the only client that has ever tempted me away from Putty. At first it doesn’t seem as full-featured, but keep digging and you’ll see all the SSH options you need in a <em>really</em> customizable terminal. This also makes a wonderful terminal.</li>
+</ul></li>
 </ul>
 <h2 id="file-transfer">File Transfer</h2>
 <ul>
 <li><p><a href="http://winscp.net/eng/index.php">WinSCP</a>: Great ftp/sftp/scp client with lots of advanced features like bandwidth limiting and shutting down the program or computer after file transfers are done.</p></li>
-<li><p><a href="http://www.qbittorrent.org/">qBittorrent</a>: Lightweight, yet powerful, BitTorrent client. This is basically uTorrent without the tedious ads. (For server use, I prefer <a href="https://transmissionbt.com/">Transmission</a>.)</p></li>
+<li><p><a href="http://www.qbittorrent.org/">qBittorrent</a>: Lightweight, yet powerful, BitTorrent client.</p>
+<ul>
+<li>For server use, I prefer <a href="https://transmissionbt.com/">Transmission</a>. It’s an especially nice client for remote controlling a Transmission daemon running on a Linux server. The Windows interface isn’t bad, it’s just a bit spartan, which is why I typically recommend qBittorrent for normal users.</li>
+</ul></li>
 </ul>
 <h2 id="remote-desktop-control">Remote Desktop Control</h2>
 <ul>
@@ -497,14 +507,15 @@
 <ul>
 <li><p><a href="https://www.bleachbit.org/">Bleachbit</a> will delete stuff you don’t need hanging around like logs, temporary files, “recently used” lists, thumbnails, you-name-it. There are a lot of options out there in this category, but I like Bleachbit because it’s completely free and open-source, so at least you know what it’s trying to do under the hood. Be aware that it is highly debated whether you should even use a program like this as Windows has it’s own tools to clean up after itself, and mucking about in the registry can cause problems you didn’t ask for.</p>
 <ul>
-<li><a href="https://www.ccleaner.com/">CCleaner</a> has been around forever, and it’s still a good choice for cleaning up your system. The main advantage it has over Bleachbit is the ability to fix a plethora of registry issues. (Again, maybe it’s better to let it alone and not mess with the registry?)</li>
+<li><a href="https://www.ccleaner.com/">CCleaner</a> has been around forever, and it might still be a good choice for cleaning up your system, although be aware that it seems to have lost favor in some circles due to some possibly sketchy behavior. The main advantage it has over Bleachbit is the ability to fix a plethora of registry issues. (Again, maybe it’s better to let it alone and not mess with the registry?)</li>
 </ul></li>
 </ul>
 <h2 id="consolecommand-line">Console/Command Line</h2>
 <ul>
 <li><p><a href="https://github.com/microsoft/terminal">Windows Terminal</a> is a fairly new offering, but the features have been steadily expanding, and it quickly became my console of choice with handy features like themes, panes, and a command palatte. It happily handles PowerShell, cmd.exe, and WSL shells.</p>
 <ul>
-<li><a href="https://conemu.github.io/">ConEmu</a>: The console emulator that I always dreamed of (but never had) on Windows. If Windows Terminal had not come along, this would be my first choice, and even now it still offers far more configuration options than Terminal, so you may find it works better for your needs.</li>
+<li><p><a href="https://tabby.sh/">Tabby</a> is a ridiculously customizable terminal app that handles essentially any local shell as well as serial and SSH connections. I’ve run into some bugs that keep me from using this exclusively, but I can see this becoming my first choice due to endless customization and a beautiful interface.</p></li>
+<li><p><a href="https://conemu.github.io/">ConEmu</a>: The console emulator that I always dreamed of (but never had) on Windows. I used it for many years before moving on. The interface seems a bit dated, but even now it still offers far more configuration options than Terminal, so you may find it works better for your needs.</p></li>
 </ul></li>
 <li><p><a href="http://stahlworks.com/dev/swiss-file-knife.html">Swiss File Knife</a>: This is the essential command line tool set for Windows. It does a little of everything, and you need to just read the list of commands on the website to believe it. It’s a single executable, so it’s portable as well.</p></li>
 </ul>
