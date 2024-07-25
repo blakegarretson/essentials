@@ -1,4 +1,0 @@
-sh build.cmd
-git commit -a -m "x"
-git push
-cp about.html changelog.html index.html rejects.html main.css ~/blakesessentials.com/
