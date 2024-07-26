@@ -352,7 +352,7 @@ See the [Text Editors](#text-editors) section for creating plain text files.
   
   - [SpeedCrunch](http://www.speedcrunch.org/) is a decent alternative for a calculator with fast start-up and plenty of functionality. The interface is deceptively simple, but lurking under the hood are constants, variables, an impressive list of math functions, and equation support. Unfortunately, while SpeedCrunch is cross-platform, it looks fuzzy/blurry on Mac. The graphics toolkit doesn’t seem to upscale well on hi-res monitors, so I just don’t use it on Mac.
     
-    - For a non-cloud Mac solution, [Numi](https://numi.app/) is the best free alternative. The paid version supports multiple pages/notebooks, but the free version has full functionality otherwise. Intuitive calculations (e.g. “5% of 20”) and unit conversion (although somewhat basic) make Numi a solid desktop calculator. **(Mac)**
+  - For a non-cloud Mac solution, [Numi](https://numi.app/) is the best free alternative. The paid version supports multiple pages/notebooks, but the free version has full functionality otherwise. Intuitive calculations (e.g. “5% of 20”) and unit conversion (although somewhat basic) make Numi a solid desktop calculator. **(Mac)**
 
 ### Scientific
 
