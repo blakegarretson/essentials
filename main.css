@@ -19,10 +19,12 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: white;
     margin: 0;
     background-color: #202124;
+    font-weight: 300;
+
 }
 
 .content img {
@@ -57,13 +59,13 @@ body {
     margin-top: 1em;
     margin-bottom: 1em;
     color: var(--colh1);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
 }
 
 .content h2 {
     color: var(--colh2);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
 }
 
@@ -85,15 +87,20 @@ body {
 }
 
 .content ul li ul li::marker {
-    font-family: 'Noto Serif', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
 }
 
 .content h3 {
     color: var(--colh3);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     margin-left: 2em;
+}
+
+.content strong {
+    color: var(--colh3);
+    font-weight: 500;
 }
 
 .content h3+ul {
@@ -148,7 +155,7 @@ body {
 #banner {
     color: white;
     background-color: #1d2227;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 100;
     text-align: center;
     padding: 0.8em 20px;
@@ -157,6 +164,7 @@ body {
 #banner-title {
     font-size: 3.5em;
     margin: 0;
+    font-weight: 100;
     color: var(--colh2);
 }
 
@@ -164,6 +172,7 @@ body {
     font-size: 1.2em;
     font-style: italic;
     letter-spacing: 0.1em;
+    font-weight: 300;
 }
 
 .dropdown {
