@@ -831,8 +831,7 @@ Just for easy reference, here are some websites to find and download some great 
 
 ###
 
-- Interactive Fiction Database (IFDB)
-- IF Archive
-- The IF Wiki
-- The IF Competition
-- 
+- [Interactive Fiction Database](http://ifdb.tads.org/search?browse) (IFDB)
+- [IF Archive](https://www.ifarchive.org/indexes/if-archive.html)
+- [The IF Wiki](http://www.ifwiki.org/index.php/Category:Works)
+- [The IF Competition](https://ifcomp.org/)
