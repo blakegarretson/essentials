@@ -1,5 +1,121 @@
 # Change Log
 
+## 2024-07-24
+
+Moved this whole site to Github. It's written in Markdown and then procesed with pandoc. Source is [here](http://github.com/blakegarretson/essentials).
+
+## 2024-07-23
+
+Added **Angry IP Scanner**, which has become my go-to port scanner on all platforms.
+
+Moved **KiCad** up to my primary schematic/circuit design program. I have been reaching for it first for a while.
+
+Added **Amphetamine**. Not sure how I took so long to add this one.
+
+Added **Tot**. 
+
+Added **Boop**. I'm starting to use it more.
+
+Added **Warp** terminal.
+
+Added **Zed**. It's actually usable now.
+
+Added **RawTherapee** as an alternative to darktable.
+
+## 2023-08-28
+
+Added **Jellyfin** after using it along side Plex for some time now.
+
+Added **PDFgear** as it quickly moved to my tool of choice.
+
+Added **Electorrent**. It's pretty.
+
+Added **Maccy** as I found myself using it exclusively whenever I'm on Mac.
+
+Added **System Color Picker**. Handy.
+
+## 2023-08-15
+
+After testing out new software for a while, I'm making a bunch of edits:
+
+Added **Transnomino** for a Mac file renamer after using it for a while.
+
+Added **Hyperkey** for Mac. I found myself using it everyday.
+
+Added **DuckDuckGo** browser and removed **Brave**.
+
+Added an AI generation section with **Draw Things**, **Diffusion Bee**, and **ComfyUI**.
+
+Added notes about **VS Code Insiders** and web edition.
+
+**Vectornator** is renamed **Curve**.
+
+Added **Friendly Streaming**.
+
+## 2022-12-10
+
+Added **Latest**. I've been using it on Mac, and it is pretty convenient.
+
+## 2022-11-09
+
+Added **OmniDriveSweeper**.
+
+## 2022-11-01
+
+Added **Kodi** and **PDFsam Basic**.
+
+## 2022-10-25
+
+Added **MonitorControl**, **FBReader**, and **FontBase**.
+
+## 2022-10-16
+
+**Keka** is a great compression tool for Mac, and I find myself reaching for it more, so I'm adding it here.
+
+## 2022-10-13
+
+Added **MusicBrainz Picard**. I needed to clean up a bunch of mp3s on my Mac, and this did the job way better than the alternatives.
+
+## 2022-10-08
+
+I'm recommending **Ardour** for Linux users now.
+
+Added **LimeChat** for a Mac IRC client.
+
+Added **Permanent Eraser** for Mac.
+
+## 2022-09-21
+
+Finally decided to just make this a list for Windows, Mac, and Linux software as opposed to just Windows. It turns out about 80% (or more?) of my apps were cross-platform anyway, so it isn't much harder to throw in my favorite Mac and Linux apps too.
+
+## 2022-09-18
+
+**Simplenote** is now my preferred text-based note-taking app, edging out Obsidian, which is still a worthy runner=up.
+
+## 2022-03-06
+
+I added **WinMerge** back on as an alternative to Meld. I still like Meld better overall, but WinMerge shines in some tasks.
+
+## 2022-03-01
+
+I added **TinyCAD** after using it enough to find it useful in certain circumstances.
+
+## 2022-02-22
+
+I've used **LibreCAD** for a couple projects and it's earned a spot on my list. It's definitely useful for a certain domain of projects.
+
+## 2022-02-14
+
+**DocFetcher** is now my local file search solution of choice. The file content indexing pushes it ahead of Everything, and FileSeek got kicked to the reject pile.
+
+Created a CSV category under the STEM section, and added Miller and Tad to it. Both are super handy.
+
+## 2022-01-29
+
+Finally added **winget**, **scoop**, and **Patch My PC**, which I've been using for a while now to great success. Sorry Chocolatey!
+
+Also added **Git Extensions**.
+
 ## 2021-12-20
 
 Added **Tabby** as a second option under **Windows Terminal**. It's a great app.
