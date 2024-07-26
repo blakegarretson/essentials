@@ -110,8 +110,9 @@ body {
 }
 
 .content code {
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
     font-size: medium;
+    font-weight: 600;
     color: var(--colcode);
 }
 
