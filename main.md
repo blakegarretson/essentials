@@ -308,7 +308,7 @@ See the [Text Editors](#text-editors) section for creating plain text files.
   
   - This isn’t a software link, but a really useful site about LaTeX fonts is [here](http://www.tug.dk/FontCatalogue/). And while I’m breaking the rules and posting web links, [here’s](http://en.wikibooks.org/wiki/LaTeX/) a really good website for LaTeX info.
     
-    - I prefer MiKTeX for its “on the fly” package installation, but the standard TeX system for Unix-like systems has long been [TeX Live](https://tug.org/texlive/).  You may want to look into it, but I find MiKTex to be easier to install and maintain.
+  - I prefer MiKTeX for its “on the fly” package installation, but the standard TeX system for Unix-like systems has long been [TeX Live](https://tug.org/texlive/).  You may want to look into it, but I find MiKTex to be easier to install and maintain.
 
 - [TeXstudio](http://texstudio.sourceforge.net/): Lightweight portable LaTeX IDE, including editor, spell checker, and symbol toolbars. For those keeping track, this was forked from TeXMaker back in 2009, and it’s clearly outpaced it.
 
@@ -410,9 +410,9 @@ See the [Text Editors](#text-editors) section for creating plain text files.
   
   - [JASP](https://jasp-stats.org/) looks very similar to Jamovi, and in fact, at first glance the interfaces appear to be near clones. While I find Jamovi just plain better in a number of ways, I’m keeping my eye on JASP because it appears to be under active development as well, and JASP supports some analyses that Jamovi doesn’t while still offering an easy-to-use interface.
     
-    - On paper, [BlueSky Statistics](https://www.blueskystatistics.com/) should be the easy winner in this category. It has many, many more features than Jamovi. However, I don’t find the interface as intuitive for casual analysis, and by default the plots look fairly bad. The plots can certainly be tweaked through the R language, but it isn’t transparent to the casual user. Besides the impressive collection of analysis methods, the real reason I might reach for BlueSky instead of Jamovi is the robust set of data manipulation tools.
+  - On paper, [BlueSky Statistics](https://www.blueskystatistics.com/) should be the easy winner in this category. It has many, many more features than Jamovi. However, I don’t find the interface as intuitive for casual analysis, and by default the plots look fairly bad. The plots can certainly be tweaked through the R language, but it isn’t transparent to the casual user. Besides the impressive collection of analysis methods, the real reason I might reach for BlueSky instead of Jamovi is the robust set of data manipulation tools.
     
-    - [PAST](https://www.nhm.uio.no/english/research/resources/past/) is the only app in this category that isn’t just a front-end for R. If you look past the deceptively plain interface, this is a super powerful stats program chock-full of functionality. There’s no safety net or hand-holding to help you interpret the results, but it has an amazing manual describing the equations used and even includes extensive citations, so this is no black box. It has a very robust set of statistical plotting tools, and the histograms are actually pretty good with a fair amount of customization (including overlaying a normal distribution).
+  - [PAST](https://www.nhm.uio.no/english/research/resources/past/) is the only app in this category that isn’t just a front-end for R. If you look past the deceptively plain interface, this is a super powerful stats program chock-full of functionality. There’s no safety net or hand-holding to help you interpret the results, but it has an amazing manual describing the equations used and even includes extensive citations, so this is no black box. It has a very robust set of statistical plotting tools, and the histograms are actually pretty good with a fair amount of customization (including overlaying a normal distribution).
 
 ## CSV Files
 
@@ -440,7 +440,7 @@ See the [Text Editors](#text-editors) section for creating plain text files.
   
   - [TinyCAD](https://www.tinycad.net/) is a good alternative to KiCad if you do circuit design. I don’t know that it can do anything that KiCad can’t, but I think it is easier to use in some ways and I find it better for some jobs. It’s chief short-coming is it’s Windows -only. **(Windows)**
     
-    - [ExpressSCH](https://www.expresspcb.com/pcb-cad-software/): This is a really simple program for making quick schematics. It’s like the Notepad.exe or Windows Paint of the schematics world. Not very glamorous or loaded with features, but it works in a pinch. (By the way, when you click on the ExpressSCH link, you’ll want to download ExpressPCB Classic and you’ll get ExpressSCH too.) **(Windows)**
+  - [ExpressSCH](https://www.expresspcb.com/pcb-cad-software/): This is a really simple program for making quick schematics. It’s like the Notepad.exe or Windows Paint of the schematics world. Not very glamorous or loaded with features, but it works in a pinch. (By the way, when you click on the ExpressSCH link, you’ll want to download ExpressPCB Classic and you’ll get ExpressSCH too.) **(Windows)**
 
 ## 3D Printing Slicer
 
@@ -511,10 +511,12 @@ See the [Text Editors](#text-editors) section for creating plain text files.
 - [Discord](https://discordapp.com/): The apparent successor to Skype and Teamspeak in many communities, especially in the gaming world. I have no particular affinity to the app itself, but it works fine on both desktop and mobile, and there are some cool communities that made their home on Discord.  Of particular note is that Discord is also becoming the “new IRC” for many programming communities. The IRC channels are often less populated than the equivalent Discord channels.
   
   - Speaking of IRC, I have a hard time calling an IRC client “essential” because it’s become such a niche protocol at this point, but there are still some useful dev communities out there. So if you do need IRC, check out:
-    
-    - [HexChat](https://hexchat.github.io/) is a nice client that has all the features I need. (Tip: download the installer for free on the website. The same app on the Microsoft Store costs \$9.99.) **(Windows, Linux)**
-    
-    - [LimeChat](http://limechat.net/mac/) is the IRC client I use on Mac. It’s simple and works well. **(Mac)**
+
+### 
+
+- [HexChat](https://hexchat.github.io/) is a nice client that has all the features I need. (Tip: download the installer for free on the website. The same app on the Microsoft Store costs \$9.99.) **(Windows, Linux)**
+
+- [LimeChat](http://limechat.net/mac/) is the IRC client I use on Mac. It’s simple and works well. **(Mac)**
 
 ### Honorable Mentions
 
