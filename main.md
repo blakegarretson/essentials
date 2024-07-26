@@ -166,9 +166,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
   
   - If CotEditor is too barebones for you, the next step up without going to an IDE is [TextMate](https://macromates.com/) . It opens slower than CotEditor, but it has some robust functionality including an impressive array of text manipulation tools and extensive language support with syntax highlighting, while still staying fairly lightweight. **(Mac)**
 
-- [Neovim](https://neovim.io/): vi was a legendary, powerful keyboard-based text editor with a steep learning curve, Vim is its most successful clone (itself being a derivative of Stevie), and Neovim aims at pushing Vim into the 21st century with a clean code base and features like Lua extensibility and asynchronous plugins which allow for things like async linters. Some people think it’s silly to use a vi clone more than four decades after it was introduced, but there are some tasks that are orders of magnitude faster in a vi clone than modern mouse-oriented text editors.
+- [Neovim](https://neovim.io/): `vi` was a legendary, powerful keyboard-based text editor with a steep learning curve, Vim is its most successful clone (itself being a derivative of Stevie), and Neovim aims at pushing Vim into the 21st century with a clean code base and features like Lua extensibility and asynchronous plugins which allow for things like async linters. Some people think it’s silly to use a `vi` clone more than four decades after it was introduced, but there are some tasks that are orders of magnitude faster in a `vi` clone than modern mouse-oriented text editors.
   
-  - If a console-based text editor is what you need and you don’t love the vi modal editing and key bindings, you should really check out [micro](https://micro-editor.github.io/). Micro works from a console, but it has modern capabilities like mouse support, multiple cursors, Lua plugins, tabs, tmux-like splits, and syntax color schemes. Best of all, the normal Windows key bindings like CTRL-C, CTRL-V, CTRL-S, and CTRL-Z work as expected.
+  - If a console-based text editor is what you need and you don’t love the `vi` modal editing and key bindings, you should really check out [micro](https://micro-editor.github.io/). Micro works from a console, but it has modern capabilities like mouse support, multiple cursors, Lua plugins, tabs, tmux-like splits, and syntax color schemes. Best of all, the normal Windows key bindings like CTRL-C, CTRL-V, CTRL-S, and CTRL-Z work as expected.
 
 ### Honorable Mentions
 
@@ -713,11 +713,7 @@ $ startxfce4
 
 ## Package Management/Software Installer
 
-- [Homebrew](https://brew.sh/): If you want an easy way to install command line tools and even some GUI apps, Homebrew gets you going with minimal hassle. There is plenty of debate on whether its approach is technically sound, but it works for me. For instance, if I want to install git, I just type:
-
-```
-brew install git
-```
+- [Homebrew](https://brew.sh/): If you want an easy way to install command line tools and even some GUI apps, Homebrew gets you going with minimal hassle. There is plenty of debate on whether its approach is technically sound, but it works for me. For instance, if I want to install git, I just type: `brew install git`
 
   - The other popular option out there is [MacPorts](https://www.macports.org/). You should at least understand how it is different before choosing Homebrew.
 
