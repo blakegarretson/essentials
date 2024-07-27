@@ -84,10 +84,9 @@ a:visited {
 }
 
 .content ul li ul li {
-  /* list-style-type: "🛈 "; */
+  list-style-type: "‣ ";
+  /* list-style-type: "ⓘ "; */
   /* list-style-type: "⌘ "; */
-  list-style-type: "⌘ ";
-  /*list-style-type: "i: "; */
   /*padding-left: 0.5em; */
 }
 
