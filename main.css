@@ -138,15 +138,25 @@ a:visited {
   position: fixed;
   top: 0;
   width: 100%;
+  vertical-align: middle;
 }
 
 .navbar a {
-  float: left;
-  display: block;
   color: var(--colnavtext);
   text-align: center;
-  padding: 8px 14px;
   text-decoration: none;
+}
+.navbar-right a {
+  float: right;
+  display: block;
+  color: var(--colnavtext);
+  padding: 8px 14px;
+  font-size: 1em;
+}
+
+.navbar-left a {
+  float: left;
+  padding: 4px 10px;
 }
 
 .navbar a:hover {
