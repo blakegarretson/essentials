@@ -1,221 +1,191 @@
-:root{
-    --colh1: #ff8f73;
-    --colh2: #57d9a3;
-    --colh3: #ffe380;
-    --collink:#00c7e6;
-    --colcode: #d6a9d5;
-    --coltext:#cecece;
+:root {
+  --colh1: #ff8f73;
+  --colh2: #57d9a3;
+  --colh3: #ffe380;
+  --collink: #00c7e6;
+  --colcode: #d6a9d5;
+  --coltext: #cecece;
+  --colbg: #202124;
+  --colnavhov: #33373b;
+  --colnavtext: #c7d1da;
+  --colnavbar: #141718;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 :target:before {
-    content: "";
-    display: block;
-    height: 100px;
-    margin: -100px 0 0;
+  content: "";
+  display: block;
+  height: 100px;
+  margin: -100px 0 0;
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
-    color: white;
-    margin: 0;
-    background-color: #202124;
-    font-weight: 300;
-
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  margin: 0;
+  background-color: var(--colbg);
+  font-weight: 300;
 }
 
 .content img {
-    width: 40%;
-    margin: auto;
-    display: block;
+  width: 40%;
+  margin: auto;
+  display: block;
 }
 
 .content {
-    margin: auto;
-    margin-top: 10px;
-    width: 90%;
-    padding: 16px;
-    max-width: 40em;
-    color: var(--coltext);
-    font-size: large;
-    line-height: 1.5em;
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  padding: 16px;
+  max-width: 40em;
+  color: var(--coltext);
+  font-size: large;
+  line-height: 1.5em;
+  border-top: 2px solid var(--colh2);
 }
 
-.content a, a:visited {
-    color: var(--collink);
-    font-weight:normal;
-    text-decoration: underline;
+.content a,
+a:visited {
+  color: var(--collink);
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 .content a:hover {
-    font-weight: bolder;
-    text-decoration: none;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 .content h1 {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: var(--colh1);
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 300;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: var(--colh1);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
 }
 
 .content h2 {
-    color: var(--colh2);
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
+  color: var(--colh2);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
 }
 
 .content li {
-    list-style-type: "➽ ";
+  list-style-type: "➽ ";
 }
 
 .content ul li::marker {
-    font-size: 1.2em;
-    line-height: 1;
+  font-size: 1.2em;
+  line-height: 1;
 }
 
 .content ul li ul li {
-    /* list-style-type: "🛈 "; */
-    /* list-style-type: "⌘ "; */
-    list-style-type: "⌘ ";
-    /*list-style-type: "i: "; */
-    /*padding-left: 0.5em; */
+  /* list-style-type: "🛈 "; */
+  /* list-style-type: "⌘ "; */
+  list-style-type: "⌘ ";
+  /*list-style-type: "i: "; */
+  /*padding-left: 0.5em; */
 }
 
 .content ul li ul li::marker {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 700;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
 }
 
 .content h3 {
-    color: var(--colh3);
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bold;
-    margin-left: 2em;
+  color: var(--colh3);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  margin-left: 2em;
 }
 
 .content strong {
-    color: var(--colh3);
-    font-weight: 500;
+  color: var(--colh3);
+  font-weight: 500;
 }
 
-.content h3+ul {
-    margin-left: 3em;
-    background-color: #2c2d2e;
-    padding: 0.2em 1.2em 0.2em 1.8em;
+.content h3 + ul {
+  margin-left: 3em;
+  background-color: #2c2d2e;
+  padding: 0.2em 1.2em 0.2em 1.8em;
 }
 
 .content code {
-    font-family: 'Noto Sans Mono', monospace;
-    font-size: medium;
-    font-weight: 600;
-    color: var(--colcode);
+  font-family: "Noto Sans Mono", monospace;
+  font-size: medium;
+  font-weight: 600;
+  color: var(--colcode);
 }
 
 .content pre {
-    background-color: #09121b;
-    padding: 0.2em;
-    margin-left: 4em;
+  background-color: #09121b;
+  padding: 0.2em;
+  margin-left: 4em;
 }
 
-.content h3+ul li {
-    list-style-type: "➥";
-    padding-inline-start: 1ch;
+.content h3 + ul li {
+  list-style-type: "➥";
+  padding-inline-start: 1ch;
 }
 
 .navbar {
-    background-color: #2D3439;
-    width: 100%;
-    text-align: center;
-    padding: 0.5em;
+  overflow: hidden;
+  background-color: var(--colnavbar);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar a {
-    padding: 0.5em 0.8em;
-    color: white;
-    text-decoration: none;
+  float: left;
+  display: block;
+  color: var(--colnavtext);
+  text-align: center;
+  padding: 8px 14px;
+  text-decoration: none;
 }
 
 .navbar a:hover {
-    background-color: #1d2227;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-}
-
-.sticky+.content {
-    margin: auto;
+  background-color: var(--colnavhov);
 }
 
 #banner {
-    color: white;
-    background-color: #1d2227;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    text-align: center;
-    padding: 0.8em 20px;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  padding: 0.8em 20px;
+  margin-top: 60px;
 }
 
 #banner-title {
-    font-size: 3.5em;
-    margin: 0;
-    font-weight: 100;
-    color: var(--colh2);
+  font-size: 3.5em;
+  margin: 0;
+  font-weight: 100;
+  color: var(--colh2);
 }
 
 #banner-description {
-    font-size: 1.2em;
-    font-style: italic;
-    letter-spacing: 0.1em;
-    font-weight: 300;
+  font-size: 1.2em;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  font-weight: 300;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
+/* .categories {
+  padding: 1em;
+} */
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #2D3439;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content ul, .dropdown-content li {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.dropdown-content a {
-    padding: 10px 12px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #394046;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #1d2227;
+.categories ul {
+  columns: 2;
 }
 
 #copyright {
-    color: #888888;
-    text-align: center;
-    font-size: smaller;
+  color: #888888;
+  text-align: center;
+  font-size: smaller;
 }
