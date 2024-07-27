@@ -24,7 +24,7 @@ html {
 
 body {
   font-family: "Noto Sans", sans-serif;
-  color: white;
+  color: #cecece;
   margin: 0;
   background-color: var(--colbg);
   font-weight: 300;
@@ -64,13 +64,11 @@ a:visited {
   margin-top: 1em;
   margin-bottom: 1em;
   color: var(--colh1);
-  font-family: "Noto Sans", sans-serif;
   font-weight: 300;
 }
 
 .content h2 {
   color: var(--colh2);
-  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -91,13 +89,11 @@ a:visited {
 }
 
 .content ul li ul li::marker {
-  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
 }
 
 .content h3 {
   color: var(--colh3);
-  font-family: "Noto Sans", sans-serif;
   font-weight: bold;
   margin-left: 2em;
 }
@@ -138,6 +134,7 @@ a:visited {
   top: 0;
   width: 100%;
   vertical-align: middle;
+  padding: 0;
 }
 
 .navbar a {
@@ -155,7 +152,7 @@ a:visited {
 
 .navbar-left a {
   float: left;
-  padding: 4px 10px;
+  padding: 2px 10px;
 }
 
 .navbar a:hover {
@@ -164,7 +161,6 @@ a:visited {
 
 #banner {
   color: white;
-  font-family: "Noto Sans", sans-serif;
   font-weight: 100;
   text-align: center;
   padding: 0.8em 20px;
