@@ -88,15 +88,15 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Video Editing
 
-- [Shotcut](https://www.shotcut.org/) is a capable multi-track editor with a nice interface. If I don’t need anything special, this is the first place I reach.
+- [Openshot](https://www.openshot.org/): is a capable multi-track editor with a nice interface that is fairly intuitive compared to other apps in this space. If I don’t need anything special, this is the first place I reach. Feature-wise, it seems like it falls right between Shotcut and kdevlive, but I have run into weird bugs that can be annoying. Having said that, one feature I especially enjoy is the captioning support which includes some nice appearance customization. I initially started using Openshot because iMovie was so limited in video formats and aspect ratios, and I quickly discovered Openshot is more capable in a dozen other ways as well. I don't even bother with iMovie anymore.
 
-- [kdenlive](https://kdenlive.org/): If you do need something special like key-framing, it’s great to have kdenlive in the toolbox. Shotcut has it beat in a few areas, so I still prefer it in general, but kdenlive has some features that make it worth having around.
+- [kdenlive](https://kdenlive.org/): If you do need something special that Openshot can't handle, it’s great to have kdenlive in the toolbox. Openshot has it beat in a few areas, so I still prefer it in general, but kdenlive has some features that make it worth having around. 
 
 ### Also check out:
 
-- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/): This is a professional package, but they have a free version that’s very impressive. It outshines the above editors in features, but I’m reluctant to learn a free tool that could be retracted at a whim, so in general the opensource tools above get my vote.
+- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/): This is a professional package, but they have a free version that’s very impressive. It outshines the above editors in features, but I’m reluctant to learn a free tool that could be retracted at a whim, so in general the opensource tools get my vote.
 
-- [Openshot](https://www.openshot.org/): I’m listing this to remind myself to keep an eye on its development. Feature-wise, it seems like it falls right between Shotcut and kdevlive, but it feels pretty buggy yet. Having said that, it might scratch your itch, and it’s worth checking out along with the others.
+- [Shotcut](https://www.shotcut.org/) should at least be on your radar, and perhaps you find it to your liking more than Openshot, but it's limited functionality (especially subtitles/captioning) and steeper learning curve make it hard to recommend over the other options.
 
 ## Animation
 
