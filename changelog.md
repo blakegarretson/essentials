@@ -1,5 +1,13 @@
 # Change Log
 
+## 2024-09-12
+
+Added honorable mentions to **MacTeX** and **Tectonic**. 
+
+Moved up **Openshot** as my preferred video editor over **Shotcut**, which I haven't been using for a while due to several limitations. 
+
+Dropped **FontBase** from my list because basic features are now subscription-only.
+
 ## 2024-07-24
 
 Moved this whole site to Github. It's written in Markdown and then procesed with pandoc. Source is [here](http://github.com/blakegarretson/essentials).

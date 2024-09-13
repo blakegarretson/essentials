@@ -216,6 +216,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
   - [WinMerge](https://winmerge.org/): WinMerge has been around for a long time, and it’s still one of the best all-around solutions. I’m listing it here because I like it better than Meld for directory comparison, and for that task alone, it’s worth having it installed. **(Windows)**
 
+  - [KDiff3](https://apps.kde.org/kdiff3/) is the other venerable option that's been around forever, and does a few things better than Meld (namely directory comparison), but overall, it's never my first choice. (Tip: they hide the downloads [here](https://download.kde.org/stable/kdiff3/).)
+
 ## Compiled Language
 
 - [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely.
@@ -292,23 +294,19 @@ See the [Text Editors](#text-editors) section for creating plain text files.
 
   - The honorable mention on Windows goes to [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)  because it is a convenient all-in-one reader for PDF, EPUB, MOBI, CBR, CBZ, CHM, and XPS. While Sumatra might not be the best solution for ebooks or comics, it’s handy to have around, and some books even look better in Sumatra (usually because of font rendering). **(Windows)**
 
-## Font Management
-
-- [FontBase](https://fontba.se/) is the easiest way to discover, install, and manage your fonts on any platform. It makes a trivial task to quickly find that font you need and install it with one click.
-
 ## Comic Reader
 
 - [YACReader](http://www.yacreader.com/) is actually two programs in one. It comes with an excellent comic reader and a comics library browser. It reads every popular format (cbr, cbz, cb7, pdf, etc.), and it has all the features I need, and quite a few I don’t. Works equally well on Windows, Mac, and Linux, which is handy so I can use the same solution everywhere.
 
 ## Markup & TeX/LaTeX Tools
 
-- [Pandoc](http://pandoc.org/): Convert markup formats to other formats. Handles Markdown, html, EPUB, LaTeX, etc. This is an extremely powerful program, and I have actually used it to build websites through the use of its robust template system.
+- [Pandoc](http://pandoc.org/): Convert markup formats to other formats. Handles Markdown, HTML, EPUB, LaTeX, etc. This is an extremely powerful program, and I like to use it to build websites through the use of its robust template system.
 
-- [MiKTeX](http://miktex.org/): A port of the TeX document publishing system that converts source files into beautifully typeset documents. If you know what TeX/LaTeX are, you need this. If you don’t know what they are, and you care about breathtaking documents, then you need to learn TeX.
+- [MiKTeX](http://miktex.org/): A port of the TeX document publishing system that converts source files into beautifully typeset documents. If you know what TeX/LaTeX are, you need this. If you don’t know what they are, and you care about breathtaking documents, then you need to learn TeX. The main advantage MiKTeX has over other TeX distributions like [TeX Live](https://tug.org/texlive/) (the *de facto* standard TeX system for Unix-like systems) is that it downloads packages on-the-fly as needed and streamlines installation and updates.
   
   - This isn’t a software link, but a really useful site about LaTeX fonts is [here](http://www.tug.dk/FontCatalogue/). And while I’m breaking the rules and posting web links, [here’s](http://en.wikibooks.org/wiki/LaTeX/) a really good website for LaTeX info.
     
-  - I prefer MiKTeX for its “on the fly” package installation, but the standard TeX system for Unix-like systems has long been [TeX Live](https://tug.org/texlive/).  You may want to look into it, but I find MiKTex to be easier to install and maintain.
+  - The two other MiKTeX alternatives that I want to note are [MacTeX](https://www.tug.org/mactex/mactex-download.html), which is a Mac-only distribution of [TeX Live](https://tug.org/texlive/), and [Tectonic](https://tectonic-typesetting.github.io/en-US/), which is a modern TeX/LaTeX engine that has some cool tricks, including on-demand automatic package installation. Tectonic is not a bad place to start if you have never used TeX before.
 
 - [TeXstudio](http://texstudio.sourceforge.net/): Lightweight portable LaTeX IDE, including editor, spell checker, and symbol toolbars. For those keeping track, this was forked from TeXMaker back in 2009, and it’s clearly outpaced it.
 
@@ -320,17 +318,13 @@ See the [Text Editors](#text-editors) section for creating plain text files.
 
 ## Note-Taking
 
-- [OneNote](https://www.onenote.com/download) is easy to recommend given the comprehensive functionality and the fact that it is free. For many tasks, I’m a plain text file guy, and I think note-taking apps are sometimes unnecessary when a simple text editor works fine. However, I use OneNote at work extensively, and I really like it. I can integrate emails, pictures, tables, and all the rest into a workflow organized by notebooks, sections, and pages. However, if you don’t use Office 365 and/or Outlook, OneNote might not have as many advantages for you.
+- [OneNote](https://www.onenote.com/download) is easy to recommend given the comprehensive functionality and the fact that it is free. For most tasks, I’m a plain text file guy, and I think note-taking apps are sometimes unnecessary when a simple text editor works fine. However, I use OneNote at work extensively, and I really like it. I can integrate emails, pictures, tables, and all the rest into a workflow organized by notebooks, sections, and pages. However, if you don’t use Office 365 and/or Outlook, OneNote might not have as many advantages for you.
 
-- [Obsidian](https://obsidian.md/) is where you might want to go if you want good Markdown support and you don’t need total inoperability on mobile devices. The Canvas feature is really cool. It lets you visualize and connect data in interesting ways, a bit like a mind mapper. Obsidian’s biggest shortcoming is you have to figure out your own file-sync solution unless you pay them for their sync service. Saving your vaults to Google Drive, iCloud, OneDrive, etc. will solve this for you, but you still won’t be able to work with some combinations (like saving a vault to Google Drive on desktop and opening it on an iPhone). Likewise, there was limited Canvas support for mobile (at least initially), so you could create a note on desktop that you couldn’t open on mobile. That isn’t true anymore, but be aware there isn’t complete parity between desktop and mobile.
+- [Obsidian](https://obsidian.md/) is where you might want to go if you want good Markdown support and you don’t need total inoperability on mobile devices. The Canvas feature is really cool. It lets you visualize and connect data in interesting ways, a bit like a mind mapper. Obsidian’s biggest shortcoming is you have to figure out your own file-sync solution unless you pay them for their sync service. Saving your vaults to Google Drive, iCloud, OneDrive, etc. will solve this for you, but you still won’t be able to work with some combinations (like saving a vault to Google Drive on desktop and opening it on an iPhone). Likewise, there was limited Canvas support for mobile (at least initially), so you could create a note on desktop that you couldn’t open on mobile. That isn’t true anymore, but be aware there isn't always complete parity between desktop and mobile.
 
   - If Obsidian is too unwieldy for you, [Simplenote](https://simplenote.com/) is a nice… um, simple note app that works across all platforms. This is a good choice if you don’t need multimedia integrated into your notes, and you want to access your notes anywhere. It supports Markdown and tagging, but otherwise it’s barebones. It does make syncing automatic though, and that’s the real selling point. If you use multiple platforms regularly, this is a great experience. You can jump from MacOS to Android to Windows to iOS to anything with a web browser without missing a beat, and the interface stays out of your way.
 
 - [Tot](https://tot.rocks/) is a Mac-only app that sits in your menubar waiting to save quick notes and snippets of text. This is not a general purpose notes app like the above apps. It is very limited, and it just has seven Markdown-supported “pages” of notes where you can type or paste whatever you like. This weird limitation carves out a unique use-case that I didn’t know I needed until I started using it. As a bonus, syncing is automatic and seamless, so if you install Tot on a laptop and desktop (for instance), it serves as a common clipboard where you can pass information. **(Mac)**
-
-### Honorable Mention
-
-- I want to give kudos to [UpNote](https://getupnote.com/) here because it is my favorite notes app for personal use, but I can’t quite officially include it on my list because the free version is limited to 50 notes, which is just too limited to qualify for the spirit of this site. HOWEVER, it is the perfect compromise between the barebones Markdown notes apps and the full-fledged multimedia approach of OneNote.
 
 ## Desktop Publishing
 
@@ -466,9 +460,9 @@ See the [Text Editors](#text-editors) section for creating plain text files.
 
 ## Web Browser
 
-- [Google Chrome](http://www.google.com/chrome): My default browser since the day it was released.
-  
-  - I left [Firefox](https://www.mozilla.org/en-US/firefox/) for Chrome, but I like to keep Firefox around for the odd task, and it is arguably more pro-consumer with its stance on ad-blockers.
+- [Firefox](https://www.mozilla.org/en-US/firefox/) is once again my default web browser. The robust feature set and impressive array of extensions make this my first choice once again. Its arguably far more pro-consumer than Chrome with its stance on ad-blockers.
+
+  - [Google Chrome](http://www.google.com/chrome) should get a mention since it was my default browser from 2008 until 2024. Its most recent policy on ad-blockers was a deal breaker for me, and I left it behind to return to Firefox after a 16-year detour.
   
   - And because you can never have too many browsers, the [DuckDuckGo](https://duckduckgo.com/) browser is another nice option if privacy and security are a high priority.
 
@@ -761,7 +755,7 @@ $ startxfce4
 
 - [Swiss File Knife](http://stahlworks.com/dev/swiss-file-knife.html): This is the essential command line tool set for Windows. It does a little of everything, and you need to just read the list of commands on the website to believe it. It’s a single executable, so it’s portable as well.
 
-- [eza](https://github.com/eza-community/eza) is a modern replacement for ls that works on every major platform. There are a few cool innovations here including the integration of git status in your listing, icon support, and recursive tree view.
+- [eza](https://eza.rocks/) is a modern replacement for ls that works on every major platform. There are a few cool innovations here including the integration of git status in your listing, icon support, and recursive tree view.
 
 ## Clipboard Manager
 
