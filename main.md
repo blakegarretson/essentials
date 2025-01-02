@@ -48,7 +48,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Stable Diffusion AI Image Generation
 
-- [Draw Things](https://drawthings.ai/) is the easiest to install and use AI image generator on Mac. One-click install, download a few models, and you’re in business. It handles inpainting/outpainting without the user even having to know what that means.  Having said that, the current state of AI means you have to know a bit of jargon and whatnot before you can really use this tool, but the toolset is robust, the in-app help is decent, and the results are excellent even running on a M1 Mac Mini.  AI is a rapidly changing landscape, and the developer is keeping up and adding impressive features at a fast pace. **(Mac)**
+- [Draw Things](https://drawthings.ai/) is the easiest to install and use AI image generator on Mac. One-click install, download a few models, and you’re in business. It handles inpainting/outpainting without the user even having to know what that means.  Having said that, the current state of AI means you have to know a bit of jargon and whatnot before you can really use this tool, but the toolset is robust, the in-app help is decent, and the results are excellent even running on a M1 Mac Mini.  AI is a rapidly changing landscape, and the developer is keeping up and adding impressive features at a fast pace. **(Mac)**
   
   - [Diffusion Bee](https://diffusionbee.com/) is the other “beginners” AI program that is easy to install. It isn’t as good as Draw Things at the moment, but it is certainly worth an honorable mention. There is a Windows version in the works, which will probably quickly make it the easiest way to run Stable Diffusion on Windows. **(Mac)**
 
@@ -157,7 +157,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [CotEditor](https://coteditor.com/) is my favorite text editor on a Mac for quick and easy text editing. It isn’t as well known as other editors, but it is fast and capable. It isn’t trying to be an IDE, so don’t expect too much, but the amount of customization and the total feature set is fantastic. It has an inspired and flexible scripting interface which lets you write plugins in Python, bash, Applescript, and several other languages. And did I mention it was fast?? This is a great choice for your default text file handler. **(Mac)**
   - If CotEditor is too barebones for you, the next step up without going to an IDE is [TextMate](https://macromates.com/) . It opens slower than CotEditor, but it has some robust functionality including an impressive array of text manipulation tools and extensive language support with syntax highlighting, while still staying fairly lightweight. **(Mac)**
-  
+
 - [Neovim](https://neovim.io/): `vi` was a legendary, powerful keyboard-based text editor with a steep learning curve, Vim is its most successful clone (itself being a derivative of Stevie), and Neovim aims at pushing Vim into the 21st century with a clean code base and features like Lua extensibility and asynchronous plugins which allow for things like async linters. Some people think it’s silly to use a `vi` clone more than four decades after it was introduced, but there are some tasks that are orders of magnitude faster in a `vi` clone than modern mouse-oriented text editors.
 
   - If a console-based text editor is what you need and you don’t love the `vi` modal editing and key bindings, you should really check out [micro](https://micro-editor.github.io/). Micro works from a console, but it has modern capabilities like mouse support, multiple cursors, Lua plugins, tabs, tmux-like splits, and syntax color schemes. Best of all, the normal Windows key bindings like CTRL-C, CTRL-V, CTRL-S, and CTRL-Z work as expected.
@@ -200,16 +200,14 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Text Comparison
 
 - [Meld](http://meldmerge.org/): My favorite graphical file comparison (AKA “diff”) program. There is 2 and 3-way file diff and merge, as well as directory comparison. It also plays nicely with many version control systems including Git.
-
   - [WinMerge](https://winmerge.org/): WinMerge has been around for a long time, and it’s still one of the best all-around solutions. I’m listing it here because I like it better than Meld for directory comparison, and for that task alone, it’s worth having it installed. **(Windows)**
-
   - [KDiff3](https://apps.kde.org/kdiff3/) is the other venerable option that's been around forever, and does a few things better than Meld (namely directory comparison), but overall, it's never my first choice. (Tip: they hide the downloads [here](https://download.kde.org/stable/kdiff3/).)
 
 ## Text Snippet Managers
 
 - [SnippetsLab](https://www.renfei.org/snippets-lab/) is a great way to manage snippets of text for easy reuse. I use this for boilerplate in emails and coding as well as command-line one-liners. The SnippetsLab Assistant lives in the Menu Bar and can be activated with global keyboard shortcuts from any program to easily find and insert your snippets. **(Mac)**
-
   - If you need a cross-platform solution, [massCode](https://masscode.io) is a snippets manager heavily inspired by SnippetsLab. It has Markdown and Mermaid support, as well as interesting features like integrated mind-mapping that generates graphics representations from Markdown hierarchy. My main complaint is that it doesn’t have global hotkey support, so actually *using* the snippets can be tedious and harder than it should be.
+  
 
 ## Text Manipulation
 
@@ -221,7 +219,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## PDF Viewing/Editing
 
-- [PDFgear](https://www.pdfgear.com/) is amazing if you work with PDFs often. If you only have one PDF program on your computer, it should be PDFgear.  You can use it as a viewer, but it also is an incredible editor. It can edit text, extract/reorder/delete pages, convert formats, merge and split PDF files, and it includes robust annotation tools. PDF editing has traditionally been the territory of commercial programs, so the fact that PDFgear is free is awesome. **(Windows & Mac)**
+- [PDFgear](https://www.pdfgear.com/) is amazing if you work with PDFs often. If you only have one PDF program on your computer, it should be PDFgear.  You can use it as a viewer, but it also is an incredible editor. It can edit text, extract/reorder/delete pages, convert formats, merge and split PDF files, and it includes robust annotation tools. PDF editing has traditionally been the territory of commercial programs, so the fact that PDFgear is free is awesome. **(Windows & Mac)**
   
   - If you’re on Linux, your best alternative to PDFgear is [PDFsam Basic](https://pdfsam.org/pdfsam-basic/). It will handle all your basic PDF editing needs. It will merge, split, and rotate PDFs, as well as extract pages. There is a premium offering that does more, but PDFsam Basic covers the most frequent uses cases.
 
@@ -278,7 +276,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 *Note: See the [All-Purpose Text Editors](#all-purpose-text-editor) section for other text editors useful for programming.*
 
-- [Visual Studio Code](https://code.visualstudio.com/): VS Code is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE. A huge bonus is the excellent Jupyter Notebook support. For many use cases, there’s no reason to run a standalone Jupyter server anymore.  (Note: Don’t confuse VS Code with [Visual Studio](https://visualstudio.microsoft.com/vs/) which is a full-blown IDE with more advanced features that I don’t find necessary for the hobbyist.)
+- [Visual Studio Code](https://code.visualstudio.com/): VS Code is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE. A huge bonus is the excellent Jupyter Notebook support. For many use cases, there’s no reason to run a standalone Jupyter server anymore.  (Note: Don’t confuse VS Code with [Visual Studio](https://visualstudio.microsoft.com/vs/) which is a full-blown IDE with more advanced features that I don’t find necessary for the hobbyist.)
   - Two things worth mentioning: First, you can run VS Code directly in a web browser [here](https://vscode.dev/). The experience is pretty incredible all things considered. Second, VS Code is very actively developed, so if you want the latest and greatest, you may want to run VS Code Insiders. On paper it is a beta version of VS Code where the new features are tested out, except I have found Insiders to be stable enough for production work. I honestly haven’t noticed a difference in reliability.
 
   - [Zed](https://zed.dev/) is another code editor that I’m keeping my eye on. It is a newer offering, but it’s already doing some cool things, and it seems to be faster than VS Code for those quick code edits. It still has a way to go to be competitive with VS Code, but I like where it’s going.
@@ -347,7 +345,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Calculators
 
-### Notebook-Style 
+### Notebook-Style 
 
 - [Figr](https://www.figr.app/) is a notebook style calculator with all the basic functionality along with unit conversions, and other handy operations, but it also enables real-time collaboration. This app really scales well because it works equally well as a simple scratchpad or in a more complicated scenario with calculation templates containing variables and lots of dependent calculations. The best feature is the cloud syncing so you can open it on any platform and your calculations are all there. There are native apps for Windows and Mac, but you can use the web version on Linux or any mobile device.
   
@@ -401,7 +399,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Interactive Programming/Data Environment
 
-- [Jupyterlab](https://jupyter.org/) (or Jupyter) is an interactive notebook where you can embed code and plots and easily share the sessions with others or save them for later. This is a front end for scientific computing languages like Python, R, and Julia that is perfect for interactive exploration. I could have easily listed this under the Programming category, but Jupyter is really more of a scientific computing platform than a programming environment.  This is where you do math or data science, explore statistics, and slice, dice, and manipulate data before analysis and visualization.
+- [Jupyterlab](https://jupyter.org/) (or Jupyter) is an interactive notebook where you can embed code and plots and easily share the sessions with others or save them for later. This is a front end for scientific computing languages like Python, R, and Julia that is perfect for interactive exploration. I could have easily listed this under the Programming category, but Jupyter is really more of a scientific computing platform than a programming environment.  This is where you do math or data science, explore statistics, and slice, dice, and manipulate data before analysis and visualization.
   
   - If you are a Julia programmer, we can’t talk about interactive environments without mentioning [Pluto](https://github.com/fonsp/Pluto.jl). It’s a relatively new project, but it’s really doing amazing things, and it’s definitely showing up the veteran Jupyter in a number of areas.
 
@@ -507,7 +505,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Chat/Messenging
 
-- [Discord](https://discordapp.com/): The apparent successor to Skype and Teamspeak in many communities, especially in the gaming world. I have no particular affinity to the app itself, but it works fine on both desktop and mobile, and there are some cool communities that made their home on Discord.  Of particular note is that Discord is also becoming the “new IRC” for many programming communities. The IRC channels are often less populated than the equivalent Discord channels.
+- [Discord](https://discordapp.com/): The apparent successor to Skype and Teamspeak in many communities, especially in the gaming world. I have no particular affinity to the app itself, but it works fine on both desktop and mobile, and there are some cool communities that made their home on Discord.  Of particular note is that Discord is also becoming the “new IRC” for many programming communities. The IRC channels are often less populated than the equivalent Discord channels.
   
   - Speaking of IRC, I have a hard time calling an IRC client “essential” because it’s become such a niche protocol at this point, but there are still some useful dev communities out there. So if you do need IRC, check out:
 
@@ -531,7 +529,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Local File Search
 
-- [DocFetcher](http://docfetcher.sourceforge.net/) is the search tool you need if you want to search file contents. You choose the folders you want to index, and a low-resource process watches for changes in real time.  Searching for filenames or contents works just as expected. Windows search is terrible, and there’s no perfect alternative, but DocFet cher is pretty close.
+- [DocFetcher](http://docfetcher.sourceforge.net/) is the search tool you need if you want to search file contents. You choose the folders you want to index, and a low-resource process watches for changes in real time.  Searching for filenames or contents works just as expected. Windows search is terrible, and there’s no perfect alternative, but DocFet cher is pretty close.
 
 - [Everything](https://www.voidtools.com/): If you just want to search filenames, Everything is your best bet. It supports wildcards, boolean operations, exact cases/phrases, and regular expressions. Just type a filename, and you’ll get immediate results from all your drives instantly. If you want to search network drives, you will need to go to Options and add them to your search folders under Indexing. You can also search file contents, although that will take much longer because it doesn’t support (or require) indexing. **(Windows)**
 
@@ -625,7 +623,7 @@ I’m listing two equally excellent apps that take fundamentally different appro
 
 - [Kopia](https://kopia.io/) is my current favorite backup solution due to its feaure set and (relative) ease of use. Backup software tends to be difficult to use, but Kopia does a decent job of making a complicated thing slightly less complicated. This is different than a simple “file copier” like FreeFileSync as Kopia saves all your incremental changes (not just a current snapshot), which lets you rollback to any point in history. It supports encryption, deduplication, and compression, and it’s also available on every platform (including Docker images).
 
-  - Honorable mention goes to [Vorta](https://vorta.borgbase.com/), which is a frontend for Borg Backup, which is a robust incremental backup solution.  **(Mac, Linux)**
+  - Honorable mention goes to [Vorta](https://vorta.borgbase.com/), which is a frontend for Borg Backup, which is a robust incremental backup solution.  **(Mac, Linux)**
 
 ## Cloud Synchronization
 
@@ -661,7 +659,7 @@ I’m listing two equally excellent apps that take fundamentally different appro
 
 ## Utilities Suites
 
-- [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/): This is a collection of tools that has been around since the 1990s, and was eventually acquired by Microsoft because they are so good. (And they are still being updated!) You can download the whole suite, or individual tools.  I’m going to highlight just a couple here to give you the flavor of the suite, but it’s worth perusing the whole list and seeing what’s available:
+- [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/): This is a collection of tools that has been around since the 1990s, and was eventually acquired by Microsoft because they are so good. (And they are still being updated!) You can download the whole suite, or individual tools.  I’m going to highlight just a couple here to give you the flavor of the suite, but it’s worth perusing the whole list and seeing what’s available:
 
   - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): If you can’t delete a file because some program has it locked, Process Explorer will tell you what program has the file handle open.
   
@@ -812,19 +810,19 @@ $ startxfce4
 
 ## Interactive Fiction (IF) Tools
 
-- [Windows Frotz](http://www.davidkinder.co.uk/frotz.html): My favorite Z-machine interpreter on Windows. If you play interactive fiction games or know what Infocom games are, you probably already know what this is.  This supports all the various Infocom formats: zip, dat, z5, z8, etc., including z6. **(Windows)**
+- [Windows Frotz](http://www.davidkinder.co.uk/frotz.html): My favorite Z-machine interpreter on Windows. If you play interactive fiction games or know what Infocom games are, you probably already know what this is.  This supports all the various Infocom formats: zip, dat, z5, z8, etc., including z6. **(Windows)**
   
-  - [Frotz8](http://www.adamdawes.com/windows8/win8_frotz8.html) is a native Windows app based on the frotz interpreter that supports touch screens, and it has handy integration with the IF Archive.  It appears to be stagnant since 2013, so I’m not expecting anything new. **(Windows)**
+  - [Frotz8](http://www.adamdawes.com/windows8/win8_frotz8.html) is a native Windows app based on the frotz interpreter that supports touch screens, and it has handy integration with the IF Archive.  It appears to be stagnant since 2013, so I’m not expecting anything new. **(Windows)**
 
 - [Yazmin](https://github.com/dcsch/yazmin) is a capable Z-machine interpreter for the Mac. It has fairly decent feature set including dark mode, and it supports v3, v4, v5, v7, and v8. To top it all off, it comes with a nice suite of stories to get you started. (Mac [App Store Link](https://apps.apple.com/us/app/yazmin/id1549608914?mt=12))
 
-- [Lectrote](https://github.com/erkyrath/lectrote): This is my current choice for a multi-format interpreter that handles more than just Z machine files, and while it’s the new kid on the block, it has novel features like autosave.  It looks really nice to me (great fonts and themes), but it uses ZVM as the Z interpreter, so it only supports Z3, Z4, Z5, & Z8.  Other format support includes Glulx, Hugo, TADS, and Ink.  This seems to be under active development, so we’ll see where it goes.
+- [Lectrote](https://github.com/erkyrath/lectrote): This is my current choice for a multi-format interpreter that handles more than just Z machine files, and while it’s the new kid on the block, it has novel features like autosave.  It looks really nice to me (great fonts and themes), but it uses ZVM as the Z interpreter, so it only supports Z3, Z4, Z5, & Z8.  Other format support includes Glulx, Hugo, TADS, and Ink.  This seems to be under active development, so we’ll see where it goes.
   
-  - [Gargoyle](http://ccxvii.net/gargoyle/) deserves a mention because it supports every format I’ve ever run across because it is basically just a wrapper for a number of interpreters. The default (and excellent) [Bocfel](https://cspiegel.github.io/bocfel/) Z machine interpreter has partial support for z6 files too.  Its other claim to fame is its focus on good typesetting, which is a really interesting niche.  But be warned, it essentially has no user interface, so you need to edit a text file to change fonts and whatnot.
+  - [Gargoyle](http://ccxvii.net/gargoyle/) deserves a mention because it supports every format I’ve ever run across because it is basically just a wrapper for a number of interpreters. The default (and excellent) [Bocfel](https://cspiegel.github.io/bocfel/) Z machine interpreter has partial support for z6 files too.  Its other claim to fame is its focus on good typesetting, which is a really interesting niche.  But be warned, it essentially has no user interface, so you need to edit a text file to change fonts and whatnot.
   
-  - [Filfre](http://maher.filfre.net/filfre/index.html): This is easier to use than Gargoyle for sure, so I’m mentioning it here, but it has minimal customization options. You might want to choose this if you need Glulx support and want an interface similar to Windows Frotz.  It’s probably not the best choice for Z-Machine files because it only supports versions 3, 4, 5, and 8 story files. The project has been stagnant since 2013, so what you see is what you get. **(Windows)**
+  - [Filfre](http://maher.filfre.net/filfre/index.html): This is easier to use than Gargoyle for sure, so I’m mentioning it here, but it has minimal customization options. You might want to choose this if you need Glulx support and want an interface similar to Windows Frotz.  It’s probably not the best choice for Z-Machine files because it only supports versions 3, 4, 5, and 8 story files. The project has been stagnant since 2013, so what you see is what you get. **(Windows)**
 
-- [Trizbort](http://www.trizbort.com/): If you play IF games, you know mapping is essential, and Trizbort helps you do that.  There is even an automap function that works pretty well. **(Windows)**
+- [Trizbort](http://www.trizbort.com/): If you play IF games, you know mapping is essential, and Trizbort helps you do that.  There is even an automap function that works pretty well. **(Windows)**
   
   - A good cross-platform alternative is [Trizbort.io](https://trizbort.io/) which is a webapp version of Trizbort with most of the same functionality. Works great in any browser. This is what I use on Mac and Linux.
 
