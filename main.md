@@ -147,7 +147,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - A couple great synths plugins worth trying with LMMS and Cakewalk are [dexed](https://asb2m10.github.io/dexed/) and [Helm](https://tytel.org/helm/).
 
-# Text & Document Authoring & Viewing
+# Text & Documents
 
 *There may be some redundancy here, but text editors are like knives: you wouldn’t use a Bowie knife when you need a scalpel or a steak knife when you need a machete, so I use multiple editors depending on the task.*
 
