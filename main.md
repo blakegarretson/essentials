@@ -10,17 +10,15 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Video Player
 
-- [VLC](http://www.videolan.org/): Cross-platform video player for nearly any format imaginable. Especially useful for when you need to do uncommon things like adjust audio/Bluetooth sync or load custom subtitles. The interface isn’t fancy, but it has the features you need and stays out of your way.
-
-  - While VLC works great on any platform, Mac users may prefer [IINA](https://iina.io/). It’s a full-fledged media player with a clean interface. **(Mac)**
-
+- [VLC](http://www.videolan.org/): Cross-platform video player for nearly any format imaginable. Especially useful for when you need to do uncommon things like adjust audio/Bluetooth sync or load custom subtitles. The interface isn’t fancy, but it has the features you need (and many you don’t) and stays out of your way.
+  - While VLC works great on any platform, Mac users may prefer [IINA](https://iina.io/). It’s a full-fledged media player with a clean interface and features like picture-in-picture mode and builtin subtitle downloading. If I’m on a Mac, I’m using IINA over VLC 99% of the time. **(Mac)**
+  
 - [Friendly Streaming Browser](https://apps.apple.com/us/app/friendly-streaming-browser/id553245401?mt=12) is a weird name for a cool app. It’s just a front end for various streaming services (YouTube, Netflix, etc.), but it excels at multitasking by offering a Picture-In-Picture mode. I didn’t realized I needed this until I tried it. This is what you want when you’re working on something and need an easy way to play a 4-hour instrumental playlist from YouTube in the background, or maybe you’re editing photos or something and you want to watch a mindless episode of a cooking show in a tiny window at the corner of your screen. **(Mac)**
 
 ## Raster Photo/Image Editor
 
 - [GIMP](http://www.gimp.org/): Robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it’s not really suited for DTP pros either since it’s missing native CMYK support. Having said that, if you’re doing non-print stuff, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation.
-
-  - [Paint.NET](http://www.getpaint.net/index.html) is a fantastic alternative to GIMP for those weary of the learning curve (or the name). It is less powerful than GIMP, but it’s easy to use and really polished. It’s the Paint program Microsoft should have shipped with Windows. **(Windows)**
+- [Paint.NET](http://www.getpaint.net/index.html) is a fantastic alternative to GIMP for those weary of the learning curve (or the name). It is less powerful than GIMP, but it’s easy to use and really polished. It’s the Paint program Microsoft should have shipped with Windows. **(Windows)**
 
 ## Photo Management/Viewing (and Casual Editing)
 
@@ -43,14 +41,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Vector Image Editor
 
 - [Inkscape](https://inkscape.org/en/): Really nice vector image editor for creating professional quality, scalable diagrams, logos, you-name-it. Its functionality rivals Adobe Illustrator, although sometimes the tools don’t map one-to-one.
-  
-  - If you only need a Mac solution to vector graphics, the excellent [Curve](https://www.linearity.io/curve/) (formerly Vectornator) is hard to pass up. It’s one of those apps that looks so polished, it’s hard believe it’s free. It has all the essentials to make some incredible vector art. **(Mac)**
 
 ## Artistic Image Editor
 
-- [Krita](https://krita.org/en/): Great digital painting software. It actually could replace Gimp for many use cases, and it supports CMYK.
-
-  - Another cool option is Autodesk’s [Sketchbook](https://sketchbook.com/), which is now free (although you will need to create a free Autodesk ID to register it.) I just don’t want to invest the time in learning a program, saving a lot of files in their proprietary format, and then they yank the rug out. Autodesk has done that before, so I’m leery. Other than that, it’s great software… but so is Krita.
+- [Krita](https://krita.org/en/) is fantastic digital painting software. If you’re into illustration or digital painting, it has what you need. Krita has plenty of great features, but one thing that stands out to me is that it comes with a large selection of high quality brushes that are excellent. Personally, I have moved my digital painting to an iPad, so I’m not using Krita much these days, but I still would recommend it for desktop use.
 
 ## Stable Diffusion AI Image Generation
 
@@ -74,7 +68,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Live Streaming
 
-- [OBS Studio](https://obsproject.com/): While not exactly my jam, if you’re into live streaming OBS is a solid choice.
+- [OBS Studio](https://obsproject.com/) is a solid choice for live streaming because of the massive feature list, but it can be pretty overwhelming for a beginner. The price is right though (free), so it’s worth the learning curve.
 
 ## Video Conversion
 
@@ -92,9 +86,11 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [kdenlive](https://kdenlive.org/): If you do need something special that Openshot can't handle, it’s great to have kdenlive in the toolbox. Openshot has it beat in a few areas, so I still prefer it in general, but kdenlive has some features that make it worth having around. 
 
+- [LosslessCut](https://github.com/mifi/lossless-cut) is a lossless video editor that doesn’t require reencoding the entire video for simple operations. This is a great option if you just need to trim or cut out a section from a video file.
+
 ### Also check out:
 
-- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/): This is a professional package, but they have a free version that’s very impressive. It outshines the above editors in features, but I’m reluctant to learn a free tool that could be retracted at a whim, so in general the opensource tools get my vote.
+- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/): This is a professional package, but they have a free version that’s very impressive. It outshines the above editors in features, but I’m reluctant to learn a free tool that could be retracted at a whim, so in general the open source tools get my vote.
 
 - [Shotcut](https://www.shotcut.org/) should at least be on your radar, and perhaps you find it to your liking more than Openshot, but it's limited functionality (especially subtitles/captioning) and steeper learning curve make it hard to recommend over the other options.
 
@@ -103,58 +99,55 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Blender](https://www.blender.org/): 3D modeling and animation. Has more power than I have skill, but other people do really cool things with it. It’s fun to play with though and is worth the download.
 
 - [Synfig Studio](https://www.synfig.org/): Nice 2D animation package. I dabble with projects, and when I do, this works for me. It’s simple and intuitive for the level of projects I make.
-  
   - [OpenToonz](https://opentoonz.github.io/e/) is really cool 2D animation software that’s most well-known for being used by Studio Ghibli and Futurama. It is possible that OpenToonz is better than Synfig, but I don’t do enough animation to know the difference, and OpenToonz is less intuitive to me.
 
 ## Media Server
 
 - [Plex](https://plex.tv/): My reluctant choice for the best personal media server for most people. This is what you want for steaming your media to your Roku, Fire Stick, smart TV, etc. Just tell Plex where you store your movies, TV shows, and music and it will do the rest, including downloading cover art and show descriptions. My main reservation is they are monetizing the service more, and the free features feel sparse. For instance, you need a “Plex Pass” subscription to download shows to your client device for offline viewing. However, presently the core functionality is still free, and the easy setup and overall user experience is still worth giving Plex a try.
-
 - [Jellyfin](https://jellyfin.org/) is the more consumer-friendly, open-source alternative to Plex. Setup is fairly simple, although you may need to add some plugins to get all the functionality you want. Otherwise, it’s a fine alternative and arguably better than Plex in some regards. I would recommend trying Jellyfin first if you are more tech savvy. There are Jellyfin clients on every platform as well, so streaming to any device is easy.
+
+## Comic Reader
+
+- [YACReader](http://www.yacreader.com/) is actually two programs in one. It comes with an excellent comic reader and a comics library browser. It reads every popular format (cbr, cbz, cb7, pdf, etc.), and it has all the features I need, and quite a few I don’t. Works equally well on Windows, Mac, and Linux, which is handy so I can use the same solution everywhere.
 
 # Music & Audio
 
 ## Music Library Organization and Playback
 
 - [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. An app like this is becoming less essential as I move to online services like Amazon Prime Music and Spotify, but when I do want to work with local music files, it’s hard to do better than MusicBee. **(Windows)**
-  
   - I’m not listing a Mac alternative for playback here because the default Apple Music app meets my meager needs.
-
-- [MusicBrainz Picard](https://picard.musicbrainz.org/) is the best cross-platform solution for identifying and organizing a large collection of music files. It can figure out what files are based on tags and even audio fingerprints. Besides tagging it will rename and move files as well. Even if you’re using Apple Music or MusicBee to organize your music library, this is still a handy tool to clean up the incorrectly tagged files before adding them to your library.
   
+- [MusicBrainz Picard](https://picard.musicbrainz.org/) is the best cross-platform solution for identifying and organizing a large collection of music files. It can figure out what files are based on tags and even audio fingerprints. Besides tagging it will rename and move files as well. Even if you’re using Apple Music or MusicBee to organize your music library, this is still a handy tool to clean up the incorrectly tagged files before adding them to your library.
   - If Picard isn’t to your liking, I would suggest [MP3Tag](https://www.mp3tag.de/en/) . It is a universal batch tag editor that handles MP3s along with every other popular audio format. The robust file renaming/retagging tools and online database lookups make this powerful option for cleaning up your audio collection. This is only free for Windows. It’s a paid app on the Mac App Store. **(Windows)**
 
 ## Audio Conversion
 
-- [fre:ac](http://www.freac.org/): free audio converter and CD ripper for various formats and encoders including MP3, MP4/M4A, AAC, and more.
+- [fre:ac](http://www.freac.org/): free audio converter and CD ripper for various formats and encoders including MP3, MP4/M4A, AAC, and more. This category of software is nearly obsolete for me now, but I’m keeping it on my list for completeness if not for utility.
 
 ## Audio Editor
 
 - [Audacity](http://audacityteam.org/): Simple multi-track audio waveform editor. From recording, to basic mixing, to filters and effects, Audacity has you covered. Just keep in mind this isn’t a full-blown DAW, so don’t expect non-destructive mixing and whatnot.
-  
   - A simple single-track alternative to Audacity is [AudioDope](http://www.audiodope.org/) . If you just need to quickly trim an audio file or apply some basic filters, AudioDope is a good choice. **(Windows)**
 
 ## Digital Audio Workstation (DAW)
 
 - [Cakewalk](https://www.bandlab.com/products/cakewalk): This used to be a commercial DAW that is now free as of 2018. It’s a rebranded version of SONAR Platinum, and it’s incredibly powerful. This is a great place to start if you want to make some music. **(Windows)**
+  - Another great DAW is [Waveform Free](https://www.tracktion.com/products/waveform-free). While there is a Pro version with more features, the free version has no limitations and is very capable.
   
-  - Another great DAW is Waveform Free. While there is a Pro version with more features, the free version has no limitations and is very capable.
-
 - [Ardour](https://ardour.org/) is worth checking out if you’re a Linux user. It does all the basics really well. From recording audio or MIDI, to editing, to mixing, you’re covered. The only trick is if you really want it for free, you should use your distribution’s packager manager and don’t download it from the website.
+  - You may be asking why I limit my Ardour recommendation to Linux users. The simple answer is on Windows and Mac it isn’t really “free”. While it is open source and you can build it from scratch for free, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software.
   
-  - You may be asking why I limit my Ardour recommendation to Linux users. The simple answer is on Windows and Mac it isn’t really “free”. While it is open source and you can build it from scratch for free, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software. Having said all that, it might be worth your money, so check it out.
-
-- [GarageBand](https://www.apple.com/mac/garageband/) is the obvious easy-to-use entry-level option for the Mac. It’s tough to beat the no nonsense workflow that works great with MIDI as well as recorded tracks. ( Mac)
+- [GarageBand](https://www.apple.com/mac/garageband/) is the obvious easy-to-use entry-level option for the Mac. It’s tough to beat the no nonsense workflow that works great with MIDI as well as recorded tracks. **(Mac)**
 
 ## Step Sequencer
 
-- [LMMS](https://lmms.io/): Its website says it’s a “sound generation system, synthesizer, beat/baseline editor and MIDI control system which can power an entire home studio”. I’d call it a nice step sequencer with VST and SoundFont support for creating music. I wouldn’t call it a DAW because it doesn’t record multitrack audio, but combined with Audacity, you can make some cool stuff. Honestly, I wouldn’t even list LMMS now that Cakewalk is free, except LMMS is opensource, and Cakewalk may go away sometime in the future.
+- [LMMS](https://lmms.io/): Its website says it’s a “sound generation system, synthesizer, beat/baseline editor and MIDI control system which can power an entire home studio”. I’d call it a nice step sequencer with VST and SoundFont support for creating music. I wouldn’t call it a DAW because it doesn’t record multitrack audio, but combined with Audacity, you can make some cool stuff. Honestly, I wouldn’t even list LMMS now that Cakewalk is free, except LMMS is open source, and Cakewalk may go away sometime in the future.
 
 ## Synth Plugins
 
 - A couple great synths plugins worth trying with LMMS and Cakewalk are [dexed](https://asb2m10.github.io/dexed/) and [Helm](https://tytel.org/helm/).
 
-# Text Editors
+# Text & Document Authoring & Viewing
 
 *There may be some redundancy here, but text editors are like knives: you wouldn’t use a Bowie knife when you need a scalpel or a steak knife when you need a machete, so I use multiple editors depending on the task.*
 
@@ -163,11 +156,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Notepad++](https://notepad-plus-plus.org/) is easy to recommend for general text editing and quick file edits on Windows simply because it is blazing fast and the interface stays out of your way. This is my default application for text files, and over the years I’ve written many thousands of lines of code in Notepad++. Having said that, the antiquated syntax coloring system and somewhat clunky customization limits how well it scales to many tasks. But it is still a fast editor and it shines when opening a 1 GB log file… as long as it doesn’t need to be syntax colored as well. **(Windows)**
 
 - [CotEditor](https://coteditor.com/) is my favorite text editor on a Mac for quick and easy text editing. It isn’t as well known as other editors, but it is fast and capable. It isn’t trying to be an IDE, so don’t expect too much, but the amount of customization and the total feature set is fantastic. It has an inspired and flexible scripting interface which lets you write plugins in Python, bash, Applescript, and several other languages. And did I mention it was fast?? This is a great choice for your default text file handler. **(Mac)**
-  
   - If CotEditor is too barebones for you, the next step up without going to an IDE is [TextMate](https://macromates.com/) . It opens slower than CotEditor, but it has some robust functionality including an impressive array of text manipulation tools and extensive language support with syntax highlighting, while still staying fairly lightweight. **(Mac)**
-
-- [Neovim](https://neovim.io/): `vi` was a legendary, powerful keyboard-based text editor with a steep learning curve, Vim is its most successful clone (itself being a derivative of Stevie), and Neovim aims at pushing Vim into the 21st century with a clean code base and features like Lua extensibility and asynchronous plugins which allow for things like async linters. Some people think it’s silly to use a `vi` clone more than four decades after it was introduced, but there are some tasks that are orders of magnitude faster in a `vi` clone than modern mouse-oriented text editors.
   
+- [Neovim](https://neovim.io/): `vi` was a legendary, powerful keyboard-based text editor with a steep learning curve, Vim is its most successful clone (itself being a derivative of Stevie), and Neovim aims at pushing Vim into the 21st century with a clean code base and features like Lua extensibility and asynchronous plugins which allow for things like async linters. Some people think it’s silly to use a `vi` clone more than four decades after it was introduced, but there are some tasks that are orders of magnitude faster in a `vi` clone than modern mouse-oriented text editors.
+
   - If a console-based text editor is what you need and you don’t love the `vi` modal editing and key bindings, you should really check out [micro](https://micro-editor.github.io/). Micro works from a console, but it has modern capabilities like mouse support, multiple cursors, Lua plugins, tabs, tmux-like splits, and syntax color schemes. Best of all, the normal Windows key bindings like CTRL-C, CTRL-V, CTRL-S, and CTRL-Z work as expected.
 
 ### Honorable Mentions
@@ -176,39 +168,34 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Geany](https://www.geany.org/) is a jack-of-all-trades that is good at everything, but not best-in-class in anything. It is a versatile cross-platform programmer’s text editor that you can configure to be anything from a simple Notepad.exe replacement to an ultra-lightweight IDE. It’s just hard to recommend because while it’s good for quick edits and opening text files, Notepad++ or TextMate are even faster for those quick tasks. And while Geany is really nice for light coding, VS Code is even better. Geany is rarely the best tool for the job, but it might be the right choice for a computer that just needs an all-purpose, do-it-all editor. If you do try it, there are lots of great features hidden in the official plugin package, so be sure to grab it as well.
 
-## Programming Editor/IDE
+## Writing/Markdown Apps
 
-- [Visual Studio Code](https://code.visualstudio.com/): VS Code is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE. A huge bonus is the excellent Jupyter Notebook support. For many use cases, there’s no reason to run a standalone Jupyter server anymore.  (Note: Don’t confuse VS Code with [Visual Studio](https://visualstudio.microsoft.com/vs/) which is a full-blown IDE with more advanced features that I don’t find necessary for the hobbyist.)
-  
-  - Two things worth mentioning: First, you can run VS Code directly in a web browser [here](https://vscode.dev/). The experience is pretty incredible all things considered. Second, VS Code is very actively developed, so if you want the latest and greatest, you may want to run VS Code Insiders. On paper it is a beta version of VS Code where the new features are tested out, except I have found Insiders to be stable enough for production work. I honestly haven’t noticed a difference in reliability.
-  
-  - [Zed](https://zed.dev/) is another code editor that I’m keeping my eye on. It is a newer offering, but it’s already doing some cool things, and it seems to be faster than VS Code for those quick code edits. It still has a way to go to be competitive with VS Code, but I like where it’s going.
+*This category of apps is appropriate for writing long-form prose like papers, articles, essays, or even books. I’m only including Markdown editors here as I think that’s just a standard requirement at this point.*
 
-## Prose Text Editor
+- [Obsidian](https://obsidian.md/) is probably best known as a note-taking app, but it has comprehensive Markdown support and a plugin ecosystem that can turn it into just about anything you want. I think Obsidian is great for writing after installing plugins to support [LanguageTool](https://languagetool.org), smart quotes, and Git (for document version control.) The live-preview hides the Markdown syntax if you prefer that, and you can see math blocks and diagrams render as you type.
+- [Zettlr](https://zettlr.com) advertises itself as a “one-stop publication workbench”, and that’s an apt description. While excellent for notes, it handles long projects without breaking a sweat, especially if you need to handle citations. Like Obsidian, it has a very nice live-preview which I find mandatory for a modern writing app.
 
-- [WriteMonkey](http://writemonkey.com/): For writing prose, it’s hard to beat this distraction-free text editor. It has Markdown support and other handy features that push it to the front of the pack for its genre. Version 2 is Windows-only. **(Windows)**
-  
-  - Check out version 3 for the newest cross-platform codebase that adds support for Linux and Mac, HOWEVER, the Mac version isn’t working for me as of 2024.
-  
-  - [FocusWriter](https://gottcode.org/focuswriter/): If the command palette interface of WriteMonkey 3 is a deal-breaker for you, a good runner-up is FocusWriter. It has a more classic distraction-free interface, and it has plenty of convenience features like smart quote conversion.  ( Windows/Linux)
+### Honorable mentions
 
-- [uFocus](https://desairem.com/wordpress/ufocus/) is a distraction-free editor for the Mac. Its Markdown support and clean interface make it a perfect choice for prose writing. Even though it is simple, there are plenty of customization options to make it work and look just like you want it to. It’s a wonderful app. **(Mac)**
+- *The above options can honestly be a bit overwhelming if you just want to edit a simple Markdown file. Also worth considering:*
 
-## Text Utility
+  - [uFocus](https://desairem.com/wordpress/ufocus/) is a lightweight distraction-free editor for the Mac. Its Markdown support and clean interface make it a perfect choice for quick prose writing. Even though it is simple, there are plenty of customization options to make it work and look just like you want it to. It’s a wonderful app if you don’t need live-preview. **(Mac)**
 
-- [Boop](https://boop.okat.best/) is a text scratchpad that provides a large host of text manipulations useful for programming or writing. You paste in your text, and then run a script on it. It can be anything you can think of, like running it through ROT13, trimming whitespace, hashing it, html encode/decode, sorting, removing duplicate lines, converting cases, or tons of other operations. If you don’t see what you need, you can create your own script or download someone else’s. **(Mac)**
+  - [WriteMonkey](http://writemonkey.com/) is a distraction-free text editor with a few handy features that pushed it to the front of the pack back when distraction-free editors were new and all the rage. Its development has slowed down (stopped??), but it still works fine even if it feels a bit outdated at this point. **(Windows)**
 
-# Programming
+  - [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) reminds me more of a code editor that supports Markdown than a modern writing app, but it is excellent at being a “Markdown code editor”. There is no in-app rendering, but the syntax highlighting is helpful. **(Mac)**
 
-*Note: See the [Text Editors](#text-editors) section for programming text editors and IDEs.*
+  - [MarkText](https://github.com/marktext/marktext) is a cross–platform option that I probably would have included as one of my first choices due to its excellent live-preview and intuitive interface, but development seems to have stopped? MarkText looks like a clone of Typora (a paid app), so if you like Typora, you may prefer the free MarkText instead.
 
-## Version Control
+## Note-Taking
 
-- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you’re a programmer, you already know what this is. On Windows a big bonus is the installer includes all the Unix command-line tools you know and love. If you need ls, cat, grep, awk, and all the rest, I think this is the easiest way to add them to your Windows system.
+- [OneNote](https://www.onenote.com/download) is easy to recommend given the comprehensive functionality and the fact that it is free. For most tasks, I’m a plain text file guy. However, I use OneNote at work extensively, and I really like it. I can integrate emails, pictures, tables, and all the rest into a workflow organized by notebooks, sections, and pages. However, if you don’t use Office 365 and/or Outlook, OneNote might not have as many advantages for you.
 
-- [Git Extensions](https://gitextensions.github.io/): Sometimes a GUI is convenient to visualize branches and handle more complicated tasks when when you don’t feel like looking up the correct commands/switches, and I think Git Extensions is far superior to the official Git GUI. I wish it was cross-platform, but the latest versions are built on .NET and Windows only. **(Windows)**
+- [Obsidian](https://obsidian.md/) is listed above in the general writing app category, but it is great for notes as well. Images and tables are supported through Markdown, so they aren’t as easy to include as in OneNote, but Obsidian excels when it comes to text. The Canvas feature is also really cool. It lets you visualize and connect data in interesting ways, a bit like a mind mapper. Obsidian’s biggest shortcoming is you have to figure out your own file-sync solution unless you pay them for their sync service. Saving your vaults to Google Drive, iCloud, OneDrive, etc. will solve this for you, but you still won’t be able to work with some combinations (like saving a vault to Google Drive on desktop and opening it on an iPhone).
 
-- [Gittyup](https://github.com/Murmele/Gittyup) is a good cross-platform option for a Git GUI. On Mac there are less options for a good GUI that isn’t proprietary, but this works well for me. It makes complex Git operations more manageable.
+- [Zettlr](https://zettlr.com) (also mentioned above with the writing apps) is a Markdown-based app great for note-taking, and (unlike Obsidian) it is completely open source. While powerful on the desktop, Zettlr does not have a mobile app counterpart, so your notes aren’t easily accessible on your mobile devices. You are also on your own for syncing, but that is easily overcome by saving your notes to a cloud service like Google Drive or iCloud.
+
+- [Tot](https://tot.rocks/) is a Mac-only app that sits in your menubar waiting to save quick notes and snippets of text. This is not a general purpose notes app like the above apps. It is very limited, and it just has seven Markdown-supported “pages” of notes where you can type or paste whatever you like. This weird limitation carves out a unique use-case that I didn’t know I needed until I started using it. As a bonus, syncing is automatic and seamless, so if you install Tot on a laptop and desktop (for instance), it serves as a common clipboard where you can pass information. **(Mac)**
 
 ## Text Comparison
 
@@ -218,6 +205,91 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
   - [KDiff3](https://apps.kde.org/kdiff3/) is the other venerable option that's been around forever, and does a few things better than Meld (namely directory comparison), but overall, it's never my first choice. (Tip: they hide the downloads [here](https://download.kde.org/stable/kdiff3/).)
 
+## Text Snippet Managers
+
+- [SnippetsLab](https://www.renfei.org/snippets-lab/) is a great way to manage snippets of text for easy reuse. I use this for boilerplate in emails and coding as well as command-line one-liners. The SnippetsLab Assistant lives in the Menu Bar and can be activated with global keyboard shortcuts from any program to easily find and insert your snippets. **(Mac)**
+  - If you need a cross-platform solution, [massCode](https://masscode.io) is a snippets manager heavily inspired by SnippetsLab. It has Markdown and Mermaid support, as well as interesting features like integrated mind-mapping that generates graphics representations from Markdown hierarchy. My main complaint is that it doesn’t have global hotkey support, so actually *using* the snippets can be tedious and harder than it should be.
+
+## Text Manipulation
+
+- [Boop](https://boop.okat.best/) is a text scratchpad that provides a large host of text manipulations useful for programming or writing. You paste in your text, and then run a script on it. It can be anything you can think of, like running it through ROT13, trimming whitespace, hashing it, html encode/decode, sorting, removing duplicate lines, converting cases, or tons of other operations. If you don’t see what you need, you can create your own script or download someone else’s. **(Mac)**
+
+## Grammar Checking
+
+- [LanguageTool](https://languagetool.org) is an AI-based grammar checking tool that integrates with a number of other apps or works as a standalone app. If you’re writing prose, this is a handy tool to have around.
+
+## PDF Viewing/Editing
+
+- [PDFgear](https://www.pdfgear.com/) is amazing if you work with PDFs often. If you only have one PDF program on your computer, it should be PDFgear.  You can use it as a viewer, but it also is an incredible editor. It can edit text, extract/reorder/delete pages, convert formats, merge and split PDF files, and it includes robust annotation tools. PDF editing has traditionally been the territory of commercial programs, so the fact that PDFgear is free is awesome. **(Windows & Mac)**
+  
+  - If you’re on Linux, your best alternative to PDFgear is [PDFsam Basic](https://pdfsam.org/pdfsam-basic/). It will handle all your basic PDF editing needs. It will merge, split, and rotate PDFs, as well as extract pages. There is a premium offering that does more, but PDFsam Basic covers the most frequent uses cases.
+
+- [Adobe Acrobat Reader](https://get.adobe.com/reader/): The original PDF viewer. While not my first choice, I always install it just in case because it is the gold standard PDF reader. However, the interface has become bloated over the years and many of the tools require you to upgrade for access to the premium features. Pro-tip: the mark-up/annotation capabilities are hidden under View➞Tools➞Comment .
+  
+  - For a lighter-weight solution to reading and marking up PDFs on Mac, it’s hard to beat [Skim](https://skim-app.sourceforge.io/). While being fast and free, it is still has plenty of features. **(Mac)**
+
+## eBook Utilities
+
+- [Calibre](http://calibre-ebook.com/): All-in-one ebook manager. Whatever you need to do to/with an ebook, this will do it. It organizes, converts, downloads covers, etc.. Absolutely indispensable if you have a non-DRM ebook collection. With plug-ins you can even strip DRM to backup your purchases.
+
+- [FBReader](https://fbreader.org) is a cross-platform ebook reader with a nice clean interface that stays out of the way. It’s simple, but it still has all the customization you need to make it look exactly how you like it . The real killer feature is the “book network”. It uses your Google Drive to store books and sync progress and bookmarks across platforms. If you read from multiple devices, this is a huge bonus.
+
+- [Freda](http://www.turnipsoft.co.uk/freda/): A nice standalone e-reader that handles the popular formats like mobi and ePub. The main advantage it has over Calibre’s built-in reader is the extensive customization options and font rendering. **(Windows)**
+
+  - The honorable mention on Windows goes to [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)  because it is a convenient all-in-one reader for PDF, EPUB, MOBI, CBR, CBZ, CHM, and XPS. While Sumatra might not be the best solution for ebooks or comics, it’s handy to have around, and some books even look better in Sumatra (usually because of font rendering). **(Windows)**
+
+## Markup Conversion/Publishing
+
+- [Pandoc](http://pandoc.org/): Convert markup formats to other formats. Handles Markdown, HTML, EPUB, LaTeX, etc. This is an extremely powerful program, and I like to use it to build websites through the use of its robust template system.
+
+## TeX/LaTeX Tools
+
+- [MiKTeX](http://miktex.org/): A port of the TeX document publishing system that converts source files into beautifully typeset documents. If you know what TeX/LaTeX are, you need this. If you don’t know what they are, and you care about breathtaking documents, then you need to learn TeX. The main advantage MiKTeX has over other TeX distributions like [TeX Live](https://tug.org/texlive/) (the *de facto* standard TeX system for Unix-like systems) is that it downloads packages on-the-fly as needed and streamlines installation and updates.
+
+  - This isn’t a software link, but a really useful site about LaTeX fonts is [here](http://www.tug.dk/FontCatalogue/). And while I’m breaking the rules and posting web links, [here’s](http://en.wikibooks.org/wiki/LaTeX/) a really good website for LaTeX info.
+    
+  - The two other MiKTeX alternatives that I want to note are [MacTeX](https://www.tug.org/mactex/mactex-download.html), which is a Mac-only distribution of [TeX Live](https://tug.org/texlive/), and [Tectonic](https://tectonic-typesetting.github.io/en-US/), which is a modern TeX/LaTeX engine that has some cool tricks, including on-demand automatic package installation. Tectonic is not a bad place to start if you have never used TeX before.
+
+- [TeXstudio](http://texstudio.sourceforge.net/): Lightweight portable LaTeX IDE, including editor, spell checker, and symbol toolbars. For those keeping track, this was forked from TeXMaker back in 2009, and it’s clearly outpaced it. If I need to edit TeX, this is a nice solution. 
+  - While I love TeX, unless I’m writing a technical paper with extensive math notation or formatting requirements, I’m probably going to use a Markdown editor that supports TeX math blocks instead of a dedicated TeX editor. 
+  - Another nice alternative is to just use VS Code with the appropriate LaTeX extensions installed. 
+
+
+## Office Suite
+
+- [LibreOffice](https://www.libreoffice.org/): Provides all the usual “office” suspects, like a word processor, spreadsheet, and presentation applications. While still lacking the polish of MS Office, for most use cases this is a reasonable replacement. The key functionality is there, and the major gaps of the early releases (e.g. Goal Seek and Pivot Tables) have long since been filled. Worth noting: LibreOffice Draw works well for flowcharts (similar to Visio).
+  
+  - Full disclosure, I don’t find LibreOffice essential in the sense that I use it often. I like LibreOffice as a convenience so I can easily open an MS Office file or perform the odd task, but I actually far prefer working in the cloud with Google Docs and Sheets. In some ways, Sheets is even better than Excel or LibreOffice Calc with conveniences like the split() function.
+
+## Desktop Publishing
+
+- [Scribus](https://www.scribus.net/) is the best free desktop publishing solution out there; perfect for making flyers, invitations, banners, stationary, and even full books. When a casual user needs something more than Word, but can’t justify buying something like Adobe InDesign, Scribus is probably your best option.
+
+## Sheet Music
+
+- [MuseScore](https://musescore.org/en): Easy-to-use interface for creating sheet music. With great documentation and abundant resources like videos, tutorials, and how-tos, you will be creating great looking sheet music documents in no time.
+  
+  - If you want to make sheet music and have complete control over every aspect of the output, [LilyPond](http://lilypond.org/) is where it’s at. There’s no GUI, it’s super niche software, so it’s not for everyone, but the results are sublime.
+
+# Programming
+
+## Programming Editor/IDE
+
+*Note: See the [All-Purpose Text Editors](#all-purpose-text-editor) section for other text editors useful for programming.*
+
+- [Visual Studio Code](https://code.visualstudio.com/): VS Code is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE. A huge bonus is the excellent Jupyter Notebook support. For many use cases, there’s no reason to run a standalone Jupyter server anymore.  (Note: Don’t confuse VS Code with [Visual Studio](https://visualstudio.microsoft.com/vs/) which is a full-blown IDE with more advanced features that I don’t find necessary for the hobbyist.)
+  - Two things worth mentioning: First, you can run VS Code directly in a web browser [here](https://vscode.dev/). The experience is pretty incredible all things considered. Second, VS Code is very actively developed, so if you want the latest and greatest, you may want to run VS Code Insiders. On paper it is a beta version of VS Code where the new features are tested out, except I have found Insiders to be stable enough for production work. I honestly haven’t noticed a difference in reliability.
+
+  - [Zed](https://zed.dev/) is another code editor that I’m keeping my eye on. It is a newer offering, but it’s already doing some cool things, and it seems to be faster than VS Code for those quick code edits. It still has a way to go to be competitive with VS Code, but I like where it’s going.
+
+## Version Control
+
+- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you’re a programmer, you already know what this is. On Windows a big bonus is the installer includes all the Unix command-line tools you know and love. If you need ls, cat, grep, awk, and all the rest, I think this is the easiest way to add them to your Windows system.
+
+- [Git Extensions](https://gitextensions.github.io/): Sometimes a GUI is convenient to visualize branches and handle more complicated tasks when when you don’t feel like looking up the correct commands/switches, and I think Git Extensions is far superior to the official Git GUI. I wish it was cross-platform, but the latest versions are built on .NET and Windows only. **(Windows)**
+
+- [Gittyup](https://github.com/Murmele/Gittyup) is a good cross-platform option for a Git GUI. On Mac there are less options for a good GUI that isn’t proprietary, but this works well for me. It makes complex Git operations more manageable.
+
 ## Compiled Language
 
 - [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely.
@@ -225,7 +297,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Scripting Language - General Purpose
 
 - [Python](http://www.python.org/): My favorite general purpose programming language. It’s perfect for getting the job done quickly without a lot of boilerplate and heavy lifting. I’m a pragmatic engineer, so I just want to solve a problem as efficiently and elegantly as possible, and I’ll leave the arguing about static typing and whatnot to the real developers and CS engineers.
-  
+
   - On Mac I prefer to use [pyenv](https://github.com/pyenv/pyenv) to install the various Python versions. Once you install it (which is trivial with Homebrew), you can just issue a command like: `pyenv install 3.10.4`
 
   - All the essential Python libraries are on PyPi, so here is a pip command line (for easy cutting and pasting) useful for STEM programming to get you started. This is a short list, but it pulls the more important dependencies like scipy, pandas, and numpy: `pip install jupyterlab seaborn PyQt6 sympy`
@@ -255,7 +327,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Julia](http://julialang.org/): Just an incredible tool for mathematical or scientific computing of any kind. The lightweight syntax is a delight even by Python standards, and its speed usually matches or beats compiled languages due to its JIT compiler and language design. Julia is made for speed (both in writing and execution), and I think it combines the best of Python, Fortran, MATLAB, and R. I use it more as a math tool than a general purpose scripting language, hence this separate category.
 
   - For interactive Julia sessions, there is nothing like [Pluto.jl](https://github.com/fonsp/Pluto.jl) . It is a must see experience. It’s like a Jupyter Notebook, but better.
-  
+
   - If you like Julia, you might like the [JuliaMono](https://juliamono.netlify.app/) font. I can’t justify listing this with the other fonts below because it’s so specific to Julia, but this is an interesting font intended to leverage Julia’s excellent Unicode support for actual math operations. Check out the website for examples.
 
 ## Programming Fonts
@@ -269,72 +341,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Input](https://input.djr.com/): Incredibly flexible font system that lets you customize letters (a/g/i/l/0) and symbols (asterisk/braces) to your liking, as well as choose from 7 weights and 4 widths, and sans, serif, and mono variants. There are 168 styles in all, so you will find one that works for any given situation.
 
 - [Iosevka](https://typeof.net/Iosevka/): Similar to the Input font, Iosevka raises the bar by adding ligatures, more weights, more variants, and incredible character coverage with thousands and thousands of supported glyphs. There are plenty of variants with different character and symbol styles, so you should be able to find one that has the look you want. There are so many choices it can be confusing, but if want a general purpose font that works everywhere (but doesn’t have ligatures), start with the “Iosevka Fixed” font. At the end of the day, this is the only font I need because I can configure it to look any way I want.
-
-# Document Authoring & Viewing
-
-See the [Text Editors](#text-editors) section for creating plain text files.
-
-## PDF Viewing/Editing
-
-- [PDFgear](https://www.pdfgear.com/) is amazing if you work with PDFs often. If you only have one PDF program on your computer, it should be PDFgear.  You can use it as a viewer, but it also is an incredible editor. It can edit text, extract/reorder/delete pages, convert formats, merge and split PDF files, and it includes robust annotation tools. PDF editing has traditionally been the territory of commercial programs, so the fact that PDFgear is free is awesome. **(Windows & Mac)**
-  
-  - If you’re on Linux, your best alternative to PDFgear is [PDFsam Basic](https://pdfsam.org/pdfsam-basic/). It will handle all your basic PDF editing needs. It will merge, split, and rotate PDFs, as well as extract pages. There is a premium offering that does more, but PDFsam Basic covers the most frequent uses cases.
-
-- [Adobe Acrobat Reader](https://get.adobe.com/reader/): The original PDF viewer. While not my first choice, I always install it just in case because it is the gold standard PDF reader. However, the interface has become bloated over the years and many of the tools require you to upgrade for access to the premium features. Pro-tip: the mark-up/annotation capabilities are hidden under View➞Tools➞Comment .
-  
-  - For a lighter-weight solution to reading and marking up PDFs on Mac, it’s hard to beat [Skim](https://skim-app.sourceforge.io/). While being fast and free, it is still has plenty of features. **(Mac)**
-
-## eBook Utilities
-
-- [Calibre](http://calibre-ebook.com/): All-in-one ebook manager. Whatever you need to do to/with an ebook, this will do it. It organizes, converts, downloads covers, etc.. Absolutely indispensable if you have a non-DRM ebook collection. With plug-ins you can even strip DRM to backup your purchases.
-
-- [FBReader](https://fbreader.org) is a cross-platform ebook reader with a nice clean interface that stays out of the way. It’s simple, but it still has all the customization you need to make it look exactly how you like it . The rea l killer feature is the “book network”. It uses your Google Drive to store books and sync progress and bookmarks across platforms. If you read from multiple devices, this is a huge bonus.
-
-- [Freda](http://www.turnipsoft.co.uk/freda/): A nice standalone e-reader that handles the popular formats like mobi and ePub. The main advantage it has over Calibre’s built-in reader is the extensive customization options and font rendering. **(Windows)**
-
-  - The honorable mention on Windows goes to [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)  because it is a convenient all-in-one reader for PDF, EPUB, MOBI, CBR, CBZ, CHM, and XPS. While Sumatra might not be the best solution for ebooks or comics, it’s handy to have around, and some books even look better in Sumatra (usually because of font rendering). **(Windows)**
-
-## Comic Reader
-
-- [YACReader](http://www.yacreader.com/) is actually two programs in one. It comes with an excellent comic reader and a comics library browser. It reads every popular format (cbr, cbz, cb7, pdf, etc.), and it has all the features I need, and quite a few I don’t. Works equally well on Windows, Mac, and Linux, which is handy so I can use the same solution everywhere.
-
-## Markup & TeX/LaTeX Tools
-
-- [Pandoc](http://pandoc.org/): Convert markup formats to other formats. Handles Markdown, HTML, EPUB, LaTeX, etc. This is an extremely powerful program, and I like to use it to build websites through the use of its robust template system.
-
-- [MiKTeX](http://miktex.org/): A port of the TeX document publishing system that converts source files into beautifully typeset documents. If you know what TeX/LaTeX are, you need this. If you don’t know what they are, and you care about breathtaking documents, then you need to learn TeX. The main advantage MiKTeX has over other TeX distributions like [TeX Live](https://tug.org/texlive/) (the *de facto* standard TeX system for Unix-like systems) is that it downloads packages on-the-fly as needed and streamlines installation and updates.
-  
-  - This isn’t a software link, but a really useful site about LaTeX fonts is [here](http://www.tug.dk/FontCatalogue/). And while I’m breaking the rules and posting web links, [here’s](http://en.wikibooks.org/wiki/LaTeX/) a really good website for LaTeX info.
-    
-  - The two other MiKTeX alternatives that I want to note are [MacTeX](https://www.tug.org/mactex/mactex-download.html), which is a Mac-only distribution of [TeX Live](https://tug.org/texlive/), and [Tectonic](https://tectonic-typesetting.github.io/en-US/), which is a modern TeX/LaTeX engine that has some cool tricks, including on-demand automatic package installation. Tectonic is not a bad place to start if you have never used TeX before.
-
-- [TeXstudio](http://texstudio.sourceforge.net/): Lightweight portable LaTeX IDE, including editor, spell checker, and symbol toolbars. For those keeping track, this was forked from TeXMaker back in 2009, and it’s clearly outpaced it.
-
-## Office Suite
-
-- [LibreOffice](https://www.libreoffice.org/): Provides all the usual “office” suspects, like a word processor, spreadsheet, and presentation applications. While still lacking the polish of MS Office, for most use cases this is a reasonable replacement. The key functionality is there, and the major gaps of the early releases (e.g. Goal Seek and Pivot Tables) have long since been filled. Worth noting: LibreOffice Draw works well for flowcharts (similar to Visio).
-  
-  - Full disclosure, I don’t find LibreOffice essential in the sense that I use it often. I like LibreOffice as a convenience so I can easily open an MS Office file or perform the odd task, but I actually far prefer working in the cloud with Google Docs and Sheets. In some ways, Sheets is even better than Excel or LibreOffice Calc with conveniences like the split() function.
-
-## Note-Taking
-
-- [OneNote](https://www.onenote.com/download) is easy to recommend given the comprehensive functionality and the fact that it is free. For most tasks, I’m a plain text file guy, and I think note-taking apps are sometimes unnecessary when a simple text editor works fine. However, I use OneNote at work extensively, and I really like it. I can integrate emails, pictures, tables, and all the rest into a workflow organized by notebooks, sections, and pages. However, if you don’t use Office 365 and/or Outlook, OneNote might not have as many advantages for you.
-
-- [Obsidian](https://obsidian.md/) is where you might want to go if you want good Markdown support and you don’t need total inoperability on mobile devices. The Canvas feature is really cool. It lets you visualize and connect data in interesting ways, a bit like a mind mapper. Obsidian’s biggest shortcoming is you have to figure out your own file-sync solution unless you pay them for their sync service. Saving your vaults to Google Drive, iCloud, OneDrive, etc. will solve this for you, but you still won’t be able to work with some combinations (like saving a vault to Google Drive on desktop and opening it on an iPhone). Likewise, there was limited Canvas support for mobile (at least initially), so you could create a note on desktop that you couldn’t open on mobile. That isn’t true anymore, but be aware there isn't always complete parity between desktop and mobile.
-
-  - If Obsidian is too unwieldy for you, [Simplenote](https://simplenote.com/) is a nice… um, simple note app that works across all platforms. This is a good choice if you don’t need multimedia integrated into your notes, and you want to access your notes anywhere. It supports Markdown and tagging, but otherwise it’s barebones. It does make syncing automatic though, and that’s the real selling point. If you use multiple platforms regularly, this is a great experience. You can jump from MacOS to Android to Windows to iOS to anything with a web browser without missing a beat, and the interface stays out of your way.
-
-- [Tot](https://tot.rocks/) is a Mac-only app that sits in your menubar waiting to save quick notes and snippets of text. This is not a general purpose notes app like the above apps. It is very limited, and it just has seven Markdown-supported “pages” of notes where you can type or paste whatever you like. This weird limitation carves out a unique use-case that I didn’t know I needed until I started using it. As a bonus, syncing is automatic and seamless, so if you install Tot on a laptop and desktop (for instance), it serves as a common clipboard where you can pass information. **(Mac)**
-
-## Desktop Publishing
-
-- [Scribus](https://www.scribus.net/) is the best free desktop publishing solution out there; perfect for making flyers, invitations, banners, stationary, and even full books. When a casual user needs something more than Word, but can’t justify buying something like Adobe InDesign, Scribus is probably your best option.
-
-## Sheet Music
-
-- [MuseScore](https://musescore.org/en): Easy-to-use interface for creating sheet music. With great documentation and abundant resources like videos, tutorials, and how-tos, you will be creating great looking sheet music documents in no time.
-  
-  - If you want to make sheet music and have complete control over every aspect of the output, [LilyPond](http://lilypond.org/) is where it’s at. There’s no GUI, it’s super niche software, so it’s not for everyone, but the results are sublime.
 
 # Science, Math, and Engineering
 
@@ -366,7 +372,7 @@ See the [Text Editors](#text-editors) section for creating plain text files.
 
 ## Graphing/Plotting
 
-*Note that this section is dedicated to standalone graphing/plotting software, but apps in other categories (e.g. statistics, CAS, and office suites) have graphing/plotting capabilties as well. Also worth noting, Python libraries like Matplotlib and Seaborn (see [Programming](#programming)) make standalone graphing software somewhat redundant for me, but the feature sets and easier-to-use interfaces make these apps below still the best tool for some jobs.*
+*Note that this section is dedicated to standalone graphing/plotting software, but apps in other categories (e.g. statistics, CAS, and office suites) have graphing/plotting capabilities as well. Also worth noting, Python libraries like Matplotlib and Seaborn (see [Programming](#programming)) make standalone graphing software somewhat redundant for me, but the feature sets and easier-to-use interfaces make these apps below still the best tool for some jobs.*
 
 - [gnuplot](http://gnuplot.sourceforge.net/): While it has a steeper learning curve than a typical GUI driven program, gnuplot’s spartan interface helps you plot and tweak quickly without having to know the commands. This venerable GNU program has been around since the 1980s quietly excelling in its domain. If something can be plotted at all, it can probably be plotted by gnuplot. You might want to start with the demo gallery to see what it can do.
 
@@ -410,13 +416,13 @@ See the [Text Editors](#text-editors) section for creating plain text files.
 
 ## CSV Files
 
-- [Tad](https://www.tadviewer.com/) is a CSV file explorer that let’s you view, filter, pivot, and analyze very large CSV files. In STEM, sometimes you need to work with large CSV data sets, and this is a great way to do it.
+- [Tad](https://www.tadviewer.com/) is a CSV file explorer that lets you view, filter, pivot, and analyze very large CSV files. In STEM, sometimes you need to work with large CSV data sets, and this is a great way to do it.
 
 - [Miller](https://github.com/johnkerl/miller/) is an incredible tool for working with CSV files (and others) from the command line. You reshape, filter, and even create new columns based on operations performed on other columns. If you work with CSV files, especially large files or large numbers of files, Miller can be a lifesaver.
 
 ## 2D/3D CAD Modeling
 
-- [FreeCAD](https://www.freecad.org//) is the best open source solution for making parametric 3D models and generating professional-looking drawings/prints, even if it makes it harder than it should be. Its capabilities are pretty incredible for what it is (especially after coming out of beta and releasing v1.0), but if I'm being honest, it still falls short of any of the top-tier commercial products. The interface can be clunky and often works against me, and for some tasks I just can’t figure out an efficient workflow. Having said that, there is a lot of great functionality here, including a good constraint manager, impressive assembly capabilities, and a decent CAM module that generates usable G-code. At the end of the day, FreeCAD is easily the best totally free CAD solution out there, and it gets the job done without spending hundreds (or thousands) of dollars on expensive commercial softeware.  
+- [FreeCAD](https://www.freecad.org//) is the best open source solution for making parametric 3D models and generating professional-looking drawings/prints, even if it makes it harder than it should be. Its capabilities are pretty incredible for what it is (especially after coming out of beta and releasing v1.0), but if I'm being honest, it still falls short of any of the top-tier commercial products. The interface can be clunky and often works against me, and for some tasks I just can’t figure out an efficient workflow. Having said that, there is a lot of great functionality here, including a good constraint manager, impressive assembly capabilities, and a decent CAM module that generates usable G-code. At the end of the day, FreeCAD is easily the best totally free CAD solution out there, and it gets the job done without spending hundreds (or thousands) of dollars on expensive commercial software.  
 
 - [Autodesk Fusion 360](https://www.autodesk.com/campaigns/fusion-360-for-hobbyists): I hate to rely on proprietary software that might be pulled behind a paywall tomorrow, but Fusion 360 is a professional-grade 3D modeler that can’t be passed up when they’re giving it away for free. Professionally, I’ve used everything from Pro/E to Catia to I-DEAS to NX to Inventor and a half dozen more CAD packages, and Fusion 360 is as good as any of them for creating 3D models. The interface is incredibly intuitive if you’ve used any real CAD package before. I use Fusion on both Windows and Mac and switching between platforms is seamless. If you sign up as a hobbyist (i.e. not for commercial use) you can get a free license. They recently further crippled the free hobbyist version (e.g. file format support and number of active documents allowed), but it’s still very usable for personal projects.
 
@@ -428,15 +434,14 @@ See the [Text Editors](#text-editors) section for creating plain text files.
 
 - [KiCad](https://www.kicad.org/): If you’re looking for an electronics design program, you’re probably looking for KiCad. I t can do everything from creating a schematic to designing a PCB. The learning curve is a bit more than I would like for doing simple schematics, but it’s worth learning.
   
-  - [TinyCAD](https://www.tinycad.net/) is a good alternative to KiCad if you do circuit design. I don’t know that it can do anything that KiCad can’t, but I think it is easier to use in some ways and I find it better for some jobs. It’s chief short-coming is it’s Windows -only. **(Windows)**
+  - [TinyCAD](https://www.tinycad.net/) is a good alternative to KiCad if you do circuit design. I don’t know that it can do anything that KiCad can’t, but I think it is easier to use in some ways and I find it better for some jobs. Its chief short-coming is that it’s Windows-only. **(Windows)**
     
   - [ExpressSCH](https://www.expresspcb.com/pcb-cad-software/): This is a really simple program for making quick schematics. It’s like the Notepad.exe or Windows Paint of the schematics world. Not very glamorous or loaded with features, but it works in a pinch. (By the way, when you click on the ExpressSCH link, you’ll want to download ExpressPCB Classic and you’ll get ExpressSCH too.) **(Windows)**
 
 ## 3D Printing Slicer
 
-- [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/): Cura is a great slicer that works with any printer (not just Ultimakers). I think it’s the most user-friendly slicer out there, especially for those new to 3D printing. It has plenty of features without overwhelming the user, but most importantly, the defaults are all good enough to slice your first model without fiddling with parameters or knowing too much.
-  
-  - The other leading general-purpose slicers out there are [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/) and [SuperSlicer](https://github.com/supermerill/SuperSlicer) (which is a fork of PrusaSlicer, which is a fork of [Slic3r](https://slic3r.org/) ). I would say that either is more powerful than Cura, but with added complexity and harder to setup out of the box, but either one is a solid choice with certain advantages over the other.
+- [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/): Cura is a great slicer that works with any printer (not just Ultimaker's). I think it’s the most user-friendly slicer out there, especially for those new to 3D printing. It has plenty of features without overwhelming the user, but most importantly, the defaults are all good enough to slice your first model without fiddling with parameters or knowing too much.
+  - The other leading general-purpose slicers out there are [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/), [SuperSlicer](https://github.com/supermerill/SuperSlicer) (which is a fork of PrusaSlicer, which is a fork of [Slic3r](https://slic3r.org/) ), and [Orca Slicer](https://github.com/SoftFever/OrcaSlicer) (which is a fork of Bamboo Studio, which is a fork of PrusaSlicer as well). I would say that all three are more powerful than Cura, but with added complexity and harder to setup out of the box, but all are a solid choice with certain advantages over the others. I would probably go with Orca if I were to choose a slicer that isn’t Cura.
 
 ## GPX Viewer
 
@@ -452,12 +457,15 @@ See the [Text Editors](#text-editors) section for creating plain text files.
 
 - [Stellarium](http://stellarium.org/): A great planetarium for the hobbyist astronomer.
 
+## Large Language Model Server
+
+- [Ollama](https://ollama.com) is the place to go if you want to run a LLM locally. There are a number of popular models to choose from, and they can be run from Mac, Windows, and Linux.
+
 # Network & Internet
 
 ## Web Browser
 
-- [Firefox](https://www.mozilla.org/en-US/firefox/) is once again my default web browser. The robust feature set and impressive array of extensions make this my first choice once again. Its arguably far more pro-consumer than Chrome with its stance on ad-blockers.
-
+- [Firefox](https://www.mozilla.org/en-US/firefox/) is once again my default web browser. The robust feature set and impressive array of extensions make this my first choice once again. It's arguably far more pro-consumer than Chrome with its stance on ad-blockers.
   - [Google Chrome](http://www.google.com/chrome) should get a mention since it was my default browser from 2008 until 2024. Its most recent policy on ad-blockers was a deal breaker for me, and I left it behind to return to Firefox after a 16-year detour.
   
   - And because you can never have too many browsers, the [DuckDuckGo](https://duckduckgo.com/) browser is another nice option if privacy and security are a high priority.
@@ -727,6 +735,10 @@ $ startxfce4
 
 - [System Color Picker](https://sindresorhus.com/system-color-picker) is a simple color explorer for choosing colors and getting a text representation (hex, rgb, etc.) useful in programming, web design, and digital imagery. Includes an eye-dropper tool.
 
+- [Keyboard Cowboy](https://github.com/zenangst/KeyboardCowboy) is a must-have tool to boost your productivity. It lets you assign global keyboard shortcuts to apps, automations, text replacements, etc.
+
+- [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) gives you access to hidden system preferences and tweaks not available in the normal System Preferences dialogs. While there are a lot of options I don’t care about, they are a couple in here that are worth the download.
+
 ## Monitor Brightness Control
 
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl) is one of those apps I didn’t know I needed. I wouldn’t have looked for it, but after stumbling across it and trying it out, it’s amazing. If you have an external monitor, you need this so you can control the brightness through your keyboard. It also normalizes brightness between the build-in screen and an external monitor. Super handy app.
@@ -738,6 +750,8 @@ $ startxfce4
 - [Revo Uninstaller Free](https://www.revouninstaller.com/products/revo-uninstaller-free/): Uninstalling programs using the usual methods often leaves a lot of junk around. Revo does a better job at really removing a program. **(Windows)**
 
 - [AppCleaner](https://freemacsoft.net/appcleaner/) is the best way to really uninstall apps on Mac. It gets rid of all the leftover bits that often stay behind. **(Mac)**
+  - While AppCleaner is my first choice due to its easy-of-use, a good companion app is [Pearcleaner](https://github.com/alienator88/Pearcleaner). It’s harder to use, but it can find ophaned files and do other things AppCleaner doesn’t. 
+
 
 ## Console/Command Line
 

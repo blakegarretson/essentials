@@ -1,5 +1,27 @@
 # Change Log
 
+## 2025-01-01
+
+Rewrote and updated a lot of entries.
+
+Removed **Curve** (Linearity) because the free version is pretty limited now.
+
+Added snippets managers **SnippetsLab** and **massCode**.
+
+Added **Zettlr**, **MarkEdit**, and **MarkText**, and rearranged the note-taking and writing apps. There is a lot of overlap here.
+
+Added **Keyboard Cowboy**.
+
+Added **TinkerTool**.
+
+Added **LosslessCut**.
+
+Added **LanguageTool**.
+
+Added **Pearcleaner**.
+
+Added **Orca Slicer**.
+
 ## 2024-09-12
 
 Added honorable mentions to **MacTeX** and **Tectonic**. 
