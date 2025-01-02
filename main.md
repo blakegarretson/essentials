@@ -208,6 +208,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Text Snippet Managers
 
 - [SnippetsLab](https://www.renfei.org/snippets-lab/) is a great way to manage snippets of text for easy reuse. I use this for boilerplate in emails and coding as well as command-line one-liners. The SnippetsLab Assistant lives in the Menu Bar and can be activated with global keyboard shortcuts from any program to easily find and insert your snippets. **(Mac)**
+
   - If you need a cross-platform solution, [massCode](https://masscode.io) is a snippets manager heavily inspired by SnippetsLab. It has Markdown and Mermaid support, as well as interesting features like integrated mind-mapping that generates graphics representations from Markdown hierarchy. My main complaint is that it doesn’t have global hotkey support, so actually *using* the snippets can be tedious and harder than it should be.
 
 ## Text Manipulation
