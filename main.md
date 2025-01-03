@@ -11,7 +11,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Video Player
 
 - [VLC](http://www.videolan.org/): Cross-platform video player for nearly any format imaginable. Especially useful for when you need to do uncommon things like adjust audio/Bluetooth sync or load custom subtitles. The interface isn’t fancy, but it has the features you need (and many you don’t) and stays out of your way.
--  [IINA](https://iina.io/): While VLC works great on any platform, Mac users may prefer IINA. It’s a full-fledged media player with a clean interface and features like picture-in-picture mode and built-in subtitle downloading. If I’m on a Mac, I’m using IINA over VLC 99% of the time. **(Mac)**
+    - An honorable mention has to go to [PotPlayer](https://potplayer.daum.net) if you’re on Windows. The interface is arguably better and it has a few features VLC doesn’t. 
+- [IINA](https://iina.io/): While VLC works great on any platform, Mac users may prefer IINA. It’s a full-fledged media player with a clean interface and features like picture-in-picture mode and built-in subtitle downloading. If I’m on a Mac, I’m using IINA over VLC 99% of the time. **(Mac)**
 - [Friendly Streaming Browser](https://apps.apple.com/us/app/friendly-streaming-browser/id553245401?mt=12) is a weird name for a cool app. It’s just a front end for various streaming services (YouTube, Netflix, etc.), but it excels at multitasking by offering a Picture-In-Picture mode. I didn’t realize I needed this until I tried it. This is what you want when you’re working on something and need an easy way to play a 4-hour instrumental playlist from YouTube in the background, or maybe you’re editing photos or something, and you want to watch a mindless episode of a cooking show in a tiny window at the corner of your screen. **(Mac)**
 
 ## Photo/Image Editor
@@ -56,9 +57,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Shottr](https://shottr.cc/) is an amazing tool for screenshots on Mac. It has all the usual features plus cool stuff like scrolling captures (for long webpages) and OCR text recognition so you can cut and paste text from images on your screen. **(Mac)**
     - If you don’t need/use anything beyond simple screenshots on Mac, it’s worth mentioning the *SHIFT + CMD + 4* shortcut gets you a portion of the screen and automatically saves the file to the desktop.
 
-## Live Streaming
+## Live Streaming/Screen Recording
 
-- [OBS Studio](https://obsproject.com/) is a solid choice for live streaming because of the massive feature list, but it can be pretty overwhelming for a beginner. The price is right though (free), so it’s worth the learning curve.
+- [OBS Studio](https://obsproject.com/) is a solid choice for live streaming because of the massive feature list, but it can be pretty overwhelming for a beginner. The price is right though (free), so it’s worth the learning curve. Even if you aren’t a streamer, OBS is still useful for recording your screen in case you need to make a quick tutorial to send to someone.
 
 ## Video Conversion
 
@@ -98,13 +99,13 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Music Library Organization and Playback
 
 - [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. An app like this is has become mostly obsolete since I’ve moved to streaming services like Spotify, but when I do want to work with local music files, it’s hard to do better than MusicBee. **(Windows)**
-    - I’m not listing a Mac alternative for playback here because the default Apple Music app meets my meager needs.
+    - I’m not listing a Mac alternative for playback here because the default Apple Music app is fine, and a third party app just isn’t necessary for me.
 - [MusicBrainz Picard](https://picard.musicbrainz.org/) is the best cross-platform solution for identifying and organizing a large collection of music files. It can figure out what files are based on tags and even audio fingerprints. Besides tagging it will rename and move files as well. Even if you’re using Apple Music or MusicBee to organize your music library, this is still a handy tool to clean up the incorrectly tagged files before adding them to your library.
     - If Picard isn’t to your liking, I would suggest [MP3Tag](https://www.mp3tag.de/en/) . It is a universal batch tag editor that handles MP3s along with every other popular audio format. The robust file renaming/retagging tools and online database lookups make this powerful option for cleaning up your audio collection. This is only free for Windows. It’s a paid app on the Mac App Store. **(Windows)**
 
 ## Audio Conversion
 
-- [fre:ac](http://www.freac.org/): free audio converter and CD ripper for various formats and encoders including MP3, MP4/M4A, AAC, and more. This category of software is nearly obsolete for me now, but I’m keeping it on my list for completeness if not for utility.
+- [fre:ac](http://www.freac.org/): free audio converter and CD ripper for various formats and encoders including MP3, MP4/M4A, AAC, and more. This category of software is basically obsolete for me now, but I’m keeping it on my list for completeness if not for utility.
 
 ## Audio Editor
 
@@ -117,7 +118,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - Another great DAW is [Waveform Free](https://www.tracktion.com/products/waveform-free). While there is a Pro version with more features, the free version has no limitations and is very capable.
 - [Ardour](https://ardour.org/) is worth checking out if you’re a Linux user. It does all the basics really well. From recording audio or MIDI, to editing, to mixing, you’re covered. The only trick is if you really want it for free, you should use your distribution’s packager manager and don’t download it from the website.
     - You may be asking why I limit my Ardour recommendation to Linux users. The simple answer is on Windows and Mac it isn’t really “free”. While it is open source and you can build it from scratch for free, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software.  
-- [GarageBand](https://www.apple.com/mac/garageband/) is the obvious easy-to-use entry-level option for the Mac. It’s tough to beat the no nonsense workflow that works great with MIDI as well as recorded tracks. **(Mac)**
+- [GarageBand](https://www.apple.com/mac/garageband/) is the obvious easy-to-use entry-level option for the Mac. It’s free on the App Store, so you might as well give it a try. It’s tough to beat the no nonsense workflow that works great with MIDI as well as recorded tracks. **(Mac)**
 
 ## Step Sequencer
 
@@ -129,7 +130,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 # Text & Documents
 
-*There may be some redundancy here, but text editors are like knives: you wouldn’t use a Bowie knife when you need a scalpel or a steak knife when you need a machete, so I use multiple editors depending on the task.*
+*There may be some redundancy here, but software such as text editors are like knives: you wouldn’t use a Bowie knife when you need a scalpel or a steak knife when you need a machete, so I use multiple editors depending on the task.*
 
 ## All-Purpose Text Editors
 
@@ -148,7 +149,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 *This category of apps is appropriate for writing long-form prose like papers, articles, essays, or even books. I’m only including Markdown editors here as I think that’s just a standard requirement for me at this point.*
 
-- [Obsidian](https://obsidian.md/) is probably best known as a note-taking app, but it has comprehensive Markdown support and a plugin ecosystem that can turn it into just about anything you want. I think Obsidian is great for writing after installing plugins to support [LanguageTool](https://languagetool.org), smart quotes, and Git (for document version control.) The live-preview hides the Markdown syntax if you prefer that, and you can see math blocks and diagrams render as you type.
+- [Obsidian](https://obsidian.md/) is probably best known as a note-taking app, but it has comprehensive Markdown support, live preview, and a plugin ecosystem that can turn it into just about anything you want. Personally, I like to install plugins for [LanguageTool](https://languagetool.org), smart quotes, and Git (for document version control). Obsidian’s support of math blocks and diagrams also makes it a viable contender for technical papers as well.
 - [Zettlr](https://zettlr.com) advertises itself as a “one-stop publication workbench”, and that’s an apt description. While excellent for notes, it handles long projects without breaking a sweat, especially if you need to handle citations. Like Obsidian, it has a very nice live-preview which I find mandatory for a modern writing app.
 
 ### Honorable mentions
