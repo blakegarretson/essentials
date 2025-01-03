@@ -331,18 +331,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Calculators
 
-### General Use 
-
 - [SpeedCrunch](http://www.speedcrunch.org/) sports fast start-up and plenty of functionality. The interface is deceptively simple, but lurking under the hood are constants, variables, an impressive list of math functions, and equation support. Unfortunately, while SpeedCrunch is cross-platform, it looks fuzzy/blurry on Mac. The graphics toolkit doesn’t seem to upscale well on hi-res monitors, so I just don’t use it on Mac.
 - [Numi](https://numi.app/) is one of the best free options on Mac for a notebook-stye calculator. The paid version supports multiple pages/notebooks, but the free version has full functionality otherwise. Intuitive calculations (e.g. “5% of 20”) and unit conversion (although somewhat basic) make Numi a solid desktop calculator. **(Mac)**
-
-### Scientific
-
 - [Qalculate!](https://qalculate.github.io/) is a good place to start if you want a scientific calculator on Windows or Linux. It can do everything from integration to units. The interface is not my favorite, but it is packed with features. (Technically this works on Mac too, but with no .app or installer, you have to use Homebrew or MacPorts, and there isn’t even a shortcut/icon for it, so the experience is subpar.)
 - [NCalc](https://ncalc-app.web.app/): A robust scientific calculator for Mac. This has pretty much everything you would commonly need in a calculator. There is a Pro upgrade that unlocks graphing and other bells and whistles, but it is still useful without the upgrade. I actually did end up buying the lifetime license for \$3.99, which is worth it to me. **(Mac)**
-
-### Graphing
-
 - [GeoGebra](https://www.geogebra.org/download) is an app suite you might want to check out if you need a graphing calculator. This suite is five calculators in one, including modules for graphing, geometry, algebra, and probability. The graphing is fairly robust and the customization is impressive for what it is. It’s really great for high school level math or maybe even low-level college problems. For higher level math, see the real CAS systems below.
 
 ## Unit Conversion
