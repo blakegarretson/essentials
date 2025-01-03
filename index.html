@@ -44,15 +44,15 @@
       Documents</a></li>
       <li><a href="#network-internet" id="toc-network-internet">Network
       &amp; Internet</a></li>
+      <li><a href="#file-disk-utilities"
+      id="toc-file-disk-utilities">File &amp; Disk Utilities</a></li>
+      <li><a href="#other-utilities" id="toc-other-utilities">Other
+      Utilities</a></li>
       <li><a href="#programming"
       id="toc-programming">Programming</a></li>
       <li><a href="#science-math-and-engineering"
       id="toc-science-math-and-engineering">Science, Math, and
       Engineering</a></li>
-      <li><a href="#file-disk-utilities"
-      id="toc-file-disk-utilities">File &amp; Disk Utilities</a></li>
-      <li><a href="#other-utilities" id="toc-other-utilities">Other
-      Utilities</a></li>
       <li><a href="#gaming" id="toc-gaming">Gaming</a></li>
       </ul>
     </div>
@@ -1077,6 +1077,280 @@
         like to hide all the IPs except the ones that respond to ping,
         and I scan more ports (like 445, 20-23).</li>
         </ul>
+        <h1 id="file-disk-utilities">File &amp; Disk Utilities</h1>
+        <h2 id="local-file-search">Local File Search</h2>
+        <ul>
+        <li><a href="http://docfetcher.sourceforge.net/">DocFetcher</a>
+        is the search tool you need if you want to search file contents.
+        You choose the folders you want to index, and a low-resource
+        process watches for changes in real time. Searching for
+        filenames or contents works just as expected. The functionality
+        is great even if the interface looks very dated.</li>
+        <li><a href="https://www.voidtools.com/">Everything</a>: If you
+        just want to search filenames, Everything is your best bet. It
+        supports wildcards, boolean operations, exact cases/phrases, and
+        regular expressions. Just type a filename, and you’ll get
+        immediate results from all your drives instantly. If you want to
+        search network drives, you will need to go to Options and add
+        them to your search folders under Indexing. You can also search
+        file contents, although that will take much longer because it
+        doesn’t support (or require) indexing.
+        <strong>(Windows)</strong></li>
+        </ul>
+        <h2 id="compression">Compression</h2>
+        <ul>
+        <li><a href="http://www.7-zip.org/">7-Zip</a>: Archiver with
+        great compression, command line support, functional GUI, and
+        Explorer integration. Plus it’s really fast. This is my go-to on
+        Windows. <strong>(Windows)</strong></li>
+        <li><a href="https://www.keka.io/en/">Keka</a> is easy to
+        recommend because it does more than Mac’s built-in Archive
+        Utility by supporting more formats and adding compression with
+        encryption. It’s free from the website, or a paid app on the
+        AppStore. <strong>(Mac)</strong>
+        <ul>
+        <li>If you don’t need fancy compression options, and you just
+        want something that will automatically decompress just about
+        every format you’ve probably ever heard of, you may prefer <a
+        href="https://theunarchiver.com/">The Unarchiver</a>. The
+        interface is non-existent. You just click on an archive in
+        Finder to decompress it. <strong>(Mac)</strong></li>
+        </ul></li>
+        <li><a href="https://peazip.github.io/">PeaZip</a> is worth a
+        look if 7-zip doesn’t work for you because you’ve encountered
+        some really obscure format, or if you’re on Mac or Linux. It
+        supports basically every format that you would conceivably (or
+        inconceivably) run into. The interface doesn’t look native
+        (especially on Mac), but it is very usable and great for
+        previewing an archive before decompressing it.</li>
+        </ul>
+        <h2 id="disk-imagingformattingrepair">Disk
+        Imaging/Formatting/Repair</h2>
+        <ul>
+        <li><a href="https://etcher.balena.io/">balena Etcher</a>: A
+        nice clean, easy-to-use program to write disk images to flash
+        devices (USB drives, microSD cards, etc.). This is great for
+        putting Linux distros on bootable USB drives or setting up a
+        microSD card for a Raspberry Pi.
+        <ul>
+        <li>Runner up goes to <a href="https://rufus.ie/">Rufus</a>. It
+        gives you more options than Etcher at the cost of some added
+        complexity. I have also run across some images where Rufus works
+        where Etcher fails, so it’s handy to have Rufus around even if I
+        use Etcher most of the time. <strong>(Windows)</strong></li>
+        </ul></li>
+        <li><a href="https://www.ventoy.net/">Ventoy</a> serves the same
+        purpose as a traditional disk imager, although it adds more
+        flexibility and functions quite differently. You install Ventoy
+        onto a USB drive via the handy Windows installer, and then you
+        can drop as many bootable disk images (ISO, IMG, etc.) as you
+        like onto the drive. When you boot to the USB drive, Ventoy will
+        give you a menu to let you choose which image to boot. Super
+        handy way of carrying several OSes in your pocket, all on a
+        single drive. <strong>(Windows, Linux)</strong></li>
+        <li><a href="https://www.macrium.com/reflectfree">Macrium
+        Reflect Free</a>: Great for making disk images or transitioning
+        a computer from a traditional harddrive to an SSD. The Free
+        edition has all the essentials, and the last SSD transition I
+        did was seamless. I highly recommend.
+        <strong>(Windows)</strong></li>
+        <li><a
+        href="https://www.easeus.com/partition-manager/epm-free.html">EaseUS
+        Partition Master</a>: The Windows 10 disk management tools are
+        limited in functionality, and sooner or later you may need a
+        tool like this to fix/partition/format a drive. My most common
+        use case is recovering all the space on a USB drive that has a
+        Linux image on it, perhaps with multiple partitions, one of
+        which is the EFI boot partition. The Windows Disk Management
+        tools might let you delete some (but not all) partitions, while
+        the free version of Partition Master will have you back in
+        business in seconds. It also resizes partitions and clones
+        disks, but the free version won’t create an image of a live OS
+        like Macrium Reflect Free, hence I still have both listed here.
+        <strong>(Windows)</strong>
+        <ul>
+        <li><a href="https://www.sdcard.org/downloads/formatter/">SD
+        Memory Card Formatter</a> may be a simpler solution if all you
+        need is to fix an SD card. Some devices can be finicky about the
+        format of SD/microSD cards, and this official application from
+        the SD Association has fixed some obscure issues I’ve had in the
+        past. This is especially true of SDHC/SDXC cards since Windows
+        10 seems to like formatting higher capacity cards as NTFS
+        instead of FAT32.</li>
+        </ul></li>
+        <li><a
+        href="https://www.cgsecurity.org/wiki/TestDisk">TestDisk</a>: If
+        you need this, you’ve probably done something really bad like
+        accidentally deleting a partition table. TestDisk can help you
+        recover lost partitions, make a disk bootable again, or even
+        recover files from deleted partitions (among other things).</li>
+        </ul>
+        <h2 id="windows-file-recovery">Windows File Recovery</h2>
+        <p><em>Between these programs you should be able to recover any
+        file that is physically possible to recover without special
+        hardware. I’m listing them all because sometimes one can get the
+        job done where another can’t.</em></p>
+        <ul>
+        <li><a
+        href="https://www.cgsecurity.org/wiki/PhotoRec">PhotoRec</a>:
+        Comes in two flavors: command line and a simple graphical
+        interface. This is the first thing I try when I need to
+        “undelete” pictures I accidentally deleted from an SD card.
+        Comes with TestDisk (see above). <strong>(Windows)</strong></li>
+        <li><a href="https://www.piriform.com/recuva">Recuva</a>: Very
+        polished interface, and the free version has enough features for
+        most people.</li>
+        <li>Zero Assumption Recovery: The free version has some
+        limitations, but the digital image recovery mode has no
+        functional limitations. <strong>(Windows)</strong></li>
+        <li><a href="http://diskdigger.org/">DiskDigger</a>:
+        Lightweight, single exe so no install necessary. While it is
+        free for personal use, it will nag you before recovering each
+        and every file, so if you have a lot of files to recover, it is
+        worth just buying it. <strong>(Windows)</strong></li>
+        </ul>
+        <h2 id="disk-performance">Disk Performance</h2>
+        <ul>
+        <li><a
+        href="https://crystalmark.info/en/software/crystaldiskmark/">CrystalDiskMark</a>:
+        If you want to check the read/write speed of any storage device,
+        you can’t do much better than this free MIT-licensed app. A tool
+        like this really helps weed out the trash if you like to buy
+        cheap SD cards or flash drives. Some are worth buying again
+        while others aren’t, and CrystalDiskMark gives you the data to
+        make that decision. <strong>(Windows)</strong>
+        <ul>
+        <li>The Mac port of CrystalDiskMark is <a
+        href="https://www.katsurashareware.com/amorphousdiskmark/">AmorphousDiskMark</a>
+        . It is written by a different developer, but it is the same
+        right down to the interface look/feel.
+        <strong>(Mac)</strong></li>
+        </ul></li>
+        </ul>
+        <h2 id="file-deletion">File Deletion</h2>
+        <p><em>Note: The advent of modern SSD drives has thrown a monkey
+        wrench in secure deletion, so do some research before trusting
+        that your file is really gone. (Hint: it’s probably
+        not.)</em></p>
+        <ul>
+        <li><a href="http://eraser.heidi.ie/">Eraser</a>: Secure
+        deletion with a nice GUI and Explorer integration. Useful if you
+        don’t like the idea of having remnants of tax returns and
+        whatnot on drives. <strong>(Windows)</strong></li>
+        <li><a
+        href="http://www.edenwaith.com/products/permanent%20eraser/">Permanent
+        Eraser</a>: Great file shredder for Mac. It will either wipe the
+        files in Trash, or it will integrate into Finder in the Services
+        menu to delete individual files. Once you get it set up (which
+        takes a little fiddling with permissions and Automator settings)
+        it is super easy to use. <strong>(Mac)</strong></li>
+        </ul>
+        <h2 id="disk-encryption">Disk Encryption</h2>
+        <ul>
+        <li><a
+        href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a>:
+        On-the-fly disk and file encryption. Works absolutely seamlessly
+        with the OS so you wouldn’t even know you are using an encrypted
+        disk. This is a continuation of the old TrueCrypt program.</li>
+        </ul>
+        <h2 id="disk-usage">Disk Usage</h2>
+        <ul>
+        <li><a href="https://wiztreefree.com/">WizTree</a>: The best way
+        to see which files are eating up your diskspace. It is INSANELY
+        fast because it uses the master file table instead of querying
+        each file. <strong>(Windows)</strong>
+        <ul>
+        <li><a href="https://windirstat.net/">Windirstat</a> was my
+        favorite for years, and it’s still a great option, but it is
+        slower than Wiztree. <strong>(Windows)</strong></li>
+        </ul></li>
+        <li><a
+        href="http://grandperspectiv.sourceforge.net/">GrandPerspective</a>
+        creates a visual representation of your drivespace, and it
+        excels at highlighting single files. At a glance you know where
+        your big files are located. This helps you find that forgotten
+        virtual machine or iso file that is eating up space.
+        <strong>(Mac)</strong></li>
+        <li><a href="https://www.omnigroup.com/more">OmniDiskSweeper</a>
+        displays its data in a directory tree structure, so it’s helpful
+        for finding entire directory structures that are hogging space
+        (perhaps an app with a ton of small files that add up). This is
+        a simple but effective program. <strong>(Mac)</strong></li>
+        </ul>
+        <h2 id="batch-file-rename">Batch File Rename</h2>
+        <ul>
+        <li><a
+        href="http://www.cylog.org/utilities/wildrename.jsp">WildRename</a>:
+        Wonderfully robust file renaming utility that supports regular
+        expressions. <strong>(Windows)</strong>
+        <ul>
+        <li>I’ve already listed Microsoft PowerToys elsewhere in this
+        list, but it’s worth mentioning that it comes with PowerRename.
+        PowerRename has less features than WildRename, but it is still
+        incredibly powerful while the simple interface is easier to
+        figure out. <strong>(Windows)</strong></li>
+        </ul></li>
+        <li><a href="https://www.transnomino.com/">Transnomino</a>: This
+        is my go-to renaming utility on Mac. Regular expressions,
+        prefixfes, suffixes, numbering, case changes, you-name-it and
+        Transnomino can do it. <strong>(Mac)</strong></li>
+        </ul>
+        <h2 id="batch-text-replacement">Batch Text Replacement</h2>
+        <ul>
+        <li><a
+        href="http://www.cylog.org/utilities/wildreplace.jsp">WildReplace</a>:
+        Search for files and replace text in the files.
+        <strong>(Windows)</strong></li>
+        </ul>
+        <h2 id="local-file-synchronization">Local File
+        Synchronization</h2>
+        <ul>
+        <li><a href="https://freefilesync.org/">FreeFileSync</a>: Local
+        backup and synchronization program to do things like make a
+        nightly backup copy from one hard drive to another. As a bonus,
+        the file comparison functionality is great for just seeing if
+        two directories are the same. Be aware this is just making a
+        copy of your data or synchronizing two folders. See the
+        Incremental Backup section below for something more robust.</li>
+        </ul>
+        <h2 id="incremental-backup">Incremental Backup</h2>
+        <ul>
+        <li><a href="https://kopia.io/">Kopia</a> is my current favorite
+        backup solution due to its feaure set and (relative) ease of
+        use. Backup software tends to be difficult to use, but Kopia
+        does a decent job of making a complicated thing slightly less
+        complicated. This is different than a simple “file copier” like
+        FreeFileSync as Kopia saves all your incremental changes (not
+        just a current snapshot), which lets you rollback to any point
+        in history. It supports encryption, deduplication, and
+        compression, and it’s also available on every platform
+        (including Docker images).
+        <ul>
+        <li>Honorable mention goes to <a
+        href="https://vorta.borgbase.com/">Vorta</a>, which is a
+        frontend for Borg Backup, which is a robust incremental backup
+        solution. <strong>(Mac, Linux)</strong></li>
+        </ul></li>
+        </ul>
+        <h2 id="cloud-synchronization">Cloud Synchronization</h2>
+        <ul>
+        <li><a href="https://www.google.com/drive/download/">Google
+        Drive for Desktop</a>: For real-time cloud backup and
+        synchronization, this is an easy solution if you just want an
+        off-site copy of your data that is accesible everywhere,
+        including mobile devices.</li>
+        <li><a href="https://syncthing.net/">Syncthing</a>: If you don’t
+        trust someone else with your data or you want more control of
+        your data, you can host your own cloud with Syncthing . If it’s
+        confusing why this is different than something like
+        FreeFileSync, Syncthing shines at realtime continuous
+        synchronization while FreeFileSync is geared towards a file
+        backup that runs (for instance) once a day. The big bonus is
+        Syncthing’s Android app, allowing you to sync files between your
+        computer and your phone, but the lack of an iOS app is a serious
+        problem for me.</li>
+        </ul>
+        <h1 id="other-utilities">Other Utilities</h1>
         <h1 id="programming">Programming</h1>
         <h2 id="programming-editoride">Programming Editor/IDE</h2>
         <p><em>Note: See the <a
@@ -1265,6 +1539,314 @@
         ligatures), start with the “Iosevka Fixed” font. At the end of
         the day, this is the only font I need because I can configure it
         to look any way I want.</li>
+        </ul>
+        <h2 id="windows-package-managementsoftware-installer">Windows
+        Package Management/Software Installer</h2>
+        <ul>
+        <li><a
+        href="https://docs.microsoft.com/en-us/windows/package-manager/winget/">winget</a>:
+        If you wish you had Linux-like package management on Windows
+        (e.g. apt, yum, or pacman), winget has you covered. Microsoft’s
+        new package manager isn’t exactly well-advertised, but it works
+        well and the list of supported packages is growing. On a recent
+        Windows build, you probably already have it installed. The best
+        feature is that it works with existing programs whether they
+        were installed with winget or not. It integrates with the
+        Windows “Apps and Features” interface in Settings (or the older
+        “Programs and Features” in Control Panel) so it knows what you
+        have installed. It isn’t perfect though. Sometimes it can be
+        frustrating working with packages with the same or similar
+        names, or multiple versions of the same package. There’s room
+        for improvement, but I still think it works better than
+        Chocolatey (see below).</li>
+        <li><a href="https://scoop.sh/">Scoop</a> is a command line
+        package manager focusing on non-GUI tools to make Linux users
+        feel at home on Windows. For instance, need to quickly install
+        nmap or curl? Scoop is a great way to do that. There is also an
+        “extra” bucket (i.e. repo) of tools that includes GUI apps and
+        other tools that don’t fit into the main inclusion criteria for
+        scoop. The real selling point here is that it installs
+        everything in your home directory (or other specified location),
+        so you don’t need admin privileges and you won’t see UAC prompts
+        every time you add or remove a program. Scoop may look redundant
+        to winget, but it works differently enough that it is the better
+        choice for certain situations. For me, Scoop is essential if
+        you’re stuck on a company computer without admin rights.</li>
+        </ul>
+        <h3 id="honorable-mentions-3">Honorable Mentions</h3>
+        <ul>
+        <li><a href="https://patchmypc.com/home-updater">Patch My PC</a>
+        is pretty cool. If you don’t want an overbearing package
+        manager, but you do want up to date programs, this is a good
+        option. It scans your installed programs, shows you which ones
+        have available updates, and then it helps update them. It
+        supports a decent selection of popular software, although it
+        isn’t going to cover every app on your computer. This is great
+        for casual users.</li>
+        <li>Not long ago <a
+        href="https://chocolatey.org/">Chocolatey</a> was probably the
+        most well-known solution to package management on Windows. It
+        may still be a better choice for some people as it has broad
+        package support. It supports thousands of packages, and the vast
+        majority of the software listed on Blake’s Essentials can be
+        found there. Having said that, I wish it were more robust. I’ve
+        had plenty of headaches where Chocolatey wouldn’t let me
+        uninstall software or I had weird conflicts from multiple
+        versions of packages that I couldn’t remedy. I switched to
+        winget largely because of these issues.</li>
+        <li>I’m guessing the most popular graphical package manager out
+        there is <a href="https://ninite.com/">Ninite</a> . It’s great
+        software, it’s easy to use, but it just doesn’t include enough
+        packages to really be a full-fledged package manager. If Ninite
+        supports all the packages you want, you might want to try it
+        first. Personally, I see Ninite as something I can use on my
+        parents’ computer to keep their software up to date.</li>
+        </ul>
+        <h2 id="mac-package-managementsoftware-installer">Mac Package
+        Management/Software Installer</h2>
+        <ul>
+        <li><a href="https://brew.sh/">Homebrew</a>: If you want an easy
+        way to install command line tools and even some GUI apps,
+        Homebrew gets you going with minimal hassle. There is plenty of
+        debate on whether its approach is technically sound, but it
+        works for me. For instance, if I want to install git, I just
+        type: <code>brew install git</code>
+        <ul>
+        <li>The other popular option out there is <a
+        href="https://www.macports.org/">MacPorts</a>. You should at
+        least understand how it is different before choosing
+        Homebrew.</li>
+        </ul></li>
+        <li><a href="https://github.com/mangerlahn/Latest">Latest</a>:
+        This is a handy tool to keep your apps up to date to the latest
+        version. (I see what they did there.) It currently supports apps
+        downloaded from the Mac App Store and apps that use Sparkle for
+        updates, so it might not have your favorite app, but it has
+        enough to be useful.</li>
+        </ul>
+        <h2 id="uninstaller-system-cleaner">Uninstaller / System
+        Cleaner</h2>
+        <ul>
+        <li><p><a
+        href="https://www.revouninstaller.com/products/revo-uninstaller-free/">Revo
+        Uninstaller Free</a>: Uninstalling programs using the usual
+        methods often leaves a lot of junk around. Revo does a better
+        job at really removing a program.
+        <strong>(Windows)</strong></p></li>
+        <li><p><a
+        href="https://freemacsoft.net/appcleaner/">AppCleaner</a> is the
+        best way to really uninstall apps on Mac. It gets rid of all the
+        leftover bits that often stay behind. <strong>(Mac)</strong></p>
+        <ul>
+        <li>While AppCleaner is my first choice due to its easy-of-use,
+        a good companion app is <a
+        href="https://github.com/alienator88/Pearcleaner">Pearcleaner</a>.
+        It’s harder to use, but it can find ophaned files and do other
+        things AppCleaner doesn’t.</li>
+        </ul></li>
+        <li><p><a href="https://www.bleachbit.org/">Bleachbit</a> will
+        delete stuff you don’t need hanging around like logs, temporary
+        files, “recently used” lists, thumbnails, you-name-it. There are
+        a lot of options out there in this category, but I like
+        Bleachbit because it’s completely free and open-source, so at
+        least you know what it’s trying to do under the hood. Be aware
+        that mucking about in the registry isn’t really necessary on
+        modern Windows, but Bleachbit can do way more than registry
+        pruning, and it’s worth looking at all of its functionality
+        before dismissing it. <strong>(Windows)</strong> ##
+        Console/Command Line</p></li>
+        <li><p><a href="https://github.com/microsoft/terminal">Windows
+        Terminal</a> is a newer offering, but the features have been
+        steadily expanding, and it quickly became my console of choice
+        with handy features like themes, panes, and a command palette.
+        It happily handles PowerShell, cmd.exe, and WSL shells, as well
+        as REPL interpreters like IPython or Julia.
+        <strong>(Windows)</strong></p>
+        <ul>
+        <li><a href="https://tabby.sh/">Tabby</a> is a ridiculously
+        customizable terminal app that handles essentially any local
+        shell as well as serial and SSH connections. I’ve run into some
+        bugs that keep me from using this exclusively, but I could see
+        this being someone’s first choice due to endless customization
+        and a beautiful interface.</li>
+        </ul></li>
+        <li><p><a href="https://iterm2.com/">iTerm2</a> is the terminal
+        you should be using instead of the default MacOS terminal. The
+        customization options are extensive. It’s one of the best
+        terminals on any platform. <strong>(Mac)</strong></p></li>
+        <li><p><a href="https://www.warp.dev/">Warp</a> is a modern
+        terminal app that has some cool innovations in a space that has
+        not changed much over the years. While I can setup a very
+        capable shell and prompt with something like zsh, Warp takes
+        care of all the hassle and the out-of-the-box experience
+        includes smart command completion, customized prompts with git
+        integration, and AI plain language processing. I am watching
+        this project with optimistic curiosity. <strong>(Mac, Linux, w/
+        Windows coming soon)</strong></p></li>
+        <li><p><a
+        href="http://stahlworks.com/dev/swiss-file-knife.html">Swiss
+        File Knife</a>: This is the essential command line tool set for
+        Windows. It does a little of everything, and you need to just
+        read the list of commands on the website to believe it. It’s a
+        single executable, so it’s portable as well.</p></li>
+        <li><p><a href="https://eza.rocks/">eza</a> is a modern
+        replacement for ls that works on every major platform. There are
+        a few cool innovations here including the integration of git
+        status in your listing, icon support, and recursive tree
+        view.</p></li>
+        </ul>
+        <h2 id="clipboard-manager">Clipboard Manager</h2>
+        <ul>
+        <li><a href="https://hluk.github.io/CopyQ/">CopyQ</a> extends
+        the standard clipboard so you can access more than just the last
+        item copied. Advanced scripting, editing, and keyboard shortcuts
+        make this a real powerhouse of productivity once you learn the
+        tool.</li>
+        <li><a href="https://maccy.app/">Maccy</a> is my preferred
+        clipboard manager for Mac. CopyQ does work fine on Mac, but
+        Maccy just does it better and cleaner for my usual use cases. If
+        you don’t need CopyQ’s advanced scripting, Maccy gets the job
+        done while integrating seamlessly into the Mac desktop.
+        <strong>(Mac)</strong></li>
+        </ul>
+        <h2 id="password-manager">Password Manager</h2>
+        <ul>
+        <li><a href="https://bitwarden.com/">Bitwarden</a> is the best
+        open source, cross-platform password manager that I’ve ever
+        tried. And the best part is the free version is more than enough
+        for most people. There are desktop and mobile clients, browser
+        extensions, a web app, and a command line interface. Bitwarden
+        works everywhere you need it.</li>
+        </ul>
+        <h2 id="hex-editor">Hex Editor</h2>
+        <ul>
+        <li><a href="http://mh-nexus.de/en/hxd/">HxD</a>: Has everything
+        I need in a hex editor. Simple and lightweight.
+        <strong>(Windows)</strong></li>
+        <li><a href="https://hexfiend.com/">Hex Fiend</a>: Simple and
+        clean hex editor with all the basics.
+        <strong>(Mac)</strong></li>
+        </ul>
+        <h2 id="virtualization">Virtualization</h2>
+        <ul>
+        <li><a href="https://www.virtualbox.org/">Virtualbox</a> is a
+        great free solution for running virtual machines. It is an easy
+        and robust way of running Linux (and other OSes) under Windows
+        or Mac, which is often handy for some toolchains or just testing
+        out a script or something in a Linux environment.
+        <ul>
+        <li><a href="https://www.qemu.org">QEMU</a> is also an option
+        worth considering as it can be significantly faster than
+        Virtualbox in some situations, and it can emulate systems that
+        Virtualbox can’t. For simple use cases, I would still start with
+        Virtualbox though.</li>
+        </ul></li>
+        <li><a href="https://mac.getutm.app">UTM</a> is my first choice
+        for virtual machines on Mac, including Apple Silicon Macs. It’s
+        just easy to use and does what I need it to do. It’s great for
+        creating Linux sandboxes where I don’t have to worry about
+        messing up my Mac when I’m building out certain toolchains.
+        <strong>(Mac)</strong></li>
+        </ul>
+        <h2 id="windows-system-utilities">Windows System Utilities</h2>
+        <ul>
+        <li><a
+        href="https://docs.microsoft.com/en-us/sysinternals/">Windows
+        Sysinternals</a>: This is a collection of tools that has been
+        around since the 1990s, and was eventually acquired by Microsoft
+        because they are so good. (And they are still being updated!)
+        You can download the whole suite, or individual tools. I’m going
+        to highlight just a couple here to give you the flavor of the
+        suite, but it’s worth perusing the whole list and seeing what’s
+        available:
+        <ul>
+        <li><a
+        href="https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer">Process
+        Explorer</a>: If you can’t delete a file because some program
+        has it locked, Process Explorer will tell you what program has
+        the file handle open.</li>
+        <li><a
+        href="https://docs.microsoft.com/en-us/sysinternals/downloads/procmon">Process
+        Monitor</a>: Sometimes you need to know what files a process is
+        changing, or maybe you want to know which program is changing a
+        file. Process Monitor, um, well, it monitors your processes to
+        find that out.</li>
+        </ul></li>
+        <li><a href="https://github.com/microsoft/PowerToys">Microsoft
+        PowerToys</a>: Old-timers will remember this suite for decades
+        ago, but it’s back and better than ever (and open sourced!).
+        This collection of Windows enhancements include adding Markdown
+        and SVG support to the Windows Explorer preview pane, windows
+        snapping, PowerRename, a color picker, easy image resizing, a
+        keyboard manager that lets you remap keys, plus lots more.
+        (Quick tip: use this to remap your CapsLock key to act like a
+        Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate
+        that.)</li>
+        <li><a
+        href="http://www.nirsoft.net/utils/product_cd_key_viewer.html">ProduKey</a>
+        is super handy when you want to reinstall Windows or Office
+        after your hard drive crashes or you just want to start fresh.
+        Just run this program, save the output somewhere safe, and you
+        have your Microsoft product keys ready to go for Windows and
+        Office.</li>
+        </ul>
+        <h2 id="mac-desktop-tweaks-utilities">Mac Desktop Tweaks &amp;
+        Utilities</h2>
+        <ul>
+        <li><a href="https://rectangleapp.com/">Rectangle</a> allows for
+        complex window manipulation with key strokes. This is super
+        handy.</li>
+        <li><a
+        href="https://apps.apple.com/us/app/amphetamine/id937984704">Amphetamine</a>
+        is probably the best known app to keep your screen on. There are
+        all sorts of reasons you might need this, but I often use it
+        when I’m sketching from a reference photo and I don’t want the
+        screen going to sleep on me.</li>
+        <li><a
+        href="https://karabiner-elements.pqrs.org/">Karabiner-Elements</a>
+        lets you remap keys. I have used it to swap the Command and
+        Control keys so I can use my muscle-memory from Windows to cut
+        and paste.</li>
+        <li><a href="https://hyperkey.app/">Hyperkey</a> is so simple,
+        yet it has become essential for me. It lets you remap the
+        caps-lock key to any combination of meta keys. It can be
+        configured in any number of ways, but I have it setup so when I
+        press caps-lock, it is the same as pressing shift-command-ctrl.
+        Then I map that combo to whatever I like in my various apps.
+        e.g. in VS Code, pressing caps-lock and P will run the current
+        file in Python.</li>
+        <li><a href="https://sindresorhus.com/folder-peek">Folder
+        Peek</a> gives you quick access to your choice of folders right
+        from your menu bar.</li>
+        <li><a href="https://sindresorhus.com/actions">Actions</a> adds
+        additional functionality to Shortcuts. If you use Shortcuts, you
+        probably can benefit from this app. The list of functionality is
+        impressive.</li>
+        <li><a
+        href="https://sindresorhus.com/system-color-picker">System Color
+        Picker</a> is a simple color explorer for choosing colors and
+        getting a text representation (hex, rgb, etc.) useful in
+        programming, web design, and digital imagery. Includes an
+        eye-dropper tool.</li>
+        <li><a
+        href="https://github.com/zenangst/KeyboardCowboy">Keyboard
+        Cowboy</a> is a must-have tool to boost your productivity. It
+        lets you assign global keyboard shortcuts to apps, automations,
+        text replacements, etc.</li>
+        <li><a
+        href="https://www.bresink.com/osx/TinkerTool.html">TinkerTool</a>
+        gives you access to hidden system preferences and tweaks not
+        available in the normal System Preferences dialogs. While there
+        are a lot of options I don’t care about, they are a couple in
+        here that are worth the download.</li>
+        <li><a
+        href="https://github.com/MonitorControl/MonitorControl">MonitorControl</a>
+        is one of those apps I didn’t know I needed. I wouldn’t have
+        looked for it, but after stumbling across it and trying it out,
+        it’s amazing. If you have an external monitor, you need this so
+        you can control the brightness through your keyboard. It also
+        normalizes brightness between the build-in screen and an
+        external monitor. Super handy app.</li>
         </ul>
         <h1 id="science-math-and-engineering">Science, Math, and
         Engineering</h1>
@@ -1664,588 +2246,6 @@
         if you want to run a LLM locally. There are a number of popular
         models to choose from, and they can be run from Mac, Windows,
         and Linux.</li>
-        </ul>
-        <h1 id="file-disk-utilities">File &amp; Disk Utilities</h1>
-        <h2 id="local-file-search">Local File Search</h2>
-        <ul>
-        <li><a href="http://docfetcher.sourceforge.net/">DocFetcher</a>
-        is the search tool you need if you want to search file contents.
-        You choose the folders you want to index, and a low-resource
-        process watches for changes in real time. Searching for
-        filenames or contents works just as expected. The functionality
-        is great even if the interface looks very dated.</li>
-        <li><a href="https://www.voidtools.com/">Everything</a>: If you
-        just want to search filenames, Everything is your best bet. It
-        supports wildcards, boolean operations, exact cases/phrases, and
-        regular expressions. Just type a filename, and you’ll get
-        immediate results from all your drives instantly. If you want to
-        search network drives, you will need to go to Options and add
-        them to your search folders under Indexing. You can also search
-        file contents, although that will take much longer because it
-        doesn’t support (or require) indexing.
-        <strong>(Windows)</strong></li>
-        </ul>
-        <h2 id="compression">Compression</h2>
-        <ul>
-        <li><a href="http://www.7-zip.org/">7-Zip</a>: Archiver with
-        great compression, command line support, functional GUI, and
-        Explorer integration. Plus it’s really fast. This is my go-to on
-        Windows. <strong>(Windows)</strong></li>
-        <li><a href="https://www.keka.io/en/">Keka</a> is easy to
-        recommend because it does more than Mac’s built-in Archive
-        Utility by supporting more formats and adding compression with
-        encryption. It’s free from the website, or a paid app on the
-        AppStore. <strong>(Mac)</strong>
-        <ul>
-        <li>If you don’t need fancy compression options, and you just
-        want something that will automatically decompress just about
-        every format you’ve probably ever heard of, you may prefer <a
-        href="https://theunarchiver.com/">The Unarchiver</a>. The
-        interface is non-existent. You just click on an archive in
-        Finder to decompress it. <strong>(Mac)</strong></li>
-        </ul></li>
-        <li><a href="https://peazip.github.io/">PeaZip</a> is worth a
-        look if 7-zip doesn’t work for you because you’ve encountered
-        some really obscure format, or if you’re on Mac or Linux. It
-        supports basically every format that you would conceivably (or
-        inconceivably) run into. The interface doesn’t look native
-        (especially on Mac), but it is very usable and great for
-        previewing an archive before decompressing it.</li>
-        </ul>
-        <h2 id="disk-imagingformattingrepair">Disk
-        Imaging/Formatting/Repair</h2>
-        <ul>
-        <li><a href="https://etcher.balena.io/">balena Etcher</a>: A
-        nice clean, easy-to-use program to write disk images to flash
-        devices (USB drives, microSD cards, etc.). This is great for
-        putting Linux distros on bootable USB drives or setting up a
-        microSD card for a Raspberry Pi.
-        <ul>
-        <li>Runner up goes to <a href="https://rufus.ie/">Rufus</a>. It
-        gives you more options than Etcher at the cost of some added
-        complexity. I have also run across some images where Rufus works
-        where Etcher fails, so it’s handy to have Rufus around even if I
-        use Etcher most of the time. <strong>(Windows)</strong></li>
-        </ul></li>
-        <li><a href="https://www.ventoy.net/">Ventoy</a> serves the same
-        purpose as a traditional disk imager, although it adds more
-        flexibility and functions quite differently. You install Ventoy
-        onto a USB drive via the handy Windows installer, and then you
-        can drop as many bootable disk images (ISO, IMG, etc.) as you
-        like onto the drive. When you boot to the USB drive, Ventoy will
-        give you a menu to let you choose which image to boot. Super
-        handy way of carrying several OSes in your pocket, all on a
-        single drive. <strong>(Windows, Linux)</strong></li>
-        <li><a href="https://www.macrium.com/reflectfree">Macrium
-        Reflect Free</a>: Great for making disk images or transitioning
-        a computer from a traditional harddrive to an SSD. The Free
-        edition has all the essentials, and the last SSD transition I
-        did was seamless. I highly recommend.
-        <strong>(Windows)</strong></li>
-        <li><a
-        href="https://www.easeus.com/partition-manager/epm-free.html">EaseUS
-        Partition Master</a>: The Windows 10 disk management tools are
-        limited in functionality, and sooner or later you may need a
-        tool like this to fix/partition/format a drive. My most common
-        use case is recovering all the space on a USB drive that has a
-        Linux image on it, perhaps with multiple partitions, one of
-        which is the EFI boot partition. The Windows Disk Management
-        tools might let you delete some (but not all) partitions, while
-        the free version of Partition Master will have you back in
-        business in seconds. It also resizes partitions and clones
-        disks, but the free version won’t create an image of a live OS
-        like Macrium Reflect Free, hence I still have both listed here.
-        <strong>(Windows)</strong>
-        <ul>
-        <li><a href="https://www.sdcard.org/downloads/formatter/">SD
-        Memory Card Formatter</a> may be a simpler solution if all you
-        need is to fix an SD card. Some devices can be finicky about the
-        format of SD/microSD cards, and this official application from
-        the SD Association has fixed some obscure issues I’ve had in the
-        past. This is especially true of SDHC/SDXC cards since Windows
-        10 seems to like formatting higher capacity cards as NTFS
-        instead of FAT32.</li>
-        </ul></li>
-        <li><a
-        href="https://www.cgsecurity.org/wiki/TestDisk">TestDisk</a>: If
-        you need this, you’ve probably done something really bad like
-        accidentally deleting a partition table. TestDisk can help you
-        recover lost partitions, make a disk bootable again, or even
-        recover files from deleted partitions (among other things).</li>
-        </ul>
-        <h2 id="windows-file-recovery">Windows File Recovery</h2>
-        <p><em>Between these programs you should be able to recover any
-        file that is physically possible to recover without special
-        hardware. I’m listing them all because sometimes one can get the
-        job done where another can’t.</em></p>
-        <ul>
-        <li><a
-        href="https://www.cgsecurity.org/wiki/PhotoRec">PhotoRec</a>:
-        Comes in two flavors: command line and a simple graphical
-        interface. This is the first thing I try when I need to
-        “undelete” pictures I accidentally deleted from an SD card.
-        Comes with TestDisk (see above). <strong>(Windows)</strong></li>
-        <li><a href="https://www.piriform.com/recuva">Recuva</a>: Very
-        polished interface, and the free version has enough features for
-        most people.</li>
-        <li>Zero Assumption Recovery: The free version has some
-        limitations, but the digital image recovery mode has no
-        functional limitations. <strong>(Windows)</strong></li>
-        <li><a href="http://diskdigger.org/">DiskDigger</a>:
-        Lightweight, single exe so no install necessary. While it is
-        free for personal use, it will nag you before recovering each
-        and every file, so if you have a lot of files to recover, it is
-        worth just buying it. <strong>(Windows)</strong></li>
-        </ul>
-        <h2 id="disk-performance">Disk Performance</h2>
-        <ul>
-        <li><a
-        href="https://crystalmark.info/en/software/crystaldiskmark/">CrystalDiskMark</a>:
-        If you want to check the read/write speed of any storage device,
-        you can’t do much better than this free MIT-licensed app. A tool
-        like this really helps weed out the trash if you like to buy
-        cheap SD cards or flash drives. Some are worth buying again
-        while others aren’t, and CrystalDiskMark gives you the data to
-        make that decision. <strong>(Windows)</strong>
-        <ul>
-        <li>The Mac port of CrystalDiskMark is <a
-        href="https://www.katsurashareware.com/amorphousdiskmark/">AmorphousDiskMark</a>
-        . It is written by a different developer, but it is the same
-        right down to the interface look/feel.
-        <strong>(Mac)</strong></li>
-        </ul></li>
-        </ul>
-        <h2 id="file-deletion">File Deletion</h2>
-        <p><em>Note: The advent of modern SSD drives has thrown a monkey
-        wrench in secure deletion, so do some research before trusting
-        that your file is really gone. (Hint: it’s probably
-        not.)</em></p>
-        <ul>
-        <li><a href="http://eraser.heidi.ie/">Eraser</a>: Secure
-        deletion with a nice GUI and Explorer integration. Useful if you
-        don’t like the idea of having remnants of tax returns and
-        whatnot on drives. <strong>(Windows)</strong></li>
-        <li><a
-        href="http://www.edenwaith.com/products/permanent%20eraser/">Permanent
-        Eraser</a>: Great file shredder for Mac. It will either wipe the
-        files in Trash, or it will integrate into Finder in the Services
-        menu to delete individual files. Once you get it set up (which
-        takes a little fiddling with permissions and Automator settings)
-        it is super easy to use. <strong>(Mac)</strong></li>
-        </ul>
-        <h2 id="disk-encryption">Disk Encryption</h2>
-        <ul>
-        <li><a
-        href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a>:
-        On-the-fly disk and file encryption. Works absolutely seamlessly
-        with the OS so you wouldn’t even know you are using an encrypted
-        disk. This is a continuation of the old TrueCrypt program.</li>
-        </ul>
-        <h2 id="disk-usage">Disk Usage</h2>
-        <ul>
-        <li><a href="https://wiztreefree.com/">WizTree</a>: The best way
-        to see which files are eating up your diskspace. It is INSANELY
-        fast because it uses the master file table instead of querying
-        each file. <strong>(Windows)</strong>
-        <ul>
-        <li><a href="https://windirstat.net/">Windirstat</a> was my
-        favorite for years, and it’s still a great option, but it is
-        slower than Wiztree. <strong>(Windows)</strong></li>
-        </ul></li>
-        <li><a
-        href="http://grandperspectiv.sourceforge.net/">GrandPerspective</a>
-        creates a visual representation of your drivespace, and it
-        excels at highlighting single files. At a glance you know where
-        your big files are located. This helps you find that forgotten
-        virtual machine or iso file that is eating up space.
-        <strong>(Mac)</strong></li>
-        <li><a href="https://www.omnigroup.com/more">OmniDiskSweeper</a>
-        displays its data in a directory tree structure, so it’s helpful
-        for finding entire directory structures that are hogging space
-        (perhaps an app with a ton of small files that add up). This is
-        a simple but effective program. <strong>(Mac)</strong></li>
-        </ul>
-        <h2 id="batch-file-rename">Batch File Rename</h2>
-        <ul>
-        <li><a
-        href="http://www.cylog.org/utilities/wildrename.jsp">WildRename</a>:
-        Wonderfully robust file renaming utility that supports regular
-        expressions. <strong>(Windows)</strong>
-        <ul>
-        <li>I’ve already listed Microsoft PowerToys elsewhere in this
-        list, but it’s worth mentioning that it comes with PowerRename.
-        PowerRename has less features than WildRename, but it is still
-        incredibly powerful while the simple interface is easier to
-        figure out. <strong>(Windows)</strong></li>
-        </ul></li>
-        <li><a href="https://www.transnomino.com/">Transnomino</a>: This
-        is my go-to renaming utility on Mac. Regular expressions,
-        prefixfes, suffixes, numbering, case changes, you-name-it and
-        Transnomino can do it. <strong>(Mac)</strong></li>
-        </ul>
-        <h2 id="batch-text-replacement">Batch Text Replacement</h2>
-        <ul>
-        <li><a
-        href="http://www.cylog.org/utilities/wildreplace.jsp">WildReplace</a>:
-        Search for files and replace text in the files.
-        <strong>(Windows)</strong></li>
-        </ul>
-        <h2 id="local-file-synchronization">Local File
-        Synchronization</h2>
-        <ul>
-        <li><a href="https://freefilesync.org/">FreeFileSync</a>: Local
-        backup and synchronization program to do things like make a
-        nightly backup copy from one hard drive to another. As a bonus,
-        the file comparison functionality is great for just seeing if
-        two directories are the same. Be aware this is just making a
-        copy of your data or synchronizing two folders. See the
-        Incremental Backup section below for something more robust.</li>
-        </ul>
-        <h2 id="incremental-backup">Incremental Backup</h2>
-        <ul>
-        <li><a href="https://kopia.io/">Kopia</a> is my current favorite
-        backup solution due to its feaure set and (relative) ease of
-        use. Backup software tends to be difficult to use, but Kopia
-        does a decent job of making a complicated thing slightly less
-        complicated. This is different than a simple “file copier” like
-        FreeFileSync as Kopia saves all your incremental changes (not
-        just a current snapshot), which lets you rollback to any point
-        in history. It supports encryption, deduplication, and
-        compression, and it’s also available on every platform
-        (including Docker images).
-        <ul>
-        <li>Honorable mention goes to <a
-        href="https://vorta.borgbase.com/">Vorta</a>, which is a
-        frontend for Borg Backup, which is a robust incremental backup
-        solution. <strong>(Mac, Linux)</strong></li>
-        </ul></li>
-        </ul>
-        <h2 id="cloud-synchronization">Cloud Synchronization</h2>
-        <ul>
-        <li><a href="https://www.google.com/drive/download/">Google
-        Drive for Desktop</a>: For real-time cloud backup and
-        synchronization, this is an easy solution if you just want an
-        off-site copy of your data that is accesible everywhere,
-        including mobile devices.</li>
-        <li><a href="https://syncthing.net/">Syncthing</a>: If you don’t
-        trust someone else with your data or you want more control of
-        your data, you can host your own cloud with Syncthing . If it’s
-        confusing why this is different than something like
-        FreeFileSync, Syncthing shines at realtime continuous
-        synchronization while FreeFileSync is geared towards a file
-        backup that runs (for instance) once a day. The big bonus is
-        Syncthing’s Android app, allowing you to sync files between your
-        computer and your phone, but the lack of an iOS app is a serious
-        problem for me.</li>
-        </ul>
-        <h1 id="other-utilities">Other Utilities</h1>
-        <h2 id="windows-package-managementsoftware-installer">Windows
-        Package Management/Software Installer</h2>
-        <ul>
-        <li><a
-        href="https://docs.microsoft.com/en-us/windows/package-manager/winget/">winget</a>:
-        If you wish you had Linux-like package management on Windows
-        (e.g. apt, yum, or pacman), winget has you covered. Microsoft’s
-        new package manager isn’t exactly well-advertised, but it works
-        well and the list of supported packages is growing. On a recent
-        Windows build, you probably already have it installed. The best
-        feature is that it works with existing programs whether they
-        were installed with winget or not. It integrates with the
-        Windows “Apps and Features” interface in Settings (or the older
-        “Programs and Features” in Control Panel) so it knows what you
-        have installed. It isn’t perfect though. Sometimes it can be
-        frustrating working with packages with the same or similar
-        names, or multiple versions of the same package. There’s room
-        for improvement, but I still think it works better than
-        Chocolatey (see below).</li>
-        <li><a href="https://scoop.sh/">Scoop</a> is a command line
-        package manager focusing on non-GUI tools to make Linux users
-        feel at home on Windows. For instance, need to quickly install
-        nmap or curl? Scoop is a great way to do that. There is also an
-        “extra” bucket (i.e. repo) of tools that includes GUI apps and
-        other tools that don’t fit into the main inclusion criteria for
-        scoop. The real selling point here is that it installs
-        everything in your home directory (or other specified location),
-        so you don’t need admin privileges and you won’t see UAC prompts
-        every time you add or remove a program. Scoop may look redundant
-        to winget, but it works differently enough that it is the better
-        choice for certain situations. For me, Scoop is essential if
-        you’re stuck on a company computer without admin rights.</li>
-        </ul>
-        <h3 id="honorable-mentions-3">Honorable Mentions</h3>
-        <ul>
-        <li><a href="https://patchmypc.com/home-updater">Patch My PC</a>
-        is pretty cool. If you don’t want an overbearing package
-        manager, but you do want up to date programs, this is a good
-        option. It scans your installed programs, shows you which ones
-        have available updates, and then it helps update them. It
-        supports a decent selection of popular software, although it
-        isn’t going to cover every app on your computer. This is great
-        for casual users.</li>
-        <li>Not long ago <a
-        href="https://chocolatey.org/">Chocolatey</a> was probably the
-        most well-known solution to package management on Windows. It
-        may still be a better choice for some people as it has broad
-        package support. It supports thousands of packages, and the vast
-        majority of the software listed on Blake’s Essentials can be
-        found there. Having said that, I wish it were more robust. I’ve
-        had plenty of headaches where Chocolatey wouldn’t let me
-        uninstall software or I had weird conflicts from multiple
-        versions of packages that I couldn’t remedy. I switched to
-        winget largely because of these issues.</li>
-        <li>I’m guessing the most popular graphical package manager out
-        there is <a href="https://ninite.com/">Ninite</a> . It’s great
-        software, it’s easy to use, but it just doesn’t include enough
-        packages to really be a full-fledged package manager. If Ninite
-        supports all the packages you want, you might want to try it
-        first. Personally, I see Ninite as something I can use on my
-        parents’ computer to keep their software up to date.</li>
-        </ul>
-        <h2 id="mac-package-managementsoftware-installer">Mac Package
-        Management/Software Installer</h2>
-        <ul>
-        <li><a href="https://brew.sh/">Homebrew</a>: If you want an easy
-        way to install command line tools and even some GUI apps,
-        Homebrew gets you going with minimal hassle. There is plenty of
-        debate on whether its approach is technically sound, but it
-        works for me. For instance, if I want to install git, I just
-        type: <code>brew install git</code>
-        <ul>
-        <li>The other popular option out there is <a
-        href="https://www.macports.org/">MacPorts</a>. You should at
-        least understand how it is different before choosing
-        Homebrew.</li>
-        </ul></li>
-        <li><a href="https://github.com/mangerlahn/Latest">Latest</a>:
-        This is a handy tool to keep your apps up to date to the latest
-        version. (I see what they did there.) It currently supports apps
-        downloaded from the Mac App Store and apps that use Sparkle for
-        updates, so it might not have your favorite app, but it has
-        enough to be useful.</li>
-        </ul>
-        <h2 id="uninstaller-system-cleaner">Uninstaller / System
-        Cleaner</h2>
-        <ul>
-        <li><p><a
-        href="https://www.revouninstaller.com/products/revo-uninstaller-free/">Revo
-        Uninstaller Free</a>: Uninstalling programs using the usual
-        methods often leaves a lot of junk around. Revo does a better
-        job at really removing a program.
-        <strong>(Windows)</strong></p></li>
-        <li><p><a
-        href="https://freemacsoft.net/appcleaner/">AppCleaner</a> is the
-        best way to really uninstall apps on Mac. It gets rid of all the
-        leftover bits that often stay behind. <strong>(Mac)</strong></p>
-        <ul>
-        <li>While AppCleaner is my first choice due to its easy-of-use,
-        a good companion app is <a
-        href="https://github.com/alienator88/Pearcleaner">Pearcleaner</a>.
-        It’s harder to use, but it can find ophaned files and do other
-        things AppCleaner doesn’t.</li>
-        </ul></li>
-        <li><p><a href="https://www.bleachbit.org/">Bleachbit</a> will
-        delete stuff you don’t need hanging around like logs, temporary
-        files, “recently used” lists, thumbnails, you-name-it. There are
-        a lot of options out there in this category, but I like
-        Bleachbit because it’s completely free and open-source, so at
-        least you know what it’s trying to do under the hood. Be aware
-        that mucking about in the registry isn’t really necessary on
-        modern Windows, but Bleachbit can do way more than registry
-        pruning, and it’s worth looking at all of its functionality
-        before dismissing it. <strong>(Windows)</strong> ##
-        Console/Command Line</p></li>
-        <li><p><a href="https://github.com/microsoft/terminal">Windows
-        Terminal</a> is a newer offering, but the features have been
-        steadily expanding, and it quickly became my console of choice
-        with handy features like themes, panes, and a command palette.
-        It happily handles PowerShell, cmd.exe, and WSL shells, as well
-        as REPL interpreters like IPython or Julia.
-        <strong>(Windows)</strong></p>
-        <ul>
-        <li><a href="https://tabby.sh/">Tabby</a> is a ridiculously
-        customizable terminal app that handles essentially any local
-        shell as well as serial and SSH connections. I’ve run into some
-        bugs that keep me from using this exclusively, but I could see
-        this being someone’s first choice due to endless customization
-        and a beautiful interface.</li>
-        </ul></li>
-        <li><p><a href="https://iterm2.com/">iTerm2</a> is the terminal
-        you should be using instead of the default MacOS terminal. The
-        customization options are extensive. It’s one of the best
-        terminals on any platform. <strong>(Mac)</strong></p></li>
-        <li><p><a href="https://www.warp.dev/">Warp</a> is a modern
-        terminal app that has some cool innovations in a space that has
-        not changed much over the years. While I can setup a very
-        capable shell and prompt with something like zsh, Warp takes
-        care of all the hassle and the out-of-the-box experience
-        includes smart command completion, customized prompts with git
-        integration, and AI plain language processing. I am watching
-        this project with optimistic curiosity. <strong>(Mac, Linux, w/
-        Windows coming soon)</strong></p></li>
-        <li><p><a
-        href="http://stahlworks.com/dev/swiss-file-knife.html">Swiss
-        File Knife</a>: This is the essential command line tool set for
-        Windows. It does a little of everything, and you need to just
-        read the list of commands on the website to believe it. It’s a
-        single executable, so it’s portable as well.</p></li>
-        <li><p><a href="https://eza.rocks/">eza</a> is a modern
-        replacement for ls that works on every major platform. There are
-        a few cool innovations here including the integration of git
-        status in your listing, icon support, and recursive tree
-        view.</p></li>
-        </ul>
-        <h2 id="clipboard-manager">Clipboard Manager</h2>
-        <ul>
-        <li><a href="https://hluk.github.io/CopyQ/">CopyQ</a> extends
-        the standard clipboard so you can access more than just the last
-        item copied. Advanced scripting, editing, and keyboard shortcuts
-        make this a real powerhouse of productivity once you learn the
-        tool.</li>
-        <li><a href="https://maccy.app/">Maccy</a> is my preferred
-        clipboard manager for Mac. CopyQ does work fine on Mac, but
-        Maccy just does it better and cleaner for my usual use cases. If
-        you don’t need CopyQ’s advanced scripting, Maccy gets the job
-        done while integrating seamlessly into the Mac desktop.
-        <strong>(Mac)</strong></li>
-        </ul>
-        <h2 id="password-manager">Password Manager</h2>
-        <ul>
-        <li><a href="https://bitwarden.com/">Bitwarden</a> is the best
-        open source, cross-platform password manager that I’ve ever
-        tried. And the best part is the free version is more than enough
-        for most people. There are desktop and mobile clients, browser
-        extensions, a web app, and a command line interface. Bitwarden
-        works everywhere you need it.</li>
-        </ul>
-        <h2 id="hex-editor">Hex Editor</h2>
-        <ul>
-        <li><a href="http://mh-nexus.de/en/hxd/">HxD</a>: Has everything
-        I need in a hex editor. Simple and lightweight.
-        <strong>(Windows)</strong></li>
-        <li><a href="https://hexfiend.com/">Hex Fiend</a>: Simple and
-        clean hex editor with all the basics.
-        <strong>(Mac)</strong></li>
-        </ul>
-        <h2 id="virtualization">Virtualization</h2>
-        <ul>
-        <li><a href="https://www.virtualbox.org/">Virtualbox</a> is a
-        great free solution for running virtual machines. It is an easy
-        and robust way of running Linux (and other OSes) under Windows
-        or Mac, which is often handy for some toolchains or just testing
-        out a script or something in a Linux environment.
-        <ul>
-        <li><a href="https://www.qemu.org">QEMU</a> is also an option
-        worth considering as it can be significantly faster than
-        Virtualbox in some situations, and it can emulate systems that
-        Virtualbox can’t. For simple use cases, I would still start with
-        Virtualbox though.</li>
-        </ul></li>
-        <li><a href="https://mac.getutm.app">UTM</a> is my first choice
-        for virtual machines on Mac, including Apple Silicon Macs. It’s
-        just easy to use and does what I need it to do. It’s great for
-        creating Linux sandboxes where I don’t have to worry about
-        messing up my Mac when I’m building out certain toolchains.
-        <strong>(Mac)</strong></li>
-        </ul>
-        <h2 id="windows-system-utilities">Windows System Utilities</h2>
-        <ul>
-        <li><a
-        href="https://docs.microsoft.com/en-us/sysinternals/">Windows
-        Sysinternals</a>: This is a collection of tools that has been
-        around since the 1990s, and was eventually acquired by Microsoft
-        because they are so good. (And they are still being updated!)
-        You can download the whole suite, or individual tools. I’m going
-        to highlight just a couple here to give you the flavor of the
-        suite, but it’s worth perusing the whole list and seeing what’s
-        available:
-        <ul>
-        <li><a
-        href="https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer">Process
-        Explorer</a>: If you can’t delete a file because some program
-        has it locked, Process Explorer will tell you what program has
-        the file handle open.</li>
-        <li><a
-        href="https://docs.microsoft.com/en-us/sysinternals/downloads/procmon">Process
-        Monitor</a>: Sometimes you need to know what files a process is
-        changing, or maybe you want to know which program is changing a
-        file. Process Monitor, um, well, it monitors your processes to
-        find that out.</li>
-        </ul></li>
-        <li><a href="https://github.com/microsoft/PowerToys">Microsoft
-        PowerToys</a>: Old-timers will remember this suite for decades
-        ago, but it’s back and better than ever (and open sourced!).
-        This collection of Windows enhancements include adding Markdown
-        and SVG support to the Windows Explorer preview pane, windows
-        snapping, PowerRename, a color picker, easy image resizing, a
-        keyboard manager that lets you remap keys, plus lots more.
-        (Quick tip: use this to remap your CapsLock key to act like a
-        Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate
-        that.)</li>
-        <li><a
-        href="http://www.nirsoft.net/utils/product_cd_key_viewer.html">ProduKey</a>
-        is super handy when you want to reinstall Windows or Office
-        after your hard drive crashes or you just want to start fresh.
-        Just run this program, save the output somewhere safe, and you
-        have your Microsoft product keys ready to go for Windows and
-        Office.</li>
-        </ul>
-        <h2 id="mac-desktop-tweaks-utilities">Mac Desktop Tweaks &amp;
-        Utilities</h2>
-        <ul>
-        <li><a href="https://rectangleapp.com/">Rectangle</a> allows for
-        complex window manipulation with key strokes. This is super
-        handy.</li>
-        <li><a
-        href="https://apps.apple.com/us/app/amphetamine/id937984704">Amphetamine</a>
-        is probably the best known app to keep your screen on. There are
-        all sorts of reasons you might need this, but I often use it
-        when I’m sketching from a reference photo and I don’t want the
-        screen going to sleep on me.</li>
-        <li><a
-        href="https://karabiner-elements.pqrs.org/">Karabiner-Elements</a>
-        lets you remap keys. I have used it to swap the Command and
-        Control keys so I can use my muscle-memory from Windows to cut
-        and paste.</li>
-        <li><a href="https://hyperkey.app/">Hyperkey</a> is so simple,
-        yet it has become essential for me. It lets you remap the
-        caps-lock key to any combination of meta keys. It can be
-        configured in any number of ways, but I have it setup so when I
-        press caps-lock, it is the same as pressing shift-command-ctrl.
-        Then I map that combo to whatever I like in my various apps.
-        e.g. in VS Code, pressing caps-lock and P will run the current
-        file in Python.</li>
-        <li><a href="https://sindresorhus.com/folder-peek">Folder
-        Peek</a> gives you quick access to your choice of folders right
-        from your menu bar.</li>
-        <li><a href="https://sindresorhus.com/actions">Actions</a> adds
-        additional functionality to Shortcuts. If you use Shortcuts, you
-        probably can benefit from this app. The list of functionality is
-        impressive.</li>
-        <li><a
-        href="https://sindresorhus.com/system-color-picker">System Color
-        Picker</a> is a simple color explorer for choosing colors and
-        getting a text representation (hex, rgb, etc.) useful in
-        programming, web design, and digital imagery. Includes an
-        eye-dropper tool.</li>
-        <li><a
-        href="https://github.com/zenangst/KeyboardCowboy">Keyboard
-        Cowboy</a> is a must-have tool to boost your productivity. It
-        lets you assign global keyboard shortcuts to apps, automations,
-        text replacements, etc.</li>
-        <li><a
-        href="https://www.bresink.com/osx/TinkerTool.html">TinkerTool</a>
-        gives you access to hidden system preferences and tweaks not
-        available in the normal System Preferences dialogs. While there
-        are a lot of options I don’t care about, they are a couple in
-        here that are worth the download.</li>
-        <li><a
-        href="https://github.com/MonitorControl/MonitorControl">MonitorControl</a>
-        is one of those apps I didn’t know I needed. I wouldn’t have
-        looked for it, but after stumbling across it and trying it out,
-        it’s amazing. If you have an external monitor, you need this so
-        you can control the brightness through your keyboard. It also
-        normalizes brightness between the build-in screen and an
-        external monitor. Super handy app.</li>
         </ul>
         <h1 id="gaming">Gaming</h1>
         <p><em>I’m not going to list actual games here, but rather just
