@@ -531,7 +531,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/): This is a collection of tools that has been around since the 1990s, and was eventually acquired by Microsoft because they are so good. (And they are still being updated!) You can download the whole suite, or individual tools.  I’m going to highlight just a couple here to give you the flavor of the suite, but it’s worth perusing the whole list and seeing what’s available:
     - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): If you can’t delete a file because some program has it locked, Process Explorer will tell you what program has the file handle open.
     - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Sometimes you need to know what files a process is changing, or maybe you want to know which program is changing a file. Process Monitor, um, well, it monitors your processes to find that out.
-- [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite for decades ago, but it’s back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, PowerRename, a color picker, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap you CapsLock key to act like a Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
+- [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite for decades ago, but it’s back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, PowerRename, a color picker, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap your CapsLock key to act like a Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
 
 # Mac System Utilities
 
@@ -541,13 +541,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - The other popular option out there is [MacPorts](https://www.macports.org/). You should at least understand how it is different before choosing Homebrew.
 - [Latest](https://github.com/mangerlahn/Latest): This is a handy tool to keep your apps up to date to the latest version. (I see what they did there.) It currently supports apps downloaded from the Mac App Store and apps that use Sparkle for updates, so it might not have your favorite app, but it has enough to be useful.
 
-## Keep Screen Awake
-
-- [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) is probably the best known app to keep your screen on. There are all sorts of reasons you might need this, but I often use it when I’m sketching from a reference photo and I don’t want the screen going to sleep on me.
-
 ## Desktop Tweaks & Utilities
 
 - [Rectangle](https://rectangleapp.com/) allows for complex window manipulation with key strokes. This is super handy.
+- [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) is probably the best known app to keep your screen on. There are all sorts of reasons you might need this, but I often use it when I’m sketching from a reference photo and I don’t want the screen going to sleep on me.
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) lets you remap keys. I have used it to swap the Command and Control keys so I can use my muscle-memory from Windows to cut and paste.
 - [Hyperkey](https://hyperkey.app/) is so simple, yet it has become essential for me. It lets you remap the caps-lock key to any combination of meta keys. It can be configured in any number of ways, but I have it setup so when I press caps-lock, it is the same as pressing shift-command-ctrl. Then I map that combo to whatever I like in my various apps. e.g. in VS Code, pressing caps-lock and P will run the current file in Python.
 - [Folder Peek](https://sindresorhus.com/folder-peek) gives you quick access to your choice of folders right from your menu bar.
@@ -555,9 +552,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [System Color Picker](https://sindresorhus.com/system-color-picker) is a simple color explorer for choosing colors and getting a text representation (hex, rgb, etc.) useful in programming, web design, and digital imagery. Includes an eye-dropper tool.
 - [Keyboard Cowboy](https://github.com/zenangst/KeyboardCowboy) is a must-have tool to boost your productivity. It lets you assign global keyboard shortcuts to apps, automations, text replacements, etc.
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) gives you access to hidden system preferences and tweaks not available in the normal System Preferences dialogs. While there are a lot of options I don’t care about, they are a couple in here that are worth the download.
-
-## Monitor Brightness Control
-
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl) is one of those apps I didn’t know I needed. I wouldn’t have looked for it, but after stumbling across it and trying it out, it’s amazing. If you have an external monitor, you need this so you can control the brightness through your keyboard. It also normalizes brightness between the build-in screen and an external monitor. Super handy app.
 
 # Misc. Utilities
