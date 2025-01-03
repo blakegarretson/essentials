@@ -286,9 +286,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Calculators
 
-### Notebook-Style 
+### General Use 
 
-- [SpeedCrunch](http://www.speedcrunch.org/) is a general-use calculator with fast start-up and plenty of functionality. The interface is deceptively simple, but lurking under the hood are constants, variables, an impressive list of math functions, and equation support. Unfortunately, while SpeedCrunch is cross-platform, it looks fuzzy/blurry on Mac. The graphics toolkit doesn’t seem to upscale well on hi-res monitors, so I just don’t use it on Mac.
+- [SpeedCrunch](http://www.speedcrunch.org/) sports fast start-up and plenty of functionality. The interface is deceptively simple, but lurking under the hood are constants, variables, an impressive list of math functions, and equation support. Unfortunately, while SpeedCrunch is cross-platform, it looks fuzzy/blurry on Mac. The graphics toolkit doesn’t seem to upscale well on hi-res monitors, so I just don’t use it on Mac.
 - [Numi](https://numi.app/) is one of the best free options on Mac for a notebook-stye calculator. The paid version supports multiple pages/notebooks, but the free version has full functionality otherwise. Intuitive calculations (e.g. “5% of 20”) and unit conversion (although somewhat basic) make Numi a solid desktop calculator. **(Mac)**
 
 ### Scientific
