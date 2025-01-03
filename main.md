@@ -1,12 +1,12 @@
 **Welcome to my carefully curated list of the best free programs for MacOS, Windows, and Linux!**
 
-This is the software that I find essential when working on a desktop or laptop. These are the programs that I either immediately install when I set up a new computer, or I end up installing as I need them. In most instances I have tried a number of solutions before choosing one that I like the most. I maintain this list for my own convenience so I can quickly remind myself of (and find) all the software that I thought was best the last time I evaluated a category.
+This is the free software that I find essential when working on a desktop or laptop. These are the programs that I either immediately install when I set up a new computer, or I end up installing as I need them. In most instances I have tried a number of solutions before choosing one that I like the most. I maintain this list for my own convenience so I can quickly remind myself of (and find) all the software that I thought was best the last time I evaluated a category.
 
-Most of these programs are cross-platform, but if an app doesn’t support at least Windows and Mac I will make a note of that and usually list alternatives. All of these programs are free for personal use, and most are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. In some cases I have listed alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party. Likewise, I won’t bother listing software included with the operating systems (e.g. Apple’s Music or Photos apps).
+Many of these programs are cross-platform, but if an app doesn’t support at least Windows and Mac I will make a note of that and usually list alternatives. All of these programs are free for personal use, and many (if not most) are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. In some cases I have listed alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party. Likewise, I won’t bother listing software included with the operating systems since you already have them (e.g. Apple’s Notes or Photos apps).
 
 Have a suggestion for a great program that should be on my list? Let me know about it! Have a comment or correction on something on this website? Click on the [Feedback](https://forms.gle/swSCivmLBwTxRwY27) link and let me know!
 
-# Images & Video
+# Graphics & Video
 
 ## Video Player
 
@@ -14,7 +14,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 -  [IINA](https://iina.io/): While VLC works great on any platform, Mac users may prefer IINA. It’s a full-fledged media player with a clean interface and features like picture-in-picture mode and built-in subtitle downloading. If I’m on a Mac, I’m using IINA over VLC 99% of the time. **(Mac)**
 - [Friendly Streaming Browser](https://apps.apple.com/us/app/friendly-streaming-browser/id553245401?mt=12) is a weird name for a cool app. It’s just a front end for various streaming services (YouTube, Netflix, etc.), but it excels at multitasking by offering a Picture-In-Picture mode. I didn’t realize I needed this until I tried it. This is what you want when you’re working on something and need an easy way to play a 4-hour instrumental playlist from YouTube in the background, or maybe you’re editing photos or something, and you want to watch a mindless episode of a cooking show in a tiny window at the corner of your screen. **(Mac)**
 
-## Raster Photo/Image Editor
+## Photo/Image Editor
 
 - [GIMP](http://www.gimp.org/): Robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it’s not really suited for DTP pros either since it’s missing native CMYK support. Having said that, if you’re doing non-print stuff, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation.
 - [Paint.NET](http://www.getpaint.net/index.html) is a fantastic alternative to GIMP for those weary of the learning curve (or the name). It is less powerful than GIMP, but it’s easy to use and really polished. It’s the Paint program Microsoft should have shipped with Windows. **(Windows)**
@@ -25,20 +25,20 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ### Also check out:
 
-- If the Photoscape X workflow doesn’t agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has a somewhat old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
+- If the Photoscape X workflow doesn’t agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has an old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
 - [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm) is a fantastic photo viewer with a truly impressive set of editing features. After Google retired their Picasa software I used FastStone for about a year, but I just couldn’t get on board with the (for me) unintuitive interface, and I ended up switching to something else. While it didn’t work out for me, it might be perfect for you. **(Windows)**
 - If all you need is a super-fast, image viewer (that incidentally has some robust editing features), look no further than [IrfanView](https://www.irfanview.com/). I started using it in the late 1990s, and it is still going strong. This is a great program to make your default action when clicking on JPEGs, GIFs, and PNGs. **(Windows)**
 
 ## Image Processing/Workflow
 
 - [darktable](https://www.darktable.org/): If you work with RAW photo files or want to get the most out of your photos, you need a non-destructive post-production software like darktable. This isn’t about “photoshopping” a picture; instead it’s all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc.
-    - [RawTherapee](https://www.rawtherapee.com/) is another app worth having in your toolbox. While darktable is overall the better option, RawTherapee has a few features/functions that I think are superior, so I like having both installed.
+    - [RawTherapee](https://www.rawtherapee.com/) is another app worth having in your toolbox. While it seems to me that darktable is overall the better option, RawTherapee has a few features/functions that I think are superior, so I like having both installed.
 
 ## Vector Image Editor
 
-- [Inkscape](https://inkscape.org/en/): Really nice vector image editor for creating professional quality, scalable diagrams, logos, you-name-it. Its functionality rivals Adobe Illustrator, although sometimes the tools don’t map one-to-one.
+- [Inkscape](https://inkscape.org/en/): Incredibly capable vector image editor for creating professional quality, scalable diagrams, logos, you-name-it. Its functionality rivals Adobe Illustrator, although sometimes the tools don’t map one-to-one. 
 
-## Artistic Image Editor
+## Digital Sketching/Painting
 
 - [Krita](https://krita.org/en/) is fantastic digital painting software. If you’re into illustration or digital painting, it has what you need. Krita has plenty of great features, but one thing that stands out to me is that it comes with a large selection of high quality brushes that are excellent. Personally, I have moved my digital painting to an iPad, so I’m not using Krita much these days, but I still would recommend it for desktop use.
 
@@ -97,7 +97,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Music Library Organization and Playback
 
-- [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. An app like this is becoming less essential as I move to online services like Amazon Prime Music and Spotify, but when I do want to work with local music files, it’s hard to do better than MusicBee. **(Windows)**
+- [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. An app like this is has become mostly obsolete since I’ve moved to streaming services like Spotify, but when I do want to work with local music files, it’s hard to do better than MusicBee. **(Windows)**
     - I’m not listing a Mac alternative for playback here because the default Apple Music app meets my meager needs.
 - [MusicBrainz Picard](https://picard.musicbrainz.org/) is the best cross-platform solution for identifying and organizing a large collection of music files. It can figure out what files are based on tags and even audio fingerprints. Besides tagging it will rename and move files as well. Even if you’re using Apple Music or MusicBee to organize your music library, this is still a handy tool to clean up the incorrectly tagged files before adding them to your library.
     - If Picard isn’t to your liking, I would suggest [MP3Tag](https://www.mp3tag.de/en/) . It is a universal batch tag editor that handles MP3s along with every other popular audio format. The robust file renaming/retagging tools and online database lookups make this powerful option for cleaning up your audio collection. This is only free for Windows. It’s a paid app on the Mac App Store. **(Windows)**
@@ -142,11 +142,11 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ### Honorable Mentions
 
 - [Sublime Text](https://www.sublimetext.com/) is a fast, clean, good looking editor, and it gets points for popularizing (if not actually inventing) the command palette and document map (and maybe even multiple cursors?), but I want to like it more than I actually do. Maybe I’m just too old to learn new key bindings? You should check it out though. Sublime is truly excellent software. The real reason it’s just an honorable mention is it technically doesn’t meet my criteria for this website as “free”. You can evaluate Sublime Text for free with no feature limitations or time limits, but you should pay if you continue to use it.
-- [Geany](https://www.geany.org/) is a jack-of-all-trades that is good at everything, but not best-in-class in anything. It is a versatile cross-platform programmer’s text editor that you can configure to be anything from a simple Notepad.exe replacement to an ultra-lightweight IDE. It’s just hard to recommend because while it’s good for quick edits and opening text files, Notepad++ or TextMate are even faster for those quick tasks. And while Geany is really nice for light coding, VS Code is even better. Geany is rarely the best tool for the job, but it might be the right choice for a computer that just needs an all-purpose, do-it-all editor. If you do try it, there are lots of great features hidden in the official plugin package, so be sure to grab it as well.
+- [Geany](https://www.geany.org/) is a jack-of-all-trades that is good at everything, but not best-in-class in anything. It is a versatile cross-platform programmer’s text editor that you can configure to be anything from a simple Notepad.exe replacement to an ultra-lightweight IDE. It’s just hard to recommend because while it’s good for quick edits and opening text files, Notepad++ or CotEditor are even faster for those quick tasks. And while Geany is really nice for light coding, VS Code is even better. Geany is rarely the best tool for the job, but it might be the right choice for a computer that just needs an all-purpose, do-it-all editor. If you do try it, there are lots of great features hidden in the official plugin package, so be sure to grab it as well.
 
 ## Writing/Markdown Apps
 
-*This category of apps is appropriate for writing long-form prose like papers, articles, essays, or even books. I’m only including Markdown editors here as I think that’s just a standard requirement at this point.*
+*This category of apps is appropriate for writing long-form prose like papers, articles, essays, or even books. I’m only including Markdown editors here as I think that’s just a standard requirement for me at this point.*
 
 - [Obsidian](https://obsidian.md/) is probably best known as a note-taking app, but it has comprehensive Markdown support and a plugin ecosystem that can turn it into just about anything you want. I think Obsidian is great for writing after installing plugins to support [LanguageTool](https://languagetool.org), smart quotes, and Git (for document version control.) The live-preview hides the Markdown syntax if you prefer that, and you can see math blocks and diagrams render as you type.
 - [Zettlr](https://zettlr.com) advertises itself as a “one-stop publication workbench”, and that’s an apt description. While excellent for notes, it handles long projects without breaking a sweat, especially if you need to handle citations. Like Obsidian, it has a very nice live-preview which I find mandatory for a modern writing app.
@@ -158,7 +158,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - [uFocus](https://desairem.com/wordpress/ufocus/) is a lightweight distraction-free editor for the Mac. Its Markdown support and clean interface make it a perfect choice for quick prose writing. Even though it is simple, there are plenty of customization options to make it work and look just like you want it to. It’s a wonderful app if you don’t need live-preview. **(Mac)**
     - [WriteMonkey](http://writemonkey.com/) is a distraction-free text editor with a few handy features that pushed it to the front of the pack back when distraction-free editors were new and all the rage. Its development has slowed down (stopped??), but it still works fine even if it feels a bit outdated at this point. **(Windows)**
     - [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) reminds me more of a code editor that supports Markdown than a modern writing app, but it is excellent at being a “Markdown code editor”. There is no in-app rendering, but the syntax highlighting is helpful. **(Mac)**
-    - [MarkText](https://github.com/marktext/marktext) is a cross–platform option that I probably would have included as one of my first choices due to its excellent live-preview and intuitive interface, but development seems to have stopped? MarkText looks like a clone of Typora (a paid app), so if you like Typora, you may prefer the free MarkText instead.
+    - [MarkText](https://github.com/marktext/marktext) is a cross–platform option that I probably would have included as one of my first choices due to its excellent live-preview and intuitive interface, but development seems to have stopped, so I question its longevity. MarkText looks like a clone of Typora (a paid app), so if you like Typora, you may prefer the free MarkText instead.
 
 ## Note-Taking
 
@@ -235,7 +235,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 *Note: See the [All-Purpose Text Editors](#all-purpose-text-editors) section for other text editors useful for programming.*
 
 - [Visual Studio Code](https://code.visualstudio.com/): VS Code is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE. A huge bonus is the excellent Jupyter Notebook support. For many use cases, there’s no reason to run a standalone Jupyter server anymore.  (Note: Don’t confuse VS Code with [Visual Studio](https://visualstudio.microsoft.com/vs/) which is a full-blown IDE with more advanced features that I don’t find necessary for the hobbyist.)
-    - Two things worth mentioning: First, you can run VS Code directly in a web browser [here](https://vscode.dev/). The experience is pretty incredible all things considered. Second, VS Code is very actively developed, so if you want the latest and greatest, you may want to run VS Code Insiders. On paper it is a beta version of VS Code where the new features are tested out, except I have found Insiders to be stable enough for production work. I honestly haven’t noticed a difference in reliability.
+    - Two things worth mentioning: First, you can run VS Code directly in a web browser [here](https://vscode.dev/). The experience is pretty incredible all things considered. Second, VS Code is very actively developed, so if you want the latest and greatest, you may want to run [VS Code Insiders](https://code.visualstudio.com/insiders/). On paper it is a beta version of VS Code where the new features are tested out, except I have found Insiders to be stable enough for production work. I honestly haven’t noticed a difference in reliability.
     - [Zed](https://zed.dev/) is another code editor that I’m keeping my eye on. It is a newer offering, but it’s already doing some cool things, and it seems to be faster than VS Code for those quick code edits. It still has a way to go to be competitive with VS Code, but I like where it’s going.
 
 ## Version Control
@@ -244,7 +244,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Git Extensions](https://gitextensions.github.io/): Sometimes a GUI is convenient to visualize branches and handle more complicated tasks when when you don’t feel like looking up the correct commands/switches, and I think Git Extensions is far superior to the official Git GUI. I wish it was cross-platform, but the latest versions are built on .NET and Windows only. **(Windows)**
 - [Gittyup](https://github.com/Murmele/Gittyup) is a good cross-platform option for a Git GUI. On Mac there are less options for a good GUI that isn’t proprietary, but this works well for me. It makes complex Git operations more manageable.
 
-## Compiled Languages
+## Compiled Language
 
 - [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely. With a great standard library and simple syntax, Go is great for Python programmers like myself.
     - [Rust](https://www.rust-lang.org) is the heir-apparent to venerable languages like C and C++, and when Go isn’t the right tool for the job, Rust often is.
@@ -474,15 +474,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [VeraCrypt](https://www.veracrypt.fr/en/Home.html): On-the-fly disk and file encryption. Works absolutely seamlessly with the OS so you wouldn’t even know you are using an encrypted disk. This is a continuation of the old TrueCrypt program.
 
-## Windows Disk Usage
+## Disk Usage
 
 - [WizTree](https://wiztreefree.com/): The best way to see which files are eating up your diskspace. It is INSANELY fast because it uses the master file table instead of querying each file. **(Windows)**
     - [Windirstat](https://windirstat.net/) was my favorite for years, and it’s still a great option, but it is slower than Wiztree. **(Windows)**
-
-## Mac Disk Usage
-
-I’m listing two equally excellent apps that take fundamentally different approaches, so I use both in different situations:
-
 - [GrandPerspective](http://grandperspectiv.sourceforge.net/) creates a visual representation of your drivespace, and it excels at highlighting single files. At a glance you know where your big files are located. This helps you find that forgotten virtual machine or iso file that is eating up space. **(Mac)**
 - [OmniDiskSweeper](https://www.omnigroup.com/more) displays its data in a directory tree structure, so it’s helpful for finding entire directory structures that are hogging space (perhaps an app with a ton of small files that add up). This is a simple but effective program. **(Mac)**
 
@@ -520,13 +515,12 @@ I’m listing two equally excellent apps that take fundamentally different appro
 ### Honorable Mentions
 
 - [Patch My PC](https://patchmypc.com/home-updater) is pretty cool. If you don’t want an overbearing package manager, but you do want up to date programs, this is a good option. It scans your installed programs, shows you which ones have available updates, and then it helps update them. It supports a decent selection of popular software, although it isn’t going to cover every app on your computer. This is great for casual users.
-    - Not long ago [Chocolatey](https://chocolatey.org/) was probably the most well-known solution to package management on Windows. It may still be a better choice for some people as it has broad package support. It supports thousands of packages, and the vast majority of the software listed on Blake’s Essentials can be found there. Having said that, I wish it were more robust. I’ve had plenty of headaches where Chocolatey wouldn’t let me uninstall software or I had weird conflicts from multiple versions of packages that I couldn’t remedy. I switched to winget largely because of these issues.
-    - I’m guessing the most popular graphical package manager out there is [Ninite](https://ninite.com/) . It’s great software, it’s easy to use, but it just doesn’t include enough packages to really be a full-fledged package manager. If Ninite supports all the packages you want, you might want to try it first. Personally, I see Ninite as something I can use on my parents’ computer to keep their software up to date.
+- Not long ago [Chocolatey](https://chocolatey.org/) was probably the most well-known solution to package management on Windows. It may still be a better choice for some people as it has broad package support. It supports thousands of packages, and the vast majority of the software listed on Blake’s Essentials can be found there. Having said that, I wish it were more robust. I’ve had plenty of headaches where Chocolatey wouldn’t let me uninstall software or I had weird conflicts from multiple versions of packages that I couldn’t remedy. I switched to winget largely because of these issues.
+- I’m guessing the most popular graphical package manager out there is [Ninite](https://ninite.com/) . It’s great software, it’s easy to use, but it just doesn’t include enough packages to really be a full-fledged package manager. If Ninite supports all the packages you want, you might want to try it first. Personally, I see Ninite as something I can use on my parents’ computer to keep their software up to date.
 
 ## System Cleaner
 
-- [Bleachbit](https://www.bleachbit.org/) will delete stuff you don’t need hanging around like logs, temporary files, “recently used” lists, thumbnails, you-name-it. There are a lot of options out there in this category, but I like Bleachbit because it’s completely free and open-source, so at least you know what it’s trying to do under the hood. Be aware that it is highly debated whether you should even use a program like this on Windows since Windows has it’s own tools to clean up after itself, and mucking about in the registry can cause problems you didn’t ask for.
-    - [CCleaner](https://www.ccleaner.com/) has been around forever, and it might still be a good choice for cleaning up your system, although be aware that it seems to have lost favor in some circles due to some possibly sketchy behavior. The main advantage it has over Bleachbit is the ability to fix a plethora of registry issues. (Again, maybe it’s better to let it alone and not mess with the registry?)
+- [Bleachbit](https://www.bleachbit.org/) will delete stuff you don’t need hanging around like logs, temporary files, “recently used” lists, thumbnails, you-name-it. There are a lot of options out there in this category, but I like Bleachbit because it’s completely free and open-source, so at least you know what it’s trying to do under the hood. Be aware that mucking about in the registry isn’t really necessary on modern Windows, but Bleachbit can do way more than registry pruning, and it’s worth looking at all of its functionality before dismissing it. 
 
 ## Microsoft Product Key Recovery
 
