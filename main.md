@@ -436,7 +436,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Version Control
 
-- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you’re a programmer, you already know what this is. On Windows a big bonus is the installer includes all the Unix command-line tools you know and love. If you need ls, cat, grep, awk, and all the rest, I think this is the easiest way to add them to your Windows system.
+- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you’re a programmer, you already know what this is. 
+    - A big bonus on Windows is that the installer includes all the Unix command-line tools you know and love. If you need `ls`, `cat`, `grep`, `awk`, and all the rest, I think this is the easiest way to add them to your Windows system.
 - [Git Extensions](https://gitextensions.github.io/): Sometimes a GUI is convenient to visualize branches and handle more complicated tasks when when you don’t feel like looking up the correct commands/switches, and I think Git Extensions is far superior to the official Git GUI. I wish it was cross-platform, but the latest versions are built on .NET and Windows only. **(Windows)**
 - [Gittyup](https://github.com/Murmele/Gittyup) is a good cross-platform option for a Git GUI. On Mac there are less options for a good GUI that isn’t proprietary, but this works well for me. It makes complex Git operations more manageable.
 
