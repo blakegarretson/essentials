@@ -352,60 +352,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Google Drive for Desktop](https://www.google.com/drive/download/): For real-time cloud backup and synchronization, this is an easy solution if you just want an off-site copy of your data that is accesible everywhere, including mobile devices.
 - [Syncthing](https://syncthing.net/): If you don’t trust someone else with your data or you want more control of your data, you can host your own cloud with Syncthing . If it’s confusing why this is different than something like FreeFileSync, Syncthing shines at realtime continuous synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. The big bonus is Syncthing’s Android app, allowing you to sync files between your computer and your phone, but the lack of an iOS app is a serious problem for me.
 
-# Programming
-
-## Programming Editor/IDE
-
-*Note: See the [All-Purpose Text Editors](#all-purpose-text-editors) section for other text editors useful for programming.*
-
-- [Visual Studio Code](https://code.visualstudio.com/): VS Code is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE. A huge bonus is the excellent Jupyter Notebook support. For many use cases, there’s no reason to run a standalone Jupyter server anymore.  (Note: Don’t confuse VS Code with [Visual Studio](https://visualstudio.microsoft.com/vs/) which is a full-blown IDE with more advanced features that I don’t find necessary for the hobbyist.)
-    - Two things worth mentioning: First, you can run VS Code directly in a web browser [here](https://vscode.dev/). The experience is pretty incredible all things considered. Second, VS Code is very actively developed, so if you want the latest and greatest, you may want to run [VS Code Insiders](https://code.visualstudio.com/insiders/). On paper it is a beta version of VS Code where the new features are tested out, except I have found Insiders to be stable enough for production work. I honestly haven’t noticed a difference in reliability.
-    - [Zed](https://zed.dev/) is another code editor that I’m keeping my eye on. It is a newer offering, but it’s already doing some cool things, and it seems to be faster than VS Code for those quick code edits. It still has a way to go to be competitive with VS Code, but I like where it’s going.
-
-## Version Control
-
-- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you’re a programmer, you already know what this is. On Windows a big bonus is the installer includes all the Unix command-line tools you know and love. If you need ls, cat, grep, awk, and all the rest, I think this is the easiest way to add them to your Windows system.
-- [Git Extensions](https://gitextensions.github.io/): Sometimes a GUI is convenient to visualize branches and handle more complicated tasks when when you don’t feel like looking up the correct commands/switches, and I think Git Extensions is far superior to the official Git GUI. I wish it was cross-platform, but the latest versions are built on .NET and Windows only. **(Windows)**
-- [Gittyup](https://github.com/Murmele/Gittyup) is a good cross-platform option for a Git GUI. On Mac there are less options for a good GUI that isn’t proprietary, but this works well for me. It makes complex Git operations more manageable.
-
-## Compiled Language
-
-- [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely. With a great standard library and simple syntax, Go is great for Python programmers like myself.
-    - [Rust](https://www.rust-lang.org) is the heir-apparent to venerable languages like C and C++, and when Go isn’t the right tool for the job, Rust often is.
-
-## Scripting Language - General Purpose
-
-- [Python](http://www.python.org/): My favorite general purpose programming language. It’s perfect for getting the job done quickly without a lot of boilerplate and heavy lifting. I’m a pragmatic engineer, so I just want to solve a problem as efficiently and elegantly as possible, and I’ll leave the arguing about static typing and whatnot to the real developers and CS engineers.
-    - On Mac I prefer to use [pyenv](https://github.com/pyenv/pyenv) to install the various Python versions. Once you install it (which is trivial with Homebrew), you can just issue a command like: `pyenv install 3.10.4`
-    - All the essential Python libraries are on PyPi, so here is a pip command line (for easy cutting and pasting) useful for STEM programming to get you started. This is a short list, but it pulls the more important dependencies like scipy, pandas, and numpy: `pip install jupyterlab seaborn PyQt6 sympy`
-    - And a quick description of a couple of packages vital for STEM:
-
-###
-
-- [SciPy](https://www.scipy.org/) is a scientific package useful for everything from statistics to linear algebra.
-- [Pandas](https://pandas.pydata.org/) handles data structures and data manipulation.
-- [NumPy](https://www.numpy.org/) is the foundation for numeric arrays, and math functions.
-- [SymPy](https://www.sympy.org/) is a symbolic computer algebra system.
-- [Matplotlib](https://matplotlib.org/) is a robust plotting library.
-- [Seaborn](https://seaborn.pydata.org/) is a higher level package built on matplotlib that can really improve your productivity.
-- [PyQt](http://www.riverbankcomputing.co.uk/software/pyqt/intro): Probably the best looking, best featured, cross-platform GUI toolkit.
-    - Other GUI toolkits worth checking out are [wxPython](https://www.wxpython.org/), which is a really nice toolkit that I’ve used on a number of projects, and [Kivy](https://kivy.org/#home), which accommodates mobile platforms with features like multi-touch support.
-
-## Scripting Language - Math/Science
-
-- [Julia](http://julialang.org/): Just an incredible tool for mathematical or scientific computing of any kind. The lightweight syntax is a delight even by Python standards, and its speed usually matches or beats compiled languages due to its JIT compiler and language design. Julia is made for speed (both in writing and execution), and I think it combines the best of Python, Fortran, MATLAB, and R. I use it more as a math tool than a general purpose scripting language, hence this separate category.
-    - For interactive Julia sessions, there is nothing like [Pluto.jl](https://github.com/fonsp/Pluto.jl) . It is a must see experience. It’s like a Jupyter Notebook, but better.
-    - If you like Julia, you might like the [JuliaMono](https://juliamono.netlify.app/) font. I can’t justify listing this with the other fonts below because it’s so specific to Julia, but this is an interesting font intended to leverage Julia’s excellent Unicode support for actual math operations. Check out the website for examples.
-
-## Programming Fonts
-
-*Below are a few excellent fonts suitable for programming, consoles, terminal windows, PuTTY, etc. While just one font should be sufficient, I typically have all of these installed as one font may look better in a certain terminal or editor, at a particular size or scaling, or on a particular monitor.*
-
-- [Dina](http://www.donationcoder.com/Software/Jibz/Dina/): Great bitmap font in 6, 8, 9, and 10 points with normal, bold, italic, and bold/italic faces. I like the 8 and 10 especially well. Dina is so clear and crisp on even the worst monitors that it is actually pleasurable to read. It’s not really necessary on a decent monitor though.
-- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro): This font from Adobe looks very clean on high resolution monitors. This is just a simple, no frills font that’s easy to throw on a random computer to get a decent font quickly. Perfect for when the fonts below can be overkill.
-- [Input](https://input.djr.com/): Incredibly flexible font system that lets you customize letters (a/g/i/l/0) and symbols (asterisk/braces) to your liking, as well as choose from 7 weights and 4 widths, and sans, serif, and mono variants. There are 168 styles in all, so you will find one that works for any given situation.
-- [Iosevka](https://typeof.net/Iosevka/): Similar to the Input font, Iosevka raises the bar by adding ligatures, more weights, more variants, and incredible character coverage with thousands and thousands of supported glyphs. There are plenty of variants with different character and symbol styles, so you should be able to find one that has the look you want. There are so many choices it can be confusing, but if want a general purpose font that works everywhere (but doesn’t have ligatures), start with the “Iosevka Fixed” font. At the end of the day, this is the only font I need because I can configure it to look any way I want.
-
 # Other Utilities
 
 ## Windows Package Management/Software Installer
@@ -480,6 +426,60 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Keyboard Cowboy](https://github.com/zenangst/KeyboardCowboy) is a must-have tool to boost your productivity. It lets you assign global keyboard shortcuts to apps, automations, text replacements, etc.
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) gives you access to hidden system preferences and tweaks not available in the normal System Preferences dialogs. While there are a lot of options I don’t care about, they are a couple in here that are worth the download.
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl) is one of those apps I didn’t know I needed. I wouldn’t have looked for it, but after stumbling across it and trying it out, it’s amazing. If you have an external monitor, you need this so you can control the brightness through your keyboard. It also normalizes brightness between the build-in screen and an external monitor. Super handy app.
+
+# Programming
+
+## Programming Editor/IDE
+
+*Note: See the [All-Purpose Text Editors](#all-purpose-text-editors) section for other text editors useful for programming.*
+
+- [Visual Studio Code](https://code.visualstudio.com/): VS Code is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE. A huge bonus is the excellent Jupyter Notebook support. For many use cases, there’s no reason to run a standalone Jupyter server anymore.  (Note: Don’t confuse VS Code with [Visual Studio](https://visualstudio.microsoft.com/vs/) which is a full-blown IDE with more advanced features that I don’t find necessary for the hobbyist.)
+    - Two things worth mentioning: First, you can run VS Code directly in a web browser [here](https://vscode.dev/). The experience is pretty incredible all things considered. Second, VS Code is very actively developed, so if you want the latest and greatest, you may want to run [VS Code Insiders](https://code.visualstudio.com/insiders/). On paper it is a beta version of VS Code where the new features are tested out, except I have found Insiders to be stable enough for production work. I honestly haven’t noticed a difference in reliability.
+    - [Zed](https://zed.dev/) is another code editor that I’m keeping my eye on. It is a newer offering, but it’s already doing some cool things, and it seems to be faster than VS Code for those quick code edits. It still has a way to go to be competitive with VS Code, but I like where it’s going.
+
+## Version Control
+
+- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you’re a programmer, you already know what this is. On Windows a big bonus is the installer includes all the Unix command-line tools you know and love. If you need ls, cat, grep, awk, and all the rest, I think this is the easiest way to add them to your Windows system.
+- [Git Extensions](https://gitextensions.github.io/): Sometimes a GUI is convenient to visualize branches and handle more complicated tasks when when you don’t feel like looking up the correct commands/switches, and I think Git Extensions is far superior to the official Git GUI. I wish it was cross-platform, but the latest versions are built on .NET and Windows only. **(Windows)**
+- [Gittyup](https://github.com/Murmele/Gittyup) is a good cross-platform option for a Git GUI. On Mac there are less options for a good GUI that isn’t proprietary, but this works well for me. It makes complex Git operations more manageable.
+
+## Compiled Language
+
+- [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely. With a great standard library and simple syntax, Go is great for Python programmers like myself.
+    - [Rust](https://www.rust-lang.org) is the heir-apparent to venerable languages like C and C++, and when Go isn’t the right tool for the job, Rust often is.
+
+## Scripting Language - General Purpose
+
+- [Python](http://www.python.org/): My favorite general purpose programming language. It’s perfect for getting the job done quickly without a lot of boilerplate and heavy lifting. I’m a pragmatic engineer, so I just want to solve a problem as efficiently and elegantly as possible, and I’ll leave the arguing about static typing and whatnot to the real developers and CS engineers.
+    - On Mac I prefer to use [pyenv](https://github.com/pyenv/pyenv) to install the various Python versions. Once you install it (which is trivial with Homebrew), you can just issue a command like: `pyenv install 3.10.4`
+    - All the essential Python libraries are on PyPi, so here is a pip command line (for easy cutting and pasting) useful for STEM programming to get you started. This is a short list, but it pulls the more important dependencies like scipy, pandas, and numpy: `pip install jupyterlab seaborn PyQt6 sympy`
+    - And a quick description of a couple of packages vital for STEM:
+
+###
+
+- [SciPy](https://www.scipy.org/) is a scientific package useful for everything from statistics to linear algebra.
+- [Pandas](https://pandas.pydata.org/) handles data structures and data manipulation.
+- [NumPy](https://www.numpy.org/) is the foundation for numeric arrays, and math functions.
+- [SymPy](https://www.sympy.org/) is a symbolic computer algebra system.
+- [Matplotlib](https://matplotlib.org/) is a robust plotting library.
+- [Seaborn](https://seaborn.pydata.org/) is a higher level package built on matplotlib that can really improve your productivity.
+- [PyQt](http://www.riverbankcomputing.co.uk/software/pyqt/intro): Probably the best looking, best featured, cross-platform GUI toolkit.
+    - Other GUI toolkits worth checking out are [wxPython](https://www.wxpython.org/), which is a really nice toolkit that I’ve used on a number of projects, and [Kivy](https://kivy.org/#home), which accommodates mobile platforms with features like multi-touch support.
+
+## Scripting Language - Math/Science
+
+- [Julia](http://julialang.org/): Just an incredible tool for mathematical or scientific computing of any kind. The lightweight syntax is a delight even by Python standards, and its speed usually matches or beats compiled languages due to its JIT compiler and language design. Julia is made for speed (both in writing and execution), and I think it combines the best of Python, Fortran, MATLAB, and R. I use it more as a math tool than a general purpose scripting language, hence this separate category.
+    - For interactive Julia sessions, there is nothing like [Pluto.jl](https://github.com/fonsp/Pluto.jl) . It is a must see experience. It’s like a Jupyter Notebook, but better.
+    - If you like Julia, you might like the [JuliaMono](https://juliamono.netlify.app/) font. I can’t justify listing this with the other fonts below because it’s so specific to Julia, but this is an interesting font intended to leverage Julia’s excellent Unicode support for actual math operations. Check out the website for examples.
+
+## Programming Fonts
+
+*Below are a few excellent fonts suitable for programming, consoles, terminal windows, PuTTY, etc. While just one font should be sufficient, I typically have all of these installed as one font may look better in a certain terminal or editor, at a particular size or scaling, or on a particular monitor.*
+
+- [Dina](http://www.donationcoder.com/Software/Jibz/Dina/): Great bitmap font in 6, 8, 9, and 10 points with normal, bold, italic, and bold/italic faces. I like the 8 and 10 especially well. Dina is so clear and crisp on even the worst monitors that it is actually pleasurable to read. It’s not really necessary on a decent monitor though.
+- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro): This font from Adobe looks very clean on high resolution monitors. This is just a simple, no frills font that’s easy to throw on a random computer to get a decent font quickly. Perfect for when the fonts below can be overkill.
+- [Input](https://input.djr.com/): Incredibly flexible font system that lets you customize letters (a/g/i/l/0) and symbols (asterisk/braces) to your liking, as well as choose from 7 weights and 4 widths, and sans, serif, and mono variants. There are 168 styles in all, so you will find one that works for any given situation.
+- [Iosevka](https://typeof.net/Iosevka/): Similar to the Input font, Iosevka raises the bar by adding ligatures, more weights, more variants, and incredible character coverage with thousands and thousands of supported glyphs. There are plenty of variants with different character and symbol styles, so you should be able to find one that has the look you want. There are so many choices it can be confusing, but if want a general purpose font that works everywhere (but doesn’t have ligatures), start with the “Iosevka Fixed” font. At the end of the day, this is the only font I need because I can configure it to look any way I want.
 
 # Science, Math, and Engineering
 
