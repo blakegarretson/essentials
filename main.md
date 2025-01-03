@@ -52,9 +52,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [ShareX](https://getsharex.com/): You don’t know how useful a good screenshot tool is until you start using it. It’s really handy to automatically save screenshots (or portions of screens) to a predetermined folder and keep it on the clipboard as well. ShareX takes it one step further and will upload the image to pretty much any site you like, and the OCR functionality is really cool. The icing on the cake is the screen capture capability that will let you record portions of your screen and save it to a GIF (or other formats). It’s great for playing tech support with family to show them how to do stuff. **(Windows)**
     - [Greenshot](http://getgreenshot.org/) was my old favorite, and you may want to use it if ShareX is confusing or seems like overkill.
-    - It’s worth noting that recent versions of Windows 10 now come with a tool called “Snip & Sketch” that does something similar (use SHIFT + WINDOWS + S key combo to access it), although it doesn’t automatically save the image to a file.
+    - It’s worth noting that recent versions of Windows 10 now come with a tool called “Snip & Sketch” that does something similar (use *SHIFT + WINDOWS + S* key combo to access it), although it doesn’t automatically save the image to a file.
 - [Shottr](https://shottr.cc/) is an amazing tool for screenshots on Mac. It has all the usual features plus cool stuff like scrolling captures (for long webpages) and OCR text recognition so you can cut and paste text from images on your screen. **(Mac)**
-    - If you don’t need/use anything beyond simple screenshots on Mac, it’s worth mentioning the SHIFT-CMD-4 shortcut gets you a portion of the screen and automatically saves the file to the desktop.
+    - If you don’t need/use anything beyond simple screenshots on Mac, it’s worth mentioning the *SHIFT + CMD + 4* shortcut gets you a portion of the screen and automatically saves the file to the desktop.
 
 ## Live Streaming
 
@@ -429,15 +429,15 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Local File Search
 
-- [DocFetcher](http://docfetcher.sourceforge.net/) is the search tool you need if you want to search file contents. You choose the folders you want to index, and a low-resource process watches for changes in real time.  Searching for filenames or contents works just as expected. Windows search is terrible, and there’s no perfect alternative, but DocFet cher is pretty close.
+- [DocFetcher](http://docfetcher.sourceforge.net/) is the search tool you need if you want to search file contents. You choose the folders you want to index, and a low-resource process watches for changes in real time.  Searching for filenames or contents works just as expected. The functionality is great even if the interface looks very dated.
 - [Everything](https://www.voidtools.com/): If you just want to search filenames, Everything is your best bet. It supports wildcards, boolean operations, exact cases/phrases, and regular expressions. Just type a filename, and you’ll get immediate results from all your drives instantly. If you want to search network drives, you will need to go to Options and add them to your search folders under Indexing. You can also search file contents, although that will take much longer because it doesn’t support (or require) indexing. **(Windows)**
 
 ## Compression
 
-- [7-Zip](http://www.7-zip.org/): Archiver with great compression, command line support, nice GUI and Explorer integration, and it is really fast. This is my go-to on Windows. **(Windows)**
+- [7-Zip](http://www.7-zip.org/): Archiver with great compression, command line support, functional GUI, and Explorer integration. Plus it’s really fast. This is my go-to on Windows. **(Windows)**
 - [Keka](https://www.keka.io/en/) is easy to recommend because it does more than Mac’s built-in Archive Utility by supporting more formats and adding compression with encryption. It’s free from the website, or a paid app on the AppStore. **(Mac)**
     - If you don’t need fancy compression options, and you just want something that will automatically decompress just about every format you’ve probably ever heard of, you may prefer [The Unarchiver](https://theunarchiver.com/). The interface is non-existent. You just click on an archive in Finder to decompress it. **(Mac)**
-- [PeaZip](https://peazip.github.io/) is worth a look if 7-zip doesn’t work for you because you’ve encountered some obscure format, or if you’re on Mac or Linux. It supports basically every format that you would conceivably (or inconceivably) run into. The interface doesn’t look native (especially on Mac), but it is very usable and great for previewing an archive before decompressing it.
+- [PeaZip](https://peazip.github.io/) is worth a look if 7-zip doesn’t work for you because you’ve encountered some really obscure format, or if you’re on Mac or Linux. It supports basically every format that you would conceivably (or inconceivably) run into. The interface doesn’t look native (especially on Mac), but it is very usable and great for previewing an archive before decompressing it.
 
 ## Disk Imaging/Formatting/Repair
 
