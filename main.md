@@ -505,9 +505,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Google Drive for Desktop](https://www.google.com/drive/download/): For real-time cloud backup and synchronization, this is an easy solution if you just want an off-site copy of your data that is accesible everywhere, including mobile devices.
 - [Syncthing](https://syncthing.net/): If you don’t trust someone else with your data or you want more control of your data, you can host your own cloud with Syncthing . If it’s confusing why this is different than something like FreeFileSync, Syncthing shines at realtime continuous synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. The big bonus is Syncthing’s Android app, allowing you to sync files between your computer and your phone, but the lack of an iOS app is a serious problem for me.
 
-# Windows System Utilities
+# Other Utilities
 
-## Package Management/Software Installer
+## Windows Package Management/Software Installer
 
 - [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/): If you wish you had Linux-like package management on Windows (e.g. apt, yum, or pacman), winget has you covered. Microsoft’s new package manager isn’t exactly well-advertised, but it works well and the list of supported packages is growing. On a recent Windows build, you probably already have it installed. The best feature is that it works with existing programs whether they were installed with winget or not. It integrates with the Windows “Apps and Features” interface in Settings (or the older “Programs and Features” in Control Panel) so it knows what you have installed. It isn’t perfect though. Sometimes it can be frustrating working with packages with the same or similar names, or multiple versions of the same package. There’s room for improvement, but I still think it works better than Chocolatey (see below).
 - [Scoop](https://scoop.sh/) is a command line package manager focusing on non-GUI tools to make Linux users feel at home on Windows. For instance, need to quickly install nmap or curl? Scoop is a great way to do that. There is also an “extra” bucket (i.e. repo) of tools that includes GUI apps and other tools that don’t fit into the main inclusion criteria for scoop. The real selling point here is that it installs everything in your home directory (or other specified location), so you don’t need admin privileges and you won’t see UAC prompts every time you add or remove a program. Scoop may look redundant to winget, but it works differently enough that it is the better choice for certain situations. For me, Scoop is essential if you’re stuck on a company computer without admin rights.
@@ -518,50 +518,18 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - Not long ago [Chocolatey](https://chocolatey.org/) was probably the most well-known solution to package management on Windows. It may still be a better choice for some people as it has broad package support. It supports thousands of packages, and the vast majority of the software listed on Blake’s Essentials can be found there. Having said that, I wish it were more robust. I’ve had plenty of headaches where Chocolatey wouldn’t let me uninstall software or I had weird conflicts from multiple versions of packages that I couldn’t remedy. I switched to winget largely because of these issues.
 - I’m guessing the most popular graphical package manager out there is [Ninite](https://ninite.com/) . It’s great software, it’s easy to use, but it just doesn’t include enough packages to really be a full-fledged package manager. If Ninite supports all the packages you want, you might want to try it first. Personally, I see Ninite as something I can use on my parents’ computer to keep their software up to date.
 
-## System Cleaner
-
-- [Bleachbit](https://www.bleachbit.org/) will delete stuff you don’t need hanging around like logs, temporary files, “recently used” lists, thumbnails, you-name-it. There are a lot of options out there in this category, but I like Bleachbit because it’s completely free and open-source, so at least you know what it’s trying to do under the hood. Be aware that mucking about in the registry isn’t really necessary on modern Windows, but Bleachbit can do way more than registry pruning, and it’s worth looking at all of its functionality before dismissing it. 
-
-## Microsoft Product Key Recovery
-
-- [ProduKey](http://www.nirsoft.net/utils/product_cd_key_viewer.html) is super handy when you want to reinstall Windows or Office after your hard drive crashes or you just want to start fresh.. Just run this program, save the output somewhere safe, and you have your Microsoft product keys ready to go for Windows and Office.
-
-## Utilities Suites
-
-- [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/): This is a collection of tools that has been around since the 1990s, and was eventually acquired by Microsoft because they are so good. (And they are still being updated!) You can download the whole suite, or individual tools.  I’m going to highlight just a couple here to give you the flavor of the suite, but it’s worth perusing the whole list and seeing what’s available:
-    - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): If you can’t delete a file because some program has it locked, Process Explorer will tell you what program has the file handle open.
-    - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Sometimes you need to know what files a process is changing, or maybe you want to know which program is changing a file. Process Monitor, um, well, it monitors your processes to find that out.
-- [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite for decades ago, but it’s back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, PowerRename, a color picker, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap your CapsLock key to act like a Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
-
-# Mac System Utilities
-
-## Package Management/Software Installer
+## Mac Package Management/Software Installer
 
 - [Homebrew](https://brew.sh/): If you want an easy way to install command line tools and even some GUI apps, Homebrew gets you going with minimal hassle. There is plenty of debate on whether its approach is technically sound, but it works for me. For instance, if I want to install git, I just type: `brew install git`
     - The other popular option out there is [MacPorts](https://www.macports.org/). You should at least understand how it is different before choosing Homebrew.
 - [Latest](https://github.com/mangerlahn/Latest): This is a handy tool to keep your apps up to date to the latest version. (I see what they did there.) It currently supports apps downloaded from the Mac App Store and apps that use Sparkle for updates, so it might not have your favorite app, but it has enough to be useful.
 
-## Desktop Tweaks & Utilities
-
-- [Rectangle](https://rectangleapp.com/) allows for complex window manipulation with key strokes. This is super handy.
-- [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) is probably the best known app to keep your screen on. There are all sorts of reasons you might need this, but I often use it when I’m sketching from a reference photo and I don’t want the screen going to sleep on me.
-- [Karabiner-Elements](https://karabiner-elements.pqrs.org/) lets you remap keys. I have used it to swap the Command and Control keys so I can use my muscle-memory from Windows to cut and paste.
-- [Hyperkey](https://hyperkey.app/) is so simple, yet it has become essential for me. It lets you remap the caps-lock key to any combination of meta keys. It can be configured in any number of ways, but I have it setup so when I press caps-lock, it is the same as pressing shift-command-ctrl. Then I map that combo to whatever I like in my various apps. e.g. in VS Code, pressing caps-lock and P will run the current file in Python.
-- [Folder Peek](https://sindresorhus.com/folder-peek) gives you quick access to your choice of folders right from your menu bar.
-- [Actions](https://sindresorhus.com/actions) adds additional functionality to Shortcuts. If you use Shortcuts, you probably can benefit from this app. The list of functionality is impressive.
-- [System Color Picker](https://sindresorhus.com/system-color-picker) is a simple color explorer for choosing colors and getting a text representation (hex, rgb, etc.) useful in programming, web design, and digital imagery. Includes an eye-dropper tool.
-- [Keyboard Cowboy](https://github.com/zenangst/KeyboardCowboy) is a must-have tool to boost your productivity. It lets you assign global keyboard shortcuts to apps, automations, text replacements, etc.
-- [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) gives you access to hidden system preferences and tweaks not available in the normal System Preferences dialogs. While there are a lot of options I don’t care about, they are a couple in here that are worth the download.
-- [MonitorControl](https://github.com/MonitorControl/MonitorControl) is one of those apps I didn’t know I needed. I wouldn’t have looked for it, but after stumbling across it and trying it out, it’s amazing. If you have an external monitor, you need this so you can control the brightness through your keyboard. It also normalizes brightness between the build-in screen and an external monitor. Super handy app.
-
-# Misc. Utilities
-
-## Uninstaller
+## Uninstaller / System Cleaner
 
 - [Revo Uninstaller Free](https://www.revouninstaller.com/products/revo-uninstaller-free/): Uninstalling programs using the usual methods often leaves a lot of junk around. Revo does a better job at really removing a program. **(Windows)**
 - [AppCleaner](https://freemacsoft.net/appcleaner/) is the best way to really uninstall apps on Mac. It gets rid of all the leftover bits that often stay behind. **(Mac)**
     - While AppCleaner is my first choice due to its easy-of-use, a good companion app is [Pearcleaner](https://github.com/alienator88/Pearcleaner). It’s harder to use, but it can find ophaned files and do other things AppCleaner doesn’t. 
-
+- [Bleachbit](https://www.bleachbit.org/) will delete stuff you don’t need hanging around like logs, temporary files, “recently used” lists, thumbnails, you-name-it. There are a lot of options out there in this category, but I like Bleachbit because it’s completely free and open-source, so at least you know what it’s trying to do under the hood. Be aware that mucking about in the registry isn’t really necessary on modern Windows, but Bleachbit can do way more than registry pruning, and it’s worth looking at all of its functionality before dismissing it. **(Windows)**
 ## Console/Command Line
 
 - [Windows Terminal](https://github.com/microsoft/terminal) is a newer offering, but the features have been steadily expanding, and it quickly became my console of choice with handy features like themes, panes, and a command palette. It happily handles PowerShell, cmd.exe, and WSL shells, as well as REPL interpreters like IPython or Julia. **(Windows)**
@@ -590,6 +558,27 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Virtualbox](https://www.virtualbox.org/) is a great free solution for running virtual machines. It is an easy and robust way of running Linux (and other OSes) under Windows or Mac, which is often handy for some toolchains or just testing out a script or something in a Linux environment.
     - [QEMU](https://www.qemu.org) is also an option worth considering as it can be significantly faster than Virtualbox in some situations, and it can emulate systems that Virtualbox can’t. For simple use cases, I would still start with Virtualbox though.
 - [UTM](https://mac.getutm.app) is my first choice for virtual machines on Mac, including Apple Silicon Macs. It’s just easy to use and does what I need it to do. It’s great for creating Linux sandboxes where I don’t have to worry about messing up my Mac when I’m building out certain toolchains. **(Mac)**
+
+## Windows System Utilities
+
+- [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/): This is a collection of tools that has been around since the 1990s, and was eventually acquired by Microsoft because they are so good. (And they are still being updated!) You can download the whole suite, or individual tools.  I’m going to highlight just a couple here to give you the flavor of the suite, but it’s worth perusing the whole list and seeing what’s available:
+    - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): If you can’t delete a file because some program has it locked, Process Explorer will tell you what program has the file handle open.
+    - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Sometimes you need to know what files a process is changing, or maybe you want to know which program is changing a file. Process Monitor, um, well, it monitors your processes to find that out.
+- [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite for decades ago, but it’s back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, PowerRename, a color picker, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap your CapsLock key to act like a Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
+- [ProduKey](http://www.nirsoft.net/utils/product_cd_key_viewer.html) is super handy when you want to reinstall Windows or Office after your hard drive crashes or you just want to start fresh. Just run this program, save the output somewhere safe, and you have your Microsoft product keys ready to go for Windows and Office.
+
+## Mac Desktop Tweaks & Utilities
+
+- [Rectangle](https://rectangleapp.com/) allows for complex window manipulation with key strokes. This is super handy.
+- [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) is probably the best known app to keep your screen on. There are all sorts of reasons you might need this, but I often use it when I’m sketching from a reference photo and I don’t want the screen going to sleep on me.
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/) lets you remap keys. I have used it to swap the Command and Control keys so I can use my muscle-memory from Windows to cut and paste.
+- [Hyperkey](https://hyperkey.app/) is so simple, yet it has become essential for me. It lets you remap the caps-lock key to any combination of meta keys. It can be configured in any number of ways, but I have it setup so when I press caps-lock, it is the same as pressing shift-command-ctrl. Then I map that combo to whatever I like in my various apps. e.g. in VS Code, pressing caps-lock and P will run the current file in Python.
+- [Folder Peek](https://sindresorhus.com/folder-peek) gives you quick access to your choice of folders right from your menu bar.
+- [Actions](https://sindresorhus.com/actions) adds additional functionality to Shortcuts. If you use Shortcuts, you probably can benefit from this app. The list of functionality is impressive.
+- [System Color Picker](https://sindresorhus.com/system-color-picker) is a simple color explorer for choosing colors and getting a text representation (hex, rgb, etc.) useful in programming, web design, and digital imagery. Includes an eye-dropper tool.
+- [Keyboard Cowboy](https://github.com/zenangst/KeyboardCowboy) is a must-have tool to boost your productivity. It lets you assign global keyboard shortcuts to apps, automations, text replacements, etc.
+- [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) gives you access to hidden system preferences and tweaks not available in the normal System Preferences dialogs. While there are a lot of options I don’t care about, they are a couple in here that are worth the download.
+- [MonitorControl](https://github.com/MonitorControl/MonitorControl) is one of those apps I didn’t know I needed. I wouldn’t have looked for it, but after stumbling across it and trying it out, it’s amazing. If you have an external monitor, you need this so you can control the brightness through your keyboard. It also normalizes brightness between the build-in screen and an external monitor. Super handy app.
 
 # Gaming
 

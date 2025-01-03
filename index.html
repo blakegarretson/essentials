@@ -51,12 +51,7 @@
       &amp; Internet</a></li>
       <li><a href="#file-disk-utilities"
       id="toc-file-disk-utilities">File &amp; Disk Utilities</a></li>
-      <li><a href="#windows-system-utilities"
-      id="toc-windows-system-utilities">Windows System
-      Utilities</a></li>
-      <li><a href="#mac-system-utilities"
-      id="toc-mac-system-utilities">Mac System Utilities</a></li>
-      <li><a href="#misc.-utilities" id="toc-misc.-utilities">Misc.
+      <li><a href="#other-utilities" id="toc-other-utilities">Other
       Utilities</a></li>
       <li><a href="#gaming" id="toc-gaming">Gaming</a></li>
       </ul>
@@ -1971,9 +1966,9 @@
         computer and your phone, but the lack of an iOS app is a serious
         problem for me.</li>
         </ul>
-        <h1 id="windows-system-utilities">Windows System Utilities</h1>
-        <h2 id="package-managementsoftware-installer">Package
-        Management/Software Installer</h2>
+        <h1 id="other-utilities">Other Utilities</h1>
+        <h2 id="windows-package-managementsoftware-installer">Windows
+        Package Management/Software Installer</h2>
         <ul>
         <li><a
         href="https://docs.microsoft.com/en-us/windows/package-manager/winget/">winget</a>:
@@ -2034,9 +2029,49 @@
         first. Personally, I see Ninite as something I can use on my
         parents’ computer to keep their software up to date.</li>
         </ul>
-        <h2 id="system-cleaner">System Cleaner</h2>
+        <h2 id="mac-package-managementsoftware-installer">Mac Package
+        Management/Software Installer</h2>
         <ul>
-        <li><a href="https://www.bleachbit.org/">Bleachbit</a> will
+        <li><a href="https://brew.sh/">Homebrew</a>: If you want an easy
+        way to install command line tools and even some GUI apps,
+        Homebrew gets you going with minimal hassle. There is plenty of
+        debate on whether its approach is technically sound, but it
+        works for me. For instance, if I want to install git, I just
+        type: <code>brew install git</code>
+        <ul>
+        <li>The other popular option out there is <a
+        href="https://www.macports.org/">MacPorts</a>. You should at
+        least understand how it is different before choosing
+        Homebrew.</li>
+        </ul></li>
+        <li><a href="https://github.com/mangerlahn/Latest">Latest</a>:
+        This is a handy tool to keep your apps up to date to the latest
+        version. (I see what they did there.) It currently supports apps
+        downloaded from the Mac App Store and apps that use Sparkle for
+        updates, so it might not have your favorite app, but it has
+        enough to be useful.</li>
+        </ul>
+        <h2 id="uninstaller-system-cleaner">Uninstaller / System
+        Cleaner</h2>
+        <ul>
+        <li><p><a
+        href="https://www.revouninstaller.com/products/revo-uninstaller-free/">Revo
+        Uninstaller Free</a>: Uninstalling programs using the usual
+        methods often leaves a lot of junk around. Revo does a better
+        job at really removing a program.
+        <strong>(Windows)</strong></p></li>
+        <li><p><a
+        href="https://freemacsoft.net/appcleaner/">AppCleaner</a> is the
+        best way to really uninstall apps on Mac. It gets rid of all the
+        leftover bits that often stay behind. <strong>(Mac)</strong></p>
+        <ul>
+        <li>While AppCleaner is my first choice due to its easy-of-use,
+        a good companion app is <a
+        href="https://github.com/alienator88/Pearcleaner">Pearcleaner</a>.
+        It’s harder to use, but it can find ophaned files and do other
+        things AppCleaner doesn’t.</li>
+        </ul></li>
+        <li><p><a href="https://www.bleachbit.org/">Bleachbit</a> will
         delete stuff you don’t need hanging around like logs, temporary
         files, “recently used” lists, thumbnails, you-name-it. There are
         a lot of options out there in this category, but I like
@@ -2045,20 +2080,102 @@
         that mucking about in the registry isn’t really necessary on
         modern Windows, but Bleachbit can do way more than registry
         pruning, and it’s worth looking at all of its functionality
-        before dismissing it.</li>
-        </ul>
-        <h2 id="microsoft-product-key-recovery">Microsoft Product Key
-        Recovery</h2>
+        before dismissing it. <strong>(Windows)</strong> ##
+        Console/Command Line</p></li>
+        <li><p><a href="https://github.com/microsoft/terminal">Windows
+        Terminal</a> is a newer offering, but the features have been
+        steadily expanding, and it quickly became my console of choice
+        with handy features like themes, panes, and a command palette.
+        It happily handles PowerShell, cmd.exe, and WSL shells, as well
+        as REPL interpreters like IPython or Julia.
+        <strong>(Windows)</strong></p>
         <ul>
-        <li><a
-        href="http://www.nirsoft.net/utils/product_cd_key_viewer.html">ProduKey</a>
-        is super handy when you want to reinstall Windows or Office
-        after your hard drive crashes or you just want to start fresh..
-        Just run this program, save the output somewhere safe, and you
-        have your Microsoft product keys ready to go for Windows and
-        Office.</li>
+        <li><a href="https://tabby.sh/">Tabby</a> is a ridiculously
+        customizable terminal app that handles essentially any local
+        shell as well as serial and SSH connections. I’ve run into some
+        bugs that keep me from using this exclusively, but I could see
+        this being someone’s first choice due to endless customization
+        and a beautiful interface.</li>
+        </ul></li>
+        <li><p><a href="https://iterm2.com/">iTerm2</a> is the terminal
+        you should be using instead of the default MacOS terminal. The
+        customization options are extensive. It’s one of the best
+        terminals on any platform. <strong>(Mac)</strong></p></li>
+        <li><p><a href="https://www.warp.dev/">Warp</a> is a modern
+        terminal app that has some cool innovations in a space that has
+        not changed much over the years. While I can setup a very
+        capable shell and prompt with something like zsh, Warp takes
+        care of all the hassle and the out-of-the-box experience
+        includes smart command completion, customized prompts with git
+        integration, and AI plain language processing. I am watching
+        this project with optimistic curiosity. <strong>(Mac, Linux, w/
+        Windows coming soon)</strong></p></li>
+        <li><p><a
+        href="http://stahlworks.com/dev/swiss-file-knife.html">Swiss
+        File Knife</a>: This is the essential command line tool set for
+        Windows. It does a little of everything, and you need to just
+        read the list of commands on the website to believe it. It’s a
+        single executable, so it’s portable as well.</p></li>
+        <li><p><a href="https://eza.rocks/">eza</a> is a modern
+        replacement for ls that works on every major platform. There are
+        a few cool innovations here including the integration of git
+        status in your listing, icon support, and recursive tree
+        view.</p></li>
         </ul>
-        <h2 id="utilities-suites">Utilities Suites</h2>
+        <h2 id="clipboard-manager">Clipboard Manager</h2>
+        <ul>
+        <li><a href="https://hluk.github.io/CopyQ/">CopyQ</a> extends
+        the standard clipboard so you can access more than just the last
+        item copied. Advanced scripting, editing, and keyboard shortcuts
+        make this a real powerhouse of productivity once you learn the
+        tool.</li>
+        <li><a href="https://maccy.app/">Maccy</a> is my preferred
+        clipboard manager for Mac. CopyQ does work fine on Mac, but
+        Maccy just does it better and cleaner for my usual use cases. If
+        you don’t need CopyQ’s advanced scripting, Maccy gets the job
+        done while integrating seamlessly into the Mac desktop.
+        <strong>(Mac)</strong></li>
+        </ul>
+        <h2 id="password-manager">Password Manager</h2>
+        <ul>
+        <li><a href="https://bitwarden.com/">Bitwarden</a> is the best
+        open source, cross-platform password manager that I’ve ever
+        tried. And the best part is the free version is more than enough
+        for most people. There are desktop and mobile clients, browser
+        extensions, a web app, and a command line interface. Bitwarden
+        works everywhere you need it.</li>
+        </ul>
+        <h2 id="hex-editor">Hex Editor</h2>
+        <ul>
+        <li><a href="http://mh-nexus.de/en/hxd/">HxD</a>: Has everything
+        I need in a hex editor. Simple and lightweight.
+        <strong>(Windows)</strong></li>
+        <li><a href="https://hexfiend.com/">Hex Fiend</a>: Simple and
+        clean hex editor with all the basics.
+        <strong>(Mac)</strong></li>
+        </ul>
+        <h2 id="virtualization">Virtualization</h2>
+        <ul>
+        <li><a href="https://www.virtualbox.org/">Virtualbox</a> is a
+        great free solution for running virtual machines. It is an easy
+        and robust way of running Linux (and other OSes) under Windows
+        or Mac, which is often handy for some toolchains or just testing
+        out a script or something in a Linux environment.
+        <ul>
+        <li><a href="https://www.qemu.org">QEMU</a> is also an option
+        worth considering as it can be significantly faster than
+        Virtualbox in some situations, and it can emulate systems that
+        Virtualbox can’t. For simple use cases, I would still start with
+        Virtualbox though.</li>
+        </ul></li>
+        <li><a href="https://mac.getutm.app">UTM</a> is my first choice
+        for virtual machines on Mac, including Apple Silicon Macs. It’s
+        just easy to use and does what I need it to do. It’s great for
+        creating Linux sandboxes where I don’t have to worry about
+        messing up my Mac when I’m building out certain toolchains.
+        <strong>(Mac)</strong></li>
+        </ul>
+        <h2 id="windows-system-utilities">Windows System Utilities</h2>
         <ul>
         <li><a
         href="https://docs.microsoft.com/en-us/sysinternals/">Windows
@@ -2092,31 +2209,15 @@
         (Quick tip: use this to remap your CapsLock key to act like a
         Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate
         that.)</li>
+        <li><a
+        href="http://www.nirsoft.net/utils/product_cd_key_viewer.html">ProduKey</a>
+        is super handy when you want to reinstall Windows or Office
+        after your hard drive crashes or you just want to start fresh.
+        Just run this program, save the output somewhere safe, and you
+        have your Microsoft product keys ready to go for Windows and
+        Office.</li>
         </ul>
-        <h1 id="mac-system-utilities">Mac System Utilities</h1>
-        <h2 id="package-managementsoftware-installer-1">Package
-        Management/Software Installer</h2>
-        <ul>
-        <li><a href="https://brew.sh/">Homebrew</a>: If you want an easy
-        way to install command line tools and even some GUI apps,
-        Homebrew gets you going with minimal hassle. There is plenty of
-        debate on whether its approach is technically sound, but it
-        works for me. For instance, if I want to install git, I just
-        type: <code>brew install git</code>
-        <ul>
-        <li>The other popular option out there is <a
-        href="https://www.macports.org/">MacPorts</a>. You should at
-        least understand how it is different before choosing
-        Homebrew.</li>
-        </ul></li>
-        <li><a href="https://github.com/mangerlahn/Latest">Latest</a>:
-        This is a handy tool to keep your apps up to date to the latest
-        version. (I see what they did there.) It currently supports apps
-        downloaded from the Mac App Store and apps that use Sparkle for
-        updates, so it might not have your favorite app, but it has
-        enough to be useful.</li>
-        </ul>
-        <h2 id="desktop-tweaks-utilities">Desktop Tweaks &amp;
+        <h2 id="mac-desktop-tweaks-utilities">Mac Desktop Tweaks &amp;
         Utilities</h2>
         <ul>
         <li><a href="https://rectangleapp.com/">Rectangle</a> allows for
@@ -2173,121 +2274,6 @@
         you can control the brightness through your keyboard. It also
         normalizes brightness between the build-in screen and an
         external monitor. Super handy app.</li>
-        </ul>
-        <h1 id="misc.-utilities">Misc. Utilities</h1>
-        <h2 id="uninstaller">Uninstaller</h2>
-        <ul>
-        <li><a
-        href="https://www.revouninstaller.com/products/revo-uninstaller-free/">Revo
-        Uninstaller Free</a>: Uninstalling programs using the usual
-        methods often leaves a lot of junk around. Revo does a better
-        job at really removing a program.
-        <strong>(Windows)</strong></li>
-        <li><a href="https://freemacsoft.net/appcleaner/">AppCleaner</a>
-        is the best way to really uninstall apps on Mac. It gets rid of
-        all the leftover bits that often stay behind.
-        <strong>(Mac)</strong>
-        <ul>
-        <li>While AppCleaner is my first choice due to its easy-of-use,
-        a good companion app is <a
-        href="https://github.com/alienator88/Pearcleaner">Pearcleaner</a>.
-        It’s harder to use, but it can find ophaned files and do other
-        things AppCleaner doesn’t.</li>
-        </ul></li>
-        </ul>
-        <h2 id="consolecommand-line">Console/Command Line</h2>
-        <ul>
-        <li><a href="https://github.com/microsoft/terminal">Windows
-        Terminal</a> is a newer offering, but the features have been
-        steadily expanding, and it quickly became my console of choice
-        with handy features like themes, panes, and a command palette.
-        It happily handles PowerShell, cmd.exe, and WSL shells, as well
-        as REPL interpreters like IPython or Julia.
-        <strong>(Windows)</strong>
-        <ul>
-        <li><a href="https://tabby.sh/">Tabby</a> is a ridiculously
-        customizable terminal app that handles essentially any local
-        shell as well as serial and SSH connections. I’ve run into some
-        bugs that keep me from using this exclusively, but I could see
-        this being someone’s first choice due to endless customization
-        and a beautiful interface.</li>
-        </ul></li>
-        <li><a href="https://iterm2.com/">iTerm2</a> is the terminal you
-        should be using instead of the default MacOS terminal. The
-        customization options are extensive. It’s one of the best
-        terminals on any platform. <strong>(Mac)</strong></li>
-        <li><a href="https://www.warp.dev/">Warp</a> is a modern
-        terminal app that has some cool innovations in a space that has
-        not changed much over the years. While I can setup a very
-        capable shell and prompt with something like zsh, Warp takes
-        care of all the hassle and the out-of-the-box experience
-        includes smart command completion, customized prompts with git
-        integration, and AI plain language processing. I am watching
-        this project with optimistic curiosity. <strong>(Mac, Linux, w/
-        Windows coming soon)</strong></li>
-        <li><a
-        href="http://stahlworks.com/dev/swiss-file-knife.html">Swiss
-        File Knife</a>: This is the essential command line tool set for
-        Windows. It does a little of everything, and you need to just
-        read the list of commands on the website to believe it. It’s a
-        single executable, so it’s portable as well.</li>
-        <li><a href="https://eza.rocks/">eza</a> is a modern replacement
-        for ls that works on every major platform. There are a few cool
-        innovations here including the integration of git status in your
-        listing, icon support, and recursive tree view.</li>
-        </ul>
-        <h2 id="clipboard-manager">Clipboard Manager</h2>
-        <ul>
-        <li><a href="https://hluk.github.io/CopyQ/">CopyQ</a> extends
-        the standard clipboard so you can access more than just the last
-        item copied. Advanced scripting, editing, and keyboard shortcuts
-        make this a real powerhouse of productivity once you learn the
-        tool.</li>
-        <li><a href="https://maccy.app/">Maccy</a> is my preferred
-        clipboard manager for Mac. CopyQ does work fine on Mac, but
-        Maccy just does it better and cleaner for my usual use cases. If
-        you don’t need CopyQ’s advanced scripting, Maccy gets the job
-        done while integrating seamlessly into the Mac desktop.
-        <strong>(Mac)</strong></li>
-        </ul>
-        <h2 id="password-manager">Password Manager</h2>
-        <ul>
-        <li><a href="https://bitwarden.com/">Bitwarden</a> is the best
-        open source, cross-platform password manager that I’ve ever
-        tried. And the best part is the free version is more than enough
-        for most people. There are desktop and mobile clients, browser
-        extensions, a web app, and a command line interface. Bitwarden
-        works everywhere you need it.</li>
-        </ul>
-        <h2 id="hex-editor">Hex Editor</h2>
-        <ul>
-        <li><a href="http://mh-nexus.de/en/hxd/">HxD</a>: Has everything
-        I need in a hex editor. Simple and lightweight.
-        <strong>(Windows)</strong></li>
-        <li><a href="https://hexfiend.com/">Hex Fiend</a>: Simple and
-        clean hex editor with all the basics.
-        <strong>(Mac)</strong></li>
-        </ul>
-        <h2 id="virtualization">Virtualization</h2>
-        <ul>
-        <li><a href="https://www.virtualbox.org/">Virtualbox</a> is a
-        great free solution for running virtual machines. It is an easy
-        and robust way of running Linux (and other OSes) under Windows
-        or Mac, which is often handy for some toolchains or just testing
-        out a script or something in a Linux environment.
-        <ul>
-        <li><a href="https://www.qemu.org">QEMU</a> is also an option
-        worth considering as it can be significantly faster than
-        Virtualbox in some situations, and it can emulate systems that
-        Virtualbox can’t. For simple use cases, I would still start with
-        Virtualbox though.</li>
-        </ul></li>
-        <li><a href="https://mac.getutm.app">UTM</a> is my first choice
-        for virtual machines on Mac, including Apple Silicon Macs. It’s
-        just easy to use and does what I need it to do. It’s great for
-        creating Linux sandboxes where I don’t have to worry about
-        messing up my Mac when I’m building out certain toolchains.
-        <strong>(Mac)</strong></li>
         </ul>
         <h1 id="gaming">Gaming</h1>
         <p><em>I’m not going to list actual games here, but rather just
