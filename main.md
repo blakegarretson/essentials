@@ -413,13 +413,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Chat/Messenging
 
-- [Discord](https://discordapp.com/): The apparent successor to Skype and Teamspeak in many communities, especially in the gaming world. I have no particular affinity to the app itself, but it works fine on both desktop and mobile, and there are some cool communities that made their home on Discord.  Of particular note is that Discord is also becoming the “new IRC” for many programming communities. The IRC channels are often less populated than the equivalent Discord channels.
-    - Speaking of IRC, I have a hard time calling an IRC client “essential” because it’s become such a niche protocol at this point, but there are still some useful dev communities out there. So if you do need IRC, check out:
-
-### 
-
-- [HexChat](https://hexchat.github.io/) is a nice client that has all the features I need. (Tip: download the installer for free on the website. The same app on the Microsoft Store costs \$9.99.) **(Windows, Linux)**
-- [LimeChat](http://limechat.net/mac/) is the IRC client I use on Mac. It’s simple and works well. **(Mac)**
+- [Discord](https://discordapp.com/): The apparent *de facto* standard chat app in the gaming world as well as other communities. I have no particular affinity to the app itself, but it works fine on both desktop and mobile, and there are some cool communities that made their home on Discord.  Of particular note is that Discord has become the “new IRC” for many programming communities.
+    - Speaking of IRC, I have a hard time calling an IRC client “essential” because it’s become such a niche protocol at this point, but there are still some useful dev communities out there. So if you do need IRC, check out [HexChat](https://hexchat.github.io/) on Windows and Linux and [LimeChat](http://limechat.net/mac/) on Mac.
 
 ### Honorable Mentions
 
