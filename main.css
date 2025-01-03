@@ -192,6 +192,11 @@ a:visited {
   columns: 2;
 }
 
+.categories li {
+  list-style-type: "➽ ";
+  margin-top: 0em;
+}
+
 #copyright {
   color: #888888;
   text-align: center;
