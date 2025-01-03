@@ -273,7 +273,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Angry IP Scanner](https://angryip.org/) is the cross-platform solution I reach for when I need to find out what’s on my local network. You get IPs, hostnames, open ports, MACs, vendors, and more. The default settings out of the box aren’t great for my uses, but I can configure it to be exactly what I need. For instance, some of the results are hidden by default, so I configure the “fetchers” to include vendors, and I like to hide all the IPs except the ones that respond to ping, and I scan more ports (like 445, 20-23).
 
-# File & Disk Utilities
+# Utilities
 
 ## Local File Search
 
@@ -351,8 +351,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Google Drive for Desktop](https://www.google.com/drive/download/): For real-time cloud backup and synchronization, this is an easy solution if you just want an off-site copy of your data that is accesible everywhere, including mobile devices.
 - [Syncthing](https://syncthing.net/): If you don’t trust someone else with your data or you want more control of your data, you can host your own cloud with Syncthing . If it’s confusing why this is different than something like FreeFileSync, Syncthing shines at realtime continuous synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. The big bonus is Syncthing’s Android app, allowing you to sync files between your computer and your phone, but the lack of an iOS app is a serious problem for me.
-
-# Other Utilities
 
 ## Windows Package Management/Software Installer
 
