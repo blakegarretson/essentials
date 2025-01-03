@@ -2,7 +2,7 @@
 
 This is the free software that I find essential when working on a desktop or laptop. These are the programs that I either immediately install when I set up a new computer, or I end up installing as I need them. In most instances I have tried a number of solutions before choosing one that I like the most. I maintain this list for my own convenience so I can quickly remind myself of (and find) all the software that I thought was best the last time I evaluated a category.
 
-Many of these programs are cross-platform, but if an app doesn’t support at least Windows and Mac I will make a note of that and usually list alternatives. All of these programs are free for personal use, and many (if not most) are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. In some cases I have listed alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party. Likewise, I won’t bother listing software included with the operating systems since you already have them (e.g. Apple’s Notes or Photos apps).
+Many of these programs are cross-platform, but if an app doesn’t support at least Windows and Mac I will make a note of that and usually list alternatives. All of these programs are free for personal use, and many (if not most) are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. In some cases I have listed alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party. Likewise, I won’t bother listing software included with the operating systems since you already have them (e.g. Apple Notes or Safari).
 
 Have a suggestion for a great program that should be on my list? Let me know about it! Have a comment or correction on something on this website? Click on the [Feedback](https://forms.gle/swSCivmLBwTxRwY27) link and let me know!
 
@@ -228,6 +228,51 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [MuseScore](https://musescore.org/en): Easy-to-use interface for creating sheet music. With great documentation and abundant resources like videos, tutorials, and how-tos, you will be creating great looking sheet music documents in no time.
     - If you want to make sheet music and have complete control over every aspect of the output, [LilyPond](http://lilypond.org/) is where it’s at. There’s no GUI, it’s super niche software, so it’s not for everyone, but the results are sublime.
 
+# Network & Internet
+
+## Web Browser
+
+- [Firefox](https://www.mozilla.org/en-US/firefox/) is a great choice for your default web browser. The robust feature set and impressive array of extensions make it easy to recommend. It's arguably far more pro-consumer than Chrome with its stance on ad-blockers.
+    - [Google Chrome](http://www.google.com/chrome) should get a mention since it was my default browser from 2008 until 2024. Its most recent policy on ad-blockers was a deal breaker for me, and I left to try other options.
+    - If customization is important to you, [Vivaldi](https://vivaldi.com) may be of interest. It’s doing some cool things and even integrates features like an RSS reader.
+    - And because you can never have too many browsers, the [DuckDuckGo](https://duckduckgo.com/) browser is another nice option if privacy and security are a high priority.
+
+## Remote Shell Access
+
+- [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/): Awesome ssh/telnet client. It’s been the premier free terminal client for so many years because it’s simple and works while not skimping on features. **(Windows)**
+- [Tabby](https://tabby.sh/) is the only client that has ever tempted me away from Putty. At first it doesn’t seem as full-featured, but keep digging and you’ll see all the SSH options you need in a really customizable terminal, including built-in SFTP and cross-platform support. If I’m on a Mac, this is my chosen SSH client. Tabby also makes a wonderful terminal for local shells.
+
+## File Transfer
+
+- [WinSCP](http://winscp.net/eng/index.php): Great ftp/sftp/scp client with lots of extra features like bandwidth limiting and shutting down the program or computer after file transfers are done. **(Windows)**
+- [PortX](https://portx.online/en/) is a simple, bare-bones cross-platform option if you want to transfer files over SFTP or even Amazon S3 or Google Cloud storage. It’s also a ssh client, but I don’t typically use it for that since the customization is limited. This is what I generally use on a Mac since WinSCP is Windows only.
+    - If you need more features than PortX, [Cyberduck](https://cyberduck.io/) is a fantastic alternative that supports a ton of protocols. While it is free, the main drawback is you will see a nag screen asking for a donation every time you close the program.
+    - My go-to ftp/scp solution for many years was [FIleZilla](https://filezilla-project.org/). It’s cross-platform and it worked great. The problem is they did some shady stuff years ago with their installer in an attempt to monetize the software. You would try to install FileZilla, and the next thing you knew you had McAfee installed too. Since then, they aren’t bundling bloatware with FileZilla anymore, and they are offering a Pro version with extra features instead. I have used FileZilla more recently, and it’s still a decent choice.
+- [qBittorrent](http://www.qbittorrent.org/): Lightweight, yet powerful, BitTorrent client. There’s no ads and the features are all there. If you need a standalone BitTorrent client, this is a great place to start.
+- [Transmission Remote GUI](https://github.com/transmission-remote-gui/transgui) is the perfect companion to [Transmission](https://transmissionbt.com/). This is really the best choice for when you want to remote control a Transmission session running on a server. This is handy if you have a torrent box and you just want to add/monitor torrents from another computer. So to be clear, you would need to run Transmission on the server/torrent box and Transmission Remote GUI runs on your desktop/laptop.
+    - [Electorrent](https://github.com/tympanix/Electorrent) is the a great alternative when you want a nice, clean-looking client with a modern UI to manage your torrents remotely. It isn’t overly complicated, it supports all the popular torrent backends, and it has all the usual functionality that you want without overwhelming you with options.
+- [Soduto](https://soduto.com/) makes it easier to for your Mac to interact with your Linux and Android devices. Similar to AirDrop, you can share files between systems, but you can also share clipboards and even send SMS messages from your Mac through your Android phone. **(Mac)**
+
+## Remote Desktop Control
+
+- [Chrome Remote Desktop](https://remotedesktop.google.com/): For the simplicity, it’s hard to beat this solution to remote access and support. It makes it easy to check something on my desktop computer while I’m away from the house, and it’s also handy if you are the “IT Guy” for your friends and family. They can set this up pretty easily and share their screen with you so you can fix their issue.
+- [UltraVNC](https://www.uvnc.com/downloads/ultravnc.html): If you need full-blown, full-featured remote desktop control, UltraVNC will do the job fine. I just don’t find myself using VNC as much as I used to as I move more data to the cloud. This is a more cumbersome solution because it requires port-forwarding and either a static IP or a dynamic DNS solution to make it useful outside of your home network. **(Windows)**
+    - I’m not listing a VNC client for Mac because it has a VNC client built in. Search for “Screen Sharing.app” in Spotlight to find it.
+
+## Chat/Messenging
+
+- [Discord](https://discordapp.com/): The apparent *de facto* standard chat app in the gaming world as well as other communities. I have no particular affinity to the app itself, but it works fine on both desktop and mobile, and there are some cool communities that made their home on Discord.  Of particular note is that Discord has become the “new IRC” for many programming communities.
+    - Speaking of IRC, I have a hard time calling an IRC client “essential” because it’s become such a niche protocol at this point, but there are still some useful dev communities out there. So if you do need IRC, check out [HexChat](https://hexchat.github.io/) on Windows and Linux and [LimeChat](http://limechat.net/mac/) on Mac.
+
+### Honorable Mentions
+
+- [Telegram](https://desktop.telegram.org/): I really don’t need another chat protocol in my life, but Telegram is doing some things right like real cross-platform support/sync and no size restrictions when sharing media or documents. It’s a polished experience, and features like group voice chat work exceptionally well.
+- If privacy or security is paramount to you, then [Signal](https://signal.org/) has Telegram beat. In Telegram, end-to-end encryption is only optional, and you can’t encrypt group chats. Signal fixes those shortcomings, but falls short of Telegram in other areas.
+
+## IP/Port Scanner
+
+- [Angry IP Scanner](https://angryip.org/) is the cross-platform solution I reach for when I need to find out what’s on my local network. You get IPs, hostnames, open ports, MACs, vendors, and more. The default settings out of the box aren’t great for my uses, but I can configure it to be exactly what I need. For instance, some of the results are hidden by default, so I configure the “fetchers” to include vendors, and I like to hide all the IPs except the ones that respond to ping, and I scan more ports (like 445, 20-23).
+
 # Programming
 
 ## Programming Editor/IDE
@@ -379,51 +424,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Large Language Model Server
 
 - [Ollama](https://ollama.com) is the place to go if you want to run a LLM locally. There are a number of popular models to choose from, and they can be run from Mac, Windows, and Linux.
-
-# Network & Internet
-
-## Web Browser
-
-- [Firefox](https://www.mozilla.org/en-US/firefox/) is once again my default web browser. The robust feature set and impressive array of extensions make this my first choice once again. It's arguably far more pro-consumer than Chrome with its stance on ad-blockers.
-    - [Google Chrome](http://www.google.com/chrome) should get a mention since it was my default browser from 2008 until 2024. Its most recent policy on ad-blockers was a deal breaker for me, and I left it behind to return to Firefox after a 16-year detour.
-    - And because you can never have too many browsers, the [DuckDuckGo](https://duckduckgo.com/) browser is another nice option if privacy and security are a high priority.
-
-## Remote Shell Access
-
-- [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/): Awesome ssh/telnet client. It’s been the premier free terminal client for so many years because it’s simple and works while not skimping on features. **(Windows)**
-- [Tabby](https://tabby.sh/) is the only client that has ever tempted me away from Putty. At first it doesn’t seem as full-featured, but keep digging and you’ll see all the SSH options you need in a really customizable terminal, including built-in SFTP and cross-platform support. If I’m on a Mac, this is my chosen SSH client. Tabby also makes a wonderful terminal for local shells.
-
-## File Transfer
-
-- [WinSCP](http://winscp.net/eng/index.php): Great ftp/sftp/scp client with lots of extra features like bandwidth limiting and shutting down the program or computer after file transfers are done. **(Windows)**
-- [PortX](https://portx.online/en/) is a simple, bare-bones cross-platform option if you want to transfer files over SFTP or even Amazon S3 or Google Cloud storage. It’s also a ssh client, but I don’t typically use it for that since the customization is limited. This is what I generally use on a Mac since WinSCP is Windows only.
-    - If you need more features than PortX, [Cyberduck](https://cyberduck.io/) is a fantastic alternative that supports a ton of protocols. While it is free, the main drawback is you will see a nag screen asking for a donation every time you close the program.
-    - My go-to ftp/scp solution for many years was [FIleZilla](https://filezilla-project.org/) . It’s cross-platform and it worked great. The problem is they did some shady stuff years ago with their installer in an attempt to monetize the software. You would try to install FileZilla, and the next thing you knew you had McAfee installed too. Since then, they aren’t bundling bloatware with FileZilla anymore, and they are offering a Pro version with extra features instead. I have used FileZilla more recently, and it’s still a decent choice.
-- [qBittorrent](http://www.qbittorrent.org/): Lightweight, yet powerful, BitTorrent client. There’s no ads and the features are all there. If you need a standalone BitTorrent client, this is a great place to start.
-- [Transmission Remote GUI](https://github.com/transmission-remote-gui/transgui) is the perfect companion to [Transmission](https://transmissionbt.com/) . This is really the best choice for when you want to remote control a Transmission session running on a server. This is handy if you have a torrent box and you just want to add/monitor torrents from another computer. So to be clear, you would need to run Transmission on the server/torrent box and Transmission Remote GUI runs on your desktop/laptop.
-    - [Electorrent](https://github.com/tympanix/Electorrent) is the a great alternative when you want a nice, clean-looking client with a modern UI to manage your torrents remotely. It isn’t overly complicated, it supports all the popular torrent backends, and it has all the usual functionality that you want without overwhelming you with options.
-- [Soduto](https://soduto.com/) makes it easier to for your Mac to interact with your Linux and Android devices. Similar to AirDrop, you can share files between systems, but you can also share clipboards and even send SMS messages from your Mac through your Android phone. **(Mac)**
-
-## Remote Desktop Control
-
-- [Chrome Remote Desktop](https://remotedesktop.google.com/): For the simplicity, it’s hard to beat this solution to remote access and support. It makes it easy to check something on my desktop computer while I’m away from the house, and it’s also handy if you are the “IT Guy” for your friends and family. They can set this up pretty easily and share their screen with you so you can fix their issue.
-    - If you aren’t a Chrome user, you may prefer [Teamviewer](https://www.teamviewer.com/) . It is similar in that it makes it easy for non-techy people to add remote control. I can send them a download link, they install it, and tell me the ID and password that is displayed in the app so I can connect. That’s it. No other configuration is needed.
-- [UltraVNC](https://www.uvnc.com/downloads/ultravnc.html): If you need full-blown, full-featured remote desktop control, UltraVNC will do the job fine. I just don’t find myself using VNC as much as I used to as I move more functions to the cloud and rely less on my own desktops. This is a more cumbersome solution because it requires port-forwarding and either a static IP or a dynamic DNS solution to make it useful outside of your home network. **(Windows)**
-    - I’m not listing a VNC client for Mac because it has a VNC client built in. Search for “Screen Sharing.app” in Spotlight to find it.
-
-## Chat/Messenging
-
-- [Discord](https://discordapp.com/): The apparent *de facto* standard chat app in the gaming world as well as other communities. I have no particular affinity to the app itself, but it works fine on both desktop and mobile, and there are some cool communities that made their home on Discord.  Of particular note is that Discord has become the “new IRC” for many programming communities.
-    - Speaking of IRC, I have a hard time calling an IRC client “essential” because it’s become such a niche protocol at this point, but there are still some useful dev communities out there. So if you do need IRC, check out [HexChat](https://hexchat.github.io/) on Windows and Linux and [LimeChat](http://limechat.net/mac/) on Mac.
-
-### Honorable Mentions
-
-- [Telegram](https://desktop.telegram.org/): I really don’t need another chat protocol in my life, but Telegram is doing some things right like real cross-platform support/sync and no size restrictions when sharing media or documents. It’s a very polished experience, and features like group voice chat work exceptionally well.
-- If privacy or security is paramount to you, then [Signal](https://signal.org/) has Telegram beat. In Telegram, end-to-end encryption is only optional, and you can’t encrypt group chats. Signal fixes those shortcomings, but falls short of Telegram in other areas.
-
-## IP/Port Scanner
-
-- [Angry IP Scanner](https://angryip.org/) is the cross-platform solution I reach for when I need to find out what’s on my local network. You get IPs, hostnames, open ports, MACs, vendors, and more. The default settings out of the box aren’t great for my uses, but I can configure it to be exactly what I need. For instance, some of the results are hidden by default, so I configure the “fetchers” to include vendors, and I like to hide all the IPs except the ones that respond to ping, and I scan more ports (like 445, 20-23).
 
 # File & Disk Utilities
 
