@@ -70,9 +70,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Video Editing
 
 - [Openshot](https://www.openshot.org/): is a capable multi-track editor with a nice interface that is fairly intuitive compared to other apps in this space. If I don’t need anything special, this is the first place I reach. Feature-wise, it seems like it falls right between Shotcut and kdevlive, but I have run into weird bugs that can be annoying. Having said that, one feature I especially enjoy is the captioning support which includes some great appearance customization. I initially started using Openshot because iMovie was so limited in video formats and aspect ratios, and I quickly discovered Openshot is more capable in a dozen other ways as well. I don't even bother with iMovie anymore.
-
 - [kdenlive](https://kdenlive.org/): If you do need something special that Openshot can't handle, it’s great to have kdenlive in the toolbox. Openshot has it beat in a few areas, so I still prefer it in general, but kdenlive has some features that make it worth having around. 
-
 - [LosslessCut](https://github.com/mifi/lossless-cut) is a lossless video editor that doesn’t require reencoding the entire video for simple operations. This is a great option if you just need to trim or cut out a section from a video file.
 
 ### Also check out:
@@ -101,7 +99,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. An app like this is becoming less essential as I move to online services like Amazon Prime Music and Spotify, but when I do want to work with local music files, it’s hard to do better than MusicBee. **(Windows)**
     - I’m not listing a Mac alternative for playback here because the default Apple Music app meets my meager needs.
-  
 - [MusicBrainz Picard](https://picard.musicbrainz.org/) is the best cross-platform solution for identifying and organizing a large collection of music files. It can figure out what files are based on tags and even audio fingerprints. Besides tagging it will rename and move files as well. Even if you’re using Apple Music or MusicBee to organize your music library, this is still a handy tool to clean up the incorrectly tagged files before adding them to your library.
     - If Picard isn’t to your liking, I would suggest [MP3Tag](https://www.mp3tag.de/en/) . It is a universal batch tag editor that handles MP3s along with every other popular audio format. The robust file renaming/retagging tools and online database lookups make this powerful option for cleaning up your audio collection. This is only free for Windows. It’s a paid app on the Mac App Store. **(Windows)**
 
@@ -118,11 +115,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Cakewalk](https://www.bandlab.com/products/cakewalk): This used to be a commercial DAW that is now free as of 2018. It’s a rebranded version of SONAR Platinum, and it’s incredibly powerful. This is a great place to start if you want to make some music. **(Windows)**
     - Another great DAW is [Waveform Free](https://www.tracktion.com/products/waveform-free). While there is a Pro version with more features, the free version has no limitations and is very capable.
-  
 - [Ardour](https://ardour.org/) is worth checking out if you’re a Linux user. It does all the basics really well. From recording audio or MIDI, to editing, to mixing, you’re covered. The only trick is if you really want it for free, you should use your distribution’s packager manager and don’t download it from the website.
-
-    - You may be asking why I limit my Ardour recommendation to Linux users. The simple answer is on Windows and Mac it isn’t really “free”. While it is open source and you can build it from scratch for free, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software.
-  
+    - You may be asking why I limit my Ardour recommendation to Linux users. The simple answer is on Windows and Mac it isn’t really “free”. While it is open source and you can build it from scratch for free, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software.  
 - [GarageBand](https://www.apple.com/mac/garageband/) is the obvious easy-to-use entry-level option for the Mac. It’s tough to beat the no nonsense workflow that works great with MIDI as well as recorded tracks. **(Mac)**
 
 ## Step Sequencer
@@ -140,19 +134,14 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## All-Purpose Text Editors
 
 - [Notepad++](https://notepad-plus-plus.org/) is easy to recommend for general text editing and quick file edits on Windows simply because it is blazing fast and the interface stays out of your way. This is my default application for text files, and over the years I’ve written many thousands of lines of code in Notepad++. Having said that, the antiquated syntax coloring system and somewhat clunky customization limits how well it scales to many tasks. But it is still a fast editor and it shines when opening a 1 GB log file… as long as it doesn’t need to be syntax colored as well. **(Windows)**
-
 - [CotEditor](https://coteditor.com/) is my favorite text editor on a Mac for quick and easy text editing. It isn’t as well known as other editors, but it is fast and capable. It isn’t trying to be an IDE, so don’t expect too much, but the amount of customization and the total feature set is fantastic. It has an inspired and flexible scripting interface which lets you write plugins in Python, bash, Applescript, and several other languages. And did I mention it was fast?? This is a great choice for your default text file handler. **(Mac)**
-
     - If CotEditor is too barebones for you, the next step up without going to an IDE is [TextMate](https://macromates.com/) . It opens slower than CotEditor, but it has some robust functionality including an impressive array of text manipulation tools and extensive language support with syntax highlighting, while still staying fairly lightweight. **(Mac)**
-
 - [Neovim](https://neovim.io/): `vi` was a legendary, powerful keyboard-based text editor with a steep learning curve, Vim is its most successful clone (itself being a derivative of Stevie), and Neovim aims at pushing Vim into the 21st century with a clean code base and features like Lua extensibility and asynchronous plugins which allow for things like async linters. Some people think it’s silly to use a `vi` clone more than four decades after it was introduced, but there are some tasks that are orders of magnitude faster in a `vi` clone than modern mouse-oriented text editors.
-
     - If a console-based text editor is what you need and you don’t love the `vi` modal editing and key bindings, you should really check out [micro](https://micro-editor.github.io/). Micro works from a console, but it has modern capabilities like mouse support, multiple cursors, Lua plugins, tabs, tmux-like splits, and syntax color schemes. Best of all, the normal Windows key bindings like CTRL-C, CTRL-V, CTRL-S, and CTRL-Z work as expected.
 
 ### Honorable Mentions
 
 - [Sublime Text](https://www.sublimetext.com/) is a fast, clean, good looking editor, and it gets points for popularizing (if not actually inventing) the command palette and document map (and maybe even multiple cursors?), but I want to like it more than I actually do. Maybe I’m just too old to learn new key bindings? You should check it out though. Sublime is truly excellent software. The real reason it’s just an honorable mention is it technically doesn’t meet my criteria for this website as “free”. You can evaluate Sublime Text for free with no feature limitations or time limits, but you should pay if you continue to use it.
-
 - [Geany](https://www.geany.org/) is a jack-of-all-trades that is good at everything, but not best-in-class in anything. It is a versatile cross-platform programmer’s text editor that you can configure to be anything from a simple Notepad.exe replacement to an ultra-lightweight IDE. It’s just hard to recommend because while it’s good for quick edits and opening text files, Notepad++ or TextMate are even faster for those quick tasks. And while Geany is really nice for light coding, VS Code is even better. Geany is rarely the best tool for the job, but it might be the right choice for a computer that just needs an all-purpose, do-it-all editor. If you do try it, there are lots of great features hidden in the official plugin package, so be sure to grab it as well.
 
 ## Writing/Markdown Apps
@@ -167,21 +156,15 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - *The above options can honestly be a bit overwhelming if you just want to edit a simple Markdown file. Also worth considering:*
 
     - [uFocus](https://desairem.com/wordpress/ufocus/) is a lightweight distraction-free editor for the Mac. Its Markdown support and clean interface make it a perfect choice for quick prose writing. Even though it is simple, there are plenty of customization options to make it work and look just like you want it to. It’s a wonderful app if you don’t need live-preview. **(Mac)**
-
     - [WriteMonkey](http://writemonkey.com/) is a distraction-free text editor with a few handy features that pushed it to the front of the pack back when distraction-free editors were new and all the rage. Its development has slowed down (stopped??), but it still works fine even if it feels a bit outdated at this point. **(Windows)**
-
     - [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) reminds me more of a code editor that supports Markdown than a modern writing app, but it is excellent at being a “Markdown code editor”. There is no in-app rendering, but the syntax highlighting is helpful. **(Mac)**
-
     - [MarkText](https://github.com/marktext/marktext) is a cross–platform option that I probably would have included as one of my first choices due to its excellent live-preview and intuitive interface, but development seems to have stopped? MarkText looks like a clone of Typora (a paid app), so if you like Typora, you may prefer the free MarkText instead.
 
 ## Note-Taking
 
 - [OneNote](https://www.onenote.com/download) is easy to recommend given the comprehensive functionality and the fact that it is free. For most tasks, I’m a plain text file guy. However, I use OneNote at work extensively, and I really like it. I can integrate emails, pictures, tables, and all the rest into a workflow organized by notebooks, sections, and pages. However, if you don’t use Office 365 and/or Outlook, OneNote might not have as many advantages for you.
-
 - [Obsidian](https://obsidian.md/) is listed above in the general writing app category, but it is great for notes as well. Images and tables are supported through Markdown, so they aren’t as easy to include as in OneNote, but Obsidian excels when it comes to text. The Canvas feature is also really cool. It lets you visualize and connect data in interesting ways, a bit like a mind mapper. Obsidian’s biggest shortcoming is you have to figure out your own file-sync solution unless you pay them for their sync service. Saving your vaults to Google Drive, iCloud, OneDrive, etc. will solve this for you, but you still won’t be able to work with some combinations (like saving a vault to Google Drive on desktop and opening it on an iPhone).
-
     - [Zettlr](https://zettlr.com) (also mentioned above with the writing apps) is a Markdown-based app great for note-taking, and (unlike Obsidian) it is completely open source. While powerful on the desktop, Zettlr does not have a mobile app counterpart, so your notes aren’t easily accessible on your mobile devices. You are also on your own for syncing, but that is easily overcome by saving your notes to a cloud service like Google Drive or iCloud. Unless open source is incredibly important to you, I would still recommend Obsidian over Zettlr.
-
 - [Tot](https://tot.rocks/) is a Mac-only app that sits in your menubar waiting to save quick notes and snippets of text. This is not a general purpose notes app like the above apps. It is very limited, and it just has seven Markdown-supported “pages” of notes where you can type or paste whatever you like. This weird limitation carves out a unique use-case that I didn’t know I needed until I started using it. As a bonus, syncing is automatic and seamless, so if you install Tot on a laptop and desktop (for instance), it serves as a common clipboard where you can pass information. **(Mac)**
 
 ## Text Comparison
@@ -559,44 +542,6 @@ I’m listing two equally excellent apps that take fundamentally different appro
     - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): If you can’t delete a file because some program has it locked, Process Explorer will tell you what program has the file handle open.
     - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Sometimes you need to know what files a process is changing, or maybe you want to know which program is changing a file. Process Monitor, um, well, it monitors your processes to find that out.
 - [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite for decades ago, but it’s back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, PowerRename, a color picker, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap you CapsLock key to act like a Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
-
-## Linux Environment
-
-- [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (WSL): Run Linux tools directly in Windows without a virtual machine. Bash, Zsh, compilers, interpreters, grep, awk, and all the rest of the command line tools you need right under Windows. You actually can download this from the Microsoft Store now (for free), so there’s no direct download link. You even have your pick of various supported distros.
-- [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/): If you’re running WSL, you may want an X server to run GUI programs, and VcXsrv works great. Choose the “multiple windows” option to seamlessly integrate X programs into the Windows desktop. A couple quick tips:
-
-###
-
-- Add these lines to your `.bashrc` file:
-
-```
-export DISPLAY=:0.0
-export LIBGL_ALWAYS_INDIRECT=1
-```
-
-###
-
-- If you don’t want seamless windows and you want to run an X desktop window, you probably want to install something like Xfce4:
-
-```
-$ sudo apt-get install xfce4-terminal xfce4
-```
-
-###
-
-- If you want a bunch of default Linux desktop apps:
-
-```
-$ sudo apt-get install ubuntu-desktop
-```
-
-###
-
-- After starting VcXsrv, you need to start Xfce4 each session:
-
-```
-$ startxfce4
-```
 
 # Mac System Utilities
 
