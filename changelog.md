@@ -4,6 +4,10 @@
 
 Added **QEMU** and **UTM**. I’ve been using them for a while now and probably should have added them sooner.
 
+Added **UniGetUI**.
+
+Added **Bulk Rename Utility**.
+
 ## 2025-01-01
 
 Rewrote and updated a lot of entries.
