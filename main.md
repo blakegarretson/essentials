@@ -244,9 +244,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Git Extensions](https://gitextensions.github.io/): Sometimes a GUI is convenient to visualize branches and handle more complicated tasks when when you don’t feel like looking up the correct commands/switches, and I think Git Extensions is far superior to the official Git GUI. I wish it was cross-platform, but the latest versions are built on .NET and Windows only. **(Windows)**
 - [Gittyup](https://github.com/Murmele/Gittyup) is a good cross-platform option for a Git GUI. On Mac there are less options for a good GUI that isn’t proprietary, but this works well for me. It makes complex Git operations more manageable.
 
-## Compiled Language
+## Compiled Languages
 
-- [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely.
+- [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely. With a great standard library and simple syntax, Go is great for Python programmers like myself.
+- [Rust](https://www.rust-lang.org) is the heir-apparent to venerable languages like C and C++, and when Go isn’t the right tool for the job, Rust often is.
 
 ## Scripting Language - General Purpose
 
