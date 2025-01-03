@@ -587,7 +587,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Virtualization
 
-- [Virtualbox](https://www.virtualbox.org/) is the best free solution for running virtual machines. It is an easy and robust way of running Linux (and other OSes) under Windows, which is often handy for some toolchains or just testing out a script or something in a Linux environment.
+- [Virtualbox](https://www.virtualbox.org/) is a great free solution for running virtual machines. It is an easy and robust way of running Linux (and other OSes) under Windows or Mac, which is often handy for some toolchains or just testing out a script or something in a Linux environment.
+    - [QEMU](https://www.qemu.org) is also an option worth considering as it can be significantly faster than Virtualbox in some situations, and it can emulate systems that Virtualbox can’t. For simple use cases, I would still start with Virtualbox though.
+- [UTM](https://mac.getutm.app) is my first choice for virtual machines on Mac, including Apple Silicon Macs. It’s just easy to use and does what I need it to do. It’s great for creating Linux sandboxes where I don’t have to worry about messing up my Mac when I’m building out certain toolchains. **(Mac)**
 
 # Gaming
 
