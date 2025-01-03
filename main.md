@@ -247,7 +247,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Compiled Languages
 
 - [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely. With a great standard library and simple syntax, Go is great for Python programmers like myself.
-- [Rust](https://www.rust-lang.org) is the heir-apparent to venerable languages like C and C++, and when Go isn’t the right tool for the job, Rust often is.
+    - [Rust](https://www.rust-lang.org) is the heir-apparent to venerable languages like C and C++, and when Go isn’t the right tool for the job, Rust often is.
 
 ## Scripting Language - General Purpose
 
