@@ -90,6 +90,22 @@ a:visited {
   /*padding-left: 0.5em; */
 }
 
+.content ul li ul li ul li {
+  list-style-type: "- ";
+  margin-top: 0.8em;
+  /* list-style-type: "ⓘ "; */
+  /* list-style-type: "⌘ "; */
+  /*padding-left: 0.5em; */
+}
+
+.content ul li ul li ul li ul li {
+  list-style-type: "⌘ ";
+  margin-top: 0.8em;
+  /* list-style-type: "ⓘ "; */
+  /* list-style-type: "⌘ "; */
+  /*padding-left: 0.5em; */
+}
+
 .content ul li ul li::marker {
   font-weight: 700;
 }

@@ -443,8 +443,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Compiled Language
 
-- [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely. With a great standard library and simple syntax, Go is great for Python programmers like myself.
-    - [Rust](https://www.rust-lang.org) is the heir-apparent to venerable languages like C and C++, and when Go isn’t the right tool for the job, Rust often is.
+- [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely. With a robust standard library and simple syntax, Go is great for Python programmers like myself.
+    - I will also mention [Rust](https://www.rust-lang.org) here simply because it is the heir-apparent to venerable languages like C and C++, and when Go isn’t the right tool for the job, Rust often is.
 
 ## Scripting Language - General Purpose
 
@@ -453,16 +453,16 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - All the essential Python libraries are on PyPi, so here is a pip command line (for easy cutting and pasting) useful for STEM programming to get you started. This is a short list, but it pulls the more important dependencies like scipy, pandas, and numpy: `pip install jupyterlab seaborn PyQt6 sympy`
     - And a quick description of a couple of packages vital for STEM:
 
-###
 
-- [SciPy](https://www.scipy.org/) is a scientific package useful for everything from statistics to linear algebra.
-- [Pandas](https://pandas.pydata.org/) handles data structures and data manipulation.
-- [NumPy](https://www.numpy.org/) is the foundation for numeric arrays, and math functions.
-- [SymPy](https://www.sympy.org/) is a symbolic computer algebra system.
-- [Matplotlib](https://matplotlib.org/) is a robust plotting library.
-- [Seaborn](https://seaborn.pydata.org/) is a higher level package built on matplotlib that can really improve your productivity.
-- [PyQt](http://www.riverbankcomputing.co.uk/software/pyqt/intro): Probably the best looking, best featured, cross-platform GUI toolkit.
-    - Other GUI toolkits worth checking out are [wxPython](https://www.wxpython.org/), which is a really nice toolkit that I’ve used on a number of projects, and [Kivy](https://kivy.org/#home), which accommodates mobile platforms with features like multi-touch support.
+
+        - [SciPy](https://www.scipy.org/) is a scientific package useful for everything from statistics to linear algebra.
+        - [Pandas](https://pandas.pydata.org/) handles data structures and data manipulation.
+        - [NumPy](https://www.numpy.org/) is the foundation for numeric arrays, and math functions.
+        - [SymPy](https://www.sympy.org/) is a symbolic computer algebra system.
+        - [Matplotlib](https://matplotlib.org/) is a robust plotting library.
+        - [Seaborn](https://seaborn.pydata.org/) is a higher level package built on matplotlib that can really improve your productivity.
+        - [PyQt](http://www.riverbankcomputing.co.uk/software/pyqt/intro): Probably the best looking, best featured, cross-platform GUI toolkit.
+            - Other GUI toolkits worth checking out are [wxPython](https://www.wxpython.org/), which is a really nice toolkit that I’ve used on a number of projects, and [Kivy](https://kivy.org/#home), which accommodates mobile platforms with features like multi-touch support.
 
 ## Scripting Language - Math/Science
 
