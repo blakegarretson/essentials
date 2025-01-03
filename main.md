@@ -24,7 +24,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Photoscape X](http://x.photoscape.org/): Great program for photo viewing and basic touch-up. It makes it easy to do common tasks like cropping to standard sizes and removing red-eye. There is a Pro version with extra features, but the free version boasts a truly impressive feature set that is more than enough for most people. If you buy the Pro version it’s because you like it so much, not because you felt forced into it because the free version was so crippled.
 
-### Also check out:
+### Honorable Mentions
 
 - If the Photoscape X workflow doesn’t agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has an old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
 - [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm) is a fantastic photo viewer with a truly impressive set of editing features. After Google retired their Picasa software I used FastStone for about a year, but I just couldn’t get on board with the (for me) unintuitive interface, and I ended up switching to something else. While it didn’t work out for me, it might be perfect for you. **(Windows)**
@@ -152,7 +152,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Obsidian](https://obsidian.md/) is probably best known as a note-taking app, but it has comprehensive Markdown support, live preview, and a plugin ecosystem that can turn it into just about anything you want. Personally, I like to install plugins for [LanguageTool](https://languagetool.org), smart quotes, and Git (for document version control). Obsidian’s support of math blocks and diagrams also makes it a viable contender for technical papers as well.
 - [Zettlr](https://zettlr.com) advertises itself as a “one-stop publication workbench”, and that’s an apt description. While excellent for notes, it handles long projects without breaking a sweat, especially if you need to handle citations. Like Obsidian, it has a very nice live-preview which I find mandatory for a modern writing app.
 
-### Honorable mentions
+### Honorable Mentions
 
 - *The above options can honestly be a bit overwhelming if you just want to edit a simple Markdown file. Also worth considering:*
 
