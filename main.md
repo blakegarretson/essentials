@@ -288,9 +288,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ### Notebook-Style 
 
-- [Figr](https://www.figr.app/) is a notebook style calculator with all the basic functionality along with unit conversions, and other handy operations, but it also enables real-time collaboration. This app really scales well because it works equally well as a simple scratchpad or in a more complicated scenario with calculation templates containing variables and lots of dependent calculations. The best feature is the cloud syncing so you can open it on any platform and your calculations are all there. There are native apps for Windows and Mac, but you can use the web version on Linux or any mobile device.
-    - [SpeedCrunch](http://www.speedcrunch.org/) is a decent alternative for a calculator with fast start-up and plenty of functionality. The interface is deceptively simple, but lurking under the hood are constants, variables, an impressive list of math functions, and equation support. Unfortunately, while SpeedCrunch is cross-platform, it looks fuzzy/blurry on Mac. The graphics toolkit doesn’t seem to upscale well on hi-res monitors, so I just don’t use it on Mac.
-    - For a non-cloud Mac solution, [Numi](https://numi.app/) is the best free alternative. The paid version supports multiple pages/notebooks, but the free version has full functionality otherwise. Intuitive calculations (e.g. “5% of 20”) and unit conversion (although somewhat basic) make Numi a solid desktop calculator. **(Mac)**
+- [SpeedCrunch](http://www.speedcrunch.org/) is a general-use calculator with fast start-up and plenty of functionality. The interface is deceptively simple, but lurking under the hood are constants, variables, an impressive list of math functions, and equation support. Unfortunately, while SpeedCrunch is cross-platform, it looks fuzzy/blurry on Mac. The graphics toolkit doesn’t seem to upscale well on hi-res monitors, so I just don’t use it on Mac.
+- [Numi](https://numi.app/) is one of the best free options on Mac for a notebook-stye calculator. The paid version supports multiple pages/notebooks, but the free version has full functionality otherwise. Intuitive calculations (e.g. “5% of 20”) and unit conversion (although somewhat basic) make Numi a solid desktop calculator. **(Mac)**
 
 ### Scientific
 
