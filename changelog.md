@@ -1,5 +1,17 @@
 # Change Log
 
+## 2025-04-30
+
+Added **ChatGTP** and **Jan** as the offline alternative.
+
+Added **Kap**.
+
+Added **Ice** menu bar manager for Mac.
+
+Added **Stacher7**.
+
+Added **qView**.
+
 ## 2025-01-03
 
 Added **QEMU** and **UTM**. I’ve been using them for a while now and probably should have added them sooner.

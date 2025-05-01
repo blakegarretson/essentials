@@ -2,7 +2,7 @@
 
 This is the free software that I find essential for personal/hobby use. These are the programs that I either immediately install when I set up a new computer, or I end up installing as I need them. I have tried a number of solutions in each category before choosing one that I like the most. I maintain this list for my own convenience so I can quickly remind myself of (and find) all the software that I thought was best the last time I evaluated a category. In some cases I have listed alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party. I'm not trying to make a comprehensive list of all free software; this is a decidedly opinionated list of the software I have chosen as my favorites out of the myriad of options.
 
-Many of these programs are cross-platform, but if an app doesn’t support at least Windows and Mac I will make a note of that and usually list alternatives. All of these programs are free for personal use, and many (if not most) are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version.  
+Many of these programs are cross-platform, but if an app doesn’t support at least Windows and Mac, I will make a note of that and usually list alternatives. All of these programs are free for personal use, and many (if not most) are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. 
 
 Have a suggestion for a great program that should be on my list? Let me know about it so I can try it out! Have a comment or correction on something on this website? Click on the [Feedback](https://forms.gle/swSCivmLBwTxRwY27) link and let me know!
 
@@ -29,6 +29,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - If the Photoscape X workflow doesn’t agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has an old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
 - [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm) is a fantastic photo viewer with a truly impressive set of editing features. After Google retired their Picasa software I used FastStone for about a year, but I just couldn’t get on board with the (for me) unintuitive interface, and I ended up switching to something else. While it didn’t work out for me, it might be perfect for you. **(Windows)**
 - If all you need is a super-fast, image viewer (that incidentally has some robust editing features), look no further than [IrfanView](https://www.irfanview.com/). I started using it in the late 1990s, and it is still going strong. This is a great program to make your default action when clicking on JPEGs, GIFs, and PNGs. **(Windows)**
+- If you want a barebones, lightweight image viewer with a clean interface on Mac, [qView](https://interversehq.com/qview/)) is probably the best out there. **(Mac)**
 
 ## Image Processing/Workflow
 
@@ -60,6 +61,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Live Streaming/Screen Recording
 
 - [OBS Studio](https://obsproject.com/) is a solid choice for live streaming because of the massive feature list, but it can be pretty overwhelming for a beginner. The price is right though (free), so it’s worth the learning curve. Even if you aren’t a streamer, OBS is still useful for recording your screen in case you need to make a quick tutorial to send to someone.
+    - [Kap](https://getkap.co) is a much easier way to record part of your screen. The easy interface makes it worth having around. **(Mac)**
 
 ## Video Conversion
 
@@ -89,6 +91,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Plex](https://plex.tv/) is my reluctant choice for the best personal media server for most people. This is what you want for steaming your media to your Roku, Fire Stick, smart TV, etc. Just tell Plex where you store your movies, TV shows, and music and it will do the rest, including downloading cover art and show descriptions. My main reservation is they are monetizing the service more, and the free features feel sparse. For instance, you need a “Plex Pass” subscription to download shows to your client device for offline viewing. However, presently the core functionality is still free, and the easy setup and overall user experience is still worth giving Plex a try.
 - [Jellyfin](https://jellyfin.org/) is the more consumer-friendly, open-source alternative to Plex. Setup is fairly simple, although you may need to add some plugins to get all the functionality you want. Otherwise, it’s a fine alternative and arguably better than Plex in some regards. I would recommend trying Jellyfin first if you are more tech savvy. There are Jellyfin clients on every platform as well, so streaming to any device is easy.
+
+## YouTube Downloader
+
+- [Stacher7](https://stacher.io) is the easy way to download YouTube videos. While the interface is simple enough, it has plenty of features like audio extraction and trimming.
 
 ## Comic Reader
 
@@ -274,7 +280,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Angry IP Scanner](https://angryip.org/) is the cross-platform solution I reach for when I need to find out what’s on my local network. You get IPs, hostnames, open ports, MACs, vendors, and more. The default settings out of the box aren’t great for my uses, but I can configure it to be exactly what I need. For instance, some of the results are hidden by default, so I configure the “fetchers” to include vendors, and I like to hide all the IPs except the ones that respond to ping, and I scan more ports (like 445, 20-23).
 
-# Utilities
+# File & Disk Utilities
 
 ## Local File Search
 
@@ -308,8 +314,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [DiskDigger](http://diskdigger.org/): Lightweight, single exe so no install necessary. While it is free for personal use, it will nag you before recovering each and every file, so if you have a lot of files to recover, it is worth just buying it. **(Windows)**
 
 ## Disk Performance
-- [CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/): If you want to check the read/write speed of any storage device, you can’t do much better than this free MIT-licensed app. A tool like this really helps weed out the trash if you like to buy cheap SD cards or flash drives. Some are worth buying again while others aren’t, and CrystalDiskMark gives you the data to make that decision. **(Windows)**
-    - The Mac port of CrystalDiskMark is [AmorphousDiskMark](https://www.katsurashareware.com/amorphousdiskmark/) . It is written by a different developer, but it is the same right down to the interface look/feel. **(Mac)**
+- [CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/) / [AmorphousDiskMark](https://www.katsurashareware.com/amorphousdiskmark/): If you want to check the read/write speed of any storage device, you can’t do much better than these free apps. CrystalDiskMark is the original Windows app, and AmorphousDiskMark is the Mac port. AmorphousDiskMark is written by a different developer, but it is the same right down to the interface’s look and feel. Tools like these really help weed out the trash if you like to buy cheap SD cards or flash drives. Some are worth buying again while others aren’t, and these apps give you the data to make that decision.  
 
 ## File Deletion
 
@@ -349,6 +354,13 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Google Drive for Desktop](https://www.google.com/drive/download/): For real-time cloud backup and synchronization, this is an easy solution if you just want an off-site copy of your data that is accesible everywhere, including mobile devices.
 - [Syncthing](https://syncthing.net/): If you don’t trust someone else with your data or you want more control of your data, you can host your own cloud with Syncthing . If it’s confusing why this is different than something like FreeFileSync, Syncthing shines at realtime continuous synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. The big bonus is Syncthing’s Android app, allowing you to sync files between your computer and your phone, but the lack of an iOS app is a serious problem for me.
+
+## Hex Editor
+
+- [HxD](http://mh-nexus.de/en/hxd/): Has everything I need in a hex editor. Simple and lightweight. **(Windows)**
+- [Hex Fiend](https://hexfiend.com/): Simple and clean hex editor with all the basics. **(Mac)**
+
+# System/Other Utilities
 
 ## Windows Package Management/Software Installer
 
@@ -392,10 +404,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Bitwarden](https://bitwarden.com/) is the best open source, cross-platform password manager that I’ve ever tried. And the best part is the free version is more than enough for most people. There are desktop and mobile clients, browser extensions, a web app, and a command line interface. Bitwarden works everywhere you need it.
 
-## Hex Editor
+## AI Assistant
 
-- [HxD](http://mh-nexus.de/en/hxd/): Has everything I need in a hex editor. Simple and lightweight. **(Windows)**
-- [Hex Fiend](https://hexfiend.com/): Simple and clean hex editor with all the basics. **(Mac)**
+- [ChatGTP](https://openai.com/chatgpt/download/) is probably the best known AI chat tool, and its desktop client is super handy. Once you assign a hotkey shortcut to quickly recall a chat prompt, ChatGPT can be a quicker way to get all sorts of information and help on projects.
+    - If you want an offline AI alternative (that is, private), then [Jan](https://jan.ai) is the first thing to try. It’s open source and highly customizable.
 
 ## Virtualization
 
@@ -423,6 +435,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Keyboard Cowboy](https://github.com/zenangst/KeyboardCowboy) is a must-have tool to boost your productivity. It lets you assign global keyboard shortcuts to apps, automations, text replacements, etc.
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) gives you access to hidden system preferences and tweaks not available in the normal System Preferences dialogs. While there are a lot of options I don’t care about, they are a couple in here that are worth the download.
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl) is one of those apps I didn’t know I needed. I wouldn’t have looked for it, but after stumbling across it and trying it out, it’s amazing. If you have an external monitor, you need this so you can control the brightness through your keyboard. It also normalizes brightness between the build-in screen and an external monitor. Super handy app.
+- [Ice](https://icemenubar.app) is a menu bar manager that hides the clutter and gives you more control over the menu bar. This is an amazing free alternative to software like Bartender, and while it may have less features, it has the most important ones.
 
 # Programming
 
