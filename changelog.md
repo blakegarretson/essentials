@@ -1,5 +1,9 @@
 # Change Log
 
+## 2025-05-04
+
+Removed **Frotz8**. It hasn't been updated since 2013, and it is pretty stale at this point.
+
 ## 2025-04-30
 
 Added **ChatGTP** and **Jan** as the offline alternative.
