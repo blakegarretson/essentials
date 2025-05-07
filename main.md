@@ -1,6 +1,6 @@
 **Welcome to my carefully curated list of the best free programs for MacOS, Windows, and Linux!**
 
-This is the free software that I find essential for personal/hobby use. These are the programs that I either immediately install when I set up a new computer, or I end up installing as I need them. I have tried a number of solutions in each category before choosing one that I like the most. I maintain this list for my own convenience so I can quickly remind myself of (and find) all the software that I thought was best the last time I evaluated a category. In some cases I have listed alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party. I'm not trying to make a comprehensive list of all free software; this is a decidedly opinionated list of the software I have chosen as my favorites out of the myriad of options.
+This is the free software that I find essential for personal/hobby use. These are the programs that I either install immediately when I set up a new computer or end up installing as I need them. I have tried numerous solutions in each category before settling on my favorite. I maintain this list for my own convenience, allowing me to quickly recall and find  the software I deemed best during my last evaluation of a category. In some cases I have included alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party. My intention is not to create a comprehensive list of all free software; this is a subjective compilation of my personal favorites from the vast array of available options.
 
 Many of these programs are cross-platform, but if an app doesn’t support at least Windows and Mac, I will make a note of that and usually list alternatives. All of these programs are free for personal use, and many (if not most) are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. 
 
@@ -54,8 +54,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [ShareX](https://getsharex.com/): You don’t know how useful a good screenshot tool is until you start using it. It’s really handy to automatically save screenshots (or portions of screens) to a predetermined folder and keep it on the clipboard as well. ShareX takes it one step further and will upload the image to pretty much any site you like, and the OCR functionality is really cool. The icing on the cake is the screen capture capability that will let you record portions of your screen and save it to a GIF (or other formats). It’s great for playing tech support with family to show them how to do stuff. **(Windows)**
     - [Greenshot](http://getgreenshot.org/) was my old favorite, and you may want to use it if ShareX is confusing or seems like overkill.
-    - It’s worth noting that recent versions of Windows 10 now come with a tool called “Snip & Sketch” that does something similar (use *SHIFT + WINDOWS + S* key combo to access it), although it doesn’t automatically save the image to a file.
-- [Shottr](https://shottr.cc/) is an amazing tool for screenshots on Mac. It has all the usual features plus cool stuff like scrolling captures (for long webpages) and OCR text recognition so you can cut and paste text from images on your screen. **(Mac)**
+    - For a more barebones solution, use *SHIFT + WINDOWS + S* key combo to access the screenshot functionality built into Windows.
+- [Shottr](https://shottr.cc/) is an amazing tool for screenshots on Mac. It has all the usual features plus cool stuff like scrolling captures (for long webpages) and OCR text recognition so you can cut and paste text from images on your screen. After 30 days, Shottr starts asking you to consider upgrading. While not necessary, I actually did upgrade. **(Mac)**
     - If you don’t need/use anything beyond simple screenshots on Mac, it’s worth mentioning the *SHIFT + CMD + 4* shortcut gets you a portion of the screen and automatically saves the file to the desktop.
 
 ## Live Streaming/Screen Recording
@@ -230,10 +230,11 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Scribus](https://www.scribus.net/) is the best free desktop publishing solution out there; perfect for making flyers, invitations, banners, stationary, and even full books. When a casual user needs something more than Word, but can’t justify buying something like Adobe InDesign, Scribus is probably your best option.
 
-## Sheet Music
+## Sheet Music & Chord Sheets
 
 - [MuseScore](https://musescore.org/en): Easy-to-use interface for creating sheet music. With great documentation and abundant resources like videos, tutorials, and how-tos, you will be creating great looking sheet music documents in no time.
     - If you want to make sheet music and have complete control over every aspect of the output, [LilyPond](http://lilypond.org/) is where it’s at. There’s no GUI, it’s super niche software, so it’s not for everyone, but the results are sublime.
+- [JustChords](https://www.justchords.app) is my favorite ChordPro editor and viewer, and it generates great PDFs as well. The best part is it works on iOS and iPadOS as well as MacOS, and all the songs and playlists are synced across iCloud so you always have your songs available on any platform. I started using ChordPro files decades ago in Notepad.exe, and it’s great that JustChords can still readthose old files, but spice them up with all sorts of new functionality. **(Mac)**
 
 # Network & Internet
 
@@ -603,11 +604,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Interactive Fiction (IF) Tools
 
-- [Windows Frotz](http://www.davidkinder.co.uk/frotz.html): My favorite Z-machine interpreter on Windows. If you play interactive fiction games or know what Infocom games are, you probably already know what this is.  This supports all the various Infocom formats: zip, dat, z5, z8, etc., including z6, which is a rare feature. **(Windows)**
-- [Yazmin](https://github.com/dcsch/yazmin) is a capable Z-machine interpreter for the Mac. It has fairly decent feature set including dark mode, and it supports v3, v4, v5, v7, and v8. To top it all off, it comes with a nice suite of stories to get you started. **(Mac)** [→App Store Link](https://apps.apple.com/us/app/yazmin/id1549608914?mt=12)
+- [Windows Frotz](http://www.davidkinder.co.uk/frotz.html): My favorite Z-machine interpreter on Windows. If you play interactive fiction games or know what Infocom games are, you probably already know what this is.  This supports all the various Infocom formats: zip, dat, z5, z8, etc., including z6, which is a rare feature. Incredibly, this software relic is still maintained and gets new releases nearly every year. **(Windows)**
+- [Yazmin](https://github.com/dcsch/yazmin) is a capable Z-machine interpreter for the Mac. It has fairly decent feature set including dark mode, and it supports v3, v4, v5, v7, and v8. To top it all off, it comes with a nice suite of stories to get you started. **(Mac)** [App Store Link→](https://apps.apple.com/us/app/yazmin/id1549608914?mt=12)
 - [Lectrote](https://github.com/erkyrath/lectrote): This is my current choice for a multi-format client that handles more than just Z machine files, and while it’s the new kid on the block, it has novel features like autosave.  It looks really nice to me (great fonts and themes), but it uses ZVM as the Z interpreter, so it only supports Z3, Z4, Z5, & Z8.  Other format support includes Glulx, Hugo, TADS, and Ink.  This seems to be under active development, so we’ll see where it goes.
     - [Gargoyle](http://ccxvii.net/gargoyle/) deserves a mention because it supports every format I’ve ever run across because it is basically just a wrapper for a number of interpreters. The default (and excellent) [Bocfel](https://cspiegel.github.io/bocfel/) Z machine interpreter has partial support for z6 files too.  Its other claim to fame is its focus on good typesetting, which is a really interesting niche.  But be warned, it essentially has no user interface, so you need to edit a text file to change fonts and whatnot.
-    - [Filfre](http://maher.filfre.net/filfre/index.html): This is easier to use than Gargoyle for sure, so I’m mentioning it here, but it has minimal customization options. You might want to choose this if you need Glulx support and want an interface similar to Windows Frotz.  It’s probably not the best choice for Z-Machine files because it only supports versions 3, 4, 5, and 8 story files. The project has been stagnant since 2013, so what you see is what you get. **(Windows)**
 - [Trizbort](http://www.trizbort.com/): If you play IF games, you know mapping is essential, and Trizbort helps you do that.  There is even an automap function that works pretty well. **(Windows)**
     - A good cross-platform alternative is [Trizbort.io](https://trizbort.io/) which is a webapp version of Trizbort with most of the same functionality. Works great in any browser. This is what I use on Mac and Linux.
 
@@ -615,7 +615,26 @@ Just for easy reference, here are some websites to find and download some great 
 
 ###
 
+- [The Obsessively Complete INFOCOM Catalog](https://eblong.com/infocom/)
+- [Zarf's Interactive Fiction](https://eblong.com/zarf/if.html)
 - [Interactive Fiction Database](http://ifdb.tads.org/search?browse) (IFDB)
 - [IF Archive](https://www.ifarchive.org/indexes/if-archive.html)
-- [The IF Wiki](http://www.ifwiki.org/index.php/Category:Works)
+- [The IF Wiki](http://www.ifwiki.org/index.php/)
 - [The IF Competition](https://ifcomp.org/)
+
+# BONUS (Non-free) Apps
+
+Okay, I know I said this was a list of free software, but sometimes paid apps are worth it, so I'm listing my favorites here for my own future reference. And hey, maybe someone else will find these recommendations useful too.  Here's the catch: Most of these are Mac apps. On Linux, every utility and app I use is free. On Windows, buying these sorts of tools were pointless because I used Windows extensively in corporate environments where I couldn't install my own software. For personal use, I spend most of my time on Macs now (even if I'm remotely connecting to a Linux box or running a local Windows VM), so this is where I spend my money to buy quality-of-life tools. So, here are some (mostly) Mac apps worth buying:
+
+- [Affinity Suite](https://affinity.serif.com/en-us/) (Photos, Designer, and Publisher): While I love Gimp and Inkscape, Affinity is worth the reasonably priced one-time purchase. The functionality isn’t always much better than the free options (although it often is), the interface and user experience is really well thought out and polished. For most people, Affinity is probably even a better (and cheaper!) alternative to the Adobe suite. **(Windows, Mac)**
+- [UpNote](https://getupnote.com) is such a fantastic note taking program. It’s like Apple Notes, but supercharged with way more functionality. While it’s not my primary notes app, I’m glad it’s in my toolbox and you may find it fits your style perfectly. **(Windows, Mac)**
+- [Shottr](https://shottr.cc) is mentioned above as a great screenshot app. To me it’s worth upgrading to the paid version. **(Mac)**
+- [Typora](https://typora.io): This is an amazing Markdown editor that is so clean and capable I bought it even though I love (and mostly use) Obsidian. Typora has live rendering of your markdown, and it excels at scientific writing as it supports LaTeX equations and various diagram formats. **(Mac)**
+- [Parallels Desktop](https://www.parallels.com) lets you seamlessly run Windows programs side-by-side with Mac apps. While you  won’t want to run high-performance games via Parallels, everything else runs great. **(Mac)**
+- [Rectangle Pro](https://rectangleapp.com/pro): Rectangle is great, and Rectangle Pro is better. The window throwing is a game changer for window management. **(Mac)**
+- [Dropover](https://dropoverapp.com) is such a niche app. It creates temporary shelves where you can store files until you do something to them. You could move them or perform batch operations on them (like convert or compress them). **(Mac)**
+- [Bartender](https://www.macbartender.com) gives you full control over your menu bar, and you may find it as useful as I do. Having said that, Ice (see above) is so good for simple use cases that I don’t recommend buying Bartender until you have tried Ice.  **(Mac)**
+- [MacUpdater](https://www.corecode.io/macupdater/): If you download apps from outside the AppStore, MacUpdater is a real time-saver to keep your apps up-to-date. It handles far more apps than Latest, the other updater I mention above. **(Mac)**
+- [News Explorer](https://betamagic.nl/products/newsexplorer.html): I’m surprised that I spent money on a glorified RSS reader, but the options for free readers aren’t nearly as good as it was years ago, and News Explorer is better than any other I’ve tried, so it as worth the purchase. The bonus is it works equally well on iPhone and iPad. **(Mac)**
+- [Soulver](https://soulver.app) launched a whole genre of calculator apps, and none of them do it better than Soulver. I really didn’t want to spend this much on a calculator (the $35 price feels ridiculous), but I’m glad I did. It works great and I use it everyday, so I feel I got my money’s worth.  **(Mac)**
+- [New File Menu](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/new-file-menu/id1064959555%3Fmt%3D12&ved=2ahUKEwjJ0ZvamZCNAxUE5skDHX2ED7wQFnoECBEQAQ&usg=AOvVaw1n7_oSZbK_5sohfvjBdz4J) : When I first started using Macs after using Windows for years, the missing “New File” capability was a glaring omission in MacOS. This is such a dumb app to have to add, but this app fills the gap.

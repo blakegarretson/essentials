@@ -1,8 +1,14 @@
 # Change Log
 
+## 2025-05-06
+
+Added **JustChords**.
+
+Added the **BONUS (Non-free)** section. This is just for convenience for me so when I set up a new computer I have a list of apps to install.
+
 ## 2025-05-04
 
-Removed **Frotz8**. It hasn't been updated since 2013, and it is pretty stale at this point.
+Removed **Frotz8** and **Filfre**. Neither has been updated since 2013 (coincidentally), and they are pretty stale at this point.
 
 ## 2025-04-30
 
