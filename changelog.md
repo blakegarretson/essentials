@@ -4,7 +4,7 @@
 
 Added **JustChords**.
 
-Added the **BONUS (Non-free)** section. This is just for convenience for me so when I set up a new computer I have a list of apps to install.
+Added the **BONUS (Non-free)** section. This is just for convenience for me so when I set up a new computer I have a list of apps to install. I won’t list them all here, but I added a bunch dozen or so paid apps that I like.
 
 ## 2025-05-04
 
