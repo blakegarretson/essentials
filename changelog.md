@@ -1,5 +1,9 @@
 # Change Log
 
+## 2025-06-03
+
+Removed **Paint.NET**. The venerable default Windows **Paint** program has been updated in Windows 11 and is adequate for simple edits, and for anything more complicated you probably want Gimp, Krita, Photoscape X, etc.  Paint.NET just doesn’t bring much to the party anymore. Also, the website has become a mess of ads and it’s hard to even download without clicking on the wrong thing.
+
 ## 2025-05-06
 
 Added **JustChords**.
