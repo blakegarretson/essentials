@@ -18,7 +18,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Photo/Image Editor
 
 - [GIMP](http://www.gimp.org/): Robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it’s not really suited for pros either given some of the missing features. Having said that, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation.
-    - Also check out [Krita](https://krita.org/en/)  (below) for image editing. While it has historically focused more on digital painting than general editing, it has is a capable image editor for many use cases as well.
+    - Also check out [Krita](https://krita.org/en/)  (below) for image editing. While it has historically focused more on digital painting than general editing, it has many features that make it a great choice for general editing for many use cases as well.
 
 ## Digital Sketching/Painting
 
