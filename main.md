@@ -436,6 +436,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) gives you access to hidden system preferences and tweaks not available in the normal System Preferences dialogs. While there are a lot of options I don’t care about, they are a couple in here that are worth the download.
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl) is one of those apps I didn’t know I needed. I wouldn’t have looked for it, but after stumbling across it and trying it out, it’s amazing. If you have an external monitor, you need this so you can control the brightness through your keyboard. It also normalizes brightness between the build-in screen and an external monitor. Super handy app.
 - [Ice](https://icemenubar.app) is a menu bar manager that hides the clutter and gives you more control over the menu bar. This is an amazing free alternative to software like Bartender, and while it may have less features, it has the most important ones.
+- [Itsycal](https://www.mowglii.com/itsycal/) is a calendar app that lives in your menu bar and gives you a quick glimpse of your upcoming agenda. Itsycal gets you the information you need quicker and in a more customizable way than the default Apple widgets.  
 
 # Programming
 
