@@ -392,9 +392,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Windows Terminal](https://github.com/microsoft/terminal) is a newer offering, but the features have been steadily expanding, and it quickly became my console of choice with handy features like themes, panes, and a command palette. It happily handles PowerShell, cmd.exe, and WSL shells, as well as REPL interpreters like IPython or Julia. **(Windows)**
     - [Tabby](https://tabby.sh/) is a ridiculously customizable terminal app that handles essentially any local shell as well as serial and SSH connections. I’ve run into some bugs that keep me from using this exclusively, but I could see this being someone’s first choice due to endless customization and a beautiful interface.
 - [iTerm2](https://iterm2.com/) is the terminal you should be using instead of the default MacOS terminal. The customization options are extensive. It’s one of the best terminals on any platform. **(Mac)**
-- [Warp](https://www.warp.dev/) is a modern terminal app that has some cool innovations in a space that has not changed much over the years. While I can setup a very capable shell and prompt with something like zsh, Warp takes care of all the hassle and the out-of-the-box experience includes smart command completion, customized prompts with git integration, and AI plain language processing. I am watching this project with optimistic curiosity. **(Mac, Linux, w/ Windows coming soon)**
+- [Warp](https://www.warp.dev/) is a modern terminal app that has some cool innovations in a space that has not changed much over the years. While I can setup a very capable shell and prompt with something like zsh, Warp takes care of all the hassle and the out-of-the-box experience includes smart command completion, customized prompts with git integration, and AI plain language processing. I am watching this project with optimistic curiosity. 
 - [Swiss File Knife](http://stahlworks.com/dev/swiss-file-knife.html): This is the essential command line tool set for Windows. It does a little of everything, and you need to just read the list of commands on the website to believe it. It’s a single executable, so it’s portable as well.
-- [eza](https://eza.rocks/) is a modern replacement for ls that works on every major platform. There are a few cool innovations here including the integration of git status in your listing, icon support, and recursive tree view.
+- [eza](https://eza.rocks/) is a modern replacement for `ls` that works on every major platform. There are a few cool innovations here including the integration of git status in your listing, icon support, and recursive tree view.
 
 ## Clipboard Manager
 
@@ -404,6 +404,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Password Manager
 
 - [Bitwarden](https://bitwarden.com/) is the best open source, cross-platform password manager that I’ve ever tried. And the best part is the free version is more than enough for most people. There are desktop and mobile clients, browser extensions, a web app, and a command line interface. Bitwarden works everywhere you need it.
+    - If you are only using Apple hardware, Apple Passwords is a great alternative with with seamless integration across mobile and desktop clients.
 
 ## AI Assistant
 
@@ -467,8 +468,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - On Mac I prefer to use [pyenv](https://github.com/pyenv/pyenv) to install the various Python versions. Once you install it (which is trivial with Homebrew), you can just issue a command like: `pyenv install 3.10.4`
     - All the essential Python libraries are on PyPi, so here is a pip command line (for easy cutting and pasting) useful for STEM programming to get you started. This is a short list, but it pulls the more important dependencies like scipy, pandas, and numpy: `pip install jupyterlab seaborn PyQt6 sympy`
     - And a quick description of a couple of packages vital for STEM:
-
-
 
         - [SciPy](https://www.scipy.org/) is a scientific package useful for everything from statistics to linear algebra.
         - [Pandas](https://pandas.pydata.org/) handles data structures and data manipulation.
