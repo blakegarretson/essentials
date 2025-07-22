@@ -258,7 +258,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [qBittorrent](http://www.qbittorrent.org/): Lightweight, yet powerful, BitTorrent client. There’s no ads and the features are all there. If you need a standalone BitTorrent client, this is a great place to start.
 - [Transmission Remote GUI](https://github.com/transmission-remote-gui/transgui) is the perfect companion to [Transmission](https://transmissionbt.com/). This is really the best choice for when you want to remote control a Transmission session running on a server. This is handy if you have a torrent box and you just want to add/monitor torrents from another computer. So to be clear, you would need to run Transmission on the server/torrent box and Transmission Remote GUI runs on your desktop/laptop.
     - [Electorrent](https://github.com/tympanix/Electorrent) is the a great alternative when you want a nice, clean-looking client with a modern UI to manage your torrents remotely. It isn’t overly complicated, it supports all the popular torrent backends, and it has all the usual functionality that you want without overwhelming you with options.
-- [Soduto](https://soduto.com/) makes it easier to for your Mac to interact with your Linux and Android devices. Similar to AirDrop, you can share files between systems, but you can also share clipboards and even send SMS messages from your Mac through your Android phone. **(Mac)**
 
 ## Remote Desktop Control
 
@@ -274,7 +273,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ### Honorable Mentions
 
 - [Telegram](https://desktop.telegram.org/): I really don’t need another chat protocol in my life, but Telegram is doing some things right like real cross-platform support/sync and no size restrictions when sharing media or documents. It’s a polished experience, and features like group voice chat work exceptionally well.
-- If privacy or security is paramount to you, then [Signal](https://signal.org/) has Telegram beat. In Telegram, end-to-end encryption is only optional, and you can’t encrypt group chats. Signal fixes those shortcomings, but falls short of Telegram in other areas.
+    - If privacy or security is paramount to you, then [Signal](https://signal.org/) has Telegram beat. In Telegram, end-to-end encryption is only optional, and you can’t encrypt group chats. Signal fixes those shortcomings, but falls short of Telegram in other areas.
 
 ## IP/Port Scanner
 
