@@ -291,7 +291,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [7-Zip](http://www.7-zip.org/): Archiver with great compression, command line support, functional GUI, and Explorer integration. Plus it’s really fast. This is my go-to on Windows. **(Windows)**
 - [Keka](https://www.keka.io/en/) is easy to recommend because it does more than Mac’s built-in Archive Utility by supporting more formats and adding compression with encryption. It’s free from the website, or a paid app on the AppStore. **(Mac)**
     - If you don’t need fancy compression options, and you just want something that will automatically decompress just about every format you’ve probably ever heard of, you may prefer [The Unarchiver](https://theunarchiver.com/). The interface is non-existent. You just click on an archive in Finder to decompress it. **(Mac)**
-- [PeaZip](https://peazip.github.io/) is worth a look if 7-zip doesn’t work for you because you’ve encountered some really obscure format, or if you’re on Mac or Linux. It supports basically every format that you would conceivably (or inconceivably) run into. The interface doesn’t look native (especially on Mac), but it is very usable and great for previewing an archive before decompressing it.
+- [PeaZip](https://peazip.github.io/) is worth a look if the programs above don’t work for you because you’ve encountered some really obscure format. It supports basically every format that you would conceivably (or inconceivably) run into. The interface doesn’t look native (especially on Mac), but it is very usable and great for previewing an archive before decompressing it.
 
 ## Disk Imaging/Formatting/Repair
 
