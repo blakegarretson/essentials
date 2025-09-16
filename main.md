@@ -375,7 +375,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Mac Package Management/Software Installer
 
-- [Homebrew](https://brew.sh/): If you want an easy way to install command line tools and even some GUI apps, Homebrew gets you going with minimal hassle. There is plenty of debate on whether its approach is technically sound, but it works for me. For instance, if I want to install git, I just type: `brew install git`
+- [Homebrew](https://brew.sh/): If you want an easy way to install and update command line tools and even GUI apps, Homebrew gets you going with minimal hassle. For instance, if I want to install git, I just type: `brew install git`. I prefer to download apps from the Mac App Store when possible, but otherwise I will always choose the Homebrew version to ensure I keep everything up to date. 
     - The other popular option out there is [MacPorts](https://www.macports.org/). You should at least understand how it is different before choosing Homebrew.
 - [Latest](https://github.com/mangerlahn/Latest): This is a handy tool to keep your apps up to date to the latest version. (I see what they did there.) It currently supports apps downloaded from the Mac App Store and apps that use Sparkle for updates, so it might not have your favorite app, but it has enough to be useful.
 
