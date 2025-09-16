@@ -427,6 +427,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Mac Desktop Tweaks & Utilities
 
 - [Rectangle](https://rectangleapp.com/) allows for complex window manipulation with key strokes. This is super handy.
+    - As an alternative, check out [Loop](https://github.com/MrKai77/Loop) if you prefer mouse-driven actions rather than keyboard shortcuts.
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) is probably the best known app to keep your screen on. There are all sorts of reasons you might need this, but I often use it when I’m sketching from a reference photo and I don’t want the screen going to sleep on me.
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) lets you remap keys. I have used it to swap the Command and Control keys so I can use my muscle-memory from Windows to cut and paste.
 - [Hyperkey](https://hyperkey.app/) is so simple, yet it has become essential for me. It lets you remap the caps-lock key to any combination of meta keys. It can be configured in any number of ways, but I have it setup so when I press caps-lock, it is the same as pressing shift-command-ctrl. Then I map that combo to whatever I like in my various apps. e.g. in VS Code, pressing caps-lock and P will run the current file in Python.
