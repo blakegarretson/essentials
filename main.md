@@ -377,7 +377,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Homebrew](https://brew.sh/): If you want an easy way to install and update command line tools and even GUI apps, Homebrew gets you going with minimal hassle. For instance, if I want to install git, I just type: `brew install git`. I prefer to download apps from the Mac App Store when possible, but otherwise I will always choose the Homebrew version to ensure I keep everything up to date. 
     - The other popular option out there is [MacPorts](https://www.macports.org/). You should at least understand how it is different before choosing Homebrew.
-- [Latest](https://github.com/mangerlahn/Latest): This is a handy tool to keep your apps up to date to the latest version. (I see what they did there.) It currently supports apps downloaded from the Mac App Store and apps that use Sparkle for updates, so it might not have your favorite app, but it has enough to be useful.
 
 ## Uninstaller / System Cleaner
 
@@ -389,11 +388,14 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Console/Command Line
 
 - [Windows Terminal](https://github.com/microsoft/terminal) is a newer offering, but the features have been steadily expanding, and it quickly became my console of choice with handy features like themes, panes, and a command palette. It happily handles PowerShell, cmd.exe, and WSL shells, as well as REPL interpreters like IPython or Julia. **(Windows)**
-    - [Tabby](https://tabby.sh/) is a ridiculously customizable terminal app that handles essentially any local shell as well as serial and SSH connections. I’ve run into some bugs that keep me from using this exclusively, but I could see this being someone’s first choice due to endless customization and a beautiful interface.
 - [iTerm2](https://iterm2.com/) is the terminal you should be using instead of the default MacOS terminal. The customization options are extensive. It’s one of the best terminals on any platform. **(Mac)**
-- [Warp](https://www.warp.dev/) is a modern terminal app that has some cool innovations in a space that has not changed much over the years. While I can setup a very capable shell and prompt with something like zsh, Warp takes care of all the hassle and the out-of-the-box experience includes smart command completion, customized prompts with git integration, and AI plain language processing. I am watching this project with optimistic curiosity. 
 - [Swiss File Knife](http://stahlworks.com/dev/swiss-file-knife.html): This is the essential command line tool set for Windows. It does a little of everything, and you need to just read the list of commands on the website to believe it. It’s a single executable, so it’s portable as well.
 - [eza](https://eza.rocks/) is a modern replacement for `ls` that works on every major platform. There are a few cool innovations here including the integration of git status in your listing, icon support, and recursive tree view.
+
+### Honorable Mentions
+
+- [Tabby](https://tabby.sh/) is a ridiculously customizable terminal app that handles essentially any local shell as well as serial and SSH connections. I’ve run into some bugs that keep me from using this exclusively, but I could see this being someone’s first choice due to endless customization and a beautiful interface.
+- [Warp](https://www.warp.dev/) is a modern terminal app that has some cool innovations in a space that has not changed much over the years. While I can setup a very capable shell and prompt with something like zsh, Warp takes care of all the hassle and the out-of-the-box experience includes smart command completion, customized prompts with git integration, and AI plain language processing. I am watching this project with optimistic curiosity. 
 
 ## Clipboard Manager
 
