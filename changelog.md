@@ -6,7 +6,7 @@ Added **Leader Key**. I really like the approach it takes and I’m using it mor
 
 I’m recommending **JASP** over **Jamovi** now.
 
-Added **Loop** as an alternative to **Rectangle**. 
+Added **Loop** and demoted to **Rectangle** to an alternative. 
 
 ## 2025-06-18
 
