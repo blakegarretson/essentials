@@ -1,5 +1,9 @@
 # Change Log
 
+## 2025-09-20
+
+Added **NetNewsWire**. I think it's nearly as good as the paid app **News Explorer**. 
+
 ## 2025-09-15
 
 Added **Leader Key**. I really like the approach it takes and I’m using it more often than the alternatives.
