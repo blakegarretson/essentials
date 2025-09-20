@@ -244,6 +244,12 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - If customization is important to you, [Vivaldi](https://vivaldi.com) may be of interest. It’s doing some cool things and even integrates features like an RSS reader.
     - And because you can never have too many browsers, the [DuckDuckGo](https://duckduckgo.com/) browser is another nice option if privacy and security are a high priority.
 
+
+## News Reader
+
+- [NetNewsWire](https://netnewswire.com): Easily the best free news reader for Mac with theme support, easy feed organization, and syncing across all your devices. It is basically a free [News Explorer](https://betamagic.nl/products/newsexplorer.html) with perhaps a few less advanced features. **(Mac)** 
+    - If I absolutely need a news reader on Windows, [FeedFlow](https://www.feedflow.dev) is probably the best choice because it will sync to mobile devices and supports all platforms. It is a bit quirky and there are limited customization options though.
+
 ## Remote Shell Access
 
 - [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/): Awesome ssh/telnet client. It’s been the premier free terminal client for so many years because it’s simple and works while not skimping on features. **(Windows)**
@@ -635,6 +641,6 @@ Okay, I know I said this was a list of free software, but sometimes paid apps ar
 - [Rectangle Pro](https://rectangleapp.com/pro): Rectangle is great, but Rectangle Pro is better. The window throwing is a game changer for window management. Having said that, [Loop](https://github.com/MrKai77/Loop) is free, so you should try Loop before buying Rectangle Pro. In fact, using both Loop and Rectangle (not Pro) together may give you the functionality you need. **(Mac)**
 - [Dropover](https://dropoverapp.com) is such a niche app. It creates temporary shelves where you can store files until you do something to them. You could move them or perform batch operations on them (like convert or compress them). **(Mac)**
 - [MacUpdater](https://www.corecode.io/macupdater/): If you download apps from outside the AppStore, MacUpdater is a real time-saver to keep your apps up-to-date. It handles far more apps than Latest, the other updater I mention above. **(Mac)**
-- [News Explorer](https://betamagic.nl/products/newsexplorer.html): I’m surprised that I spent money on a glorified RSS reader, but the options for free readers aren’t nearly as good as it was years ago, and News Explorer is better than any other I’ve tried, so it was worth the purchase. The bonus is it works equally well on iPhone and iPad. **(Mac)**
+- [News Explorer](https://betamagic.nl/products/newsexplorer.html): I’m surprised that I spent money on a glorified RSS reader, but the options for free readers aren’t nearly as good as it was years ago, and News Explorer is better than any other I’ve tried, so it was worth the purchase. The bonus is it works equally well on iPhone and iPad. NetNewsWire is a close contender though, and it is free, so I would start there. **(Mac)**
 - [Soulver](https://soulver.app) launched a whole genre of calculator apps, and none of them do it better than Soulver. I really didn’t want to spend this much on a calculator (the $35 price feels ridiculous), but I’m glad I did. It works great and I use it everyday, so I feel I got my money’s worth.  **(Mac)**
 - [New File Menu](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/new-file-menu/id1064959555%3Fmt%3D12&ved=2ahUKEwjJ0ZvamZCNAxUE5skDHX2ED7wQFnoECBEQAQ&usg=AOvVaw1n7_oSZbK_5sohfvjBdz4J) : When I first started using Macs after using Windows for years, the missing “New File” capability was a glaring omission in MacOS. This is such a dumb app to have to add, but it fills the gap.  **(Mac)**
