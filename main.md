@@ -429,9 +429,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Mac Desktop Tweaks & Utilities
 
 - [Loop](https://github.com/MrKai77/Loop) is window manager that really shines if you prefer mouse-driven actions rather than keyboard shortcuts. The radial menu provides a visual approach so you don’t need to remember a bunch of key combinations.
-    - If you just want a keyboard-based window manager, [Rectangle](https://rectangleapp.com/) allows for fairly complex window manipulation, and it may be better for you than Loop.
+    - If you just want a keyboard-based window manager, [Rectangle](https://rectangleapp.com/) allows for fairly complex window manipulation, and it may be better for you than Loop. Or use both.
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) is probably the best known app to keep your screen on. There are all sorts of reasons you might need this, but I often use it when I’m sketching from a reference photo and I don’t want the screen going to sleep on me.
-- [Karabiner-Elements](https://karabiner-elements.pqrs.org/) lets you remap keys. I have used it to swap the Command and Control keys so I can use my muscle-memory from Windows to cut and paste.
 - [Hyperkey](https://hyperkey.app/) is so simple, yet it has become essential for me. It lets you remap the caps-lock key to any combination of meta keys. It can be configured in any number of ways, but I have it setup so when I press caps-lock, it is the same as pressing shift-command-ctrl. Then I map that combo to whatever I like in my various apps. e.g. in VS Code, pressing caps-lock and P will run the current file in Python.
 - [Folder Peek](https://sindresorhus.com/folder-peek) gives you quick access to your choice of folders right from your menu bar.
 - [Actions](https://sindresorhus.com/actions) adds additional functionality to Shortcuts. If you use Shortcuts, you probably can benefit from this app. The list of functionality is impressive.
@@ -440,7 +439,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Leader Key](https://github.com/mikker/LeaderKey.app) is a fast shortcut-based app launcher and app switcher. Leader Key only needs a single global hotkey, so it’s shortcuts won’t conflict with other apps and reserved shortcuts.  While this may seem redundant to Keyboard Cowboy and similar apps, the approach is slightly different so I use Leader Key in parallel with Keyboard Cowboy. 
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) gives you access to hidden system preferences and tweaks not available in the normal System Preferences dialogs. While there are a lot of options I don’t care about, they are a couple in here that are worth the download.
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl) is one of those apps I didn’t know I needed. I wouldn’t have looked for it, but after stumbling across it and trying it out, it’s amazing. If you have an external monitor, you need this so you can control the brightness through your keyboard. It also normalizes brightness between the build-in screen and an external monitor. Super handy app.
-- [Ice](https://icemenubar.app) is a menu bar manager that hides the clutter and gives you more control over the menu bar. This is an amazing free alternative to software like Bartender, and while it may have less features, it has the most important ones.
+- [Ice](https://icemenubar.app) is a menu bar manager that hides the clutter and gives you more control over the menu bar. This is an amazing free alternative to software like Bartender which I actually bought some years ago and eventually replaced with Ice.
 - [Itsycal](https://www.mowglii.com/itsycal/) is a calendar app that lives in your menu bar and gives you a quick glimpse of your upcoming agenda. Itsycal gets you the information you need quicker and in a more customizable way than the default Apple widgets.  
 
 # Programming
