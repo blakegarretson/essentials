@@ -11,7 +11,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Video Player
 
 - [VLC](http://www.videolan.org/): Cross-platform video player for nearly any format imaginable. Especially useful for when you need to do uncommon things like adjust audio/Bluetooth sync or load custom subtitles. The interface isn’t fancy, but it has the features you need (and many you don’t) and stays out of your way.
-    - An honorable mention has to go to [PotPlayer](https://potplayer.daum.net) if you’re on Windows. The interface is arguably better and it has a few features VLC doesn’t. 
+    - An honorable mention has to go to [PotPlayer](https://potplayer.daum.net) if you’re on Windows. The interface is arguably better and it has a few features VLC doesn’t. **(Windows)**
 - [IINA](https://iina.io/): While VLC works great on any platform, Mac users may prefer IINA. It’s a full-fledged media player with a clean interface and features like picture-in-picture mode and built-in subtitle downloading. If I’m on a Mac, I’m using IINA over VLC 99% of the time. **(Mac)**
 - [Friendly Streaming Browser](https://apps.apple.com/us/app/friendly-streaming-browser/id553245401?mt=12) is a weird name for a cool app. It’s just a front end for various streaming services (YouTube, Netflix, etc.), but it excels at multitasking by offering a Picture-In-Picture mode. I didn’t realize I needed this until I tried it. This is what you want when you’re working on a project and need an easy way to play a 4-hour instrumental playlist from YouTube in the background, or maybe you’re editing photos or something, and you want to watch a mindless episode of a cooking show in a tiny window at the corner of your screen. **(Mac)**
 
@@ -33,7 +33,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - If the Photoscape X workflow doesn’t agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has an old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
 - [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm) is a fantastic photo viewer with a truly impressive set of editing features. After Google retired their Picasa software I used FastStone for about a year, but I just couldn’t get on board with the (for me) unintuitive interface, and I ended up switching to something else. While it didn’t work out for me, it might be perfect for you. **(Windows)**
 - If all you need is a super-fast, image viewer (that incidentally has some robust editing features), look no further than [IrfanView](https://www.irfanview.com/). I started using it in the late 1990s, and it is still going strong. This is a great program to make your default viewer when clicking on JPEGs, GIFs, and PNGs. **(Windows)**
-- If you want a barebones, lightweight image viewer with a clean interface on Mac, [qView](https://interversehq.com/qview/) is probably the best out there. **(Mac)**
+- If you want a barebones, lightweight image viewer with a clean interface on Mac, [qView](https://interversehq.com/qview/) is a solid choice. **(Mac)**
 
 ## Image Processing/Workflow
 
@@ -120,19 +120,19 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Digital Audio Workstation (DAW)
 
-- [Cakewalk](https://www.bandlab.com/products/cakewalk): This used to be a commercial DAW that is now free as of 2018. It’s a rebranded version of SONAR Platinum, and it’s incredibly powerful. This is a great place to start if you want to make some music. **(Windows)**
+- [GarageBand](https://www.apple.com/mac/garageband/) is the obvious easy-to-use entry-level option for the Mac. It’s free on the App Store, so you might as well give it a try. It’s tough to beat the no nonsense workflow that works great with MIDI as well as recorded tracks. **(Mac)**
+- [Cakewalk Next](https://www.cakewalk.com): Cakewalk used to be a commercial DAW that went through a few rebrandings and iterations over recent years. There are currently two products under the Cakewalk name: Sonar and Next. Cakewalk Next is a free DAW with all the basic features for creating songs. This is a great place to start if you want to make some music.
     - Another great DAW is [Waveform Free](https://www.tracktion.com/products/waveform-free). While there is a Pro version with more features, the free version has no limitations and is very capable.
 - [Ardour](https://ardour.org/) is worth checking out if you’re a Linux user. It does all the basics really well. From recording audio or MIDI, to editing, to mixing, you’re covered. The only trick is if you really want it for free, you should use your distribution’s packager manager and don’t download it from the website.
     - You may be asking why I limit my Ardour recommendation to Linux users. The simple answer is on Windows and Mac it isn’t really “free”. While it is open source and you can build it from scratch for free, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software.  
-- [GarageBand](https://www.apple.com/mac/garageband/) is the obvious easy-to-use entry-level option for the Mac. It’s free on the App Store, so you might as well give it a try. It’s tough to beat the no nonsense workflow that works great with MIDI as well as recorded tracks. **(Mac)**
 
 ## Step Sequencer
 
-- [LMMS](https://lmms.io/): Its website says it’s a “sound generation system, synthesizer, beat/baseline editor and MIDI control system which can power an entire home studio”. I’d call it a nice step sequencer with VST and SoundFont support for creating music. I wouldn’t call it a DAW because it doesn’t record multitrack audio, but combined with Audacity, you can make some cool stuff. Honestly, I wouldn’t even list LMMS now that Cakewalk is free, except LMMS is open source, and Cakewalk may go away sometime in the future.
+- [LMMS](https://lmms.io/): Its website says it’s a “sound generation system, synthesizer, beat/baseline editor and MIDI control system which can power an entire home studio”. I’d call it a nice step sequencer with VST and SoundFont support for creating music. I wouldn’t call it a DAW because it doesn’t record multitrack audio, but combined with another app like Audacity, you can make some cool stuff. Honestly, I wouldn’t even include LMMS when we have free options like GarageBand and Cakewalk Next, except LMMS is open source and truly free.
 
 ## Synth Plugins
 
-- A couple great synths plugins worth trying with LMMS and Cakewalk are [dexed](https://asb2m10.github.io/dexed/) and [Helm](https://tytel.org/helm/).
+- A couple great synths plugins worth trying with the apps above are [dexed](https://asb2m10.github.io/dexed/) and [Helm](https://tytel.org/helm/).
 
 # Text & Documents
 
@@ -146,9 +146,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Neovim](https://neovim.io/): `vi` was a legendary, powerful keyboard-based text editor with a steep learning curve, Vim is its most successful clone (itself being a derivative of Stevie), and Neovim aims at pushing Vim into the 21st century with a clean code base and features like Lua extensibility and asynchronous plugins which allow for things like async linters. Some people think it’s silly to use a `vi` clone more than four decades after it was introduced, but there are some tasks that are orders of magnitude faster in a `vi` clone than modern mouse-oriented text editors.
     - If a console-based text editor is what you need and you don’t love the `vi` modal editing and key bindings, you should really check out [micro](https://micro-editor.github.io/). Micro works from a console, but it has modern capabilities like mouse support, multiple cursors, Lua plugins, tabs, tmux-like splits, and syntax color schemes. Best of all, the normal Windows key bindings like CTRL-C, CTRL-V, CTRL-S, and CTRL-Z work as expected.
 
-### Honorable Mentions
+### Honorable Mention
 
-- [Sublime Text](https://www.sublimetext.com/) is a fast, clean, good looking editor, and it gets points for popularizing (if not actually inventing) the command palette and document map (and maybe even multiple cursors?), but I want to like it more than I actually do. Maybe I’m just too old to learn new key bindings? You should check it out though. Sublime is truly excellent software. The real reason it’s just an honorable mention is it technically doesn’t meet my criteria for this website as “free”. You can evaluate Sublime Text for free with no feature limitations or time limits, but you should pay if you continue to use it.
 - [Geany](https://www.geany.org/) is a jack-of-all-trades that is good at everything, but not best-in-class in anything. It is a versatile cross-platform programmer’s text editor that you can configure to be anything from a simple Notepad.exe replacement to an ultra-lightweight IDE. It’s just hard to recommend because while it’s good for quick edits and opening text files, Notepad++ or CotEditor are even faster for those quick tasks. And while Geany is really nice for light coding, VS Code is even better. Geany is rarely the best tool for the job, but it might be the right choice for a computer that just needs an all-purpose, do-it-all editor. If you do try it, there are lots of great features hidden in the official plugin package, so be sure to grab it as well.
 
 ## Writing/Markdown Apps
@@ -172,7 +171,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [OneNote](https://www.onenote.com/download) is easy to recommend given the comprehensive functionality and the fact that it is free. For most tasks, I’m a plain text file guy. However, I use OneNote at work extensively, and I really like it. I can integrate emails, pictures, tables, and all the rest into a workflow organized by notebooks, sections, and pages. However, if you don’t use Office 365 and/or Outlook, OneNote might not have as many advantages for you.
 - [Obsidian](https://obsidian.md/) is listed above in the general writing app category, but it is great for notes as well. Images and tables are supported through Markdown, so they aren’t as easy to include as in OneNote, but Obsidian excels when it comes to text. The Canvas feature is also really cool. It lets you visualize and connect data in interesting ways, a bit like a mind mapper. Obsidian’s biggest shortcoming is you have to figure out your own file-sync solution unless you pay them for their sync service. Saving your vaults to Google Drive, iCloud, OneDrive, etc. will solve this for you, but you still won’t be able to work with some combinations (like saving a vault to Google Drive on desktop and opening it on an iPhone).
     - [Zettlr](https://zettlr.com) (also mentioned above with the writing apps) is a Markdown-based app great for note-taking, and (unlike Obsidian) it is completely open source. While powerful on the desktop, Zettlr does not have a mobile app counterpart, so your notes aren’t easily accessible on your mobile devices. You are also on your own for syncing, but that is easily overcome by saving your notes to a cloud service like Google Drive or iCloud. Unless open source is incredibly important to you, I would still recommend Obsidian over Zettlr.
-- [Tot](https://tot.rocks/) is a Mac-only app that sits in your menubar waiting to save quick notes and snippets of text. This is not a general purpose notes app like the above apps. It is very limited, and it just has seven Markdown-supported “pages” of notes where you can type or paste whatever you like. This weird limitation carves out a unique use-case that I didn’t know I needed until I started using it. As a bonus, syncing is automatic and seamless, so if you install Tot on a laptop and desktop (for instance), it serves as a common clipboard where you can pass information. **(Mac)**
+- [Tot](https://tot.rocks/) is a Mac-only app that sits in your menubar waiting to save quick notes and snippets of text. This is not a general purpose notes app like the above apps. It is very limited, and it just has seven Markdown-supported “pages” of notes where you can type or paste whatever you like. This weird limitation carves out a unique use-case that I didn’t know I needed until I started using it. As a bonus, syncing is automatic and seamless, so if you install Tot on a laptop and desktop (for instance), it serves as a common clipboard where you can pass information. Pro features are a paid upgrade, but they are not necessary to use the app. **(Mac)**
 
 ## Text Comparison
 
@@ -200,11 +199,11 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Adobe Acrobat Reader](https://get.adobe.com/reader/): The original PDF viewer. While not my first choice, I always install it just in case because it is the gold standard PDF reader. However, the interface has become bloated over the years and many of the tools require you to upgrade for access to the premium features. Pro-tip: the mark-up/annotation capabilities are hidden under View➞Tools➞Comment .
     - For a lighter-weight solution to reading and marking up PDFs on Mac, it’s hard to beat [Skim](https://skim-app.sourceforge.io/). While being fast and free, it is still has plenty of features. **(Mac)**
 
-## eBook Utilities
+## eBook Readers & Utilities
 
 - [Calibre](http://calibre-ebook.com/): All-in-one ebook manager. Whatever you need to do to/with an ebook, this will do it. It organizes, converts, downloads covers, etc.. Absolutely indispensable if you have a non-DRM ebook collection. With plug-ins you can even strip DRM to backup your purchases.
-- [FBReader](https://fbreader.org) is a cross-platform ebook reader with a nice clean interface that stays out of the way. It’s simple, but it still has all the customization you need to make it look exactly how you like it . The real killer feature is the “book network”. It uses your Google Drive to store books and sync progress and bookmarks across platforms. If you read from multiple devices, this is a huge bonus, although this can occasionally be buggy.
-    - The honorable mention on Windows goes to [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)  because it is a convenient all-in-one reader for PDF, EPUB, MOBI, CBR, CBZ, CHM, and XPS. While Sumatra might not be the best solution for ebooks or comics, it’s handy to have around, and some ebooks even look better in Sumatra (usually because of font rendering). **(Windows)**
+- [Readest](https://readest.com) is an open-source cross-platform ebook reader with a nice clean interface that supports syncing your progress, notes, and highlights across all your devices. It looks great, works great, and it works on every device I own. Just a heads up, there are paid service tiers if you want cloud storage of your books or AI features, but for me the free tier has everything I want. For free I can store my books in my iCloud drive, and Readest tracks my progress and picks up where I left off regardless of which device I use. 
+    - My second choice for a general purpose cross-platform ebook reader is [FBReader](https://fbreader.org). Compared to Readest, FBReader's interface feels less refined and dated in some ways. Having said that,  it still has all the customization you need to make the text look exactly how you like it, and it can use your Google Drive to store books and sync progress and bookmarks across platforms (although syncing can occasionally be buggy).
 
 ## Markup Conversion/Publishing
 
@@ -222,7 +221,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Office Suite
 
-- [LibreOffice](https://www.libreoffice.org/): Provides all the usual “office” suspects, like a word processor, spreadsheet, and presentation applications. While still lacking the polish of MS Office, for most use cases this is a reasonable replacement. The key functionality is there, and the major gaps of the early releases (e.g. Goal Seek and Pivot Tables) have long since been filled. Worth noting: LibreOffice Draw works well for flowcharts (similar to Visio).
+- [LibreOffice](https://www.libreoffice.org/) provides all the usual “office” suspects, like a word processor, spreadsheet, and presentation applications. While still lacking the polish of MS Office, for most use cases this is a reasonable replacement. The key functionality is there, and the major gaps of the early releases (e.g. Goal Seek and Pivot Tables) have long since been filled. Worth noting: LibreOffice Draw works well for flowcharts (similar to Visio).
     - Full disclosure, I don’t find LibreOffice essential in the sense that I use it often. I like LibreOffice as a convenience so I can easily open an MS Office file or perform the odd task, but I actually far prefer working in the cloud with Google Docs and Sheets. In some ways, Sheets is even better than Excel or LibreOffice Calc with conveniences like the split() function.
 
 ## Desktop Publishing
@@ -243,7 +242,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - [Google Chrome](http://www.google.com/chrome) should get a mention since it was my default browser from 2008 until 2024. Its most recent policy on ad-blockers was a deal breaker for me, and I left to try other options.
     - If customization is important to you, [Vivaldi](https://vivaldi.com) may be of interest. It’s doing some cool things and even integrates features like an RSS reader.
     - And because you can never have too many browsers, the [DuckDuckGo](https://duckduckgo.com/) browser is another nice option if privacy and security are a high priority.
-
 
 ## News Reader
 
@@ -376,13 +374,12 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ### Honorable Mentions
 
 - [Patch My PC](https://patchmypc.com/home-updater) is pretty cool. If you don’t want an overbearing package manager, but you do want up to date programs, this is a good option. It scans your installed programs, shows you which ones have available updates, and then it helps update them. It supports a decent selection of popular software, although it isn’t going to cover every app on your computer. This is great for casual users.
-- Not long ago [Chocolatey](https://chocolatey.org/) was probably the most well-known solution to package management on Windows. It may still be a better choice for some people as it has broad package support. It supports thousands of packages, and the vast majority of the software listed on Blake’s Essentials can be found there. Having said that, I wish it were more robust. I’ve had plenty of headaches where Chocolatey wouldn’t let me uninstall software or I had weird conflicts from multiple versions of packages that I couldn’t remedy. I switched to winget largely because of these issues.
-- I’m guessing the most popular graphical package manager out there is [Ninite](https://ninite.com/) . It’s great software, it’s easy to use, but it just doesn’t include enough packages to really be a full-fledged package manager. If Ninite supports all the packages you want, you might want to try it first. Personally, I see Ninite as something I can use on my parents’ computer to keep their software up to date.
+- At one point before winget existed, [Chocolatey](https://chocolatey.org/) was probably the most well-known solution to package management on Windows. It may still be a better choice for some people as it has broad package support. It supports thousands of packages, and the vast majority of the software listed on Blake’s Essentials can be found there. Having said that, I wish it were more robust. I’ve had plenty of headaches where Chocolatey wouldn’t let me uninstall software or I had weird conflicts from multiple versions of packages that I couldn’t remedy. I switched to winget largely because of these issues.
+- Another popular graphical package manager out there is [Ninite](https://ninite.com/) . It’s great software, it’s easy to use, but it just doesn’t include enough packages to really be a full-fledged package manager. If Ninite supports all the packages you want, you might want to try it first. Personally, I see Ninite as something I can use on my parents’ computer to keep their software up to date.
 
 ## Mac Package Management/Software Installer
 
 - [Homebrew](https://brew.sh/): If you want an easy way to install and update command line tools and even GUI apps, Homebrew gets you going with minimal hassle. For instance, if I want to install git, I just type: `brew install git`. I prefer to download apps from the Mac App Store when possible, but otherwise I will always choose the Homebrew version to ensure I keep everything up to date. 
-    - The other popular option out there is [MacPorts](https://www.macports.org/). You should at least understand how it is different before choosing Homebrew.
 
 ## Uninstaller / System Cleaner
 
@@ -400,7 +397,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ### Honorable Mentions
 
-- [Tabby](https://tabby.sh/) is a ridiculously customizable terminal app that handles essentially any local shell as well as serial and SSH connections. I’ve run into some bugs that keep me from using this exclusively, but I could see this being someone’s first choice due to endless customization and a beautiful interface.
+- [Tabby](https://tabby.sh/) is a ridiculously customizable terminal app that handles essentially any local shell as well as serial and SSH connections. I could see this being someone’s first choice due to endless customization and a beautiful interface.
 - [Warp](https://www.warp.dev/) is a modern terminal app that has some cool innovations in a space that has not changed much over the years. While I can setup a very capable shell and prompt with something like zsh, Warp takes care of all the hassle and the out-of-the-box experience includes smart command completion, customized prompts with git integration, and AI plain language processing. I am watching this project with optimistic curiosity. 
 
 ## Clipboard Manager
@@ -410,7 +407,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Password Manager
 
-- [Bitwarden](https://bitwarden.com/) is the best open source, cross-platform password manager that I’ve ever tried. And the best part is the free version is more than enough for most people. There are desktop and mobile clients, browser extensions, a web app, and a command line interface. Bitwarden works everywhere you need it.
+- [Bitwarden](https://bitwarden.com/) is the best open source, cross-platform password manager that I’ve ever tried. And the best part is the free version is more than enough for most people. There are desktop and mobile clients, browser extensions, and a command line interface. Bitwarden works everywhere you need it.
     - If you are only using Apple hardware, Apple Passwords is a great alternative with with seamless integration across mobile and desktop clients.
 
 ## AI Assistant

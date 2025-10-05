@@ -1,5 +1,11 @@
 # Change Log
 
+## 2025-10-05
+
+Added **Readest** and demoted **FBReader** to a second choice. Readest is a modern take on the ebook reader while FBReader is starting to feel dated.
+
+Removed **Sumatra PDF**. I just don't use it anymore. 
+
 ## 2025-09-20
 
 Added **NetNewsWire**. I think it's nearly as good as the paid app **News Explorer**. 
