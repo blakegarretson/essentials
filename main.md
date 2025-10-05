@@ -92,9 +92,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Plex](https://plex.tv/) is my reluctant choice for the best personal media server for most people. This is what you want for steaming your media to your Roku, Fire Stick, smart TV, etc. Just tell Plex where you store your movies, TV shows, and music and it will do the rest, including downloading cover art and show descriptions. My main reservation is they are monetizing the service more, and the free features feel sparse. For instance, you need a “Plex Pass” subscription to download shows to your client device for offline viewing. However, presently the core functionality is still free, and the easy setup and overall user experience is still worth giving Plex a try.
 - [Jellyfin](https://jellyfin.org/) is the more consumer-friendly, open-source alternative to Plex. Setup is fairly simple, although you may need to add some plugins to get all the functionality you want. Otherwise, it’s a fine alternative and arguably better than Plex in some regards. I would recommend trying Jellyfin first if you are more tech savvy. There are Jellyfin clients on every platform as well, so streaming to any device is easy.
 
-## Video Downloader
+## Audio/Video Downloader
 
-- [Stacher7](https://stacher.io) is the easy way to download YouTube videos. While the interface is simple enough, it has plenty of features like audio extraction and trimming. Even though YouTube is the primary use case, it actually works great for other sites like Reddit as well. 
+- [Stacher7](https://stacher.io) is the easy way to download YouTube videos as well as video or audio from thousands of other sites like Reddit or Vimeo. While the interface is simple enough, it has plenty of features ranging from simple audio extraction and trimming to truly advanced functionality.
 
 ## Comic Reader
 
