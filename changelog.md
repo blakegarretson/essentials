@@ -1,5 +1,15 @@
 # Change Log
 
+## 2025-12-01
+
+Added **Affinity** now that it’s free. 
+
+Added **Krita AI Diffusion** to the AI image section. Updated **ComfyUI** description.
+
+Added **foobar2000** because it is way too hard to find a free app on Mac crossfades mp3 files. I rarely play local mp3 files since I switched to Spotify, but when I do, foobar2000 is essential. 
+
+Revamped the **Virtual Instruments** section to add a couple synths and other plugins.
+
 ## 2025-10-05
 
 Added **Readest** and demoted **FBReader** to a second choice. Readest is a modern take on the ebook reader while FBReader is starting to feel dated.

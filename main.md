@@ -17,8 +17,14 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Photo/Image Editor
 
-- [GIMP](http://www.gimp.org/): Robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it’s not really suited for pros either given some of the missing features. Having said that, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation.
+- [Affinity](https://www.affinity.studio) is a free all-in-one solution for raster and vector editing, as well as desktop publishing. The user experience is really well thought out, and the functionality is all there, which makes it easy to recommend. For most people, Affinity is probably a better (and cheaper!) alternative to the Adobe suite. Just be aware that the AI-based functions (like generative fill) require a paid Canva subscription, but you don’t need to pay anything if you just want to use traditional image/vector editing tools. **(Windows, Mac)**
+
+### Honorable Mentions
+
+- [GIMP](http://www.gimp.org/): A tried-and-true robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it’s not really suited for pros either given some of the missing features. Having said that, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation.
     - Also check out [Krita](https://krita.org/en/)  (below) for image editing. While it has historically focused more on digital painting than general editing, it has many features that make it a great choice for general editing for many use cases as well.
+- [Inkscape](https://inkscape.org/en/): Incredibly capable vector image editor for creating professional quality, scalable diagrams, logos, you-name-it. Its functionality rivals Adobe Illustrator, although sometimes the tools don’t map one-to-one. 
+
 
 ## Digital Sketching/Painting
 
@@ -40,15 +46,12 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [darktable](https://www.darktable.org/): If you work with RAW photo files or want to get the most out of your photos, you need a non-destructive post-production software like darktable. This isn’t about “photoshopping” a picture; instead it’s all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc.
     - [RawTherapee](https://www.rawtherapee.com/) is another app worth having in your toolbox. While it seems to me that darktable is overall the better option, RawTherapee has a few features/functions that I think are superior, so I like having both installed.
 
-## Vector Image Editor
+## AI Image Generation
 
-- [Inkscape](https://inkscape.org/en/): Incredibly capable vector image editor for creating professional quality, scalable diagrams, logos, you-name-it. Its functionality rivals Adobe Illustrator, although sometimes the tools don’t map one-to-one. 
-
-## Stable Diffusion AI Image Generation
-
-- [Draw Things](https://drawthings.ai/) is the easiest to install and use AI image generator on Mac. One-click install, download a few models, and you’re in business. It handles inpainting/outpainting without the user even having to know what that means.  Having said that, the current state of AI means you have to know a bit of jargon and whatnot before you can really use this tool, but the toolset is robust, the in-app help is decent, and the results are excellent even running on a M1 Mac Mini.  AI is a rapidly changing landscape, and the developer is keeping up and adding impressive features at a fast pace. **(Mac)**
-    - [Diffusion Bee](https://diffusionbee.com/) is the other “beginners” AI program that is easy to install. It isn’t as good as Draw Things at the moment, but it is certainly worth an honorable mention. There is a Windows version in the works, which will probably quickly make it the easiest way to run Stable Diffusion on Windows. **(Mac)**
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) is probably the closest thing we have to a “one-click” install of Stable Diffusion on Windows so far. Just download it, extract the archive, and put your models in place. There are lots of web interfaces to Stable Diffusion, but many of them are harder to install and configure.
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) seems to be emerging as the de facto standard cross-platform interface to the most popular AI models. I see ComfyUI workflows being shared more often than anything else. Installing an AI toolchain used to be incredibly difficult, but ComfyUI made it easy. It’s basically a one-click install.
+    - I have already mentioned [Krita](https://krita.org/en/) above as a great digital painting program, but it is hard to mention ComfyUI without also recommending Krita and the [Krita AI Diffusion](https://kritaaidiffusion.com) plugin. With the plugin installed, it turns Krita into a front end for ComfyUI. It takes care of all the installation and configuration of ComfyUI for you, AND it makes tasks like inpainting and outpainting a breeze.
+- [Draw Things](https://drawthings.ai/) is the easiest to install and use AI image generator on Mac. One-click install, download a few models, and you’re in business. It handles inpainting/outpainting without the user even having to know what that means.  Having said that, the current state of AI means you have to know a bit of jargon and whatnot before you can really use this tool, but the toolset is robust, the in-app help is decent, and the results are excellent even running on lower-end hardware.  AI is a rapidly changing landscape, and the developer is keeping up and adding impressive features at a fast pace. **(Mac)**
+    - [Diffusion Bee](https://diffusionbee.com/) is the other “beginners” AI program that is easy to install. It isn’t as good as Draw Things at the moment, but it is certainly worth an honorable mention. The website claims there is a Windows version in the works. **(Mac)**
 
 ## Screenshots/Screen Capture
 
@@ -102,12 +105,14 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 # Music & Audio
 
-## Music Library Organization and Playback
+## Local Music Playback & Library Organization
 
-- [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. An app like this is has become mostly obsolete since I’ve moved to streaming services like Spotify, but when I do want to work with local music files, it’s hard to do better than MusicBee. **(Windows)**
+*Note: Apps in this category have become mostly obsolete since I have moved to streaming services like Spotify, but when I do want to work with local music files, it’s hard to do better than these.*
+
+- [foobar2000](https://www.foobar2000.org) has been around forever, and it is still going strong as a feature-packed music player.  It has a minimal interface, but there is a lot under the hood such as crossfaded playback, EQ, limiters, and up/down-mixing. It’s surprisingly hard to find a free app on Mac that handles crossfading, so I like having foobar2000 around.
+- [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. A **(Windows)**
     - I’m not listing a Mac alternative for playback here because the default Apple Music app is fine, and a third party app just isn’t necessary for me.
 - [MusicBrainz Picard](https://picard.musicbrainz.org/) is the best cross-platform solution for identifying and organizing a large collection of music files. It can figure out what files are based on tags and even audio fingerprints. Besides tagging it will rename and move files as well. Even if you’re using Apple Music or MusicBee to organize your music library, this is still a handy tool to clean up the incorrectly tagged files before adding them to your library.
-    - If Picard isn’t to your liking, I would suggest [MP3Tag](https://www.mp3tag.de/en/) . It is a universal batch tag editor that handles MP3s along with every other popular audio format. The robust file renaming/retagging tools and online database lookups make this powerful option for cleaning up your audio collection. This is only free for Windows. It’s a paid app on the Mac App Store. **(Windows)**
 
 ## Audio Conversion
 
@@ -123,16 +128,20 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [GarageBand](https://www.apple.com/mac/garageband/) is the obvious easy-to-use entry-level option for the Mac. It’s free on the App Store, so you might as well give it a try. It’s tough to beat the no nonsense workflow that works great with MIDI as well as recorded tracks. **(Mac)**
 - [Cakewalk Next](https://www.cakewalk.com): Cakewalk used to be a commercial DAW that went through a few rebrandings and iterations over recent years. There are currently two products under the Cakewalk name: Sonar and Next. Cakewalk Next is a free DAW with all the basic features for creating songs. This is a great place to start if you want to make some music.
     - Another great DAW is [Waveform Free](https://www.tracktion.com/products/waveform-free). While there is a Pro version with more features, the free version has no limitations and is very capable.
-- [Ardour](https://ardour.org/) is worth checking out if you’re a Linux user. It does all the basics really well. From recording audio or MIDI, to editing, to mixing, you’re covered. The only trick is if you really want it for free, you should use your distribution’s packager manager and don’t download it from the website.
-    - You may be asking why I limit my Ardour recommendation to Linux users. The simple answer is on Windows and Mac it isn’t really “free”. While it is open source and you can build it from scratch for free, if you want a convenient, pre-built binary, you need to either buy it or pay a subscription. The free/demo version goes silent after 10 minutes, which I consider too restrictive to still include here on my list of free software.  
 
-## Step Sequencer
+### Virtual Instruments & Plugins
 
-- [LMMS](https://lmms.io/): Its website says it’s a “sound generation system, synthesizer, beat/baseline editor and MIDI control system which can power an entire home studio”. I’d call it a nice step sequencer with VST and SoundFont support for creating music. I wouldn’t call it a DAW because it doesn’t record multitrack audio, but combined with another app like Audacity, you can make some cool stuff. Honestly, I wouldn’t even include LMMS when we have free options like GarageBand and Cakewalk Next, except LMMS is open source and truly free.
+*If you are a hobbyist looking to make music without spending a dime, here are a few free plugins to go along with the above DAWs.*
 
-## Synth Plugins
-
-- A couple great synths plugins worth trying with the apps above are [dexed](https://asb2m10.github.io/dexed/) and [Helm](https://tytel.org/helm/).
+- [Surge XT](https://surge-synthesizer.github.io) is a hybrid synthesizer with more features than I can list here. The presets are comprehensive and you can make basically any sound you can imagine with it. It’s like jumbling all the synths from the 80s into one.
+- [dexed](https://asb2m10.github.io/dexed/) is a faithful recreation of the Yamaha DX7 synth.
+- [Vital](https://vital.audio) is a modern synth with a clean interface that is useful in learning wavetable synths. The free version just has less presets and wavetables than the paid versions, but otherwise it is perfectly usable.
+- [TAL-NoiseMaker](https://tal-software.com/products/tal-noisemaker) is like an updated Roland Juno 60 synth.
+- [Helm](https://tytel.org/helm/) is a fairly basic synth, but everything it does it does well, and I appreciate the modern look and feel.  
+- [Tricent mk III](https://www.fullbucket.de/music/tricent.html) is a perfect reproduction of the KORG Trident mk II from 1982. 
+- [AirWindows](https://www.airwindows.com) is a suite of effects plugins that come in handy. Click on the “Consolidated Plugin” link on the left side of the page to get the entire collection.
+- [PULSE 2](https://lancasteraudio.com/shop/plugins/pulse-2/) is a nice straight-forward IR loader plugin. If you know what Impulse Responses are, you may want to check this out.
+- [Ignite Amps](https://www.igniteamps.com/#software) make a number of free amp and pedal plugins that help you shape your guitar tone.
 
 # Text & Documents
 
@@ -226,7 +235,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Desktop Publishing
 
-- [Scribus](https://www.scribus.net/) is the best free desktop publishing solution out there; perfect for making flyers, invitations, banners, stationary, and even full books. When a casual user needs something more than Word, but can’t justify buying something like Adobe InDesign, Scribus is probably your best option.
+- [Affinity](https://www.affinity.studio) is not just a great image editor (see above), it is also probably the best free desktop publishing solution out there. It’s perfect for making flyers, invitations, banners, stationary, and even full books. When a casual user needs something more than Word, but can’t justify buying something like Adobe InDesign, Affinity is probably your best option. 
+    - If you don’t like Affinity or would rather have an open source solution, [Scribus](https://www.scribus.net/) is the obvious alternative. 
 
 ## Sheet Music & Chord Sheets
 
@@ -629,8 +639,7 @@ Just for easy reference, here are some websites to find and download some great 
 
 Okay, I know I said this was a list of free software, but sometimes paid apps are worth it, so I'm listing my favorites here for my own future reference. And hey, maybe someone else will find these recommendations useful too.  Here's the catch: Most of these are Mac apps. On Linux, every utility and app I use is free. On Windows, buying these sorts of tools were largely pointless because I used Windows extensively in corporate environments where I couldn't install my own software. For personal use, I spend most of my time on Macs now, therefore this is where I spend my money to buy quality-of-life tools. So, here are some (mostly) Mac apps worth buying:
 
-- [Affinity Suite](https://affinity.serif.com/en-us/) (Photos, Designer, and Publisher): While I love Gimp and Inkscape, Affinity is worth the reasonably priced one-time purchase. The functionality isn’t always much better than the free options (although it usually is), but the interface and user experience is really well thought out and polished. For most people, Affinity is probably even a better (and cheaper!) alternative to the Adobe suite. **(Windows, Mac)**
-- [Pixelmator Pro](https://www.pixelmator.com/pro/) is another great option for editing photos and creating simple vector graphics. For most casual users, I would recommend this over the Affinity suite. Combining the raster and vector features into one seamless interface just makes sense, and you don’t have to worry about hopping between software to finish your task or project. **(Mac)**
+- [Pixelmator Pro](https://www.pixelmator.com/pro/) is a great option for editing photos and creating simple vector graphics. For most casual users, I would recommend this over Affinity if usability is more important than cost. Not that Affinity is hard to use, but Pixelmator seems to be geared more toward casual users. **(Mac)**
 - [UpNote](https://getupnote.com) is such a fantastic note taking program. It’s like Apple Notes, but supercharged with way more functionality. While it’s not my primary notes app, I’m glad it’s in my toolbox and you may find it fits your style perfectly. **(Windows, Mac)**
 - [Shottr](https://shottr.cc) is mentioned above as a great screenshot app. To me it’s worth upgrading to the paid version. **(Mac)**
 - [Typora](https://typora.io): This is an amazing Markdown editor that is so clean and capable I bought it even though I love (and mostly use) Obsidian. Typora has live rendering of your markdown, and it excels at scientific writing as it supports LaTeX equations and various diagram formats. **(Mac)**
