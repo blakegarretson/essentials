@@ -129,9 +129,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Cakewalk Next](https://www.cakewalk.com): Cakewalk used to be a commercial DAW that went through a few rebrandings and iterations over recent years. There are currently two products under the Cakewalk name: Sonar and Next. Cakewalk Next is a free DAW with all the basic features for creating songs. This is a great place to start if you want to make some music.
     - Another great DAW is [Waveform Free](https://www.tracktion.com/products/waveform-free). While there is a Pro version with more features, the free version has no limitations and is very capable.
 
-### Virtual Instruments & Plugins
-
 *If you are a hobbyist looking to make music without spending a dime, here are a few free plugins to go along with the above DAWs.*
+
+### Virtual Instruments & Plugins
 
 - [Surge XT](https://surge-synthesizer.github.io) is a hybrid synthesizer with more features than I can list here. The presets are comprehensive and you can make basically any sound you can imagine with it. It’s like jumbling all the synths from the 80s into one.
 - [dexed](https://asb2m10.github.io/dexed/) is a faithful recreation of the Yamaha DX7 synth.
