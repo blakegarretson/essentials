@@ -103,6 +103,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [YACReader](http://www.yacreader.com/) is actually two programs in one. It comes with an excellent comic reader and a comics library browser. It reads every popular format (cbr, cbz, cb7, pdf, etc.), and it has all the features I need, and quite a few I don’t. Works equally well on Windows, Mac, and Linux, which is handy so I can use the same solution everywhere.
 
+## Floorplans / Interior Design
+
+- [Sweet Home 3D](https://www.sweethome3d.com) is one of the only free options for creating a 3D model of a home interior. Helpful for laying out rooms if you're designing a new house or figuring out how to arrange your furniture. (I don't know where to place this one, so it ended up in the Graphics category since it didn't really fit into STEM either.)
+
 # Music & Audio
 
 ## Local Music Playback & Library Organization
@@ -136,6 +140,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Surge XT](https://surge-synthesizer.github.io) is a hybrid synthesizer with more features than I can list here. The presets are comprehensive and you can make basically any sound you can imagine with it. It’s like jumbling all the synths from the 80s into one.
 - [dexed](https://asb2m10.github.io/dexed/) is a faithful recreation of the Yamaha DX7 synth.
 - [Vital](https://vital.audio) is a modern synth with a clean interface that is useful in learning wavetable synths. The free version just has less presets and wavetables than the paid versions, but otherwise it is perfectly usable.
+- [OB-Xf](https://github.com/surge-synthesizer/OB-Xf) is based on the Oberheim OB-X synth, but there have been some upgrades. OB-Xf sports 8-voice polyphony, various oscillator modes and modulation options, and MIDI learning for easily mapping your MIDI keyboard.
 - [TAL-NoiseMaker](https://tal-software.com/products/tal-noisemaker) is like an updated Roland Juno 60 synth.
 - [Helm](https://tytel.org/helm/) is a fairly basic synth, but everything it does it does well, and I appreciate the modern look and feel.  
 - [Tricent mk III](https://www.fullbucket.de/music/tricent.html) is a perfect reproduction of the KORG Trident mk II from 1982. 
@@ -238,6 +243,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Affinity](https://www.affinity.studio) is not just a great image editor (see above), it is also probably the best free desktop publishing solution out there. It’s perfect for making flyers, invitations, banners, stationary, and even full books. When a casual user needs something more than Word, but can’t justify buying something like Adobe InDesign, Affinity is probably your best option. 
     - If you don’t like Affinity or would rather have an open source solution, [Scribus](https://www.scribus.net/) is the obvious alternative. 
 
+## Scanning 
+
+- [NAPS2](https://www.naps2.com) is the scanning software that works on all platforms and with nearly any scanner hardware.  You may need this if you have an old scanner or perhaps you just want a similar scanner interface across all your computers, regardless of the brands of scanners you have. Along with other handy features, you can save to PDF or various image formats, use Optical Character Recognition (OCR) to convert images to text, or merge PDFs.
+
 ## Sheet Music & Chord Sheets
 
 - [MuseScore](https://musescore.org/en): Easy-to-use interface for creating sheet music. With great documentation and abundant resources like videos, tutorials, and how-tos, you will be creating great looking sheet music documents in no time.
@@ -250,8 +259,11 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/) is a great choice for your default web browser. The robust feature set and impressive array of extensions make it easy to recommend. It's arguably far more pro-consumer than Chrome with its stance on ad-blockers.
     - [Google Chrome](http://www.google.com/chrome) should get a mention since it was my default browser from 2008 until 2024. Its most recent policy on ad-blockers was a deal breaker for me, and I left to try other options.
-    - If customization is important to you, [Vivaldi](https://vivaldi.com) may be of interest. It’s doing some cool things and even integrates features like an RSS reader.
     - And because you can never have too many browsers, the [DuckDuckGo](https://duckduckgo.com/) browser is another nice option if privacy and security are a high priority.
+
+## Browser Ad Blocker
+
+- [Ghostery](https://www.ghostery.com) works on all the major browsers and platforms, it aggressively blocks trackers and ads, and the interface is simple.
 
 ## News Reader
 
@@ -353,6 +365,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - I’ve already listed Microsoft PowerToys elsewhere in this list, but it’s worth mentioning that it comes with PowerRename. PowerRename has less features than WildRename, but it is still incredibly powerful while the simple interface is easier to figure out. **(Windows)**
     - Another option is [Bulk Rename Utility](https://www.bulkrenameutility.co.uk). It is arguably the better option as it is actively maintained and has more functionality (at the cost of added complexity), but it is only free for personal use.
 - [Transnomino](https://www.transnomino.com/): This is my go-to renaming utility on Mac. Regular expressions, prefixfes, suffixes, numbering, case changes, you-name-it and Transnomino can do it. **(Mac)**
+    - Don't forget Mac has bulk renaming built-in. Just select multiple files in Finder, right-click and select "Rename..." and you have a simple but capable renaming solution that handles replacement, appending, prepending, and other formatting like adding counters or dates.
+    - One other alternative is [NameChanger](https://mrrsoftware.com/namechanger/), which may suit your use case better since the interface is slightly different than Transnomino.
 
 ## Local File Synchronization
 
@@ -431,6 +445,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - [QEMU](https://www.qemu.org) is also an option worth considering as it can be significantly faster than Virtualbox in some situations, and it can emulate systems that Virtualbox can’t. For simple use cases, I would still start with Virtualbox though.
 - [UTM](https://mac.getutm.app) is my first choice for virtual machines on Mac, including Apple Silicon Macs. It’s just easy to use and does what I need it to do. It’s great for creating Linux sandboxes where I don’t have to worry about messing up my Mac when I’m building out certain toolchains. **(Mac)**
 
+## Menu-Based Launcher
+
+- [Kando](https://kando.menu) is an incredibly powerful radial menu app that has endless customization possibilities. Hotkey combos can trigger various context-aware menus and submenus. These sorts of launcher apps are often platform-specific, so it's awesome that Kando supports Windows, Mac, and Linux so you can have a consistent experience across all your computers.
+
 ## Windows System Utilities
 
 - [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/): This is a collection of tools that has been around since the 1990s, and was eventually acquired by Microsoft because they are so good. (And they are still being updated!) You can download the whole suite, or individual tools.  I’m going to highlight just a couple here to give you the flavor of the suite, but it’s worth perusing the whole list and seeing what’s available:
@@ -443,8 +461,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Loop](https://github.com/MrKai77/Loop) is window manager that really shines if you prefer mouse-driven actions rather than keyboard shortcuts. The radial menu provides a visual approach so you don’t need to remember a bunch of key combinations.
     - If you just want a keyboard-based window manager, [Rectangle](https://rectangleapp.com/) allows for fairly complex window manipulation, and it may be better for you than Loop. Or use both.
+- [Alt-Tab](https://alt-tab-macos.netlify.app) is an improved version of the standard "Command-Tab" for switching apps. It is customizable, but the main feature is adding thumbnails of your apps instead of just the app icon. 
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) is probably the best known app to keep your screen on. There are all sorts of reasons you might need this, but I often use it when I’m sketching from a reference photo and I don’t want the screen going to sleep on me.
 - [Hyperkey](https://hyperkey.app/) is so simple, yet it has become essential for me. It lets you remap the caps-lock key to any combination of meta keys. It can be configured in any number of ways, but I have it setup so when I press caps-lock, it is the same as pressing shift-command-ctrl. Then I map that combo to whatever I like in my various apps. e.g. in VS Code, pressing caps-lock and P will run the current file in Python.
+- [Fluid](https://altic.dev/fluid) brings talk-to-text dictation to your Mac. Once you get used to it on your iPhone, it feels like something is missing on your laptop/desktop. I have it configured to start transcribing when I press the right-control key, and it stops when I press it again. Accuracy is excellent with the right model selected, and you don't need the cloud AI features to get great results.
 - [Folder Peek](https://sindresorhus.com/folder-peek) gives you quick access to your choice of folders right from your menu bar.
 - [Actions](https://sindresorhus.com/actions) adds additional functionality to Shortcuts. If you use Shortcuts, you probably can benefit from this app. The list of functionality is impressive.
 - [System Color Picker](https://sindresorhus.com/system-color-picker) is a simple color explorer for choosing colors and getting a text representation (hex, rgb, etc.) useful in programming, web design, and digital imagery. Includes an eye-dropper tool.

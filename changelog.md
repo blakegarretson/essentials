@@ -1,5 +1,21 @@
 # Change Log
 
+## 2026-02-24
+
+Added **Kando**. It is fantastic.
+
+Added **Fluid** to add dictation to my Mac.
+
+Added **Alt-Tab** finally. I use it more often than the built-in command-tab, so it was past due.
+
+Added **Ghostery** because I noticed I don't have an ad blocker on my list. It's a great choice for an open-source solution that works everywhere.
+
+Added **NAPS2** for a scanning solution. 
+
+Added **OB-Xf**, which is a fantastic synth if you're into old school analog synthesizers.
+
+Added **Sweet Home 3D** because I'm dreaming of a new house, and that's the best free option I can find. I tried several paid apps as well, and surprisingly they aren't much better.
+
 ## 2025-12-01
 
 Added **Affinity** now that it’s free. 
