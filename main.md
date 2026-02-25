@@ -329,16 +329,16 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/) may be a simpler solution if all you need is to fix an SD card. Some devices can be finicky about the format of SD/microSD cards, and this official application from the SD Association has fixed some obscure issues I’ve had in the past. This is especially true of SDHC/SDXC cards since Windows 10 seems to like formatting higher capacity cards as NTFS instead of FAT32.
 - [TestDisk](https://www.cgsecurity.org/wiki/TestDisk): If you need this, you’ve probably done something really bad like accidentally deleting a partition table. TestDisk can help you recover lost partitions, make a disk bootable again, or even recover files from deleted partitions (among other things).
 
-## Windows File Recovery
+## File Recovery
 
 *Between these programs you should be able to recover any file that is physically possible to recover without special hardware. I’m listing them all because sometimes one can get the job done where another can’t.*
 
-- [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec): Comes in two flavors: command line and a simple graphical interface. This is the first thing I try when I need to “undelete” pictures I accidentally deleted from an SD card. Comes with TestDisk (see above). **(Windows)**
-- [Recuva](https://www.piriform.com/recuva): Very polished interface, and the free version has enough features for most people.
-- Zero Assumption Recovery: The free version has some limitations, but the digital image recovery mode has no functional limitations. **(Windows)**
-- [DiskDigger](http://diskdigger.org/): Lightweight, single exe so no install necessary. While it is free for personal use, it will nag you before recovering each and every file, so if you have a lot of files to recover, it is worth just buying it. **(Windows)**
+- [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec): On Windows this comes in two flavors: command line and a simple graphical interface. On Mac you only get the command line tool, but it is incredibly powerful. This is the first thing I try when I need to “undelete” pictures I accidentally deleted from an SD card. Comes with TestDisk (see above). 
+- [Recuva](https://www.piriform.com/recuva): Very polished interface, and the free version has enough features for most people. **(Windows)**
+- [DiskDigger](http://diskdigger.org/): Lightweight, single exe so no install necessary. While it is free for personal use, it will nag you before recovering each and every file, so if you have a lot of files to recover, it is worth just buying it. **(Windows, Mac)**
 
 ## Disk Performance
+
 - [CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/) / [AmorphousDiskMark](https://www.katsurashareware.com/amorphousdiskmark/): If you want to check the read/write speed of any storage device, you can’t do much better than these free apps. CrystalDiskMark is the original Windows app, and AmorphousDiskMark is the Mac port. AmorphousDiskMark is written by a different developer, but it is the same right down to the interface’s look and feel. Tools like these really help weed out the trash if you like to buy cheap SD cards or flash drives. Some are worth buying again while others aren’t, and these apps give you the data to make that decision.  
 
 ## File Deletion
