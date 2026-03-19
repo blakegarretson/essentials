@@ -169,7 +169,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 *This category of apps is appropriate for writing long-form prose like papers, articles, essays, or even books. I’m only including Markdown editors here as I think that’s just a standard requirement for me at this point.*
 
 - [Obsidian](https://obsidian.md/) is probably best known as a note-taking app, but it has comprehensive Markdown support, live preview, and a plugin ecosystem that can turn it into just about anything you want. Personally, I like to install plugins for [LanguageTool](https://languagetool.org), smart quotes, and Git (for document version control). Obsidian’s support of math blocks and diagrams also makes it a viable contender for technical papers as well.
-- [Zettlr](https://zettlr.com) advertises itself as a “one-stop publication workbench”, and that’s an apt description. While excellent for notes, it handles long projects without breaking a sweat, especially if you need to handle citations. Like Obsidian, it has a very nice live-preview which I find mandatory for a modern writing app.
+- [Zettlr](https://zettlr.com) advertises itself as a “one-stop publication workbench”, and that’s an apt description. While excellent for notes, it handles long projects without breaking a sweat, especially if you need to handle citations, LaTeX math equations, or diagrams. Like Obsidian, it has a very nice live-preview which I find mandatory for a modern writing app. 
 
 ### Honorable Mentions
 
