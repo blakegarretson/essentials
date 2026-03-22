@@ -1,5 +1,8 @@
 # Change Log
 
+## 2026-03-22
+
+Added **digiKam**. I have been culling a lot of wildlife pictures to pick the best one from a set, and I think it does a better job than the other options.
 ## 2026-02-24
 
 Added **Kando**. It is fantastic.

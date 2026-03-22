@@ -15,7 +15,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [IINA](https://iina.io/): While VLC works great on any platform, Mac users may prefer IINA. It’s a full-fledged media player with a clean interface and features like picture-in-picture mode and built-in subtitle downloading. If I’m on a Mac, I’m using IINA over VLC 99% of the time. **(Mac)**
 - [Friendly Streaming Browser](https://apps.apple.com/us/app/friendly-streaming-browser/id553245401?mt=12) is a weird name for a cool app. It’s just a front end for various streaming services (YouTube, Netflix, etc.), but it excels at multitasking by offering a Picture-In-Picture mode. I didn’t realize I needed this until I tried it. This is what you want when you’re working on a project and need an easy way to play a 4-hour instrumental playlist from YouTube in the background, or maybe you’re editing photos or something, and you want to watch a mindless episode of a cooking show in a tiny window at the corner of your screen. **(Mac)**
 
-## Photo/Image Editor
+## Photo/Vector Editor
 
 - [Affinity](https://www.affinity.studio) is a free all-in-one solution for raster and vector editing, as well as desktop publishing. The user experience is really well thought out, and the functionality is all there, which makes it easy to recommend. For most people, Affinity is probably a better (and cheaper!) alternative to the Adobe suite. Just be aware that the AI-based functions (like generative fill) require a paid Canva subscription, but you don’t need to pay anything if you just want to use traditional image/vector editing tools. **(Windows, Mac)**
 
@@ -30,21 +30,16 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Krita](https://krita.org/en/) is fantastic digital painting software. If you’re into illustration or digital painting, it has what you need. Krita has plenty of great features, but one thing that stands out to me is that it comes with a large selection of high quality brushes that are excellent. Personally, I have moved my digital painting to an iPad, so I’m not using Krita much these days, but I still would recommend it for desktop use.
 
-## Photo Management/Viewing (and Casual Editing)
+## Photo Management/Processing/Viewing
 
-- [Photoscape X](http://x.photoscape.org/): Great program for photo viewing and basic touch-up. It makes it easy to do common tasks like cropping to standard sizes and removing red-eye. There is a Pro version with extra features, but the free version boasts a truly impressive feature set that is more than enough for most people. If you buy the Pro version it’s because you like it so much, not because you felt forced into it because the free version was so crippled.
+- [digiKam](https://www.digikam.org) is a great way to manage your photo collection and do editing and batch processing. It’s especially good at culling large collections of photos, and it has facial recognition if you need to find pictures of certain people. It will also export directly to some cloud storage services and even websites like iNaturalist. The learning curve might be a bit steep for casual users, but it has a wealth of features.
+- [darktable](https://www.darktable.org/): If you work with raw photo files or want to get the most out of your photos, a non-destructive post-production software like darktable is essential. This isn’t about “photoshopping” a picture; instead it’s all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc. Having said that, for most people, I think digiKam might the better starting point.
+- [RawTherapee](https://www.rawtherapee.com/) is similar enough to darktable and digiKam that it may seem redundant, but it’s worth having in your toolbox because it does some things better or easier. The toolset is robust with everything from spot removal to haze removal.
 
 ### Honorable Mentions
 
 - If the Photoscape X workflow doesn’t agree with you, my runner up is [XnView MP](https://www.xnview.com/en/xnviewmp/). It has an old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
-- [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm) is a fantastic photo viewer with a truly impressive set of editing features. After Google retired their Picasa software I used FastStone for about a year, but I just couldn’t get on board with the (for me) unintuitive interface, and I ended up switching to something else. While it didn’t work out for me, it might be perfect for you. **(Windows)**
-- If all you need is a super-fast, image viewer (that incidentally has some robust editing features), look no further than [IrfanView](https://www.irfanview.com/). I started using it in the late 1990s, and it is still going strong. This is a great program to make your default viewer when clicking on JPEGs, GIFs, and PNGs. **(Windows)**
-- If you want a bare bones, lightweight image viewer with a clean interface on Mac, [qView](https://interversehq.com/qview/) is a solid choice. **(Mac)**
-
-## Image Processing/Workflow
-
-- [darktable](https://www.darktable.org/): If you work with RAW photo files or want to get the most out of your photos, you need a non-destructive post-production software like darktable. This isn’t about “photoshopping” a picture; instead it’s all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc. 
-    - [RawTherapee](https://www.rawtherapee.com/) is another app worth having in your toolbox. While it seems to me that darktable is overall the better option, RawTherapee has a few features/functions that I think are superior, so I like having both installed.
+- [FastStone Image Viewer](https://www.faststone.org/FSViewerDetail.htm) is a fantastic photo viewer with a truly impressive set of editing features. I used FastStone for about a year, but I just couldn’t get on board with the (for me) unintuitive interface, and I ended up switching to something else. While it didn’t work out for me, it might be perfect for you. **(Windows)**
 
 ## AI Image Generation
 
