@@ -100,7 +100,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Comic Reader
 
-- [YACReader](http://www.yacreader.com/) is actually two programs in one. It comes with an excellent comic reader and a comics library browser. It reads every popular format (cbr, cbz, cb7, PDF, etc.), and it has all the features I need, and quite a few I don’t. Works equally well on Windows, Mac, and Linux, which is handy so I can use the same solution everywhere.
+- [YACReader](http://www.yacreader.com/) is actually two programs in one. It comes with an excellent comic reader and a comics library browser. It reads every popular format (CBR, CBZ, CB7, PDF, etc.), and it has all the features I need, and quite a few I don’t. Works equally well on Windows, Mac, and Linux, which is handy so I can use the same solution everywhere.
 
 ## Floorplans / Interior Design
 
@@ -142,7 +142,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [OB-Xf](https://github.com/surge-synthesizer/OB-Xf) is based on the Oberheim OB-X synth, but there have been some upgrades. OB-Xf sports 8-voice polyphony, various oscillator modes and modulation options, and MIDI learning for easily mapping your MIDI keyboard.
 - [TAL-NoiseMaker](https://tal-software.com/products/tal-noisemaker) is like an updated Roland Juno 60 synth.
 - [Helm](https://tytel.org/helm/) is a fairly basic synth, but everything it does it does well, and I appreciate the modern look and feel.  
-- [Tricent mk III](https://www.fullbucket.de/music/tricent.html) is a perfect reproduction of the KORG Trident mk II from 1982. 
+- [Tricent mk III](https://www.fullbucket.de/music/tricent.html) is a perfect reproduction of the KORG Trident mk II from 1982. 
 - [AirWindows](https://www.airwindows.com) is a suite of effects plugins that come in handy. Click on the “Consolidated Plugin” link on the left side of the page to get the entire collection.
 - [PULSE 2](https://lancasteraudio.com/shop/plugins/pulse-2/) is a nice straight-forward IR loader plugin. If you know what Impulse Responses are, you may want to check this out.
 - [Ignite Amps](https://www.igniteamps.com/#software) make a number of free amp and pedal plugins that help you shape your guitar tone.
