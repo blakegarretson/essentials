@@ -33,7 +33,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Photo Management/Processing/Viewing
 
 - [digiKam](https://www.digikam.org) is a great way to manage your photo collection and do editing and batch processing. It’s especially good at culling large collections of photos, and it has facial recognition if you need to find pictures of certain people. It will also export directly to some cloud storage services and even websites like iNaturalist. The learning curve might be a bit steep for casual users, but it has a wealth of features.
-- [darktable](https://www.darktable.org/): If you work with raw photo files or want to get the most out of your photos, a non-destructive post-production software like darktable is essential. This isn’t about “photoshopping” a picture; instead it’s all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc. Having said that, for most people, I think digiKam might the better starting point.
+- [darktable](https://www.darktable.org/): If you work with raw photo files or want to get the most out of your photos, a non-destructive post-production software like darktable is essential. This isn’t about “photoshopping” a picture; instead it’s all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc. Having said that, for most people, this is probably overkill.
 - [RawTherapee](https://www.rawtherapee.com/) is similar enough to darktable and digiKam that it may seem redundant, but it’s worth having in your toolbox because it does some things better or easier. The toolset is robust with everything from spot removal to haze removal.
 
 ### Honorable Mentions
