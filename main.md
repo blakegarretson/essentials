@@ -439,6 +439,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Keyboard-Based Launcher
 
 - [Raycast](https://www.raycast.com) has more functions than I can list here, but it’s great for launching apps or commands quickly, searching for files, assigning global hotkeys to apps/commands, text replacements, and text snippets among a ton of other features. If you’re a Mac user, it’s like a super-charged Spotlight.
+
 ## Menu-Based Launcher
 
 - [Kando](https://kando.menu) is an incredibly powerful radial menu app that has endless customization possibilities. Hotkey combos can trigger various context-aware menus and submenus. These sorts of launcher apps are often platform-specific, so it's awesome that Kando supports Windows, Mac, and Linux so you can have a consistent experience across all your computers.
