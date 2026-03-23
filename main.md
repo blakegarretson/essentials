@@ -190,6 +190,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [SnippetsLab](https://www.renfei.org/snippets-lab/) is a great way to manage snippets of text for easy reuse. I use this for boilerplate in emails and coding as well as command-line one-liners. The SnippetsLab Assistant lives in the Menu Bar and can be activated with global keyboard shortcuts from any program to easily find and insert your snippets. There is also an excellent Raycast extension if you prefer to trigger the snippets via Raycast. **(Mac)**
     - If you need a cross-platform solution, [massCode](https://masscode.io) is a snippets manager heavily inspired by SnippetsLab. It has Markdown and Mermaid support, as well as interesting features like integrated mind-mapping that generates graphics representations from Markdown hierarchy. My main complaint is that it doesn’t have global hotkey support, so actually *using* the snippets can be tedious and harder than it should be. It does have a Raycast extension as well, but it only searches the snippet title (not the content) and it only copies the snippet to the clipboard instead of pasting it into the active app. 
+    - If you are a [Raycast](https://www.raycast.com) user, it is worth considering using its builtin snippet functionality or an extension like [Snippet Surfer](https://github.com/raycast/extensions/blob/efbdea0a911d614bedf4dcc0f027a4b2460aeced/extensions/snippetsurfer/README.md).
 
 ## Text Manipulation
 
@@ -438,6 +439,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - [QEMU](https://www.qemu.org) is also an option worth considering as it can be significantly faster than Virtualbox in some situations, and it can emulate systems that Virtualbox can’t. For simple use cases, I would still start with Virtualbox though.
 - [UTM](https://mac.getutm.app) is my first choice for virtual machines on Mac, including Apple Silicon Macs. It’s just easy to use and does what I need it to do. It’s great for creating Linux sandboxes where I don’t have to worry about messing up my Mac when I’m building out certain toolchains. **(Mac)**
 
+## Keyboard-Based Launcher
+
+- [Raycast](https://www.raycast.com) has more functions than I can list here, but it’s great for launching apps or commands quickly, searching for files, assigning global hotkeys to apps/commands, text replacements, and text snippets among a ton of other features. If you’re a Mac user, it’s like a super-charged Spotlight.
 ## Menu-Based Launcher
 
 - [Kando](https://kando.menu) is an incredibly powerful radial menu app that has endless customization possibilities. Hotkey combos can trigger various context-aware menus and submenus. These sorts of launcher apps are often platform-specific, so it's awesome that Kando supports Windows, Mac, and Linux so you can have a consistent experience across all your computers.
