@@ -25,7 +25,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - Also check out [Krita](https://krita.org/en/)  (below) for image editing. While it has historically focused more on digital painting than general editing, it has many features that make it a great choice for general editing for many use cases as well.
 - [Inkscape](https://inkscape.org/en/): Incredibly capable vector image editor for creating professional quality, scalable diagrams, logos, you-name-it. Its functionality rivals Adobe Illustrator, although sometimes the tools don’t map one-to-one. 
 
-
 ## Digital Sketching/Painting
 
 - [Krita](https://krita.org/en/) is fantastic digital painting software. If you’re into illustration or digital painting, it has what you need. Krita has plenty of great features, but one thing that stands out to me is that it comes with a large selection of high quality brushes that are excellent. Personally, I have moved my digital painting to an iPad, so I’m not using Krita much these days, but I still would recommend it for desktop use.
@@ -60,18 +59,16 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [OBS Studio](https://obsproject.com/) is a solid choice for live streaming because of the massive feature list, but it can be pretty overwhelming for a beginner. The price is right though (free), so it’s worth the learning curve. Even if you aren’t a streamer, OBS is still useful for recording your screen in case you need to make a quick tutorial to send to someone.
     - [Kap](https://getkap.co) is a much easier way to record part of your screen. The easy interface makes it worth having around. **(Mac)**
 
-## Video Conversion
-
-- [HandBrake](https://handbrake.fr/): Convert video from/to nearly any format. While incredibly powerful and complex, HandBrake makes it really simple to get started. If you don’t want anything special, just drag and drop a file, select a preset target format (e.g. Roku 1080p30 or Android 720p30), and hit start.
-    - On Windows if you want to convert your DVD library, you’ll need to put the [libdvdcss](http://download.videolan.org/pub/libdvdcss/1.2.11/win64/libdvdcss-2.dll) library in the Handbrake directory.
-    - If Handbrake is too confusing and all you want to do is rip a DVD, [MakeMKV](http://www.makemkv.com/) rips and decodes DVDs (even with copy protection). It just isn’t as versatile as Handbrake.
-- [Gifski](https://sindresorhus.com/gifski) is a super easy way to convert video to high-quality GIFs. **(Mac)**
-
-## Video Editing
+## Video Editing/Conversion
 
 - [Openshot](https://www.openshot.org/): is a capable multi-track editor with a nice interface that is fairly intuitive compared to other apps in this space. If I don’t need anything special, this is the first place I reach. Feature-wise, it seems like it falls right between Shotcut and kdevlive, but I have run into weird bugs that can be annoying. Having said that, one feature I especially enjoy is the captioning support which includes some great appearance customization. I initially started using Openshot because iMovie was so limited in video formats and aspect ratios, and I quickly discovered Openshot is more capable in a dozen other ways as well. I don't even bother with iMovie anymore.
 - [kdenlive](https://kdenlive.org/): If you do need something special that Openshot can't handle, it’s great to have kdenlive in the toolbox. Openshot has it beat in a few areas, so I still prefer it in general, but kdenlive has some features that make it worth having around. 
 - [LosslessCut](https://github.com/mifi/lossless-cut) is a lossless video editor that doesn’t require reencoding the entire video for simple operations. This is a great option if you just need to trim or cut out a section from a video file.
+- [HandBrake](https://handbrake.fr/): Convert video from/to nearly any format. While incredibly powerful and complex, HandBrake makes it really simple to get started. If you don’t want anything special, just drag and drop a file, select a preset target format (e.g. Roku 1080p30 or Android 720p30), and hit start.
+    - On Windows if you want to convert your DVD library, you’ll need to put the [libdvdcss](http://download.videolan.org/pub/libdvdcss/1.2.11/win64/libdvdcss-2.dll) library in the Handbrake directory.
+    - If Handbrake is too confusing and all you want to do is rip a DVD, [MakeMKV](http://www.makemkv.com/) rips and decodes DVDs (even with copy protection). It just isn’t as versatile as Handbrake.
+- [Shutter Encoder](https://www.shutterencoder.com) is another converter, but it does basic editing like trimming and has other interesting features like AI audio transcription. It’s kind of like a mix between LosslessCut and HandBrake, so maybe you don’t need all three, but it’s worth trying them all to see which work for your use cases.
+- [Gifski](https://sindresorhus.com/gifski) is a super easy way to convert video to high-quality GIFs. **(Mac)**
 
 ### Also check out:
 

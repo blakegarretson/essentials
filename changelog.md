@@ -8,6 +8,8 @@ Revised the Git client recommendations. I have transitioned to **Sourcetree** an
 
 Added **Raycast**. i have been using it for launching and assigning global hotkeys.
 
+Added **Shutter Encoder** since it does some things the other apps in this category don’t do.
+
 ## 2026-02-24
 
 Added **Kando**. It is fantastic.
