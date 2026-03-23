@@ -482,8 +482,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you’re a programmer, you already know what this is. 
     - A big bonus on Windows is that the installer includes all the Unix command-line tools you know and love. If you need `ls`, `cat`, `grep`, `awk`, and all the rest, I think this is the easiest way to add them to your Windows system.
-- [Github Desktop](https://github.com/apps/desktop): Sometimes a GUI is convenient to visualize branches and handle more complicated tasks when when you don’t feel like looking up the correct commands/switches, and the offical CUI client is great for basic tasks.
-    - [Sourcetree](https://www.sourcetreeapp.com) is the Git GUI client I use if I need to do something more complicated
+- [Sourcetree](https://www.sourcetreeapp.com) is the GUI client I use if I need to do something more complicated with Git and I don’t feel like looking up the correct commands/switches. It’s also great for visualizing branches. 
+    - If you just need a simple GUI client without the bells and whistles, the official Github client [Github Desktop](https://github.com/apps/desktop) is fine for basic tasks.
 
 ## Compiled Language
 
