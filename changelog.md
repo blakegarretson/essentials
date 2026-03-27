@@ -1,12 +1,18 @@
 # Change Log
 
+## 2026-03-26
+
+Added **Mole**. It found tens of gigbytes of wasted disk space for me, and I’ve been using it ever since.
+
+Added **macshot**. I had been a longtime Shottr user, and I even bought the paid version, but **macshot** is better, does more, and costs nothing.
+
 ## 2026-03-22
 
 Added **digiKam**. I have been culling a lot of wildlife pictures to pick the best one from a set, and I think it does a better job than the other options.
 
 Revised the Git client recommendations. I have transitioned to **Sourcetree** and **Github Desktop**.
 
-Added **Raycast**. i have been using it for launching and assigning global hotkeys.
+Added **Raycast**. i have been using it for launching and assigning global hotkeys. I don’t know why I resisted so long. I think I didn’t like that there was a Pro version, but the free version is totally usable without upgrading.
 
 Added **Shutter Encoder** since it does some things the other apps in this category don’t do.
 

@@ -51,13 +51,13 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [ShareX](https://getsharex.com/): You don’t know how useful a good screenshot tool is until you start using it. It’s really handy to automatically save screenshots (or portions of screens) to a predetermined folder and keep it on the clipboard as well. ShareX takes it one step further and will upload the image to pretty much any site you like, and the OCR functionality is really cool. The icing on the cake is the screen capture capability that will let you record portions of your screen and save it to a GIF (or other formats). It’s great for playing tech support with family to show them how to do stuff. **(Windows)**
     - For a more bare bones solution, use *SHIFT + WINDOWS + S* key combo to access the screenshot functionality built into Windows.
-- [Shottr](https://shottr.cc/) is an amazing tool for screenshots on Mac. It has all the usual features plus cool stuff like scrolling captures (for long webpages) and OCR text recognition so you can cut and paste text from images on your screen. After 30 days, Shottr starts asking you to consider upgrading. While not necessary, I actually did upgrade. **(Mac)**
+- [macshot](https://github.com/sw33tlie/macshot) is an amazing tool for screenshots on Mac. It has all the usual features plus cool stuff like scrolling captures (for long webpages), video recording of your screen, and OCR text recognition so you can cut and paste text from images on your screen. This is basically a better version of [Shottr](https://shottr.cc/), and it’s free! **(Mac)**
     - If you don’t need/use anything beyond simple screenshots on Mac, it’s worth mentioning the *SHIFT + CMD + 4* shortcut gets you a portion of the screen and automatically saves the file to the desktop.
+    - [Kap](https://getkap.co) is an easy way to record part of your screen if you don’t need all the bells and whistles of macshot. The simple interface makes it worth having around. **(Mac)**
 
 ## Live Streaming/Screen Recording
 
 - [OBS Studio](https://obsproject.com/) is a solid choice for live streaming because of the massive feature list, but it can be pretty overwhelming for a beginner. The price is right though (free), so it’s worth the learning curve. Even if you aren’t a streamer, OBS is still useful for recording your screen in case you need to make a quick tutorial to send to someone.
-    - [Kap](https://getkap.co) is a much easier way to record part of your screen. The easy interface makes it worth having around. **(Mac)**
 
 ## Video Editing/Conversion
 
@@ -399,9 +399,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Uninstaller / System Cleaner
 
 - [Revo Uninstaller Free](https://www.revouninstaller.com/products/revo-uninstaller-free/): Uninstalling programs using the usual methods often leaves a lot of junk around. Revo does a better job at really removing a program. **(Windows)**
-- [AppCleaner](https://freemacsoft.net/appcleaner/) is the best way to really uninstall apps on Mac. It gets rid of all the leftover bits that often stay behind. **(Mac)**
-    - While AppCleaner is my first choice due to its easy-of-use, a good companion app is [Pearcleaner](https://github.com/alienator88/Pearcleaner). It’s harder to use, but it can find ophaned files and do other things AppCleaner doesn’t. 
+- [AppCleaner](https://freemacsoft.net/appcleaner/) is an easy way to really uninstall apps on Mac. It gets rid of all the leftover bits that often stay behind. **(Mac)**
+    - While AppCleaner is my first choice due to its easy-of-use, a good companion app is [Pearcleaner](https://github.com/alienator88/Pearcleaner). It’s harder to use, but it can find orphaned files and do other things AppCleaner doesn’t. 
 - [Bleachbit](https://www.bleachbit.org/) will delete stuff you don’t need hanging around like logs, temporary files, “recently used” lists, thumbnails, you-name-it. Be aware that mucking about in the registry is a bad idea and isn’t really necessary on modern Windows, but Bleachbit can do way more than registry pruning, and it’s worth looking at all of its functionality before dismissing it. **(Windows)**
+- [Mole](https://github.com/tw93/mole) is a command line utility for Mac, but the interface is intuitive enough for anyone to feel comfortable. It cleans, optimizes, and uninstalls apps, and it is incredibly thorough. It will find things you completely forgot you ever installed and thought you uninstalled. **(Mac)**
 
 ## Console/Command Line
 
@@ -419,6 +420,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [CopyQ](https://hluk.github.io/CopyQ/) extends the standard clipboard so you can access more than just the last item copied. Advanced scripting, editing, and keyboard shortcuts make this a real powerhouse of productivity once you learn the tool.
 - [Maccy](https://maccy.app/) is my preferred clipboard manager for Mac. CopyQ does work fine on Mac, but Maccy just does it better and cleaner for my usual use cases. If you don’t need CopyQ’s advanced scripting, Maccy gets the job done while integrating seamlessly into the Mac desktop. **(Mac)**
+- [Raycast](https://www.raycast.com) is mentioned elsewhere on this page as being a great launcher, but it also is a very capable clipboard manager. The free version gets you 90 days of clipboard history, which is plenty for me. 
 
 ## Password Manager
 
@@ -427,8 +429,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## AI Assistant
 
-- [ChatGTP](https://openai.com/chatgpt/download/) is probably the best known AI chat tool, and its desktop client is super handy. Once you assign a hotkey shortcut to quickly recall a chat prompt, ChatGPT can be a quicker way to get all sorts of information and help on projects.
-    - If you want an offline AI alternative (that is, private), then [Jan](https://jan.ai) is the first thing to try. It’s open source and highly customizable.
+- [ChatGTP](https://openai.com/chatgpt/download/) is probably the best known AI chat tool, and its desktop client is super handy. Once you assign a hotkey shortcut to quickly recall a chat prompt, the ChatGPT app can be a quicker way to get all sorts of information and help on projects.
+    - If you want an offline AI alternative (that is, private), then [Jan](https://jan.ai) is the first thing to try. It’s open source and highly customizable. Another option for Mac is [Locally AI](https://locallyai.app).
 
 ## Virtualization
 
@@ -438,7 +440,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Keyboard-Based Launcher
 
-- [Raycast](https://www.raycast.com) has more functions than I can list here, but it’s great for launching apps or commands quickly, searching for files, assigning global hotkeys to apps/commands, text replacements, and text snippets among a ton of other features. If you’re a Mac user, it’s like a super-charged Spotlight.
+- [Raycast](https://www.raycast.com) has more functions than I can list here, but it’s great for launching apps or commands quickly, searching for files, managing your clipboard history, assigning global hotkeys to apps/commands, text replacements, and text snippets among a ton of other features. If you’re a Mac user, it’s like a super-charged Spotlight. I resisted Raycast for too long, and now it is my preferred way to navigate my computer.
+    - There are a number of Mac-only alternatives to Raycast if you’re looking for an open-source option or just something different. [RustCast](https://rustcast.app) and [Sol](https://sol.ospfranco.com) are super-fast options, and [SuperCmd](https://supercmd.sh) has advanced features like built-in dictation and Raycast extension support. 
 
 ## Menu-Based Launcher
 
@@ -467,7 +470,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Leader Key](https://github.com/mikker/LeaderKey.app) is a fast shortcut-based app launcher and app switcher. Leader Key only needs a single global hotkey, so it’s shortcuts won’t conflict with other apps and reserved shortcuts.  While this may seem redundant to Keyboard Cowboy and similar apps, the approach is slightly different so I use Leader Key in parallel with Keyboard Cowboy. 
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) gives you access to hidden system preferences and tweaks not available in the normal System Preferences dialogs. While there are a lot of options I don’t care about, they are a couple in here that are worth the download.
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl) is one of those apps I didn’t know I needed. I wouldn’t have looked for it, but after stumbling across it and trying it out, it’s amazing. If you have an external monitor, you need this so you can control the brightness through your keyboard. It also normalizes brightness between the build-in screen and an external monitor. Super handy app.
-- [Ice](https://icemenubar.app) is a menu bar manager that hides the clutter and gives you more control over the menu bar. This is an amazing free alternative to software like Bartender which I actually bought some years ago and eventually replaced with Ice.
+- [Thaw](https://github.com/stonerl/Thaw) is a menu bar manager that hides the clutter and gives you more control over the menu bar. This is an amazing free alternative to software like Bartender which I actually bought some years ago and eventually replaced with [Ice](https://icemenubar.app), which I found less bloated and better for my use cases. Eventually development stalled on Ice during the MacOS 26/Tahoe rollout, which broke Ice, so Thaw was born as a fork and development continued. 
 - [Itsycal](https://www.mowglii.com/itsycal/) is a calendar app that lives in your menu bar and gives you a quick glimpse of your upcoming agenda. Itsycal gets you the information you need quicker and in a more customizable way than the default Apple widgets.  
 
 # Programming
@@ -576,7 +579,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ### Honorable Mention
 
-- [Solvespace](http://solvespace.com/index.pl) is such a tiny, fast, quirky, unique, and capable program, I had to mention it. Don’t let the retro look fool you. This is a powerful 2D/3D parametric modeler with a legit constraint solver. Besides FreeCAD, that is a very rare find in free CAD software. This interface is nothing like a standard CAD package, but if you are into making 3D objects for 3D printing, this program is an interesting option. For normal use, I think the glaring omission in its feature set is a tool for adding fillets/rounds. That’s a deal breaker for me.
+- [Solvespace](http://solvespace.com/index.pl) is such a tiny, fast, quirky, unique, and capable program, I had to mention it. Don’t let the retro look fool you. This is a powerful 2D/3D parametric modeler with a legit constraint solver. Besides FreeCAD, that is a very rare find in free CAD software. This interface is nothing like a standard CAD package, but if you are into making 3D objects for 3D printing, this program is an interesting option. For normal use, I think the glaring omission in its feature set is a fillet tool. That’s a deal breaker for me.
 
 ## Electronics Schematics
 
