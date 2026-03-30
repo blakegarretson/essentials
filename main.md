@@ -227,7 +227,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Office Suite
 
 - [LibreOffice](https://www.libreoffice.org/) provides all the usual “office” suspects, like a word processor, spreadsheet, and presentation applications. While still lacking the polish of MS Office, for most use cases this is a reasonable replacement. The key functionality is there, and the major gaps of the early releases (e.g. Goal Seek and Pivot Tables) have long since been filled. Worth noting: LibreOffice Draw works well for flowcharts (similar to Visio).
-    - Full disclosure, I don’t find LibreOffice essential in the sense that I use it often. I like LibreOffice as a convenience so I can easily open an MS Office file or perform the odd task, but I actually far prefer working in the cloud with Google Docs and Sheets. In some ways, Sheets is even better than Excel or LibreOffice Calc with conveniences like the split() function.
+    - Full disclosure, I don’t find LibreOffice essential in the sense that I use it often. I like LibreOffice as a convenience so I can easily open an MS Office file or perform the odd task, but I actually far prefer working in the cloud with Google Docs and Sheets. In some ways, Sheets is even better than Excel or LibreOffice Calc with conveniences like the `split()` function.
+    - On Mac I also recommend the preinstalled Apple apps: Pages, Numbers, and KeyNote.
+    - One more option to consider is [FreeOffice](https://www.freeoffice.com/). I don’t think it has as many features as LibreOffice, but it is a nice lightweight solution with good MS Office compatibility. 
 
 ## Desktop Publishing
 
