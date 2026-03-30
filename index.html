@@ -693,10 +693,27 @@
         is a cross–platform option that I probably would have included
         as one of my first choices due to its excellent live-preview and
         intuitive interface, but development seems to have stopped, so I
-        question its longevity. MarkText looks like a clone of Typora (a
-        paid app), so if you like Typora, you may prefer the free
-        MarkText instead.</li>
+        question its longevity. MarkText looks like a clone of <a
+        href="https://typora.io">Typora</a> (a paid app), so if you like
+        Typora, you may prefer the free MarkText instead.</li>
+        <li><a href="https://inkwell.4worlds.dev">Inkwell</a> is another
+        editor worthy of your consideration. It’s stated goal is to
+        replace and surpass <a href="https://typora.io">Typora</a>, but
+        the free version of Inkwell does have limitations on exporting
+        to PDF and HTML. Not a deal breaker for me since I can use
+        pandoc to do the conversion, but it isn’t ideal. Also, instead
+        of live preview, it has a side-by-side preview window, which
+        isn’t my favorite way to interact with Markdown.</li>
         </ul></li>
+        </ul>
+        <h2 id="markup-conversionpublishing">Markup
+        Conversion/Publishing</h2>
+        <ul>
+        <li><a href="http://pandoc.org/">Pandoc</a>: Convert markup
+        formats to other formats. Handles Markdown, HTML, EPUB, LaTeX,
+        etc. This is an extremely powerful program, and I like to use it
+        to build websites through the use of its robust template
+        system.</li>
         </ul>
         <h2 id="note-taking">Note-Taking</h2>
         <ul>
@@ -731,6 +748,48 @@
         Google Drive or iCloud. Unless open source is incredibly
         important to you, I would still recommend Obsidian over Zettlr
         at this point.</li>
+        </ul></li>
+        </ul>
+        <h2 id="texlatex-tools">TeX/LaTeX Tools</h2>
+        <ul>
+        <li><a href="http://miktex.org/">MiKTeX</a>: A port of the TeX
+        document publishing system that converts source files into
+        beautifully typeset documents. If you know what TeX/LaTeX are,
+        you need this. If you don’t know what they are, and you care
+        about breathtaking documents, then you need to learn TeX. The
+        main advantage MiKTeX has over other TeX distributions like <a
+        href="https://tug.org/texlive/">TeX Live</a> (the <em>de
+        facto</em> standard TeX system for Unix-like systems) is that it
+        downloads packages on-the-fly as needed and streamlines
+        installation and updates.
+        <ul>
+        <li>This isn’t a software link, but a really useful site about
+        LaTeX fonts is <a
+        href="http://www.tug.dk/FontCatalogue/">here</a>. And while I’m
+        breaking the rules and posting web links, <a
+        href="http://en.wikibooks.org/wiki/LaTeX/">here’s</a> a really
+        good website for LaTeX info.</li>
+        <li>The two other MiKTeX alternatives that I want to note are <a
+        href="https://www.tug.org/mactex/mactex-download.html">MacTeX</a>,
+        which is a Mac-only distribution of <a
+        href="https://tug.org/texlive/">TeX Live</a>, and <a
+        href="https://tectonic-typesetting.github.io/en-US/">Tectonic</a>,
+        which is a modern TeX/LaTeX engine that has some cool tricks,
+        including on-demand automatic package installation. Tectonic is
+        not a bad place to start if you have never used TeX before.</li>
+        </ul></li>
+        <li><a href="http://texstudio.sourceforge.net/">TeXstudio</a>:
+        Lightweight portable LaTeX IDE, including editor, spell checker,
+        and symbol toolbars. For those keeping track, this was forked
+        from TeXMaker back in 2009 and quickly outpaced it. If I need to
+        edit TeX, this is a nice solution.
+        <ul>
+        <li>While I love TeX, unless I’m writing a technical paper with
+        extensive math notation or formatting requirements, I’m probably
+        going to use a Markdown editor that supports TeX math blocks
+        instead of a dedicated TeX editor.</li>
+        <li>Another nice alternative is to just use VS Code with the
+        appropriate LaTeX extensions installed.</li>
         </ul></li>
         </ul>
         <h2 id="text-comparison">Text Comparison</h2>
@@ -865,57 +924,6 @@
         can use your Google Drive to store books and sync progress and
         bookmarks across platforms (although syncing can occasionally be
         buggy).</li>
-        </ul></li>
-        </ul>
-        <h2 id="markup-conversionpublishing">Markup
-        Conversion/Publishing</h2>
-        <ul>
-        <li><a href="http://pandoc.org/">Pandoc</a>: Convert markup
-        formats to other formats. Handles Markdown, HTML, EPUB, LaTeX,
-        etc. This is an extremely powerful program, and I like to use it
-        to build websites through the use of its robust template
-        system.</li>
-        </ul>
-        <h2 id="texlatex-tools">TeX/LaTeX Tools</h2>
-        <ul>
-        <li><a href="http://miktex.org/">MiKTeX</a>: A port of the TeX
-        document publishing system that converts source files into
-        beautifully typeset documents. If you know what TeX/LaTeX are,
-        you need this. If you don’t know what they are, and you care
-        about breathtaking documents, then you need to learn TeX. The
-        main advantage MiKTeX has over other TeX distributions like <a
-        href="https://tug.org/texlive/">TeX Live</a> (the <em>de
-        facto</em> standard TeX system for Unix-like systems) is that it
-        downloads packages on-the-fly as needed and streamlines
-        installation and updates.
-        <ul>
-        <li>This isn’t a software link, but a really useful site about
-        LaTeX fonts is <a
-        href="http://www.tug.dk/FontCatalogue/">here</a>. And while I’m
-        breaking the rules and posting web links, <a
-        href="http://en.wikibooks.org/wiki/LaTeX/">here’s</a> a really
-        good website for LaTeX info.</li>
-        <li>The two other MiKTeX alternatives that I want to note are <a
-        href="https://www.tug.org/mactex/mactex-download.html">MacTeX</a>,
-        which is a Mac-only distribution of <a
-        href="https://tug.org/texlive/">TeX Live</a>, and <a
-        href="https://tectonic-typesetting.github.io/en-US/">Tectonic</a>,
-        which is a modern TeX/LaTeX engine that has some cool tricks,
-        including on-demand automatic package installation. Tectonic is
-        not a bad place to start if you have never used TeX before.</li>
-        </ul></li>
-        <li><a href="http://texstudio.sourceforge.net/">TeXstudio</a>:
-        Lightweight portable LaTeX IDE, including editor, spell checker,
-        and symbol toolbars. For those keeping track, this was forked
-        from TeXMaker back in 2009 and quickly outpaced it. If I need to
-        edit TeX, this is a nice solution.
-        <ul>
-        <li>While I love TeX, unless I’m writing a technical paper with
-        extensive math notation or formatting requirements, I’m probably
-        going to use a Markdown editor that supports TeX math blocks
-        instead of a dedicated TeX editor.</li>
-        <li>Another nice alternative is to just use VS Code with the
-        appropriate LaTeX extensions installed.</li>
         </ul></li>
         </ul>
         <h2 id="office-suite">Office Suite</h2>
