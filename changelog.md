@@ -1,5 +1,9 @@
 # Change Log
 
+## 2026-03-31
+
+Added **Open Screen** for screen recording. Also demoted **OBS Studio** to an honorable mention as a screen recorder. OBS used to be in the “Live Streaming” category, but I eliminated it because it was too niche for me.  I don’t do live streaming, so I can’t really evaluate it for its intended purpose, and as a screen recorder, it’s overkill.
+
 ## 2026-03-26
 
 Added **Mole**. It found tens of gigbytes of wasted disk space for me, and I’ve been using it ever since.
