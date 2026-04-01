@@ -363,15 +363,15 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [FreeFileSync](https://freefilesync.org/): Local backup and synchronization program to do things like make a nightly backup copy from one hard drive to another. As a bonus, the file comparison functionality is great for just seeing if two directories are the same. Be aware this is just making a copy of your data or synchronizing two folders. See the Incremental Backup section below for something more robust.
 
+## Cloud Synchronization
+
+- [Google Drive](https://www.google.com/drive/download/): For real-time cloud backup and synchronization, this is an easy solution if you just want an off-site copy of your data that is accessible everywhere, including mobile devices.
+- [Syncthing](https://syncthing.net/): If you don’t trust someone else with your data or you want more control of your data, you can host your own cloud with Syncthing . If it’s confusing why this is different than something like FreeFileSync, Syncthing shines at realtime continuous synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. 
+
 ## Incremental Backup
 
 - [Kopia](https://kopia.io/) is my current favorite backup solution due to its feaure set and (relative) ease of use. Backup software tends to be difficult to use, but Kopia does a decent job of making a complicated thing slightly less complicated. This is different than a simple “file copier” like FreeFileSync as Kopia saves all your incremental changes (not just a current snapshot), which lets you rollback to any point in history. It supports encryption, deduplication, and compression, and it’s also available on every platform (including Docker images).
     - Honorable mention goes to [Vorta](https://vorta.borgbase.com/), which is a frontend for Borg Backup, which is a robust incremental backup solution.  **(Mac, Linux)**
-
-## Cloud Synchronization
-
-- [Google Drive for Desktop](https://www.google.com/drive/download/): For real-time cloud backup and synchronization, this is an easy solution if you just want an off-site copy of your data that is accesible everywhere, including mobile devices.
-- [Syncthing](https://syncthing.net/): If you don’t trust someone else with your data or you want more control of your data, you can host your own cloud with Syncthing . If it’s confusing why this is different than something like FreeFileSync, Syncthing shines at realtime continuous synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. The big bonus is Syncthing’s Android app, allowing you to sync files between your computer and your phone, but the lack of an iOS app is a serious problem for me.
 
 ## Hex Editor
 
