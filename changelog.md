@@ -1,5 +1,15 @@
 # Change Log
 
+## 2026-04-12
+
+Added **TypeWhisper** as an option for cross-platform use.
+
+## 2026-04-11
+
+**DockDoor** has replaced Alt-Tab for me. It is excellent.
+
+Added **Spatterlight** for an interactive fiction intepreter.
+
 ## 2026-04-07
 
 Added **LibrePCB** instead of KiCad. **LibrePCB** is just better for my simple needs.

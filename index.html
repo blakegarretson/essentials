@@ -613,22 +613,6 @@
         expected.</li>
         </ul></li>
         </ul>
-        <h3 id="honorable-mention">Honorable Mention</h3>
-        <ul>
-        <li><a href="https://www.geany.org/">Geany</a> is a
-        jack-of-all-trades that is good at everything, but not
-        best-in-class in anything. It is a versatile cross-platform
-        programmer’s text editor that you can configure to be anything
-        from a simple Notepad.exe replacement to an ultra-lightweight
-        IDE. It’s just hard to recommend because while it’s good for
-        quick edits and opening text files, Notepad++ or CotEditor are
-        even faster for those quick tasks. And while Geany is really
-        nice for light coding, VS Code is even better. Geany is rarely
-        the best tool for the job, but it might be the right choice for
-        a computer that just needs an all-purpose, do-it-all editor. If
-        you do try it, there are lots of great features hidden in the
-        official plugin package, so be sure to grab it as well.</li>
-        </ul>
         <h2 id="writingmarkdown-apps">Writing/Markdown Apps</h2>
         <p><em>This category of apps is appropriate for writing
         long-form prose like papers, articles, essays, or even books.
@@ -666,12 +650,6 @@
         plenty of customization options to make it work and look just
         like you want it to. It’s a wonderful app if you don’t need
         live-preview. <strong>(Mac)</strong></li>
-        <li><a href="http://writemonkey.com/">WriteMonkey</a> is a
-        distraction-free text editor with a few handy features that
-        pushed it to the front of the pack back when distraction-free
-        editors were new and all the rage. Its development has slowed
-        down (stopped??), but it still works fine even if it feels a bit
-        outdated at this point. <strong>(Windows)</strong></li>
         <li><a
         href="https://github.com/MarkEdit-app/MarkEdit">MarkEdit</a>
         reminds me more of a code editor that supports Markdown than a
@@ -1587,13 +1565,6 @@
         </ul>
         <h2 id="consolecommand-line">Console/Command Line</h2>
         <ul>
-        <li><a href="https://github.com/microsoft/terminal">Windows
-        Terminal</a> is a newer offering, but the features have been
-        steadily expanding, and it quickly became my console of choice
-        with handy features like themes, panes, and a command palette.
-        It happily handles PowerShell, cmd.exe, and WSL shells, as well
-        as REPL interpreters like IPython or Julia.
-        <strong>(Windows)</strong></li>
         <li><a href="https://iterm2.com/">iTerm2</a> is the terminal you
         should be using instead of the default MacOS terminal. The
         customization options are extensive. It’s one of the best
@@ -1658,19 +1629,36 @@
         and desktop clients.</li>
         </ul></li>
         </ul>
-        <h2 id="ai-assistant">AI Assistant</h2>
+        <h2 id="local-ai-llm-server">Local AI / LLM Server</h2>
         <ul>
-        <li><a href="https://openai.com/chatgpt/download/">ChatGTP</a>
-        is probably the best known AI chat tool, and its desktop client
-        is super handy. Once you assign a hotkey shortcut to quickly
-        recall a chat prompt, the ChatGPT app can be a quicker way to
-        get all sorts of information and help on projects.
+        <li><a href="https://jan.ai">Jan</a> is a great alternative to
+        <a href="https://openai.com/chatgpt/download/">ChatGTP</a> if
+        you want an offline AI chat bot. It’s open source and highly
+        customizable.</li>
+        <li><a href="https://ollama.com">Ollama</a> is my choice to run
+        a LLM locally for use with code editor integrations or other
+        “non-chat” use cases. There are a number of popular models to
+        choose from, and they can be run from Mac, Windows, and Linux.
         <ul>
-        <li>If you want an offline AI alternative (that is, private),
-        then <a href="https://jan.ai">Jan</a> is the first thing to try.
-        It’s open source and highly customizable. Another option for Mac
-        is <a href="https://locallyai.app">Locally AI</a>.</li>
+        <li>Another local option for Mac is <a
+        href="https://locallyai.app">Locally AI</a>, which is more
+        capable but more complex than Ollama.</li>
         </ul></li>
+        </ul>
+        <h2 id="speech-to-text">Speech-to-Text</h2>
+        <ul>
+        <li><a href="https://altic.dev/fluid">FluidVoice</a> brings
+        talk-to-text dictation to your Mac. Accuracy is excellent with
+        the right model selected, and you don’t need the cloud AI
+        features to get great results. FluidVoice is fast and
+        minimalist, so it’s a great choice if you just want to “type”
+        with your voice. <strong>(Mac)</strong></li>
+        <li><a href="https://github.com/TypeWhisper">TypeWhisper</a> is
+        a cross-platform transcription solution that is powerful and
+        especially suited for transcribing recorded voice and rewriting
+        it based on prompts. With the right model choice it can be fast
+        and light enough to do “live” typing as well, but I would still
+        generally recommend FluidVoice on Mac.</li>
         </ul>
         <h2 id="virtualization">Virtualization</h2>
         <ul>
@@ -1779,10 +1767,12 @@
         complex window manipulation, and it may be better for you than
         Loop. Or use both.</li>
         </ul></li>
-        <li><a href="https://alt-tab-macos.netlify.app">Alt-Tab</a> is
-        an improved version of the standard “Command-Tab” for switching
-        apps. It is customizable, but the main feature is adding
-        thumbnails of your apps instead of just the app icon.</li>
+        <li><a href="https://dockdoor.net">DockDoor</a> is an improved
+        version of the standard “Command-Tab” for switching apps. It is
+        highly customizable, and the star feature is adding thumbnails
+        of your apps to the app switcher and the dock. I used to use <a
+        href="https://alt-tab-macos.netlify.app">Alt-Tab</a>, but
+        DockDoor has far more options and features.</li>
         <li><a
         href="https://apps.apple.com/us/app/amphetamine/id937984704">Amphetamine</a>
         is probably the best known app to keep your screen on. There are
@@ -1795,15 +1785,8 @@
         configured in any number of ways, but I have it setup so when I
         press caps-lock, it is the same as pressing shift-command-ctrl.
         Then I map that combo to whatever I like in my various apps.
-        e.g. in VS Code, pressing caps-lock and P will run the current
+        E.g. in VS Code, pressing caps-lock and P will run the current
         file in Python.</li>
-        <li><a href="https://altic.dev/fluid">FluidVoice</a> brings
-        talk-to-text dictation to your Mac. Once you get used to it on
-        your iPhone, it feels like something is missing on your
-        laptop/desktop. I have it configured to start transcribing when
-        I press the right-control key, and it stops when I press it
-        again. Accuracy is excellent with the right model selected, and
-        you don’t need the cloud AI features to get great results.</li>
         <li><a href="https://sindresorhus.com/folder-peek">Folder
         Peek</a> gives you quick access to your choice of folders right
         from your menu bar.</li>
@@ -2316,7 +2299,7 @@
         support and number of active documents allowed), but it’s still
         very usable for personal projects.</li>
         </ul>
-        <h3 id="honorable-mention-1">Honorable Mention</h3>
+        <h3 id="honorable-mention">Honorable Mention</h3>
         <ul>
         <li><a href="http://solvespace.com/index.pl">Solvespace</a> is
         such a tiny, fast, quirky, unique, and capable program, I had to
@@ -2407,14 +2390,6 @@
         <ul>
         <li><a href="http://stellarium.org/">Stellarium</a>: A great
         planetarium for the hobbyist astronomer.</li>
-        </ul>
-        <h2 id="large-language-model-server">Large Language Model
-        Server</h2>
-        <ul>
-        <li><a href="https://ollama.com">Ollama</a> is the place to go
-        if you want to run a LLM locally. There are a number of popular
-        models to choose from, and they can be run from Mac, Windows,
-        and Linux.</li>
         </ul>
         <h1 id="gaming">Gaming</h1>
         <p><em>I’m not going to list actual games here, but rather just

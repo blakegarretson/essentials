@@ -147,10 +147,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Neovim](https://neovim.io/): `vi` was a legendary, powerful keyboard-based text editor with a steep learning curve, Vim is its most successful clone (itself being a derivative of Stevie), and Neovim aims at pushing Vim into the 21st century with a clean code base and features like Lua extensibility and asynchronous plugins which allow for things like async linters. Some people think it’s silly to use a `vi` clone more than four decades after it was introduced, but there are some tasks that are orders of magnitude faster in a `vi` clone than modern mouse-oriented text editors.
     - If a console-based text editor is what you need and you don’t love the `vi` modal editing and key bindings, you should really check out [micro](https://micro-editor.github.io/). Micro works from a console, but it has modern capabilities like mouse support, multiple cursors, Lua plugins, tabs, tmux-like splits, and syntax color schemes. Best of all, the normal Windows key bindings like CTRL-C, CTRL-V, CTRL-S, and CTRL-Z work as expected.
 
-### Honorable Mention
-
-- [Geany](https://www.geany.org/) is a jack-of-all-trades that is good at everything, but not best-in-class in anything. It is a versatile cross-platform programmer’s text editor that you can configure to be anything from a simple Notepad.exe replacement to an ultra-lightweight IDE. It’s just hard to recommend because while it’s good for quick edits and opening text files, Notepad++ or CotEditor are even faster for those quick tasks. And while Geany is really nice for light coding, VS Code is even better. Geany is rarely the best tool for the job, but it might be the right choice for a computer that just needs an all-purpose, do-it-all editor. If you do try it, there are lots of great features hidden in the official plugin package, so be sure to grab it as well.
-
 ## Writing/Markdown Apps
 
 *This category of apps is appropriate for writing long-form prose like papers, articles, essays, or even books. I’m only including Markdown editors here as I think that’s just a standard requirement for me at this point.*
@@ -163,7 +159,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - *The above options can honestly be a bit overwhelming if you just want to edit a simple Markdown file. Also worth considering:*
 
     - [uFocus](https://desairem.com/wordpress/ufocus/) is a lightweight distraction-free editor for the Mac. Its Markdown support and clean interface make it a perfect choice for quick prose writing. Even though it is simple, there are plenty of customization options to make it work and look just like you want it to. It’s a wonderful app if you don’t need live-preview. **(Mac)**
-    - [WriteMonkey](http://writemonkey.com/) is a distraction-free text editor with a few handy features that pushed it to the front of the pack back when distraction-free editors were new and all the rage. Its development has slowed down (stopped??), but it still works fine even if it feels a bit outdated at this point. **(Windows)**
     - [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) reminds me more of a code editor that supports Markdown than a modern writing app, but it is excellent at being a “Markdown code editor”. Besides syntax highlighting, it  has keyboard shortcuts and toolbar commands to handle all your Markdown formatting needs. There is no inline live-preview, but there is an extension available that adds side-by-side preview. There is also builtin *pandoc* support to generate various formats, including PDF, HTML, and EPUB. **(Mac)**
     - [MarkText](https://github.com/marktext/marktext) is a cross–platform option that I probably would have included as one of my first choices due to its excellent live-preview and intuitive interface, but development seems to have stopped, so I question its longevity. MarkText looks like a clone of [Typora](https://typora.io) (a paid app), so if you like Typora, you may prefer the free MarkText instead.
     - [Inkwell](https://inkwell.4worlds.dev) is another editor worthy of your consideration. It’s stated goal is to replace and surpass [Typora](https://typora.io), but the free version of Inkwell does have limitations on exporting to PDF and HTML. Not a deal breaker for me since I can use pandoc to do the conversion, but it isn’t ideal. Also, instead of live preview, it has a side-by-side preview window, which isn’t my favorite way to interact with Markdown.
@@ -406,7 +401,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Console/Command Line
 
-- [Windows Terminal](https://github.com/microsoft/terminal) is a newer offering, but the features have been steadily expanding, and it quickly became my console of choice with handy features like themes, panes, and a command palette. It happily handles PowerShell, cmd.exe, and WSL shells, as well as REPL interpreters like IPython or Julia. **(Windows)**
 - [iTerm2](https://iterm2.com/) is the terminal you should be using instead of the default MacOS terminal. The customization options are extensive. It’s one of the best terminals on any platform. **(Mac)**
 - [Swiss File Knife](http://stahlworks.com/dev/swiss-file-knife.html): This is the essential command line tool set for Windows. It does a little of everything, and you need to just read the list of commands on the website to believe it. It’s a single executable, so it’s portable as well.
 - [eza](https://eza.rocks/) is a modern replacement for `ls` that works on every major platform. There are a few cool innovations here including the integration of git status in your listing, icon support, and recursive tree view.
@@ -427,10 +421,16 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Bitwarden](https://bitwarden.com/) is the best open source, cross-platform password manager that I’ve ever tried. And the best part is the free version is more than enough for most people. There are desktop and mobile clients, browser extensions, and a command line interface. Bitwarden works everywhere you need it.
     - If you are only using Apple hardware, Apple Passwords is a great alternative with with seamless integration across mobile and desktop clients.
 
-## AI Assistant
+## Local AI / LLM Server 
 
-- [ChatGTP](https://openai.com/chatgpt/download/) is probably the best known AI chat tool, and its desktop client is super handy. Once you assign a hotkey shortcut to quickly recall a chat prompt, the ChatGPT app can be a quicker way to get all sorts of information and help on projects.
-    - If you want an offline AI alternative (that is, private), then [Jan](https://jan.ai) is the first thing to try. It’s open source and highly customizable. Another option for Mac is [Locally AI](https://locallyai.app).
+- [Jan](https://jan.ai) is a great alternative to [ChatGTP](https://openai.com/chatgpt/download/)  if you want an offline AI chat bot. It’s open source and highly customizable. 
+- [Ollama](https://ollama.com) is my choice to run a LLM locally for use with code editor integrations or other “non-chat” use cases. There are a number of popular models to choose from, and they can be run from Mac, Windows, and Linux. 
+    - Another local option for Mac is [Locally AI](https://locallyai.app), which is more capable but more complex than Ollama.
+
+## Speech-to-Text
+
+- [FluidVoice](https://altic.dev/fluid) brings talk-to-text dictation to your Mac. Accuracy is excellent with the right model selected, and you don't need the cloud AI features to get great results. FluidVoice is fast and minimalist, so it’s a great choice if you just want to “type" with your voice. **(Mac)**
+- [TypeWhisper](https://github.com/TypeWhisper) is a cross-platform transcription solution that is powerful and especially suited for transcribing recorded voice and rewriting it based on prompts.  With the right model choice it can be fast and light enough to do “live” typing as well, but I would still generally recommend FluidVoice on Mac.
 
 ## Virtualization
 
@@ -459,10 +459,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Loop](https://github.com/MrKai77/Loop) is window manager that really shines if you prefer mouse-driven actions rather than keyboard shortcuts. The radial menu provides a visual approach so you don’t need to remember a bunch of key combinations.
     - If you just want a keyboard-based window manager, [Rectangle](https://rectangleapp.com/) allows for fairly complex window manipulation, and it may be better for you than Loop. Or use both.
-- [Alt-Tab](https://alt-tab-macos.netlify.app) is an improved version of the standard "Command-Tab" for switching apps. It is customizable, but the main feature is adding thumbnails of your apps instead of just the app icon. 
+- [DockDoor](https://dockdoor.net) is an improved version of the standard "Command-Tab" for switching apps. It is highly customizable, and the star feature is adding thumbnails of your apps to the app switcher and the dock. I used to use [Alt-Tab](https://alt-tab-macos.netlify.app), but DockDoor has far more options and features. 
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) is probably the best known app to keep your screen on. There are all sorts of reasons you might need this, but I often use it when I’m sketching from a reference photo and I don’t want the screen going to sleep on me.
-- [Hyperkey](https://hyperkey.app/) is so simple, yet it has become essential for me. It lets you remap the caps-lock key to any combination of meta keys. It can be configured in any number of ways, but I have it setup so when I press caps-lock, it is the same as pressing shift-command-ctrl. Then I map that combo to whatever I like in my various apps. e.g. in VS Code, pressing caps-lock and P will run the current file in Python.
-- [FluidVoice](https://altic.dev/fluid) brings talk-to-text dictation to your Mac. Once you get used to it on your iPhone, it feels like something is missing on your laptop/desktop. I have it configured to start transcribing when I press the right-control key, and it stops when I press it again. Accuracy is excellent with the right model selected, and you don't need the cloud AI features to get great results.
+- [Hyperkey](https://hyperkey.app/) is so simple, yet it has become essential for me. It lets you remap the caps-lock key to any combination of meta keys. It can be configured in any number of ways, but I have it setup so when I press caps-lock, it is the same as pressing shift-command-ctrl. Then I map that combo to whatever I like in my various apps. E.g. in VS Code, pressing caps-lock and P will run the current file in Python.
 - [Folder Peek](https://sindresorhus.com/folder-peek) gives you quick access to your choice of folders right from your menu bar.
 - [Actions](https://sindresorhus.com/actions) adds additional functionality to Shortcuts. If you use Shortcuts, you probably can benefit from this app. The list of functionality is impressive.
 - [System Color Picker](https://sindresorhus.com/system-color-picker) is a simple color explorer for choosing colors and getting a text representation (hex, rgb, etc.) useful in programming, web design, and digital imagery. Includes an eye-dropper tool.
@@ -603,10 +602,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Astronomy
 
 - [Stellarium](http://stellarium.org/): A great planetarium for the hobbyist astronomer.
-
-## Large Language Model Server
-
-- [Ollama](https://ollama.com) is the place to go if you want to run a LLM locally. There are a number of popular models to choose from, and they can be run from Mac, Windows, and Linux.
 
 # Gaming
 
