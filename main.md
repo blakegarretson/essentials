@@ -426,6 +426,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Jan](https://jan.ai) is a great alternative to [ChatGTP](https://openai.com/chatgpt/download/)  if you want an offline AI chat bot. It’s open source and highly customizable. Also, it will actually use online AI providers if you want that as well.
     - Another local option for Mac is [Locally AI](https://locallyai.app), which is optimized for Apple Silicon and is easy to install.
 - [Ollama](https://ollama.com) is my choice to run a LLM locally for use with code editor integrations, automations, or other “non-chat” use cases. There are a number of popular models to choose from, and they can be run from Mac, Windows, and Linux. 
+    - If the spartan command line interface to Ollama isn’t what you want, [LM Studio](https://lmstudio.ai) is a great alternative.
 
 ## Speech-to-Text
 
