@@ -421,11 +421,11 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Bitwarden](https://bitwarden.com/) is the best open source, cross-platform password manager that I’ve ever tried. And the best part is the free version is more than enough for most people. There are desktop and mobile clients, browser extensions, and a command line interface. Bitwarden works everywhere you need it.
     - If you are only using Apple hardware, Apple Passwords is a great alternative with with seamless integration across mobile and desktop clients.
 
-## Local AI / LLM Server 
+## Local AI Chat / LLM Server 
 
-- [Jan](https://jan.ai) is a great alternative to [ChatGTP](https://openai.com/chatgpt/download/)  if you want an offline AI chat bot. It’s open source and highly customizable. 
-- [Ollama](https://ollama.com) is my choice to run a LLM locally for use with code editor integrations or other “non-chat” use cases. There are a number of popular models to choose from, and they can be run from Mac, Windows, and Linux. 
-    - Another local option for Mac is [Locally AI](https://locallyai.app), which is more capable but more complex than Ollama.
+- [Jan](https://jan.ai) is a great alternative to [ChatGTP](https://openai.com/chatgpt/download/)  if you want an offline AI chat bot. It’s open source and highly customizable. Also, it will actually use online AI providers if you want that as well.
+    - Another local option for Mac is [Locally AI](https://locallyai.app), which is optimized for Apple Silicon and is easy to install.
+- [Ollama](https://ollama.com) is my choice to run a LLM locally for use with code editor integrations, automations, or other “non-chat” use cases. There are a number of popular models to choose from, and they can be run from Mac, Windows, and Linux. 
 
 ## Speech-to-Text
 
