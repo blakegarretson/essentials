@@ -2,7 +2,7 @@
 
 This is the free software that I find essential for personal/hobby use. These are the programs that I either install immediately when I set up a new computer or end up installing as I need them. I have tried numerous solutions in each category before settling on my favorite. I maintain this list for my own convenience, allowing me to quickly recall and find  the software I deemed best during my last evaluation of a category. In some cases I have included alternatives, honorable mentions, or close seconds. Having said that, I try not to include redundant programs unless they bring something to the party. My intention is not to create a comprehensive list of all free software; this is a subjective compilation of my personal favorites from the vast array of available options.
 
-Many of these programs are cross-platform, but if an app doesn’t support at least Windows and Mac, I will make a note of that and usually list alternatives. All of these programs are free for personal use, and many are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. 
+Many of these programs are cross-platform, but if an app doesn’t support at least Windows and Mac, I will make a note of that and usually list alternatives. Having said that, I spend most of my time on Macs these days, so this list has more Mac-exclusive apps than Windows exclusive apps. All of these programs are free for personal use, and many are open-source as well. If there are commercial versions available for a program, the free version listed here is not a time-limited trial, and it is useful without upgrading to a paid version. 
 
 Have a suggestion for a great program that should be on my list? Let me know about it so I can try it out! Have a comment or correction on something on this website? Click on the [Feedback](https://forms.gle/swSCivmLBwTxRwY27) link and let me know!
 
@@ -16,7 +16,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Photo/Vector Editor
 
-- [Affinity](https://www.affinity.studio) is a free all-in-one solution for raster and vector editing, as well as desktop publishing. The user experience is really well thought out, and the functionality is all there, which makes it easy to recommend. For most people, Affinity is probably a better (and cheaper!) alternative to the Adobe suite. Just be aware that the AI-based functions (like generative fill) require a paid Canva subscription, but you don’t need to pay anything if you just want to use traditional image/vector editing tools. **(Windows, Mac)**
+- [Affinity](https://www.affinity.studio) is a free all-in-one solution for raster and vector editing, as well as desktop publishing. The user experience is really well thought out, and the functionality is all there, which makes it easy to recommend. For most people, Affinity is probably a better (and cheaper!) alternative to the Adobe suite. Just be aware that the AI-based functions (like generative fill) require a paid Canva subscription, but you don’t need to pay anything if you just want to use traditional image/vector editing tools. 
 
 ### Honorable Mentions
 
@@ -47,7 +47,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [ShareX](https://getsharex.com/): You don’t know how useful a good screenshot tool is until you start using it. It’s really handy to automatically save screenshots (or portions of screens) to a predetermined folder and keep it on the clipboard as well. ShareX takes it one step further and will upload the image to pretty much any site you like, and the OCR functionality is really cool. The icing on the cake is the screen capture capability that will let you record portions of your screen and save it to a GIF (or other formats). It’s great for playing tech support with family to show them how to do stuff. **(Windows)**
     - For a more bare bones solution, use *SHIFT + WINDOWS + S* key combo to access the screenshot functionality built into Windows.
-- [macshot](https://github.com/sw33tlie/macshot) is an amazing tool for screenshots on Mac. It has all the usual features plus cool stuff like scrolling captures (for long webpages), video recording of your screen, and OCR text recognition so you can cut and paste text from images on your screen. This is basically a better version of [Shottr](https://shottr.cc/), and it’s free! **(Mac)**
+- [macshot](https://github.com/sw33tlie/macshot) is an amazing tool for screenshots on Mac. It has all the usual features plus cool stuff like scrolling captures (for long webpages), video recording of your screen, and OCR text recognition so you can cut and paste text from images on your screen. This is basically a better version of [Shottr](https://shottr.cc/), and it’s free. **(Mac)**
     - If you don’t need/use anything beyond simple screenshots on Mac, it’s worth mentioning the *SHIFT + CMD + 4* shortcut gets you a portion of the screen and automatically saves the file to the desktop.
     - [Kap](https://getkap.co) is an easy way to record part of your screen if you don’t need all the bells and whistles of macshot. The simple interface makes it worth having around. **(Mac)**
 - [Open Screen](https://openscreen.vercel.app) is a wonderful cross-platform option for screen recording, especially for app demonstrations because it has features like zooming and annotations. 
@@ -97,8 +97,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 *Note: Apps in this category have become mostly obsolete since I have moved to streaming services like Spotify, but when I do want to work with local music files, it’s hard to do better than these.*
 
 - [foobar2000](https://www.foobar2000.org) has been around forever, and it is still going strong as a feature-packed music player.  It has a minimal interface, but there is a lot under the hood such as cross-faded playback, EQ, limiters, and up/down-mixing. It’s surprisingly hard to find a free app on Mac that handles crossfading, so I like having foobar2000 around.
-- [MusicBee](https://getmusicbee.com/): A great way to organize and play your local music library. Includes handy features like gapless playback and auto-tagging. A **(Windows)**
-    - I’m not listing a Mac alternative for playback here because the default Apple Music app is fine, and a third party app just isn’t necessary for me.
 - [MusicBrainz Picard](https://picard.musicbrainz.org/) is the best cross-platform solution for identifying and organizing a large collection of music files. It can figure out what files are based on tags and even audio fingerprints. Besides tagging it will rename and move files as well. Even if you’re using Apple Music or MusicBee to organize your music library, this is still a handy tool to clean up the incorrectly tagged files before adding them to your library.
 
 ## Audio Conversion
@@ -453,7 +451,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Mac Desktop Tweaks & Utilities
 
 - [Loop](https://github.com/MrKai77/Loop) is window manager that really shines if you prefer mouse-driven actions rather than keyboard shortcuts. The radial menu provides a visual approach so you don’t need to remember a bunch of key combinations.
-    - If you just want a keyboard-based window manager, [Rectangle](https://rectangleapp.com/) allows for fairly complex window manipulation, and it may be better for you than Loop. Or use both.
+    - If you just want a keyboard-based window manager, [Rectangle](https://rectangleapp.com/) allows for fairly complex window manipulation, and it may be better for you than Loop. Or use both. If you do use Rectangle, you may even want to upgrade to [Rectangle Pro](https://rectangleapp.com/pro). The window throwing is a game changer for window management. Having said that, using both Loop and Rectangle (not Pro) together may give you the functionality you need. **(Mac)**
 - [DockDoor](https://dockdoor.net) is an improved version of the standard "Command-Tab" for switching apps. It is highly customizable, and the star feature is adding thumbnails of your apps to the app switcher and the dock. I used to use [Alt-Tab](https://alt-tab-macos.netlify.app), but DockDoor has far more options and features. 
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) is probably the best known app to keep your screen on. There are all sorts of reasons you might need this, but I often use it when I’m sketching from a reference photo and I don’t want the screen going to sleep on me.
 - [Hyperkey](https://hyperkey.app/) is so simple, yet it has become essential for me. It lets you remap the caps-lock key to any combination of meta keys. It can be configured in any number of ways, but I have it setup so when I press caps-lock, it is the same as pressing shift-command-ctrl. Then I map that combo to whatever I like in my various apps. E.g. in VS Code, pressing caps-lock and P will run the current file in Python.
@@ -523,10 +521,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Calculators
 
-- [SpeedCrunch](http://www.speedcrunch.org/) sports fast start-up and plenty of functionality. The interface is deceptively simple, but lurking under the hood are constants, variables, an impressive list of math functions, and equation support. Unfortunately, while SpeedCrunch is cross-platform, it looks fuzzy/blurry on Mac. The graphics toolkit doesn’t seem to upscale well on hi-res monitors, so I just don’t use it on Mac.
-- [Numi](https://numi.app/) is one of the best free options on Mac for a notebook-stye calculator. The paid version supports multiple pages/notebooks, but the free version has full functionality otherwise. Intuitive calculations (e.g. “5% of 20”) and unit conversion (although somewhat basic) make Numi a solid desktop calculator. **(Mac)**
-- [Qalculate!](https://qalculate.github.io/) is a good place to start if you want a scientific calculator on Windows or Linux. It can do everything from integration to units. The interface is not my favorite, but it is packed with features and totally usable. (Technically this works on Mac too, but with no .app or installer, you have to use Homebrew or MacPorts, and there isn’t even a shortcut/icon for it, so the experience is subpar.)
-- [NCalc](https://ncalc-app.web.app/): A robust scientific calculator for Mac. This has pretty much everything you would commonly need in a calculator. There is a Pro upgrade that unlocks graphing and other bells and whistles, but it is still useful without the upgrade. **(Mac)**
+- [Numi](https://numi.app/) is my pick for the best free notebook-stye calculator. The paid version supports multiple pages/notebooks, but the free version has full functionality otherwise. Intuitive calculations (e.g. “5% of 20”) and unit conversion (although somewhat basic) make Numi a solid desktop calculator. Check out Numi’s [Github page](https://github.com/nikolaeu/numi) for extensions that add additional units and other functionality. Numi is probably the best free alternative to [Soulver](https://soulver.app), which is my favorite calculator app, although it is a paid app.
+- [Qalculate!](https://qalculate.github.io/) is a good place to start if you want a more traditional scientific calculator. It can do everything from integration to units. The interface is not my favorite, but it is packed with features and totally usable. Caveat: The experience is better on Windows and Linux because on Mac there is no packaged app or installer, so you have to use Homebrew or MacPorts, and there isn’t even a shortcut/icon for it, so the experience is subpar.
+    - If you prefer a classic scientific calculator interface, [NCalc](https://ncalc-app.web.app/), is a robust choice for Mac. This has pretty much everything you would commonly need in a calculator. There is a Pro upgrade that unlocks graphing and other bells and whistles, but it is still useful without the upgrade. **(Mac)**
 - [GeoGebra](https://www.geogebra.org/download) is an app suite you might want to check out if you need a graphing calculator. This suite is five calculators in one, including modules for graphing, geometry, algebra, and probability. The graphing is fairly robust and the customization is impressive for what it is. It’s really great for high school level math or maybe even low-level college problems. For higher level math, see the real CAS systems below.
 
 ## Unit Conversion
@@ -558,7 +555,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Statistics
 
 - [Jamovi](https://www.jamovi.org/) and/or [JASP](https://jasp-stats.org/): The reason I list both Jamovi and JASP here is because they have different strengths and statistical capabilities, so depending on your data and what type of analysis you need, one may be a better choice for you. They are in tight competition and both have seen active development over the years, so it's worth keeping an eye on both. If you don’t know what you need, I would start with Jamovi because I think the interface is more intuitive, especially the data manipulation. If I want simple descriptive statistics, a histogram, or a quick t-test, either of them make it easy (although honestly, if I need much more than that I’m probably in Jupyter using Python with libraries like Pandas to help slice and dice the data.) Also, it’s worth noting that both are front-ends for R, the 800-pound-gorilla of stats packages, so there are a number of modules available to add functionality. In Jamovi, be sure to check out the vijPlots package for a much more customizable plotting experience compared to the stock plotting capabilities.
-    - On paper, [BlueSky Statistics](https://www.blueskystatistics.com/) should be the easy winner in this category. It has many, many more features than Jamovi. However, I don’t find the interface as intuitive for casual analysis, and by default the plots look fairly bad. The plots can certainly be tweaked through the R language, but it isn’t transparent to the casual user. Besides the impressive collection of analysis methods, the real reason I might reach for BlueSky instead of Jamovi is the robust set of data manipulation tools.
+    - On paper, [BlueSky Statistics](https://www.blueskystatistics.com/) should be the easy winner in this category. It has many, many more features than Jamovi. However, I don’t find the interface as intuitive for casual analysis, and by default the plots look fairly bad. The plots can certainly be tweaked through the R language, but it isn’t transparent to the casual user. Besides the impressive collection of analysis methods, the real reason I might reach for BlueSky is the robust set of data manipulation tools.
 - [PAST](https://www.nhm.uio.no/english/research/resources/past/) is the only app in this category that isn’t just a front-end for R. If you look past the deceptively plain interface, this is a super powerful stats program chock-full of functionality. There’s no safety net or hand-holding to help you interpret the results, but it has an amazing manual describing the equations used and even includes extensive citations, so this is no black box. It has a very robust set of statistical plotting tools, and the histograms are actually pretty good with a fair amount of customization (including overlaying a normal distribution).
 
 ## CSV Files
@@ -578,7 +575,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Electronics Schematics
 
 - [LibrePCB](https://librepcb.org) is my first choice for making schematics or PCB layouts because the interface is intuitive and the library of components just makes sense. If you have ever used a schematic program or even CAD, you will figure it out quickly. 
-    - [KiCad](https://www.kicad.org/): If you’re a professional looking for an electronics design program, you’re probably looking for KiCad. It’s a large download and the learning curve is a bit more than I would like for doing simple schematics, but it’s worth learning if you have complex needs.
+    - [KiCad](https://www.kicad.org/): If you’re a professional looking for an electronics design program, you’re probably looking for KiCad. It’s a large download and the learning curve is a more than I would like for doing simple schematics, but it’s worth learning if you have complex needs.
 
 ## 3D Printing Slicer
 
@@ -600,20 +597,14 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 # Gaming
 
-*I’m not going to list actual games here, but rather just some gaming related software which facilitates playing games.*
-
-## Games Launchers
-
-- [Steam](http://store.steampowered.com/): Must-have for PC gaming. I prefer Steam every time I have a choice.
-- [GOG Galaxy](https://www.gog.com/galaxy) is the official launcher for games bought on GoG.com, but it also serves as a decent universal game library since it will work with any PC game regardless of where it was bought.
-- [Epic Games](https://www.epicgames.com/): I’m mostly here for the free games. Occasionally there are exclusives or sales that might be worth using the Epic store.
+*I’m not going to list game stores (e.g. Steam, GOG, Epic, etc.) or actual games here, but rather just some gaming related software which facilitates playing games.*
 
 ## Console Emulation
 
 - [RetroArch](https://www.retroarch.com/) has you covered if you’re looking to play some old school games from retro systems like the Atari 2600, NES, SNES, and many more.
 - [OpenEmu](https://openemu.org/) is a slick emulator for the Mac. It is easy to use and works great. **(Mac)**
 
-## Game… um… Enhancement
+## Game “Trainer”
 
 - [Cheat Engine](https://www.cheatengine.org/): Okay, look, I don’t hate fun, but I have limited time for gaming, so sometimes when I’m enjoying the story of a single-player game but it’s kind of grindy, I’ll use Cheat Engine to give myself resources or something to reduce grinding. It’s not trivial to figure out, but it can do amazing things.
 
@@ -636,13 +627,3 @@ Just for easy reference, here are some websites to find and download some great 
 - [IF Archive](https://www.ifarchive.org/indexes/if-archive.html)
 - [The IF Wiki](http://www.ifwiki.org/index.php/)
 - [The IF Competition](https://ifcomp.org/)
-
-# BONUS (Non-free) Apps
-
-Okay, I know I said this was a list of free software, but sometimes paid apps are worth it, so I'm listing my favorites here for my own future reference. And hey, maybe someone else will find these recommendations useful too.  Here's the catch: I spend most of my desktop time on Macs now, therefore this is where I spend my money to buy quality-of-life tools. So, here are some Mac apps worth buying:
-
-- [Typora](https://typora.io): This is an amazing Markdown editor that is so clean and capable I bought it even though I love (and mostly use) free options like Obsidian and Zettlr now. Typora has excellent Markdown live-rendering, and it is well-suited for all types of writing including scientific writing as it supports LaTeX equations and various diagram formats. **(Mac)**
-- [Rectangle Pro](https://rectangleapp.com/pro): Rectangle is great, but Rectangle Pro is better. The window throwing is a game changer for window management. Having said that, [Loop](https://github.com/MrKai77/Loop) is free, so you should try Loop before buying Rectangle Pro. In fact, using both Loop and Rectangle (not Pro) together may give you the functionality you need. **(Mac)**
-- [Dropover](https://dropoverapp.com) is such a niche app. It creates temporary shelves where you can store files until you do something to them. You could move them or perform batch operations on them (like convert or compress them). **(Mac)**
-- [Soulver](https://soulver.app) launched a whole genre of calculator apps, and none of them do it better than Soulver. I really didn’t want to spend this much on a calculator (the $35 price feels ridiculous), but I’m glad I did. It works great and I use it everyday, so I feel I got my money’s worth.  **(Mac)**
-- [New File Menu](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/new-file-menu/id1064959555%3Fmt%3D12&ved=2ahUKEwjJ0ZvamZCNAxUE5skDHX2ED7wQFnoECBEQAQ&usg=AOvVaw1n7_oSZbK_5sohfvjBdz4J) : When I first started using Macs after using Windows for years, the missing “New File” capability was a glaring omission in MacOS. This is such a dumb app to have to add, but it fills the gap.  **(Mac)**
