@@ -1,5 +1,9 @@
 # Change Log
 
+## 2026-04-20
+
+Created a Fonts category. I have a few essential fonts I like to put on any computer, so it seems like it fits here.
+
 ## 2026-04-12
 
 Added **TypeWhisper** as an option for cross-platform use.
