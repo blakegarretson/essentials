@@ -642,4 +642,5 @@ Just for easy reference, here are some websites to find and download some great 
 - [Iosevka](https://typeof.net/Iosevka/) is a narrow font well-suited for terminals and editors where you want to fit a lot of characters on the screen. Similar to the Input font, Iosevka raises the bar by adding ligatures, more weights, more variants, and incredible character coverage with thousands and thousands of supported glyphs. If I could only have one font, it would probably be Iosevka because it is so versatile. Be sure to try the Aile variant, which is a quasi-proportional font that is excellent for technical writing and even coding.
 
 *For convenience, here is a quick Homebrew command line to install all these fonts:*
-`brew install font-cabin font-crimson-pro font-input font-iosevka font-iosevka-aile font-literata font-noto-sans font-source-code-pro`
+```sh
+brew install font-cabin font-crimson-pro font-input font-iosevka font-iosevka-aile font-literata font-noto-sans font-source-code-pro```
