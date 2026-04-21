@@ -21,7 +21,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ### Honorable Mentions
 
 - [GIMP](http://www.gimp.org/): A tried-and-true robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it’s not really suited for pros either given some of the missing features. Having said that, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation.
-- [Inkscape](https://inkscape.org/en/): Incredibly capable vector image editor for creating professional quality, scalable diagrams, logos, you-name-it. Its functionality rivals Adobe Illustrator, although sometimes the tools don’t map one-to-one. 
+- [Inkscape](https://inkscape.org/en/): Incredibly capable vector image editor for creating professional quality, scalable diagrams, logos, you-name-it. While I wouldn’t say GIMP seriously rivals Photoshop, I *would* say Inkscape’s functionality nearly rivals Adobe Illustrator, although sometimes the tools don’t map one-to-one. 
 
 ## Digital Sketching/Painting
 
@@ -34,7 +34,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ### Honorable Mentions
 
-- [RawTherapee](https://www.rawtherapee.com/) is similar enough to darktable and digiKam that it may seem redundant, but it’s worth having in your toolbox because it does some things better or easier. Give it a try if the apps above aren’t a good fit for you.
+- [RawTherapee](https://www.rawtherapee.com/) is similar enough to darktable and digiKam that it is a bit redundant, but you may want to try it because it does some things better or easier. Give it a try if the apps above aren’t a good fit for you.
 - [XnView MP](https://www.xnview.com/en/xnviewmp/) might be more to your liking if you are a casual user that just wants to view a collection of photos and do some basic adjustments. It has an old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more.
 
 ## AI Image Generation
@@ -56,14 +56,13 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Video Editing/Conversion
 
 - [Openshot](https://www.openshot.org/): is a capable multi-track editor with a nice interface that is fairly intuitive compared to other apps in this space. If I don’t need anything special, this is the first place I reach. One feature I especially enjoy is the captioning support which includes some great appearance customization. I initially started using Openshot because iMovie was so limited in video formats and aspect ratios, and I quickly discovered Openshot is more capable in a dozen other ways as well. I don't even bother with iMovie anymore.
-- [kdenlive](https://kdenlive.org/): If you do need something special that Openshot can't handle, it’s great to have kdenlive in the toolbox. Openshot has it beat in a few areas, so I still prefer it in general, but kdenlive has some features that make it worth having around. 
-- [LosslessCut](https://github.com/mifi/lossless-cut) is a lossless video editor that doesn’t require reencoding the entire video for simple operations. This is a great option if you just need to trim or cut out a section from a video file.
-- [HandBrake](https://handbrake.fr/): Convert video from/to nearly any format. While incredibly powerful and complex, HandBrake makes it really simple to get started. If you don’t want anything special, just drag and drop a file, select a preset target format (e.g. Roku 1080p30 or Android 720p30), and hit start.
+- [Kdenlive](https://kdenlive.org/): If you do need something special that Openshot can't handle, it’s great to have Kdenlive in the toolbox. Where Openshot is quick and easy, Kdenlive is what I would call “semi-professional” with more advanced features like automatic speech-to-text subtitle generation, audio scopes, vector-based animation integration, and proxy editing. I still prefer Openshot because my use cases are usually simple and Openshot makes those things easy to accomplish, but Kdenlive has features that make it worth having around. 
+- [Shutter Encoder](https://www.shutterencoder.com) is video Swiss Army knife with a bunch of useful tools, but I tend to use it for video conversion and trimming video without needing to re-encode it. Super handy and fast! It also has other interesting features like AI audio transcription and face blurring. 
+    - Before Shutter Encoder came along, I would use [LosslessCut](https://github.com/mifi/lossless-cut) when I need to trim or cut out a section from a video file. It’s still a great app. For conversion I used to use [HandBrake](https://handbrake.fr/), and it still works fine, so you might want to check it out as well.
 - [Gifski](https://sindresorhus.com/gifski) is a super easy way to convert video to high-quality GIFs. **(Mac)**
 
 ### Also check out:
 
-- [Shutter Encoder](https://www.shutterencoder.com) is another converter, but it does basic editing like trimming and has other interesting features like AI audio transcription. It’s kind of like a mix between LosslessCut and HandBrake, so maybe you don’t need all three, but it’s worth trying them all to see which work for your use cases.
 - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) is a professional package, but they have a free version that’s very impressive. It outshines the above editors in features, but I’m reluctant to learn a free tool that could be retracted at a whim, so in general the open source tools get my vote.
 - [Shotcut](https://www.shotcut.org/) should at least be on your radar, and perhaps you find it to your liking more than Openshot, but it's limited functionality (especially subtitles/captioning) and steeper learning curve make it hard to recommend over the other options. It appears to be actively developed though, so I’m keeping my eye on it.
 
@@ -152,7 +151,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ### Honorable Mentions
 
 - [uFocus](https://desairem.com/wordpress/ufocus/) is a lightweight distraction-free editor for the Mac. Its Markdown support and clean interface make it a perfect choice for quick prose writing. Even though it is simple, there are plenty of customization options to make it work and look just like you want it to. It’s a wonderful app if you don’t need live-preview. **(Mac)**
-- [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) reminds me more of a code editor that supports Markdown syntax highlighting than a modern writing app, but it is excellent at being a “Markdown code editor”. Besides syntax highlighting, it  has keyboard shortcuts and toolbar commands to handle all your Markdown formatting needs. There is no inline live-preview, but there is an extension available that adds side-by-side preview. There is also builtin `pandoc` support to generate various formats, including PDF, HTML, and EPUB. **(Mac)**
+- [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) reminds me more of a code editor that supports Markdown syntax highlighting than a modern writing app, but it is excellent at being a “Markdown code editor”. Besides syntax highlighting, it  has keyboard shortcuts and toolbar commands to handle all your Markdown formatting needs. There is no inline live-preview, but you can click on certain elements to get a balloon pop-up that shows a rendered preview, and there is an extension available that adds side-by-side preview. MarkEdit also has builtin `pandoc` support to generate various output formats like PDF, HTML, and EPUB. **(Mac)**
 - [MarkText](https://github.com/marktext/marktext) is a cross–platform option that I probably would have included as one of my first choices due to its excellent live-preview and intuitive interface, but development seems to have stopped, so I question its longevity. MarkText looks like a clone of [Typora](https://typora.io) (a paid app), so if you like Typora, you may prefer the free MarkText instead.
 
 ## Markup Conversion/Publishing
@@ -173,16 +172,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [TeXstudio](http://texstudio.sourceforge.net/): Lightweight portable LaTeX IDE, including editor, spell checker, and symbol toolbars. For those keeping track, this was forked from TeXMaker back in 2009 and quickly outpaced it. If I need to edit TeX, this is a nice solution. 
     - While I love TeX, unless I’m writing a technical paper with extensive math notation or formatting requirements, I’m probably going to use a Markdown editor that supports TeX math blocks instead of a dedicated TeX editor. 
     - Another nice alternative is to just use VS Code with the appropriate LaTeX extensions installed. 
-
-## Text Comparison
-
-- [Meld](http://meldmerge.org/): My favorite graphical file comparison (AKA “diff”) program for many years on many platforms. There is 2 and 3-way file diff and merge, as well as directory comparison. It also plays nicely with many version control systems including Git.
-
-### Honorable Mentions
-
-- [WinMerge](https://winmerge.org/): WinMerge has been around for a long time, and it’s still one of the better all-around solutions. I’m listing it here because I like it better than Meld for directory comparison, and for that task alone, it’s worth having it installed. **(Windows)**
- - [KDiff3](https://apps.kde.org/kdiff3/) is the other venerable option that's been around forever, and does a few things better than Meld (namely directory comparison), but overall, it's never my first choice. (Tip: they hide the downloads [here](https://download.kde.org/stable/kdiff3/).)
- - [VisualDiffer](https://visualdiffer.com) is a Mac-only offering that I would be tempted to choose for simple diffs if I didn’t have decades of familiarity with Meld. It is clean and works well. **(Mac)**
 
 ## Text Snippet Managers
 
@@ -249,24 +238,19 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Remote Shell Access
 
-- [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/): Awesome ssh/telnet client. It’s been the premier free terminal client for so many years because it’s simple and works while not skimping on features. **(Windows)**
-- [Tabby](https://tabby.sh/) is the only client that has ever tempted me away from Putty. At first it doesn’t seem as full-featured, but keep digging and you’ll see all the SSH options you need in a really customizable terminal, including built-in SFTP and cross-platform support. If I’m on a Mac, this is my chosen SSH client. Tabby also makes a wonderful terminal for local shells.
+- [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/): Awesome classic ssh/telnet client. It’s been the premier free terminal client for so many years because it’s simple and works while not skimping on features. **(Windows)**
+- [Tabby](https://tabby.sh/) is the modern, cross-platform answer to Putty. At first it doesn’t seem like it has the features you want, but keep digging and you’ll see all the SSH options you need in a really customizable terminal, including built-in SFTP. If I’m on a Mac, this is my chosen SSH client. Tabby also makes a wonderful terminal for local shells.
 
 ## File Transfer
 
 - [WinSCP](http://winscp.net/eng/index.php): Great ftp/sftp/scp client with lots of extra features like bandwidth limiting and shutting down the program or computer after file transfers are done. **(Windows)**
 - [PortX](https://portx.online/en/) is a simple, bare-bones cross-platform option if you want to transfer files over SFTP or even Amazon S3 or Google Cloud storage. It’s also a ssh client, but I don’t typically use it for that since the customization is limited. This is what I generally use on a Mac since WinSCP is Windows only.
     - If you need more features than PortX, [Cyberduck](https://cyberduck.io/) is a fantastic alternative that supports a ton of protocols. While it is free, the main drawback is you will see a nag screen asking for a donation every time you close the program.
-    - My go-to ftp/scp solution for many years was [FIleZilla](https://filezilla-project.org/). It’s cross-platform and it worked great. The problem is they did some shady stuff years ago with their installer in an attempt to monetize the software. You would try to install FileZilla, and the next thing you knew you had McAfee installed too. Since then, they aren’t bundling bloatware with FileZilla anymore, and they are offering a Pro version with extra features instead. I have used FileZilla more recently, and it’s still a decent choice.
-- [qBittorrent](http://www.qbittorrent.org/): Lightweight, yet powerful, BitTorrent client. There’s no ads and the features are all there. If you need a standalone BitTorrent client, this is a great place to start.
-- [Transmission Remote GUI](https://github.com/transmission-remote-gui/transgui) is the perfect companion to [Transmission](https://transmissionbt.com/). This is really the best choice for when you want to remote control a Transmission session running on a server. This is handy if you have a torrent box and you just want to add/monitor torrents from another computer. So to be clear, you would need to run Transmission on the server/torrent box and Transmission Remote GUI runs on your desktop/laptop.
-    - [Electorrent](https://github.com/tympanix/Electorrent) is the a great alternative when you want a nice, clean-looking client with a modern UI to manage your torrents remotely. It isn’t overly complicated, it supports all the popular torrent backends, and it has all the usual functionality that you want without overwhelming you with options.
-
+    - My go-to ftp/scp solution for many years was [FileZilla](https://filezilla-project.org/). It’s cross-platform and it worked great. The problem is they did some shady stuff years ago with their installer in an attempt to monetize the software. You would try to install FileZilla, and the next thing you knew you had McAfee installed too. Since then, they aren’t bundling bloatware with FileZilla anymore, and they are offering a Pro version with extra features instead. I have used FileZilla more recently, and it’s still a decent choice.
+- [qBittorrent](http://www.qbittorrent.org/): Lightweight, yet powerful, BitTorrent client. There’s no ads and the features are all there. If you need a standalone BitTorrent client, this is a great place to start.i
 ## Remote Desktop Control
 
 - [Chrome Remote Desktop](https://remotedesktop.google.com/): For the simplicity, it’s hard to beat this solution to remote access and support. It makes it easy to check something on my desktop computer while I’m away from the house, and it’s also handy if you are the “IT Guy” for your friends and family. They can set this up pretty easily and share their screen with you so you can fix their issue.
-- [UltraVNC](https://www.uvnc.com/downloads/ultravnc.html): If you need full-blown, full-featured remote desktop control, UltraVNC will do the job fine. I just don’t find myself using VNC as much as I used to as I move more data to the cloud. This is a more cumbersome solution because it requires port-forwarding and either a static IP or a dynamic DNS solution to make it useful outside of your home network. **(Windows)**
-    - I’m not listing a VNC client for Mac because it has a VNC client built in. Search for “Screen Sharing.app” in Spotlight to find it.
 
 ## Chat/Messenging
 
@@ -465,44 +449,41 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Boop](https://boop.okat.best/) is a text scratchpad that provides a large host of text manipulations useful for programming or writing. You paste in your text, and then run a script on it. It can be anything you can think of, like running it through ROT13, trimming whitespace, hashing it, html encode/decode, sorting, removing duplicate lines, converting cases, or tons of other operations. If you don’t see what you need, you can create your own script or download someone else’s.
 
 # Programming
+*I am excluding compiled languages and their toolchains from this section because they are a little too domain specific. I did include scripting languages only because I see them as tools or utilities and the end user needs to have the interpreters installed to use the scripts.*
 
 ## Coding Editors
 
 *Note: See the [All-Purpose Text Editors](#all-purpose-text-editors) section for other text editors useful for programming.*
 
 - [Visual Studio Code](https://code.visualstudio.com/): VS Code is a legitimately great editor for just about any language. From linter to debugging, everything you need can be integrated into a seamless workflow. Check out the extensions to add nearly any functionality you could want, turning VS Code into a legitimate IDE (depending on your requirements for an IDE). A huge bonus is the excellent Jupyter Notebook support. For many use cases, there’s no reason to run a standalone Jupyter server anymore.  *Note: Don’t confuse Visual Studio Code with [Visual Studio](https://visualstudio.microsoft.com/vs/) which is a full-blown IDE with more advanced features that I don’t find necessary for the hobbyist.*
-    - Two things worth mentioning: First, you can run VS Code directly in a web browser [here](https://vscode.dev/). The experience is pretty incredible all things considered. Second, VS Code is very actively developed, so if you want the latest and greatest, you may want to run [VS Code Insiders](https://code.visualstudio.com/insiders/). On paper it is a beta version of VS Code where the new features are tested out, except I have found Insiders to be stable enough for production work. I honestly haven’t noticed a difference in reliability.
+    - Two things worth mentioning: First, you can run VS Code directly in a web browser [here](https://vscode.dev/). The experience is pretty incredible, all things considered. Second, VS Code is actively developed, so if you want the latest and greatest, you may want to run [VS Code Insiders](https://code.visualstudio.com/insiders/). On paper it is a beta version of VS Code where the new features are tested out, except I have found Insiders to be stable enough for production work. I honestly haven’t noticed a difference in reliability.
     - [Zed](https://zed.dev/) is another code editor that I’m keeping my eye on. It is a newer offering, but it’s already doing some cool things, and it seems to be faster than VS Code for those quick code edits. It still has a way to go to be competitive with VS Code, but I like where it’s going.
 
 ## Version Control
 
-- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world, and with good reason. If you’re a programmer, you already know what this is. 
+- [Git](http://git-scm.com/): A distributed version control system that quickly took over the open source world. If you’re a programmer, you already know what this is. 
     - A big bonus on Windows is that the installer includes all the Unix command-line tools you know and love. If you need `ls`, `cat`, `grep`, `awk`, and all the rest, I think this is the easiest way to add them to your Windows system.
 - [Sourcetree](https://www.sourcetreeapp.com) is the GUI client I use if I need to do something more complicated with Git and I don’t feel like looking up the correct commands/switches. It’s also great for visualizing branches. 
     - If you just need a simple GUI client without the bells and whistles, the official Github client [Github Desktop](https://github.com/apps/desktop) is fine for basic tasks.
 
-## Compiled Language
+## Text Comparison (Diff)
+*I am just including dedicated standalone graphical file comparison apps here. Don’t forget VS Code has a great diff engine built-in. Also, FileMerge from the Xcode suite is worth considering, but I’m not including it because you cannot install it separately from the entire Xcode suite (which is huge).*
 
-- [Go](https://golang.org/): Even though I don’t do a ton of programming in compiled languages anymore, when I do, I am usually making command line programs like file utilities, text manipulators, number crunching programs, etc, and Go fits the bill nicely. With a robust standard library and simple syntax, Go is great for Python programmers like myself.
-    - I will also mention [Rust](https://www.rust-lang.org) here simply because it is the heir-apparent to venerable languages like C and C++, and when Go isn’t the right tool for the job, Rust often is.
+- [Meld](http://meldmerge.org/) has been favorite standalone graphical file comparison (AKA “diff”) program for many years on many platforms. There is 2 and 3-way file diff and merge, as well as directory comparison. It also plays nicely with many version control systems including Git.
 
-## Scripting Language - General Purpose
+### Honorable Mentions
 
-- [Python](http://www.python.org/): My favorite general purpose programming language. It’s perfect for getting the job done quickly without a lot of boilerplate and heavy lifting. I’m a pragmatic engineer, so I just want to solve a problem as efficiently and elegantly as possible, and I’ll leave the arguing about static typing and whatnot to the real developers and CS engineers.
+- [WinMerge](https://winmerge.org/): WinMerge has been around for a long time, and it’s still one of the better all-around solutions. I’m listing it here because I like it better than Meld for directory comparison, and for that task alone, it’s worth having it installed. **(Windows)**
+- [KDiff3](https://apps.kde.org/kdiff3/) is the other venerable option that's been around forever, and does a few things better than Meld (namely directory comparison), but overall, it's never my first choice. (Tip: they hide the downloads [here](https://download.kde.org/stable/kdiff3/).)
+- [VisualDiffer](https://visualdiffer.com) is a Mac-only offering that would probably be my second choice after Meld. The interface is simple and works well. **(Mac)**
+
+## General Purpose Scripting Language
+
+- [Python](http://www.python.org/) has been my favorite general purpose language since 1999. It’s perfect for getting the job done quickly without a lot of boilerplate and heavy lifting. I’m a pragmatic engineer, so I just want to solve a problem as efficiently and elegantly as possible, and I’ll leave the arguing about static typing and whatnot to the real developers and CS engineers.
     - On Mac I prefer to use [pyenv](https://github.com/pyenv/pyenv) to install the various Python versions. Once you install it (which is trivial with Homebrew), you can just issue a command like: `pyenv install 3.14.4`
-    - All the essential Python libraries are on PyPi, so here is a pip command line (for easy cutting and pasting) useful for STEM programming to get you started. This is a short list, but it pulls the more important dependencies like scipy, pandas, and numpy: `pip install jupyterlab seaborn PyQt6 sympy`
-    - And a quick description of a couple of packages vital for STEM:
+    - All the essential Python libraries are on PyPi, so here is a pip command line (for easy cutting and pasting) useful for STEM programming to get you started. This is a short list, but it pulls the more important dependencies like scipy, pandas, numpy, and matplotlib: `pip install jupyterlab seaborn PyQt6 sympy`
 
-        - [SciPy](https://www.scipy.org/) is a scientific package useful for everything from statistics to linear algebra.
-        - [Pandas](https://pandas.pydata.org/) handles data structures and data manipulation.
-        - [NumPy](https://www.numpy.org/) is the foundation for numeric arrays, and math functions.
-        - [SymPy](https://www.sympy.org/) is a symbolic computer algebra system.
-        - [Matplotlib](https://matplotlib.org/) is a robust plotting library.
-        - [Seaborn](https://seaborn.pydata.org/) is a higher level package built on matplotlib that can really improve your productivity.
-        - [PyQt](http://www.riverbankcomputing.co.uk/software/pyqt/intro): Probably the best looking, best featured, cross-platform GUI toolkit.
-            - Other GUI toolkits worth checking out are [wxPython](https://www.wxpython.org/), which is a really nice toolkit that I’ve used on a number of projects, and [Kivy](https://kivy.org/#home), which accommodates mobile platforms with features like multi-touch support.
-
-## Scripting Language - Math/Science
+## Math/Science Scripting Language
 
 - [Julia](http://julialang.org/): Just an incredible tool for mathematical or scientific computing of any kind. The lightweight syntax is a delight even by Python standards, and its speed usually matches or beats compiled languages due to its JIT compiler and language design. Julia is made for speed (both in writing and execution), and I think it combines the best of Python, Fortran, MATLAB, and R. I use it more as a math tool than a general purpose scripting language, hence this separate category.
     - For interactive Julia sessions, there is nothing like [Pluto.jl](https://github.com/fonsp/Pluto.jl). It is a must see experience. It’s like a Jupyter Notebook, but better.
@@ -541,6 +522,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Interactive Programming/Data Environment
 
 - [Jupyterlab](https://jupyter.org/) (or Jupyter) is an interactive notebook where you can embed code and plots and easily share the sessions with others or save them for later. This is a front end for scientific computing languages like Python, R, and Julia that is perfect for interactive exploration. I could have easily listed this under the Programming category, but Jupyter is really more of a scientific computing platform than a programming environment.  This is where you do math or data science, explore statistics, and slice, dice, and manipulate data before analysis and visualization.
+    - Note: One of the easiest ways to run a Jupyter notebook is inside VS Code. You may want to see if that meets your needs before hosting your own local server. 
     - If you are a Julia programmer, we can’t talk about interactive environments without mentioning [Pluto](https://github.com/fonsp/Pluto.jl). It’s a relatively new project, but it’s really doing amazing things, and it’s definitely showing up the veteran Jupyter in a number of areas.
 
 ## Statistics
