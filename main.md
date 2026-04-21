@@ -621,21 +621,25 @@ Just for easy reference, here are some websites to find and download some great 
 
 # Fonts
 
-*The fonts below are utilitarian fonts. I am not including artistic fonts or those for graphic design purposes. While I link to the fonts’ websites where appropriate, most of them can be downloaded more easily from [Google Fonts](https://fonts.google.com).*
+*Fonts aren’t exactly software obviously, but they are something I install along with apps on a new computer, so I’m including them here for convenience. The fonts below are utilitarian fonts. I am not including artistic fonts or those for graphic design purposes. While I link to the fonts’ websites where appropriate, most of them can be downloaded more easily from [Google Fonts](https://fonts.google.com) or Homebrew.*
 
-## General Purpose Fonts
+## Long-Form Reading Fonts
 
-- [Literata](https://github.com/googlefonts/literata) is a fantastic serif font for long-form reading. This is a great choice for apps like ebook readers. 
-    - The other font I suggest for ebooks is [Crimson Pro](https://github.com/Fonthausen/CrimsonPro). 
-- [Merriweather](https://github.com/SorkinType/Merriweather/) is my choice when I want a serif font for something other than long-form reading. 
-- [Cabin](https://github.com/impallari/Cabin) is a highly readable, accessible font that works well for long-form reading if you prefer sans fonts. 
-    - [Inter](https://rsms.me/inter/) is a sans font that excels at being readable on screens and at small sizes. All-around useful font when clarity is more important than personality.
-- [Noto](https://fonts.google.com/noto) is the font family that is like the Swiss Army Knife of fonts. It covers basically every language and glyph you could ever need. It’s always a good idea to have at least [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans) installed.
+- [Literata](https://github.com/googlefonts/literata) is a fantastic serif font for long-form reading. This is a great choice for apps like ebook readers. It has a lot of character, and the italics looks especially good.
+    - The other serif font I suggest for ebooks is [Crimson Pro](https://github.com/Fonthausen/CrimsonPro). It is a very close second to Literata with top-notch readability and personality.
+- [Cabin](https://github.com/impallari/Cabin) is a highly readable, accessible font that works well for long-form reading if you prefer sans fonts. It distinguishes itself with human touches that make it stand out from the usual boring sans fonts.
 
-## Programming Fonts
+## General Purpose Font
+
+- [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans) is always a good idea to have installed. The [Noto](https://fonts.google.com/noto) font family is like the Swiss Army Knife of fonts. It covers basically every language and glyph you would ever need, so it’s always a safe bet.
+
+## Technical Fonts
 
 *Below are a few excellent fonts suitable for programming, consoles, terminal windows, etc. While just one font should be sufficient, I typically have all of these installed as one font may look better in a certain terminal or editor, at a particular size or scaling, or on a particular monitor.*
 
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro): This font from Adobe looks very clean on high resolution monitors. This is just a simple, no frills font that’s easy to throw on a random computer to get a decent font quickly. Perfect for when the fonts below can be overkill.
 - [Input](https://input.djr.com/) is an incredibly flexible font system that lets you customize letters (a/g/i/l/0) and symbols (asterisk/braces) to your liking, as well as choose from 7 weights and 4 widths, and sans, serif, and mono variants. There are 168 styles in all, so you will find one that works for any given situation. This is an extremely readable font with generous spacing and proportional sans and serif versions.  The large, distinct punctuation make this an excellent programming font. 
-- [Iosevka](https://typeof.net/Iosevka/) is a narrow font well-suited for terminals and editors where you want to fit a lot of characters on the screen. Similar to the Input font, Iosevka raises the bar by adding ligatures, more weights, more variants, and incredible character coverage with thousands and thousands of supported glyphs. 
+- [Iosevka](https://typeof.net/Iosevka/) is a narrow font well-suited for terminals and editors where you want to fit a lot of characters on the screen. Similar to the Input font, Iosevka raises the bar by adding ligatures, more weights, more variants, and incredible character coverage with thousands and thousands of supported glyphs. If I could only have one font, it would probably be Iosevka because it is so versatile. Be sure to try the Aile variant, which is a quasi-proportional font that is excellent for technical writing and even coding.
+
+*For convenience, here is a quick Homebrew command line to install all these fonts:*
+`brew install font-cabin font-crimson-pro font-input font-iosevka font-iosevka-aile font-literata font-noto-sans font-source-code-pro`
