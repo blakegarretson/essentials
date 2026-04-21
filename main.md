@@ -643,6 +643,6 @@ Just for easy reference, here are some websites to find and download some great 
 
 *For convenience, here is a quick Homebrew command line to install all these fonts:*
 
-```
+```bash
 brew install font-cabin font-crimson-pro font-input font-iosevka font-iosevka-aile font-literata font-noto-sans font-source-code-pro
 ```
