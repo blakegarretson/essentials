@@ -6,7 +6,7 @@ Many of these programs are cross-platform, but if an app doesn’t support at le
 
 Have a suggestion for a great program that should be on my list? Let me know about it so I can try it out! Have a comment or correction on something on this website? Click on the [Feedback](https://forms.gle/swSCivmLBwTxRwY27) link and let me know!
 
-# Graphics & Video
+# Images & Video
 
 ## Video Player
 
