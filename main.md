@@ -625,9 +625,9 @@ Just for easy reference, here are some websites to find and download some great 
 
 ## Long-Form Reading Fonts
 
-- [Literata](https://github.com/googlefonts/literata) is a fantastic serif font for long-form reading. This is a great choice for apps like ebook readers. It has a lot of character, and the italics looks especially good.
+- [Literata](https://github.com/googlefonts/literata) is a fantastic serif font for long-form reading. This is my favorite font for apps like ebook readers. It has a lot of character, and the italics looks especially good. Literata brings me so much pleasure that I find myself wanting to read more just to look at it.
     - The other serif font I suggest for ebooks is [Crimson Pro](https://github.com/Fonthausen/CrimsonPro). It is a very close second to Literata with top-notch readability and personality.
-- [Cabin](https://github.com/impallari/Cabin) is a highly readable, accessible font that works well for long-form reading if you prefer sans fonts. It distinguishes itself with human touches that make it stand out from the usual boring sans fonts.
+- [Cabin](https://github.com/impallari/Cabin) is a highly readable, accessible font that works well for long-form reading if you prefer sans fonts. It distinguishes itself with human touches that make it stand out from the usual lifeless sans fonts.
 
 ## General Purpose Font
 
@@ -637,12 +637,10 @@ Just for easy reference, here are some websites to find and download some great 
 
 *Below are a few excellent fonts suitable for programming, consoles, terminal windows, etc. While just one font should be sufficient, I typically have all of these installed as one font may look better in a certain terminal or editor, at a particular size or scaling, or on a particular monitor.*
 
-- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro): This font from Adobe looks very clean on high resolution monitors. This is just a simple, no frills font that’s easy to throw on a random computer to get a decent font quickly. Perfect for when the fonts below can be overkill.
+- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro): This font from Adobe looks very clean on high resolution monitors. This is just a simple, no frills font that’s easy to throw on a random computer to get a decent font quickly. It doesn’t overwhelm you with options, so it is perfect for when the fonts below can be overkill.
 - [Input](https://input.djr.com/) is an incredibly flexible font system that lets you customize letters (a/g/i/l/0) and symbols (asterisk/braces) to your liking, as well as choose from 7 weights and 4 widths, and sans, serif, and mono variants. There are 168 styles in all, so you will find one that works for any given situation. This is an extremely readable font with generous spacing and proportional sans and serif versions.  The large, distinct punctuation make this an excellent programming font. 
 - [Iosevka](https://typeof.net/Iosevka/) is a narrow font well-suited for terminals and editors where you want to fit a lot of characters on the screen. Similar to the Input font, Iosevka raises the bar by adding ligatures, more weights, more variants, and incredible character coverage with thousands and thousands of supported glyphs. If I could only have one font, it would probably be Iosevka because it is so versatile. Be sure to try the Aile variant, which is a quasi-proportional font that is excellent for technical writing and even coding.
 
 *For convenience, here is a quick Homebrew command line to install all these fonts:*
 
-```bash
-brew install font-cabin font-crimson-pro font-input font-iosevka font-iosevka-aile font-literata font-noto-sans font-source-code-pro
-```
+`brew install font-cabin font-crimson-pro font-input font-iosevka font-iosevka-aile font-literata font-noto-sans font-source-code-pro`
