@@ -41,5 +41,20 @@ $endfor$
 <br>
 <br>
 <div id="copyright">Copyright &copy; 2004-2025, Blake T. Garretson</div>
+<script>
+  document.addEventListener('click', function (event) {
+    const link = event.target.closest('a');
+    if (link && link.hash.startsWith('#copy:')) {
+      event.preventDefault();
+      const textToCopy = decodeURIComponent(link.hash.substring(6));
+      
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        const originalText = link.textContent;
+        link.textContent = 'brew copied!';
+        setTimeout(() => { link.textContent = originalText; }, 1500);
+      });
+    }
+  });
+</script>
 </body>
 </html>

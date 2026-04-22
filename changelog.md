@@ -1,5 +1,9 @@
 # Change Log
 
+## 2026-04-22
+
+Added Homebrew install commands to all the apps that are on Homebrew.
+
 ## 2026-04-20
 
 Created a Fonts category. I have a few essential fonts I like to put on any computer, so it seems like it fits here.
