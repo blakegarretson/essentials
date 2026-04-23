@@ -979,6 +979,13 @@
         its stance on ad-blockers. <a
         href="#copy:brew%20install%20--cask%20firefox">✽</a>
         <ul>
+        <li>Firefox is my pick for the best third-party browser, but at
+        the risk of losing my street cred, I actually like the default
+        browsers on Mac and Windows. Edge is surprisingly decent and
+        feels pretty snappy. Safari is an acquired taste, and I don’t
+        like the way it handles bookmarks, but it’s an excellent choice
+        especially if you use it across multiple Apple devices like
+        iPhones and iPads.</li>
         <li><a href="http://www.google.com/chrome">Google Chrome</a>
         should get a mention since it was my default browser from 2008
         until 2024. Its most recent policy on ad-blockers was a deal
@@ -1214,10 +1221,6 @@
         href="#copy:brew%20install%20--cask%20testdisk">✽</a></li>
         </ul>
         <h2 id="file-recovery">File Recovery</h2>
-        <p><em>Between these programs you should be able to recover any
-        file that is physically possible to recover without special
-        hardware. I’m listing them all because sometimes one can get the
-        job done where another can’t.</em></p>
         <ul>
         <li><a
         href="https://www.cgsecurity.org/wiki/PhotoRec">PhotoRec</a>: On
@@ -1364,7 +1367,7 @@
         href="#copy:brew%20install%20--cask%20google-drive">✽</a></li>
         <li><a href="https://syncthing.net/">Syncthing</a>: If you don’t
         trust someone else with your data or you want more control of
-        your data, you can host your own cloud with Syncthing . If it’s
+        your data, you can host your own cloud with Syncthing. If it’s
         confusing why this is different than something like
         FreeFileSync, Syncthing shines at realtime continuous
         synchronization while FreeFileSync is geared towards a file
@@ -1374,7 +1377,7 @@
         <h2 id="incremental-backup">Incremental Backup</h2>
         <ul>
         <li><a href="https://kopia.io/">Kopia</a> is my current favorite
-        backup solution due to its feaure set and (relative) ease of
+        backup solution due to its feature set and (relative) ease of
         use. Backup software tends to be difficult to use, but Kopia
         does a decent job of making a complicated thing slightly less
         complicated. This is different than a simple “file copier” like
@@ -1383,8 +1386,7 @@
         in history. It supports encryption, deduplication, and
         compression, and it’s also available on every platform
         (including Docker images). <a
-        href="#copy:brew%20install%20--cask">✽</a><a
-        href="#copy:brew%20install%20--cask">✽</a>
+        href="#copy:brew%20install%20--cask%20kopiaui">✽</a>
         <ul>
         <li>Honorable mention goes to <a
         href="https://vorta.borgbase.com/">Vorta</a>, which is a
@@ -1443,35 +1445,6 @@
         ability to backup and restore lists of packages as well as do
         bulk installations or removals with ease.</li>
         </ul>
-        <h3 id="honorable-mentions-3">Honorable Mentions</h3>
-        <ul>
-        <li><a href="https://patchmypc.com/home-updater">Patch My PC</a>
-        is pretty cool. If you don’t want an overbearing package
-        manager, but you do want up to date programs, this is a good
-        option. It scans your installed programs, shows you which ones
-        have available updates, and then it helps update them. It
-        supports a decent selection of popular software, although it
-        isn’t going to cover every app on your computer. This is great
-        for casual users.</li>
-        <li>At one point before winget existed, <a
-        href="https://chocolatey.org/">Chocolatey</a> was probably the
-        most well-known solution to package management on Windows. It
-        may still be a better choice for some people as it has broad
-        package support. It supports thousands of packages, and the vast
-        majority of the software listed on Blake’s Essentials can be
-        found there. Having said that, I wish it were more robust. I’ve
-        had plenty of headaches where Chocolatey wouldn’t let me
-        uninstall software or I had weird conflicts from multiple
-        versions of packages that I couldn’t remedy. I switched to
-        winget largely because of these issues.</li>
-        <li>Another popular graphical package manager out there is <a
-        href="https://ninite.com/">Ninite</a> . It’s great software,
-        it’s easy to use, but it just doesn’t include enough packages to
-        really be a full-fledged package manager. If Ninite supports all
-        the packages you want, you might want to try it first.
-        Personally, I see Ninite as something I can use on my parents’
-        computer to keep their software up to date.</li>
-        </ul>
         <h2 id="mac-package-managementsoftware-installer">Mac Package
         Management/Software Installer</h2>
         <ul>
@@ -1497,7 +1470,7 @@
         all the leftover bits that often stay behind.
         <strong>(Mac)</strong>
         <ul>
-        <li>While AppCleaner is my first choice due to its easy-of-use,
+        <li>While AppCleaner is my first choice due to its ease-of-use,
         a good companion app is <a
         href="https://github.com/alienator88/Pearcleaner">Pearcleaner</a>.
         It’s harder to use, but it can find orphaned files and do other
@@ -1538,7 +1511,7 @@
         status in your listing, icon support, and recursive tree view.
         <a href="#copy:brew%20install%20eza">✽</a></li>
         </ul>
-        <h3 id="honorable-mentions-4">Honorable Mentions</h3>
+        <h3 id="honorable-mentions-3">Honorable Mentions</h3>
         <ul>
         <li><a href="https://tabby.sh/">Tabby</a> is a ridiculously
         customizable terminal app that handles essentially any local
@@ -1691,30 +1664,9 @@
         all your computers. <a
         href="#copy:brew%20install%20--cask%20kando">✽</a></li>
         </ul>
-        <h2 id="windows-system-utilities">Windows System Utilities</h2>
+        <h2 id="windows-desktop-tweaks-utilities">Windows Desktop Tweaks
+        &amp; Utilities</h2>
         <ul>
-        <li><a
-        href="https://docs.microsoft.com/en-us/sysinternals/">Windows
-        Sysinternals</a>: This is a collection of tools that has been
-        around since the 1990s, and was eventually acquired by Microsoft
-        because they are so good. (And they are still being updated!)
-        You can download the whole suite, or individual tools. I’m going
-        to highlight just a couple here to give you the flavor of the
-        suite, but it’s worth perusing the whole list and seeing what’s
-        available:
-        <ul>
-        <li><a
-        href="https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer">Process
-        Explorer</a>: If you can’t delete a file because some program
-        has it locked, Process Explorer will tell you what program has
-        the file handle open.</li>
-        <li><a
-        href="https://docs.microsoft.com/en-us/sysinternals/downloads/procmon">Process
-        Monitor</a>: Sometimes you need to know what files a process is
-        changing, or maybe you want to know which program is changing a
-        file. Process Monitor, um, well, it monitors your processes to
-        find that out.</li>
-        </ul></li>
         <li><a href="https://github.com/microsoft/PowerToys">Microsoft
         PowerToys</a>: Old-timers will remember this suite from decades
         ago, but it’s back and better than ever (and open sourced!).
@@ -1725,13 +1677,6 @@
         (Quick tip: use this to remap your CapsLock key to act like a
         Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate
         that.)</li>
-        <li><a
-        href="http://www.nirsoft.net/utils/product_cd_key_viewer.html">ProduKey</a>
-        is super handy when you want to reinstall Windows or Office
-        after your hard drive crashes or you just want to start fresh.
-        Just run this program, save the output somewhere safe, and you
-        have your Microsoft product keys ready to go for Windows and
-        Office.</li>
         </ul>
         <h2 id="mac-desktop-tweaks-utilities">Mac Desktop Tweaks &amp;
         Utilities</h2>
@@ -1927,7 +1872,7 @@
         with many version control systems including Git. <a
         href="#copy:brew%20install%20--cask%20meld">✽</a></li>
         </ul>
-        <h3 id="honorable-mentions-5">Honorable Mentions</h3>
+        <h3 id="honorable-mentions-4">Honorable Mentions</h3>
         <ul>
         <li><a href="https://winmerge.org/">WinMerge</a>: WinMerge has
         been around for a long time, and it’s still one of the better

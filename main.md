@@ -235,6 +235,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Web Browser
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/) is a great choice for your default web browser. The robust feature set and impressive array of extensions make it easy to recommend. It's arguably far more pro-consumer than Chrome with its stance on ad-blockers. [✽](#copy:brew install --cask firefox)
+    - Firefox is my pick for the best third-party browser, but at the risk of losing my street cred, I actually like the default browsers on Mac and Windows. Edge is surprisingly decent and feels pretty snappy. Safari is an acquired taste, and I don’t like the way it handles bookmarks, but it’s an excellent choice especially if you use it across multiple Apple devices like iPhones and iPads.
     - [Google Chrome](http://www.google.com/chrome) should get a mention since it was my default browser from 2008 until 2024. Its most recent policy on ad-blockers was a deal breaker for me, and I left to try other options. [✽](#copy:brew install --cask google-chrome)
     - And because you can never have too many browsers, the [DuckDuckGo](https://duckduckgo.com/) browser is another nice option if privacy and security are a high priority. [✽](#copy:brew install --cask duckduckgo)
 
@@ -297,8 +298,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## File Recovery
 
-*Between these programs you should be able to recover any file that is physically possible to recover without special hardware. I’m listing them all because sometimes one can get the job done where another can’t.*
-
 - [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec): On Windows this comes in two flavors: command line and a simple graphical interface. On Mac you only get the command line tool, but it is incredibly powerful. This is the first thing I try when I need to “undelete” pictures I accidentally deleted from an SD card. Comes with TestDisk (see above). [✽](#copy:brew install --cask testdisk)
 - [Recuva](https://www.piriform.com/recuva): Very polished interface, and the free version has enough features for most people. **(Windows)**
 - [DiskDigger](http://diskdigger.org/): Lightweight, single exe so no install necessary. While it is free for personal use, it will nag you before recovering each and every file, so if you have a lot of files to recover, it is worth just buying it. **(Windows, Mac)**
@@ -341,11 +340,11 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Cloud Synchronization
 
 - [Google Drive](https://www.google.com/drive/download/): For real-time cloud backup and synchronization, this is an easy solution if you just want an off-site copy of your data that is accessible everywhere, including mobile devices. [✽](#copy:brew install --cask google-drive)
-- [Syncthing](https://syncthing.net/): If you don’t trust someone else with your data or you want more control of your data, you can host your own cloud with Syncthing . If it’s confusing why this is different than something like FreeFileSync, Syncthing shines at realtime continuous synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. [✽](#copy:brew install --cask syncthing-app)
+- [Syncthing](https://syncthing.net/): If you don’t trust someone else with your data or you want more control of your data, you can host your own cloud with Syncthing. If it’s confusing why this is different than something like FreeFileSync, Syncthing shines at realtime continuous synchronization while FreeFileSync is geared towards a file backup that runs (for instance) once a day. [✽](#copy:brew install --cask syncthing-app)
 
 ## Incremental Backup
 
-- [Kopia](https://kopia.io/) is my current favorite backup solution due to its feaure set and (relative) ease of use. Backup software tends to be difficult to use, but Kopia does a decent job of making a complicated thing slightly less complicated. This is different than a simple “file copier” like FreeFileSync as Kopia saves all your incremental changes (not just a current snapshot), which lets you rollback to any point in history. It supports encryption, deduplication, and compression, and it’s also available on every platform (including Docker images). [✽](#copy:brew install --cask )[✽](#copy:brew install --cask )
+- [Kopia](https://kopia.io/) is my current favorite backup solution due to its feature set and (relative) ease of use. Backup software tends to be difficult to use, but Kopia does a decent job of making a complicated thing slightly less complicated. This is different than a simple “file copier” like FreeFileSync as Kopia saves all your incremental changes (not just a current snapshot), which lets you rollback to any point in history. It supports encryption, deduplication, and compression, and it’s also available on every platform (including Docker images). [✽](#copy:brew install --cask kopiaui)
     - Honorable mention goes to [Vorta](https://vorta.borgbase.com/), which is a frontend for Borg Backup, which is a robust incremental backup solution.  **(Mac, Linux)** [✽](#copy:brew install --cask vorta)
 
 ## Hex Editor
@@ -361,12 +360,6 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Scoop](https://scoop.sh/) is a command line package manager focusing on non-GUI tools to make Linux users feel at home on Windows. For instance, need to quickly install nmap or curl? Scoop is a great way to do that. There is also an “extra” bucket (i.e. repo) of tools that includes GUI apps and other tools that don’t fit into the main inclusion criteria for scoop. The real selling point here is that it installs everything in your home directory (or other specified location), so you don’t need admin privileges and you won’t see UAC prompts every time you add or remove a program. Scoop may look redundant to winget, but it works differently enough that it is the better choice for certain situations. For me, Scoop is essential if you’re stuck on a company computer without admin rights.
 - [UniGetUI](https://www.marticliment.com/unigetui/) is a GUI frontend for command line package managers like winget, Scoop, Chocolatey, pip, npm, and more. However, it doesn’t just add a GUI to command line functions; it also gives you the ability to backup and restore lists of packages as well as do bulk installations or removals with ease.
 
-### Honorable Mentions
-
-- [Patch My PC](https://patchmypc.com/home-updater) is pretty cool. If you don’t want an overbearing package manager, but you do want up to date programs, this is a good option. It scans your installed programs, shows you which ones have available updates, and then it helps update them. It supports a decent selection of popular software, although it isn’t going to cover every app on your computer. This is great for casual users.
-- At one point before winget existed, [Chocolatey](https://chocolatey.org/) was probably the most well-known solution to package management on Windows. It may still be a better choice for some people as it has broad package support. It supports thousands of packages, and the vast majority of the software listed on Blake’s Essentials can be found there. Having said that, I wish it were more robust. I’ve had plenty of headaches where Chocolatey wouldn’t let me uninstall software or I had weird conflicts from multiple versions of packages that I couldn’t remedy. I switched to winget largely because of these issues.
-- Another popular graphical package manager out there is [Ninite](https://ninite.com/) . It’s great software, it’s easy to use, but it just doesn’t include enough packages to really be a full-fledged package manager. If Ninite supports all the packages you want, you might want to try it first. Personally, I see Ninite as something I can use on my parents’ computer to keep their software up to date.
-
 ## Mac Package Management/Software Installer
 
 - [Homebrew](https://brew.sh/): If you want an easy way to install and update command line tools and even GUI apps, Homebrew gets you going with minimal hassle. For instance, if I want to install git, I just type: `brew install git`. I prefer to download apps from the Mac App Store when possible, but otherwise I will always choose the Homebrew version to ensure I keep everything up to date.
@@ -375,7 +368,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Revo Uninstaller Free](https://www.revouninstaller.com/products/revo-uninstaller-free/): Uninstalling programs using the usual methods often leaves a lot of junk around. Revo does a better job at really removing a program. **(Windows)**
 - [AppCleaner](https://freemacsoft.net/appcleaner/) is an easy way to really uninstall apps on Mac. It gets rid of all the leftover bits that often stay behind. **(Mac)**
-    - While AppCleaner is my first choice due to its easy-of-use, a good companion app is [Pearcleaner](https://github.com/alienator88/Pearcleaner). It’s harder to use, but it can find orphaned files and do other things AppCleaner doesn’t. 
+    - While AppCleaner is my first choice due to its ease-of-use, a good companion app is [Pearcleaner](https://github.com/alienator88/Pearcleaner). It’s harder to use, but it can find orphaned files and do other things AppCleaner doesn’t. 
 - [Bleachbit](https://www.bleachbit.org/) will delete stuff you don’t need hanging around like logs, temporary files, “recently used” lists, thumbnails, you-name-it. Be aware that mucking about in the registry is a bad idea and isn’t really necessary on modern Windows, but Bleachbit can do way more than registry pruning, and it’s worth looking at all of its functionality before dismissing it. **(Windows)**
 - [Mole](https://github.com/tw93/mole) is a command line utility for Mac, but the interface is intuitive enough for anyone to feel comfortable. It cleans, optimizes, and uninstalls apps, and it is incredibly thorough. It will find things you completely forgot you ever installed and thought you uninstalled. **(Mac)** [✽](#copy:brew install mole)
 
@@ -428,13 +421,9 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [Kando](https://kando.menu) is an incredibly powerful radial menu app that has endless customization possibilities. Hotkey combos can trigger various context-aware menus and submenus. These sorts of launcher apps are often platform-specific, so it's awesome that Kando supports Windows, Mac, and Linux so you can have a consistent experience across all your computers. [✽](#copy:brew install --cask kando)
 
-## Windows System Utilities
+## Windows Desktop Tweaks & Utilities
 
-- [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/): This is a collection of tools that has been around since the 1990s, and was eventually acquired by Microsoft because they are so good. (And they are still being updated!) You can download the whole suite, or individual tools.  I’m going to highlight just a couple here to give you the flavor of the suite, but it’s worth perusing the whole list and seeing what’s available:
-    - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): If you can’t delete a file because some program has it locked, Process Explorer will tell you what program has the file handle open.
-    - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Sometimes you need to know what files a process is changing, or maybe you want to know which program is changing a file. Process Monitor, um, well, it monitors your processes to find that out.
 - [Microsoft PowerToys](https://github.com/microsoft/PowerToys): Old-timers will remember this suite from decades ago, but it’s back and better than ever (and open sourced!). This collection of Windows enhancements include adding Markdown and SVG support to the Windows Explorer preview pane, windows snapping, PowerRename, a color picker, easy image resizing, a keyboard manager that lets you remap keys, plus lots more. (Quick tip: use this to remap your CapsLock key to act like a Shift key so you aren’t aCCIDENTALLY TURNING CAPSLOCK ON. I hate that.)
-- [ProduKey](http://www.nirsoft.net/utils/product_cd_key_viewer.html) is super handy when you want to reinstall Windows or Office after your hard drive crashes or you just want to start fresh. Just run this program, save the output somewhere safe, and you have your Microsoft product keys ready to go for Windows and Office.
 
 ## Mac Desktop Tweaks & Utilities
 
@@ -472,6 +461,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - If you just need a simple GUI client without the bells and whistles, the official Github client [Github Desktop](https://github.com/apps/desktop) is fine for basic tasks. [✽](#copy:brew install --cask github)
 
 ## Text Comparison (Diff)
+
 *I am just including dedicated standalone graphical file comparison apps here. Don’t forget VS Code has a great diff engine built-in. Also, FileMerge from the Xcode suite is worth considering, but I’m not including it because you cannot install it separately from the entire Xcode suite (which is huge).*
 
 - [Meld](http://meldmerge.org/) has been favorite standalone graphical file comparison (AKA “diff”) program for many years on many platforms. There is 2 and 3-way file diff and merge, as well as directory comparison. It also plays nicely with many version control systems including Git. [✽](#copy:brew install --cask meld)
