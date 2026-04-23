@@ -527,7 +527,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## CSV Files
 
 - [Tad](https://www.tadviewer.com/) is a CSV file explorer that lets you view, filter, pivot, and analyze very large CSV files. In STEM, sometimes you need to work with large CSV data sets, and this is a great way to do it. [✽](#copy:brew install --cask tad)
-- [Miller](https://github.com/johnkerl/miller/) is an incredible tool for working with CSV files (and others) from the command line. You reshape, filter, and even create new columns based on operations performed on other columns. If you work with CSV files, especially large files or large numbers of files, Miller can be a lifesaver. [✽](#copy:brew install --cask miller)
+- [Miller](https://github.com/johnkerl/miller/) is an incredible tool for working with CSV files (and others) from the command line. You reshape, filter, and even create new columns based on operations performed on other columns. If you work with CSV files, especially large files or large numbers of files, Miller can be a lifesaver. [✽](#copy:brew install miller)
 
 ## 2D/3D CAD Modeling
 
