@@ -26,7 +26,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [IINA](https://iina.io/): While VLC works great on any platform, Mac users may prefer IINA. It’s a full-fledged media player with a clean interface and features like picture-in-picture mode and built-in subtitle downloading. If I’m on a Mac, I’m using IINA over VLC most of the time. **(Mac)** [✽](#copy:brew install --cask iina)
 - [Friendly Streaming Browser](https://apps.apple.com/us/app/friendly-streaming-browser/id553245401?mt=12) is a weird name for a cool app. It’s just a front end for various streaming services (YouTube, Netflix, etc.), but it excels at multitasking by offering a Picture-In-Picture mode. I didn’t realize I needed this until I tried it. This is what you want when you’re working on a project and need an easy way to play a 4-hour instrumental playlist from YouTube in the background, or maybe you’re editing photos or something, and you want to watch a mindless episode of a cooking show in a tiny window at the corner of your screen. **(Mac)**
 
-## Photo/Vector Editor
+## Raster & Vector Image Editors
 
 - [Affinity](https://www.affinity.studio) is a free all-in-one solution for raster and vector editing, as well as desktop publishing. The user experience is really well thought out, and the functionality is all there, which makes it easy to recommend. For most people, Affinity is probably a better (and cheaper!) alternative to the Adobe suite. Just be aware that the AI-based functions (like generative fill) require a paid Canva subscription, but you don’t need to pay anything if you just want to use traditional image/vector editing tools. [✽](#copy:brew install --cask affinity)
 
@@ -35,19 +35,19 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [GIMP](http://www.gimp.org/): A tried-and-true robust image editor similar to Photoshop. It might not be appropriate for a casual user who just wants to crop some photos, but it’s not really suited for pros either given some of the missing features. Having said that, it will almost certainly get the job done if you have the patience to learn the tool. Bonus: the scripting allows for complex plugins and automation. [✽](#copy:brew install --cask gimp)
 - [Inkscape](https://inkscape.org/en/): Incredibly capable vector image editor for creating professional quality, scalable diagrams, logos, you-name-it. While I wouldn’t say GIMP seriously rivals Photoshop, I *would* say Inkscape’s functionality nearly rivals Adobe Illustrator, although sometimes the tools don’t map one-to-one. [✽](#copy:brew install --cask inkscape)
 
+## Non-Destructive Photo Processing
+
+- [darktable](https://www.darktable.org/): If you work with raw photo files or want to get the most out of your photos, a non-destructive post-production software like darktable is essential. This is your digital darkroom. This isn’t about “photoshopping” a picture; instead it’s all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc. The batch processing toolset is robust and well-rounded, although the learning curve is steep and may not be appropriate for casual users. [✽](#copy:brew install --cask darktable)
+    - If the darktable workflow doesn’t work for you, you may want to try [RawTherapee](https://www.rawtherapee.com/) because it does some tasks easier or at least differently. While the overall toolset doesn’t compare to darktable, all the essentials and more are here. [✽](#copy:brew install --cask rawtherapee)
+
+## Photo Management
+
+- [digiKam](https://www.digikam.org) is a great way to organize your photo collection, download photos from your camera or SD card, and cull large collections of photos. It has facial recognition if you need to find pictures of certain people, and it will also export directly to some cloud storage services and even websites like iNaturalist.  While it does offer a decent array of editing tools and batch processing options, it falls short of apps like darktable, and I really only recommend digiKam for managing your photo library. [✽](#copy:brew install --cask digikam)
+    - [XnView MP](https://www.xnview.com/en/xnviewmp/) might be more to your liking if you are a casual user that just wants to view a collection of photos and do some basic adjustments. It has an old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more. [✽](#copy:brew install --cask xnviewmp)
+
 ## Digital Sketching/Painting
 
 - [Krita](https://krita.org/en/) is fantastic digital painting software. If you’re into illustration or digital painting, it has what you need. Krita has plenty of great features, but one thing that stands out to me is that it comes with a large selection of high quality brushes that are excellent. Personally, I have moved my digital painting to an iPad, so I’m not using Krita much these days, but I still would recommend it for desktop use. As an added bonus, even though it is best known for its digital painting, Krita has many features that make it a great choice for general photo editing for many use cases. [✽](#copy:brew install --cask krita)
-
-## Photo Management/Processing/Viewing
-
-- [digiKam](https://www.digikam.org) is a great way to manage your photo collection and do editing and batch processing. It’s especially good at culling large collections of photos, and it has facial recognition if you need to find pictures of certain people. It will also export directly to some cloud storage services and even websites like iNaturalist. The learning curve might be a bit steep for casual users, but it has a wealth of features. [✽](#copy:brew install --cask digikam)
-- [darktable](https://www.darktable.org/): If you work with raw photo files or want to get the most out of your photos, a non-destructive post-production software like darktable is essential. This isn’t about “photoshopping” a picture; instead it’s all about histograms, levels, curves, sharpening, colors, lens correction, noise, etc. The toolset here is robust and well-rounded. Having said that, for most people, this is probably overkill. [✽](#copy:brew install --cask darktable)
-
-### Honorable Mentions
-
-- [RawTherapee](https://www.rawtherapee.com/) is similar enough to darktable and digiKam that it is a bit redundant, but you may want to try it because it does some things better or easier. Give it a try if the apps above aren’t a good fit for you. [✽](#copy:brew install --cask rawtherapee)
-- [XnView MP](https://www.xnview.com/en/xnviewmp/) might be more to your liking if you are a casual user that just wants to view a collection of photos and do some basic adjustments. It has an old school interface with simple controls that may be more intuitive for some people. It has all the essential functions and more. [✽](#copy:brew install --cask xnviewmp)
 
 ## AI Image Generation
 
@@ -156,6 +156,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [Obsidian](https://obsidian.md/) is probably best known as a note-taking app, but it has comprehensive Markdown support, live preview, and a plugin ecosystem that can turn it into just about anything you want. Personally, I like to install plugins for [LanguageTool](https://languagetool.org), smart quotes, and Git (for document version control), and I think Obsidian is perfectly suited for general prose. Obsidian’s support of math blocks and diagrams also makes it a viable contender for technical papers, but it isn’t my first choice. [✽](#copy:brew install --cask obsidian)
 - [Zettlr](https://zettlr.com) advertises itself as a “one-stop publication workbench”, and that is an apt description. While excellent for notes, it really excels in longer form academic and technical writing, especially if you need to handle citations, LaTeX math equations, or diagrams. Like Obsidian, it has a very nice live-preview. Unlike Obsidian, it does not support plugins, but tools like LanguageTool are builtin, and I like the simplicity. [✽](#copy:brew install --cask zettlr)
 - [MacDown 3000](https://macdown.app) is my choice when I want a simple editor to open a Markdown file. Sometimes I want to just open a Markdown file without messing with Obsidian vaults or adding it to Zettlr’s workspaces. The side-by-side Markdown preview is also handy for certain types of editing, such as complex equations where seeing immediate visual feedback is helpful. **(Mac)** [✽](#copy:brew install --cask macdown-3000)
+- [FluxMarkdown](https://macdown.app) is great to have for quick Markdown previews on Mac. It is a Quick Look extension and a standalone program with support for Mermaid diagrams, KaTeX math blocks, TOC, dark/light mode, HTML and PDF export, along with other clutch features. If you just want to see what a Markdown file looks like without generating another file or opening an editor, this gives you instant results. **(Mac)** [✽](#copy:brew install --cask xykong/tap/flux-markdown)
 
 ### Honorable Mentions
 
