@@ -26,7 +26,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [IINA](https://iina.io/): While VLC works great on any platform, Mac users may prefer IINA. It’s a full-fledged media player with a clean interface and features like picture-in-picture mode and built-in subtitle downloading. If I’m on a Mac, I’m using IINA over VLC most of the time. **(Mac)** [✽](#copy:brew install --cask iina)
 - [Friendly Streaming Browser](https://apps.apple.com/us/app/friendly-streaming-browser/id553245401?mt=12) is a weird name for a cool app. It’s just a front end for various streaming services (YouTube, Netflix, etc.), but it excels at multitasking by offering a Picture-In-Picture mode. I didn’t realize I needed this until I tried it. This is what you want when you’re working on a project and need an easy way to play a 4-hour instrumental playlist from YouTube in the background, or maybe you’re editing photos or something, and you want to watch a mindless episode of a cooking show in a tiny window at the corner of your screen. **(Mac)**
 
-## Raster & Vector Image Editors
+## Raster & Vector Image Editing
 
 - [Affinity](https://www.affinity.studio) is a free all-in-one solution for raster and vector editing, as well as desktop publishing. The user experience is really well thought out, and the functionality is all there, which makes it easy to recommend. For most people, Affinity is probably a better (and cheaper!) alternative to the Adobe suite. Just be aware that the AI-based functions (like generative fill) require a paid Canva subscription, but you don’t need to pay anything if you just want to use traditional image/vector editing tools. [✽](#copy:brew install --cask affinity)
 
@@ -135,6 +135,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [TAL-NoiseMaker](https://tal-software.com/products/tal-noisemaker) is like an updated Roland Juno 60 synth.
 - [Helm](https://tytel.org/helm/) is a fairly basic synth, but everything it does it does well, and I appreciate the modern look and feel.  
 - [Tricent mk III](https://www.fullbucket.de/music/tricent.html) is a perfect reproduction of the KORG Trident mk II from 1982. 
+- [Cardinal](https://cardinal.kx.studio) is a virtual modular synth. If you want to wire together a bunch of modules and create cool sounds, Cardinal has more than a thousand to choose from.
 - [AirWindows](https://www.airwindows.com) is a suite of effects plugins that come in handy. Click on the “Consolidated Plugin” link on the left side of the page to get the entire collection.
 - [PULSE 2](https://lancasteraudio.com/shop/plugins/pulse-2/) is a nice straight-forward IR loader plugin. If you know what Impulse Responses are, you may want to check this out.
 - [Ignite Amps](https://www.igniteamps.com/#software) make a number of free amp and pedal plugins that help you shape your guitar tone.
