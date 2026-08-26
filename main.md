@@ -42,7 +42,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ### Honorable Mention
 
-- [RapidRAW](https://getrapidraw.com) is the latest RAW editor to hit the scene. The interface is outstanding and the workflow is intuitive. Some of the editing tools in RapidRAW feel almost too simplified, but RapidRAW’s AI tools for removing objects and other tasks are incredibly easy to use. The results are on par (or nearly on par) with darktable in most respects, and it is getting better with every release. The only reason this isn’t my first choice is because it is so new and it is changing so quickly, I want to see if it has longevity before I invest too much energy in converting my workflow entirely. 
+- [RapidRAW](https://getrapidraw.com) is the latest RAW editor to hit the scene. The interface is outstanding and the workflow is intuitive. Some of the editing tools in RapidRAW feel almost too simplified, but they seem to work well and RapidRAW’s AI tool for removing objects is incredibly easy to use. The results are on par (or nearly on par) with darktable in most respects, and it is getting better with every release. This could easily be my first choice in the future, but it is so new and it is changing so quickly I want to watch it for a while before I invest too much energy in it. 
 
 ## Photo Management
 
