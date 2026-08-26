@@ -1,6 +1,6 @@
 # Change Log
 
-## 2026-04-22
+## 2026-08-26
 
 Added **RapidRAW**. I’ve been using it enough it deserves a spot.
 
