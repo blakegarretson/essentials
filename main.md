@@ -40,6 +40,10 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 - [darktable](https://www.darktable.org/): If you work with raw photo files or want to get the most out of your photos, a non-destructive post-production software like darktable is essential. This is your digital darkroom. This isn’t about “photoshopping” a picture; instead it’s all about exposure, tone mappers, color calibration, sharpening, lens correction, noise reduction, etc. The batch processing toolset is robust and well-rounded, although the learning curve is steep and may not be appropriate for casual users. [✽](#copy:brew install --cask darktable)
     - If the darktable workflow doesn’t work for you, you may want to try [RawTherapee](https://www.rawtherapee.com/) because it does some tasks easier or at least differently. While the overall toolset doesn’t compare to darktable, all the essentials and more are here. [✽](#copy:brew install --cask rawtherapee)
 
+### Honorable Mention
+
+- [RapidRAW](https://getrapidraw.com) is the latest RAW editor to hit the scene. The interface is outstanding and the workflow is intuitive. Some of the editing tools in RapidRAW feel almost too simplified, but RapidRAW’s AI tools for removing objects and other tasks are incredibly easy to use. The results are on par (or nearly on par) with darktable in most respects, and it is getting better with every release. The only reason this isn’t my first choice is because it is so new and it is changing so quickly, I want to see if it has longevity before I invest too much energy in converting my workflow entirely. 
+
 ## Photo Management
 
 - [digiKam](https://www.digikam.org) is a great way to organize your photo collection, download photos from your camera or SD card, and cull large collections of photos. It has facial recognition if you need to find pictures of certain people, and it will also export directly to some cloud storage services and even websites like iNaturalist.  While it does offer a decent array of editing tools and batch processing options, it falls short of apps like darktable, and I really only recommend digiKam for managing your photo library. [✽](#copy:brew install --cask digikam)
@@ -86,8 +90,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 ## Media Server
 
-- [Plex](https://plex.tv/) is my reluctant choice for the best personal media server for most people. This is what you want for steaming your media to your Roku, Fire Stick, smart TV, etc. Just tell Plex where you store your movies, TV shows, and music and it will do the rest, including downloading cover art and show descriptions. My main reservation is they are monetizing the service more, and the free features feel sparse. For instance, you need a “Plex Pass” subscription to download shows to your client device for offline viewing. However, presently the core functionality is still free, and the easy setup and overall user experience is still worth giving Plex a try. [✽](#copy:brew install --cask plex-media-server)
-- [Jellyfin](https://jellyfin.org/) is the more consumer-friendly, open-source alternative to Plex. Setup is fairly simple, although you may need to add some plugins to get all the functionality you want. Otherwise, it’s a fine alternative and arguably better than Plex in some regards. I would recommend trying Jellyfin first if you are more tech savvy. There are Jellyfin clients on every platform as well, so streaming to any device is easy. [✽](#copy:brew install --cask jellyfin)
+- [Jellyfin](https://jellyfin.org/) is my choice for a personal media server. This is what you want for steaming your media to your Roku, Fire Stick, smart TV, etc. Just tell Plex where you store your movies, TV shows, and music and it will do the rest, including downloading cover art and show descriptions. Setup is fairly simple, although you may need to add some plugins to get all the functionality you want. It is a more consumer-friendly, open-source alternative to Plex (see below). I would recommend trying Jellyfin first especially if you are more tech savvy. There are Jellyfin clients on every platform as well, so streaming to any device is easy. Server: [✽](#copy:brew install --cask jellyfin) Client: [✽](#copy:brew install --cask jellyfin-media-player)
+    - [Plex](https://plex.tv/) is my reluctant recommendation if you find Jellyfin too hard to set up or not to your liking. My main reservation is they are monetizing the service more and more, and the free features feel sparse. For instance, you need a “Plex Pass” subscription to download shows to your client device for offline viewing. However, presently the core functionality is still free, and the easy setup and overall user experience is still worth giving Plex a try. [✽](#copy:brew install --cask plex-media-server)
 
 ## Audio/Video Downloader
 
@@ -470,7 +474,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 
 - [WinMerge](https://winmerge.org/): WinMerge has been around for a long time, and it’s still one of the better all-around solutions. I’m listing it here because I like it better than Meld for directory comparison, and for that task alone, it’s worth having it installed. **(Windows)**
 - [KDiff3](https://apps.kde.org/kdiff3/) is the other venerable option that's been around forever, and does a few things better than Meld (namely directory comparison), but overall, it's never my first choice. (Tip: they hide the downloads [here](https://download.kde.org/stable/kdiff3/).) [✽](#copy:brew install --cask kdiff3)
-- [VisualDiffer](https://visualdiffer.com) is a Mac-only offering that would probably be my second choice after Meld. The interface is simple and works well. **(Mac)** [✽](#copy:brew install --cask visualdiffer)
+- [VisualDiffer](https://visualdiffer.com) is a Mac-only offering that would probably be my second choice after Meld. The interface is simple but functional, although I find it rather ugly. **(Mac)** [✽](#copy:brew install --cask visualdiffer)
 
 ## General Purpose Scripting Language
 

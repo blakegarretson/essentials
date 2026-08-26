@@ -2,6 +2,10 @@
 
 ## 2026-04-22
 
+Added **RapidRAW**. I’ve been using it enough it deserves a spot.
+
+## 2026-04-22
+
 Added Homebrew install commands to all the apps that are on Homebrew.
 
 ## 2026-04-20
