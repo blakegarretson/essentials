@@ -1,5 +1,9 @@
 # Change Log
 
+## 2026-09-10
+
+Added **Typst**. I have dabbled with it for a few years, and I find myself reaching for it instead of LaTeX whenever Markdown isn’t enough.
+
 ## 2026-08-26
 
 Added **RapidRAW**. I’ve been using it enough it deserves a spot.
