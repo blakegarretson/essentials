@@ -177,7 +177,7 @@ Have a suggestion for a great program that should be on my list? Let me know abo
     - The two other MiKTeX alternatives that I want to note are [MacTeX](https://www.tug.org/mactex/mactex-download.html) [✽](#copy:brew install --cask mactex), which is a Mac-only distribution of [TeX Live](https://tug.org/texlive/), and [Tectonic](https://tectonic-typesetting.github.io/en-US/) [✽](#copy:brew install --cask tectonic), which is a modern TeX/LaTeX engine that has some cool tricks, including on-demand automatic package installation. Tectonic is not a bad place to start if you have never used TeX before.
 - [Typst](https://typst.app) is a modern document publishing system that is a viable replacement for LaTeX for most use cases where you aren’t required to submit a `.tex` file. Although LaTeX is the gold standard in publishing in technical fields, it has a lot of baggage, quirks, and limitations. I love TeX/LaTeX and have used it for decades, but Typst is better in most ways. Typst compiles instantly, uses simple Markdown-inspired markup, supports robust math expressions without excessive backslashes and nested braces, has a real scripting language built in for automation, has helpful diagnostic errors, supports system fonts, and takes up just megabytes of space instead of gigabytes. [✽](#copy:brew install --cask typst)
     - The ecosystem of third-party packages is growing quickly, and I recommend checking out [CeTZ](https://typst.app/universe/package/cetz), [lilaq](https://typst.app/universe/package/lilaq), or [simple-plot](https://typst.app/universe/package/simple-plot) for plotting. 
-    - You also need to checkout [tinymist](https://github.com/Myriad-Dreamin/tinymist)'s incredible VSCode extension that bundles a number of useful tools, including live preview, a symbols explorer, and a template gallery. 
+    - You also need to checkout [tinymist](https://github.com/Myriad-Dreamin/tinymist)'s incredible VSCode extension that bundles a number of useful tools, including live preview, a symbols explorer, and a template gallery. With tinymist installed, I think the best editor for Typst is VSCode.
 
 ## Note-Taking
 
@@ -225,7 +225,8 @@ Have a suggestion for a great program that should be on my list? Let me know abo
 ## Desktop Publishing
 
 - [Affinity](https://www.affinity.studio) is not just a great image editor (see above), it is also probably the best free desktop publishing solution out there. It’s perfect for making flyers, invitations, banners, stationary, and even full books. When a casual user needs something more than Word, but can’t justify buying something like Adobe InDesign, Affinity is probably your best option. [✽](#copy:brew install --cask affinity)
-    - If you don’t like Affinity or would rather have an open source solution, [Scribus](https://www.scribus.net/) is the obvious alternative. [✽](#copy:brew install --cask scribus) 
+    - If you don’t like Affinity or would rather have an open source solution, [Scribus](https://www.scribus.net/) is the obvious alternative. [✽](#copy:brew install --cask scribus)
+
 ## Scanning 
 
 - [NAPS2](https://www.naps2.com) is the scanning software that works on all platforms and with nearly any scanner hardware.  You may need this if you have an old scanner or perhaps you just want a similar scanner interface across all your computers, regardless of the brands of scanners you have. Along with other handy features, you can save to PDF or various image formats, use Optical Character Recognition (OCR) to convert images to text, or merge PDFs. [✽](#copy:brew install --cask naps2)
